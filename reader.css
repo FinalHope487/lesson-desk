@@ -116,6 +116,8 @@ code { font-family: var(--mono); font-size: .94em }
 .formula { font-family: var(--mono); font-size: 1.06em; font-weight: 650 }
 .formula.block { display: block; white-space: pre-wrap; font-size: clamp(1.14rem, .98rem + .62vw, 1.45rem); padding: clamp(.55rem, 1.25vw, .95rem); min-inline-size: 0 }
 .formula.typeset math { font-family: "Cambria Math", "STIX Two Math", math; font-size: inherit; font-weight: inherit }
+.formula.typeset msqrt:not(:has(mfrac, mtable, msqrt, mover, [stretchy="true"])) { font-family: serif }
+.formula.typeset msqrt > :not(msqrt) { font-family: "Cambria Math", "STIX Two Math", math }
 .formula.typeset.block > math { inline-size: max-content; min-inline-size: 100%; }
 .math-align mtd:nth-child(odd), .math-aligned mtd:nth-child(odd) { text-align: right }
 .math-align mtd:nth-child(even), .math-aligned mtd:nth-child(even), .math-cases mtd { text-align: left }
