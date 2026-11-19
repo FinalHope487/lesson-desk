@@ -194,3 +194,5 @@ body:has(.navigation-dialog[open]) { overflow-y: hidden }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; scroll-behavior: auto !important }
 }
+.formula menclose { display: inline-block; border: 1px solid var(--muted); padding: 3px }
+.formula menclose[notation~="updiagonalstrike"] { border: 0; text-decoration: line-through }
