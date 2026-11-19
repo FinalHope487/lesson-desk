@@ -416,6 +416,24 @@ function blockElement(block) {
   if (block.kind === "math") return asMath(block.text, true);
   if (block.kind === "rule") return element("hr");
   if (block.kind === "code") {
+    if (block.language === "lesson-image") {
+      const figure = element("figure");
+      try {
+        const { src, alt } = JSON.parse(block.text);
+        if (typeof src !== "string" || !/^course-media\/[a-f0-9-]{36}\/\d+\.(?:jpg|png|webp|gif)$/i.test(src) ||
+            typeof alt !== "string" || !alt.trim()) throw new Error("教材圖片格式不符");
+        const image = element("img");
+        image.alt = alt;
+        image.loading = "lazy";
+        image.addEventListener("error", () => figure.replaceChildren(element("figcaption", `無法載入圖片：${alt}`)));
+        image.src = src;
+        figure.append(image);
+      } catch (error) {
+        console.warn("無法讀取教材圖片", error.message);
+        figure.append(element("figcaption", "無法讀取教材圖片。"));
+      }
+      return figure;
+    }
     if (block.language === "svg" && /^\s*<svg[\s>]/i.test(block.text)) {
       const figure = element("figure");
       const image = element("img");
@@ -575,6 +593,18 @@ function renderMessage(message, doc, parent, pending, headings, exercises = []) 
     const occurrence = (blockCounts.get(print) ?? 0) + 1;
     blockCounts.set(print, occurrence);
     const key = `${message.id ?? message.role}:${print}:${occurrence}`;
+    if (message.role === "assistant" && block.kind === "code" && block.language === "lesson-quiz" &&
+        /^\d+$/.test(block.text)) {
+      const slot = pending.findIndex(item => item.index === Number(block.text));
+      if (slot >= 0) {
+        const [item] = pending.splice(slot, 1);
+        const form = quiz(item.question, doc, item.index);
+        form.id = "exercise-quiz-" + (item.index + 1);
+        exercises.push({ id: form.id, text: item.question.title || "第 " + (item.index + 1) + " 題" });
+        parent.append(form);
+        continue;
+      }
+    }
     const node = blockElement(block);
     node.dataset.anchor = key;
     const isAssistantHeading = block.kind === "heading" && message.role === "assistant";
@@ -812,7 +842,7 @@ async function openLesson(item) {
 function loadCourseLesson(item) {
   if (item.loading) return item.loading;
   const script = document.createElement("script");
-  script.src = `course-content/${item.id}.js`;
+  script.src = `course-content/${item.id}.js${item.version ? `?v=${item.version}` : ""}`;
   item.loading = new Promise((resolve, reject) => {
     const timer = window.setTimeout(() => finish(new Error("教材載入逾時")), 20000);
     function finish(error) {
@@ -902,12 +932,13 @@ function normalizeCatalogLesson(record) {
 }
 
 function catalogEntry(record) {
-  const { conversationId: id, title, project, projectId, subject } = record;
+  const { conversationId: id, title, project, projectId, subject, version } = record;
   if (typeof id !== "string" || !conversationIdPattern.test(id) || typeof title !== "string" ||
-      typeof project !== "string" || typeof projectId !== "string" || typeof subject !== "string") {
+      typeof project !== "string" || typeof projectId !== "string" || typeof subject !== "string" ||
+      (version !== undefined && (typeof version !== "string" || !/^[a-f0-9]{12}$/.test(version)))) {
     throw new Error("教材目錄項目格式不符");
   }
-  return { id, title, project, projectId, subject, deferred: true };
+  return { id, title, project, projectId, subject, version, deferred: true };
 }
 
 function loadCourseCatalog(source) {
