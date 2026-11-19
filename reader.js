@@ -168,6 +168,26 @@ function normalizeQuestion(question) {
   };
 }
 
+// 自製解析器只涵蓋少數指令；其餘交給 KaTeX（僅輸出 MathML，不需字型或 CSS）。
+function renderWithKatex(wrapper, source, block, parserError) {
+  try {
+    if (typeof katex !== "object") throw new Error("KaTeX 未載入");
+    const holder = document.createElement("template");
+    holder.innerHTML = katex.renderToString(source, { output: "mathml", displayMode: block, throwOnError: true, trust: false });
+    const root = holder.content.querySelector("math");
+    if (!root) throw new Error("KaTeX 未輸出 MathML");
+    root.querySelector("annotation")?.remove();
+    root.setAttribute("display", block ? "block" : "inline");
+    wrapper.append(root);
+    wrapper.classList.add("typeset");
+  } catch (error) {
+    console.warn("LaTeX 渲染失敗", { source, parser: parserError.message, katex: error.message });
+    wrapper.textContent = source;
+    wrapper.classList.add("math-fallback");
+    wrapper.title = `LaTeX 原文 · ${parserError.message}；KaTeX：${error.message}`;
+  }
+}
+
 function asMath(tex, block = false) {
   const wrapper = element(block ? "div" : "span", undefined, block ? "formula block" : "formula");
   const source = tex.trim();
@@ -305,30 +325,31 @@ function asMath(tex, block = false) {
     wrapper.append(root);
     wrapper.classList.add("typeset");
   } catch (error) {
-    wrapper.textContent = source;
-    wrapper.classList.add("math-fallback");
-    wrapper.title = `LaTeX 原文 · ${error.message}`;
+    wrapper.replaceChildren();
+    wrapper.classList.remove("typeset");
+    renderWithKatex(wrapper, source, block, error);
   }
   return wrapper;
 }
 
 function inline(parent, raw) {
   const text = raw.replace(/\uE200cite\uE202[^\uE201]*\uE201/g, "");
-  const pattern = /\\\(([\s\S]+?)\\\)|(?<![\\$])\$([^$\n]+)\$(?!\$)|\*\*([^*]+)\*\*|`([^`\n]+)`|\[([^\]\n]+)\]\((https?:\/\/[^\s)]+)\)|\\([.\\*#|$])/g;
+  const pattern = /\\\(([^\\()\n]{1,40})\)|\\\(([\s\S]+?)\\\)|(?<![\\$])\$([^$\n]+)\$(?!\$)|\*\*([^*]+)\*\*|`([^`\n]+)`|\[([^\]\n]+)\]\((https?:\/\/[^\s)]+)\)|\\([.\\*#|$])/g;
   let end = 0;
   for (const match of text.matchAll(pattern)) {
     parent.append(text.slice(end, match.index));
-    if (match[1] || match[2]) parent.append(asMath(match[1] ?? match[2]));
-    else if (match[3]) {
+    if (match[1]) parent.append(`(${match[1]})`);
+    else if (match[2] || match[3]) parent.append(asMath(match[2] ?? match[3]));
+    else if (match[4]) {
       const strong = element("strong");
-      inline(strong, match[3]);
+      inline(strong, match[4]);
       parent.append(strong);
-    } else if (match[4]) parent.append(element("code", match[4]));
-    else if (match[5]) {
-      const link = element("a", match[5]);
-      link.href = match[6];
+    } else if (match[5]) parent.append(element("code", match[5]));
+    else if (match[6]) {
+      const link = element("a", match[6]);
+      link.href = match[7];
       parent.append(link);
-    } else parent.append(match[7]);
+    } else parent.append(match[8]);
     end = match.index + match[0].length;
   }
   parent.append(text.slice(end));
