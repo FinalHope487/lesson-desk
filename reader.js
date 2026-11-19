@@ -741,8 +741,12 @@ function render() {
   $("show-outline").disabled = true;
   $("title").textContent = doc?.title ?? "開啟一份教材";
   $("subject").textContent = doc?.project ?? "";
-  $("subtitle").textContent = doc ? `${doc.messages.filter(item => item.role === "assistant").length} 則回覆${doc.questions.length ? ` ・ ${doc.questions.length} 道互動題` : ""}`
+  const subtitle = $("subtitle");
+  const questionCount = doc?.questions.length ?? 0;
+  subtitle.textContent = doc
+    ? (questionCount ? `${questionCount} 道互動題` : "")
     : "匯入 JSON、Markdown 或純文字對話，或從範例開始。";
+  subtitle.hidden = !subtitle.textContent;
   document.title = doc ? `${doc.title}｜講義桌` : "講義桌";
   if (!doc) return;
   const headings = [];
