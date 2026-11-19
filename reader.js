@@ -6,7 +6,9 @@ const sourceLabel = { user: "原始提問", assistant: "教材回覆" };
 const catalogGroupState = new Map();
 const catalogProjects = [];
 const courseSubjects = new Map([["數學", "高中數學"], ["物理", "高中物理"], ["化學", "高中化學"]]);
+const conversationIdPattern = /^[a-f0-9]{8}(?:-[a-f0-9]{4}){3}-[a-f0-9]{12}$/i;
 let activeId;
+let requestedLesson;
 let annotationBlock;
 let revealedBlock;
 let importing = false;
@@ -649,8 +651,8 @@ function renderLibrary() {
     }
     if (item.id === activeId) open.setAttribute("aria-current", "true");
     open.addEventListener("click", () => {
-      select(item.id);
       if ($("navigation-dialog").open) $("navigation-dialog").close("reading");
+      openLesson(item);
     });
     const close = element("button", "×", "close");
     close.setAttribute("aria-label", `關閉 ${item.title}`);
@@ -680,7 +682,7 @@ function render() {
   const doc = library.get(activeId);
   renderLibrary();
   $("import").disabled = importing;
-  $("sample").hidden = library.has(window.lessonSampleId);
+  $("sample").hidden = typeof window.readLessonSample !== "function" || library.has(window.lessonSampleId);
   $("sample").disabled = importing;
   $("reading-tools").hidden = !doc;
   $("outline").hidden = true;
@@ -777,12 +779,65 @@ function setupNavigation() {
 }
 
 function select(id) {
+  requestedLesson = undefined;
   if (id === activeId) return;
   if (library.has(activeId)) library.get(activeId).scroll = window.scrollY;
   activeId = id;
   render();
   $("lesson").focus({ preventScroll: true });
   window.scrollTo(0, library.get(id)?.scroll ?? 0);
+}
+
+async function openLesson(item) {
+  const request = { id: item.id };
+  requestedLesson = request;
+  const status = $("status");
+  if (item.deferred) {
+    status.textContent = `正在載入「${item.title}」…`;
+    try {
+      await loadCourseLesson(item);
+    } catch (error) {
+      console.warn("無法載入教材正文", item.id, error.message);
+      if (requestedLesson === request) {
+        status.textContent = `無法載入「${item.title}」，請再點一次重試。`;
+      }
+      return;
+    }
+  }
+  if (requestedLesson !== request || !library.has(item.id)) return;
+  status.textContent = "";
+  select(item.id);
+}
+
+function loadCourseLesson(item) {
+  if (item.loading) return item.loading;
+  const script = document.createElement("script");
+  script.src = `course-content/${item.id}.js`;
+  item.loading = new Promise((resolve, reject) => {
+    const timer = window.setTimeout(() => finish(new Error("教材載入逾時")), 20000);
+    function finish(error) {
+      window.clearTimeout(timer);
+      script.remove();
+      if (error) reject(error);
+      else resolve();
+    }
+    script.onerror = () => finish(new Error("找不到或無法讀取教材檔"));
+    script.onload = () => {
+      try {
+        const record = script.lessonRecord;
+        if (record?.conversationId !== item.id || record.projectId !== item.projectId) {
+          throw new Error("教材檔與目錄不符");
+        }
+        const doc = normalizeCatalogLesson(record);
+        if (library.get(item.id) === item) library.set(item.id, doc);
+        finish();
+      } catch (error) {
+        finish(error);
+      }
+    };
+    document.head.append(script);
+  }).finally(() => { delete item.loading; });
+  return item.loading;
 }
 
 function addLesson(doc) {
@@ -816,11 +871,10 @@ function updateAnnotation(doc, key, entry) {
 
 function closeLesson(doc) {
   if (doc.dirty && !window.confirm("這篇有尚未匯出的註解。確定關閉？")) return;
+  if (requestedLesson?.id === doc.id) requestedLesson = undefined;
   library.delete(doc.id);
   if (doc.id === activeId) {
-    activeId = undefined;
-    select(library.keys().next().value);
-    render();
+    select([...library.values()].find(item => !item.deferred)?.id);
   } else render();
   ($("import").disabled ? $("lesson") : $("import")).focus({ preventScroll: true });
   $("status").textContent = `已關閉「${doc.title}」。`;
@@ -836,6 +890,26 @@ function loadSample() {
   if (addLesson(doc)) select(doc.id);
 }
 
+function normalizeCatalogLesson(record) {
+  const doc = normalize(record, "未命名教材");
+  doc.catalog = true;
+  const draft = readCatalogAnnotations(doc.id);
+  if (draft) {
+    doc.annotations = new Map(draft);
+    doc.savedAnnotations = new Map(draft);
+  }
+  return doc;
+}
+
+function catalogEntry(record) {
+  const { conversationId: id, title, project, projectId, subject } = record;
+  if (typeof id !== "string" || !conversationIdPattern.test(id) || typeof title !== "string" ||
+      typeof project !== "string" || typeof projectId !== "string" || typeof subject !== "string") {
+    throw new Error("教材目錄項目格式不符");
+  }
+  return { id, title, project, projectId, subject, deferred: true };
+}
+
 function loadCourseCatalog(source) {
   const status = $("catalog-status");
   status.hidden = false;
@@ -848,14 +922,7 @@ function loadCourseCatalog(source) {
     let rejected = 0;
     for (const record of catalog.conversations) {
       try {
-        const doc = normalize(record, "未命名教材");
-        doc.catalog = true;
-        const draft = readCatalogAnnotations(doc.id);
-        if (draft) {
-          doc.annotations = new Map(draft);
-          doc.savedAnnotations = new Map(draft);
-        }
-        addLesson(doc);
+        addLesson(catalog.deferred ? catalogEntry(record) : normalizeCatalogLesson(record));
       } catch (error) {
         rejected++;
         console.warn("無法載入一筆課程資料", error.name);
