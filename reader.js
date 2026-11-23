@@ -8,6 +8,7 @@ const catalogProjects = [];
 const courseSubjects = new Map([["數學", "高中數學"], ["物理", "高中物理"], ["化學", "高中化學"]]);
 const conversationIdPattern = /^[a-f0-9]{8}(?:-[a-f0-9]{4}){3}-[a-f0-9]{12}$/i;
 let activeId;
+let tutorialOnly = false;
 let requestedLesson;
 let annotationBlock;
 let revealedBlock;
@@ -127,6 +128,14 @@ function normalize(data, fileName) {
       guide: typeof entry.guide === "string" ? entry.guide : "",
       side: entry.side === "left" ? "left" : "right"
     }]).filter(([, entry]) => entry.note || entry.guide));
+  const leadIns = new Map();
+  for (const [key, entry] of Object.entries(data.leadIns ?? {})) {
+    if (!entry || typeof entry !== "object") continue;
+    const question = typeof entry.question === "string" ? entry.question.trim() : "";
+    const hint = typeof entry.hint === "string" ? entry.hint.trim() : "";
+    const answer = typeof entry.answer === "string" ? entry.answer.trim() : "";
+    if (question || answer) leadIns.set(key, { question, hint, answer });
+  }
   return {
     id: typeof id === "string" && id ? id : `local-${fingerprint(title + messages.map(message => message.text).join("\n"))}`,
     title,
@@ -137,11 +146,58 @@ function normalize(data, fileName) {
     messages,
     questions: (Array.isArray(data.questions) ? data.questions : []).map(normalizeQuestion).filter(Boolean),
     annotations,
+    leadIns,
+    quizGroups: normalizeQuizGroups(data.quizGroups),
     savedAnnotations: new Map(annotations),
     dirty: false,
     answers: new Map(),
     scroll: 0
   };
+}
+
+// 題組：資料只提供結構，正解、詳解、引導與參考答案可留空，之後再手動補上。
+function normalizeQuizGroups(raw) {
+  const text = value => typeof value === "string" ? value.trim() : "";
+  return (Array.isArray(raw) ? raw : []).map(group => {
+    if (!group || !text(group.start) || !Array.isArray(group.questions)) return null;
+    const questions = group.questions.map(question => {
+      if (!question || !["choice", "essay", "fill"].includes(question.type)) return null;
+      // parts：題幹中穿插文字、填空格（blank）與作答區（area）時使用，依序渲染。
+      const parts = (Array.isArray(question.parts) ? question.parts : []).map(part => {
+        if (part?.blank) return { blank: { hint: text(part.blank.hint), unit: text(part.blank.unit) } };
+        if (part?.area) return { area: { hint: text(part.area.hint) } };
+        return text(part?.text) ? { text: text(part.text) } : null;
+      }).filter(Boolean);
+      if (question.type === "fill") {
+        if (!parts.some(part => part.blank)) return null;
+        const blanks = parts.filter(part => part.blank).length;
+        // 每個空格可接受多個等價答案：answers[i] 為字串或字串陣列，留空表示尚未設定。
+        const answers = Array.from({ length: blanks }, (_, i) => {
+          const value = Array.isArray(question.answers) ? question.answers[i] : "";
+          return (Array.isArray(value) ? value : [value]).map(text).filter(Boolean);
+        });
+        return { type: "fill", title: text(question.title), prompt: text(question.prompt), options: [], multiple: false,
+          answers, parts, explanation: text(question.explanation), guidance: text(question.guidance), reference: "", placeholder: "" };
+      }
+      if (!text(question.prompt) && !parts.length) return null;
+      const options = question.type === "choice" && Array.isArray(question.options)
+        ? question.options.filter(option => option && text(option.label) && text(option.value))
+          .map(option => ({ value: text(option.value), label: text(option.label) })) : [];
+      if (question.type === "choice" && !options.length) return null;
+      if (question.type === "essay" && !text(question.prompt) && !parts.some(part => part.text)) return null;
+      const answers = (Array.isArray(question.answers) ? question.answers : [])
+        .map(text).filter(answer => options.some(option => option.value === answer));
+      return {
+        type: question.type, title: text(question.title), prompt: text(question.prompt), options,
+        multiple: question.multiple === true, answers, parts, explanation: text(question.explanation),
+        guidance: text(question.guidance), reference: text(question.reference), placeholder: text(question.placeholder)
+      };
+    }).filter(Boolean);
+    // start：被取代範圍的第一個區塊文字；until（選填）：不被取代的第一個區塊開頭，用於沒有分隔線的題組；
+    // count（選填）：被取代的區塊總數（含 start），給了就以它為準。
+    const count = Number.isInteger(group.count) && group.count > 0 ? group.count : 0;
+    return questions.length ? { start: text(group.start), until: text(group.until), count, questions } : null;
+  }).filter(Boolean);
 }
 
 function normalizeQuestion(question) {
@@ -191,7 +247,8 @@ function renderWithKatex(wrapper, source, block, parserError) {
 function asMath(tex, block = false) {
   const wrapper = element(block ? "div" : "span", undefined, block ? "formula block" : "formula");
   const source = tex.trim();
-  const tokens = source.match(/\\(?:begin|end)\{[a-zA-Z*]+\}|\\(?:text|mathrm)\{[^{}]*\}|\\[a-zA-Z]+|\\.|[^\s]/gu) ?? [];
+  // \text{…} 是純文字，整段當一個記號；\mathrm{…} 內仍是數學（H_2O、m/s^2），所以拆開逐一解析。
+  const tokens = source.match(/\\(?:begin|end)\{[a-zA-Z*]+\}|\\text\{[^{}]*\}|\\[a-zA-Z]+|\\.|[^\s]/gu) ?? [];
   const symbols = { "\\Delta": "Δ", "\\theta": "θ", "\\alpha": "α", "\\beta": "β", "\\pi": "π",
     "\\cdot": "·", "\\times": "×", "\\pm": "±", "\\ge": "≥", "\\le": "≤", "\\approx": "≈",
     "\\neq": "≠", "\\circ": "°", "\\infty": "∞", "\\parallel": "∥", "\\perp": "⊥",
@@ -200,6 +257,7 @@ function asMath(tex, block = false) {
   const spaces = { "\\,": ".17em", "\\;": ".28em", "\\:": ".22em", "\\ ": ".25em",
     "\\!": "0", "\\quad": "1em", "\\qquad": "2em" };
   let position = 0;
+  let upright = false;
   const math = (tag, text) => {
     const node = document.createElementNS("http://www.w3.org/1998/Math/MathML", tag);
     if (text !== undefined) node.textContent = text;
@@ -223,6 +281,10 @@ function asMath(tex, block = false) {
       } else base = atom(depth);
       let sub;
       let sup;
+      // P' 的撇號是上標（′），之後的 _A 才是下標，與 TeX 一致。
+      let primes = 0;
+      while (tokens[position] === "'") { position++; primes++; }
+      if (primes) sup = math("mo", "′".repeat(primes));
       while (tokens[position] === "_" || tokens[position] === "^") {
         const marker = tokens[position++];
         const value = atom(depth);
@@ -261,6 +323,9 @@ function asMath(tex, block = false) {
         break;
       }
       if (next !== "\\\\") throw new Error("Unclosed TeX environment");
+      // \\[3pt]：換行後的列距參數，不是內容。
+      const close = tokens[position] === "[" ? tokens.indexOf("]", position) : -1;
+      if (close > 0 && /^-?[\d.]+(?:pt|em|ex|mm|cm|in|bp)$/.test(tokens.slice(position + 1, close).join(""))) position = close + 1;
       table.append(row);
       row = math("mtr");
     }
@@ -270,7 +335,7 @@ function asMath(tex, block = false) {
     if (depth > 25) throw new Error("TeX nesting exceeded");
     const token = tokens[position++];
     if (token?.startsWith("\\begin{")) return environment(token.slice(7, -1), depth);
-    const literal = token?.match(/^\\(?:text|mathrm)\{([^{}]*)\}$/);
+    const literal = token?.match(/^\\text\{([^{}]*)\}$/);
     if (literal) return math("mtext", literal[1]);
     if (token === "{") {
       const row = group(depth + 1);
@@ -280,7 +345,26 @@ function asMath(tex, block = false) {
     if (token === "\\frac" || token === "\\dfrac" || token === "\\tfrac") {
       return wrap("mfrac", atom(depth + 1), atom(depth + 1));
     }
-    if (token === "\\sqrt") return wrap("msqrt", atom(depth + 1));
+    if (token === "\\sqrt") {
+      if (tokens[position] !== "[") return wrap("msqrt", atom(depth + 1));
+      // \sqrt[n]{x}：方括號裡是根指數，MathML 的 mroot 先放被開方數、再放指數。
+      position++;
+      const index = group(depth + 1, closing => closing === "]");
+      if (tokens[position++] !== "]") throw new Error("Unclosed root index");
+      return wrap("mroot", atom(depth + 1), index);
+    }
+    if (token === "\\mathrm") {
+      if (tokens[position++] !== "{") throw new Error("Expected TeX group after \\mathrm");
+      const outer = upright;
+      upright = true;
+      try {
+        const row = group(depth + 1);
+        if (tokens[position++] !== "}") throw new Error("Unclosed TeX group");
+        return row;
+      } finally {
+        upright = outer;
+      }
+    }
     if (["\\vec", "\\overrightarrow", "\\bar", "\\overline", "\\hat"].includes(token)) {
       const isBar = token === "\\bar" || token === "\\overline";
       const accent = token === "\\hat" ? "ˆ" : isBar ? "¯" : "→";
@@ -293,7 +377,7 @@ function asMath(tex, block = false) {
       box.classList.add("math-box");
       return box;
     }
-    if (token === "\\mathrm" || token === "\\text") {
+    if (token === "\\text") {
       if (tokens[position++] !== "{") throw new Error("Expected TeX text group");
       const text = [];
       while (position < tokens.length && tokens[position] !== "}") text.push(tokens[position++]);
@@ -315,7 +399,11 @@ function asMath(tex, block = false) {
     if (Object.hasOwn(symbols, token)) return operator(symbols[token]);
     if (!token || token.startsWith("\\") || "{}_^&".includes(token)) throw new Error("Unsupported TeX token: " + (token ?? "(end)"));
     if (/^[0-9]/.test(token)) return math("mn", token);
-    if (/^[a-zA-Z]$/.test(token)) return math("mi", token);
+    if (/^[a-zA-Z]$/.test(token)) {
+      const letter = math("mi", token);
+      if (upright) letter.setAttribute("mathvariant", "normal");
+      return letter;
+    }
     return operator(token === "-" ? "−" : token);
   }
   try {
@@ -332,29 +420,38 @@ function asMath(tex, block = false) {
   return wrapper;
 }
 
+// 行內 \[…\]：含 TeX 指令或運算符才是公式，否則（[Ar]、[A]、[↑↓]）只是被跳脫的方括號。
+const bracketMath = /\\[a-zA-Z]|[\^_=<>+]|\d\s*[-*/]\s*\d|\([^)]*\)\s*\(/;
+
 function inline(parent, raw) {
-  const text = raw.replace(/\uE200cite\uE202[^\uE201]*\uE201/g, "");
-  const pattern = /\\\(([^\\()\n]{1,40})\)|\\\(([\s\S]+?)\\\)|(?<![\\$])\$([^$\n]+)\$(?!\$)|\*\*([^*]+)\*\*|`([^`\n]+)`|\[([^\]\n]+)\]\((https?:\/\/[^\s)]+)\)|\\([.\\*#|$])/g;
+  // 匯出時殘留的引用標記與輸入元件說明，都不是教材內容。
+  const text = raw.replace(/\uE200cite\uE202[^\uE201]*\uE201/g, "")
+    .replace(/（無法取得目前的值。）/g, "").replace(/\s*\\?\(目前的選取項目無法使用。\)/g, "");
+  const pattern = /\\\(([^\\()\n]{1,40})\)|\\\(([\s\S]+?)\\\)|\\\[([^\n]+?)\\\]|(?<![\\$])\$([^$\n]+)\$(?!\$)|\*\*([^*]+)\*\*|`([^`\n]+)`|\[([^\]\n]+)\]\((https?:\/\/[^\s)]+)\)|\\([.\\*#|$])/g;
   let end = 0;
   for (const match of text.matchAll(pattern)) {
     parent.append(text.slice(end, match.index));
     if (match[1]) parent.append(`(${match[1]})`);
-    else if (match[2] || match[3]) parent.append(asMath(match[2] ?? match[3]));
-    else if (match[4]) {
+    else if (match[3]) parent.append(bracketMath.test(match[3]) ? asMath(match[3]) : `[${match[3].trim()}]`);
+    else if (match[2] || match[4]) parent.append(asMath(match[2] ?? match[4]));
+    else if (match[5]) {
       const strong = element("strong");
-      inline(strong, match[4]);
+      inline(strong, match[5]);
       parent.append(strong);
-    } else if (match[5]) parent.append(element("code", match[5]));
-    else if (match[6]) {
-      const link = element("a", match[6]);
-      link.href = match[7];
+    } else if (match[6]) parent.append(element("code", match[6]));
+    else if (match[7]) {
+      const link = element("a", match[7]);
+      link.href = match[8];
       parent.append(link);
-    } else parent.append(match[8]);
+    } else parent.append(match[9]);
     end = match.index + match[0].length;
   }
   parent.append(text.slice(end));
   return parent;
 }
+
+// ChatGPT 匯出的圖表元件：私用區字元包住的 JSON（開頭 U+E200 + genui + U+E202）。
+const chartMarker = String.fromCharCode(0xE200) + "genui" + String.fromCharCode(0xE202);
 
 function markdownBlocks(raw) {
   const lines = raw.replace(/\r\n?/g, "\n").split("\n");
@@ -389,7 +486,8 @@ function markdownBlocks(raw) {
         if (trailingText) blocks.push({ kind: "paragraph", text: trailingText });
         index = end;
       }
-    } else if (/^([-*_])(?:\s*\1){2,}$/.test(line)) blocks.push({ kind: "rule", text: line });
+    } else if (line.startsWith(chartMarker)) blocks.push({ kind: "chart", text: line });
+    else if (/^([-*_])(?:\s*\1){2,}$/.test(line)) blocks.push({ kind: "rule", text: line });
     else if (line.startsWith("|") && /^\s*\|?\s*:?-{3,}/.test(lines[index] ?? "")) {
       const rows = [line];
       index++;
@@ -412,6 +510,7 @@ function markdownBlocks(raw) {
     } else {
       let text = line;
       while (lines[index]?.trim() && !special.test(lines[index].trimStart()) &&
+        !lines[index].trimStart().startsWith(chartMarker) &&
         !/^([-*_])(?:\s*\1){2,}$/.test(lines[index].trim())) text += "\n" + lines[index++];
       blocks.push({ kind: "paragraph", text });
     }
@@ -432,7 +531,223 @@ function tableCells(row) {
   return cells;
 }
 
+// ---- 圖表：匯出檔內的圖表元件只留下 JSON，這裡用 SVG 重畫（折線、散佈、長條）。----
+function svgNode(tag, attributes = {}, text) {
+  const node = document.createElementNS("http://www.w3.org/2000/svg", tag);
+  for (const [name, value] of Object.entries(attributes)) node.setAttribute(name, String(value));
+  if (text !== undefined) node.textContent = text;
+  return node;
+}
+
+// 刻度取 1、2、5 × 10^n，讓座標軸上的數字好讀。
+function chartTicks(low, high, target = 6) {
+  const rough = (high > low ? high - low : 1) / target;
+  const power = 10 ** Math.floor(Math.log10(rough));
+  const step = [1, 2, 5, 10].map(multiple => multiple * power).find(candidate => candidate >= rough * (1 - 1e-9));
+  const ticks = [];
+  for (let n = Math.ceil(low / step - 1e-9); n * step <= high + step * 1e-9; n++) ticks.push(+(n * step).toPrecision(12));
+  return { ticks, step };
+}
+
+function chartDomain(low, high, fixedLow, fixedHigh) {
+  if (!(high > low)) high = low + 1;
+  const { step } = chartTicks(low, high);
+  if (!fixedLow) low = Math.floor(low / step + 1e-9) * step;
+  if (!fixedHigh) high = Math.ceil(high / step - 1e-9) * step;
+  return { low, high, ticks: chartTicks(low, high).ticks };
+}
+
+const chartNumber = value => String(+value.toPrecision(10)).replace("-", "−");
+
+function chartMarkerShape(index, x, y, r) {
+  const n = value => +value.toFixed(2);
+  switch (index % 4) {
+    case 0: return svgNode("circle", { cx: n(x), cy: n(y), r });
+    case 1: return svgNode("rect", { x: n(x - r), y: n(y - r), width: 2 * r, height: 2 * r });
+    case 2: return svgNode("path", { d: `M${n(x)} ${n(y - r * 1.3)}L${n(x + r * 1.3)} ${n(y)}L${n(x)} ${n(y + r * 1.3)}L${n(x - r * 1.3)} ${n(y)}Z` });
+    default: return svgNode("path", { d: `M${n(x)} ${n(y - r * 1.25)}L${n(x + r * 1.15)} ${n(y + r)}L${n(x - r * 1.15)} ${n(y + r)}Z` });
+  }
+}
+
+function chartSpec(text) {
+  const raw = text.trim();
+  if (!raw.startsWith(chartMarker) || raw.charCodeAt(raw.length - 1) !== 0xE201) throw new Error("圖表標記不完整");
+  const content = JSON.parse(raw.slice(chartMarker.length, -1))?.charts_widget_v2?.content;
+  if (!content || !["line", "scatter", "bar"].includes(content.chartType) || typeof content.xKey !== "string" ||
+      !Array.isArray(content.series) || !content.series.length || !Array.isArray(content.data) || !content.data.length) {
+    throw new Error("不支援的圖表資料");
+  }
+  return content;
+}
+
+function chartFigure(text) {
+  const figure = element("figure", undefined, "chart");
+  try {
+    drawChart(figure, chartSpec(text));
+  } catch (error) {
+    console.warn("無法繪製圖表", error.message);
+    figure.replaceChildren(element("figcaption", "這張圖表的資料無法顯示。"));
+  }
+  return figure;
+}
+
+function drawChart(figure, spec) {
+  const kind = spec.chartType;
+  const meta = spec.meta ?? {};
+  const rows = spec.data.filter(row => row && typeof row === "object");
+  const series = spec.series.filter(item => item && typeof item.dataKey === "string")
+    .map(item => ({ key: item.dataKey, label: String(item.label ?? item.dataKey) }));
+  const suffix = typeof spec.valueSuffix === "string" ? spec.valueSuffix : "";
+  const xLabel = typeof spec.xAxisLabel === "string" ? spec.xAxisLabel : "";
+  const yLabel = typeof spec.yAxisLabel === "string" ? spec.yAxisLabel : "";
+  const number = (row, key) => typeof row[key] === "number" || (typeof row[key] === "string" && row[key].trim()) ? Number(row[key]) : NaN;
+  const xs = rows.map(row => row[spec.xKey]);
+  const numericX = kind !== "bar" && spec.xAxisScale !== "category" && xs.every(x => x !== "" && x !== null && Number.isFinite(Number(x)));
+  const ys = series.flatMap(item => rows.map(row => number(row, item.key))).filter(Number.isFinite);
+  if (!rows.length || !series.length || !ys.length) throw new Error("沒有可繪製的數值");
+
+  const width = 520, height = 330;
+  const margin = { top: 16, right: 22, bottom: xLabel ? 62 : 42, left: yLabel ? 76 : 56 };
+  const plot = { x: margin.left, y: margin.top, w: width - margin.left - margin.right, h: height - margin.top - margin.bottom };
+  const yRange = { low: Math.min(...ys), high: Math.max(...ys) };
+  if (kind === "bar") { yRange.low = Math.min(yRange.low, 0); yRange.high = Math.max(yRange.high, 0); }
+  const fixedLow = typeof spec.yAxisMin === "number", fixedHigh = typeof spec.yAxisMax === "number";
+  if (fixedLow) yRange.low = spec.yAxisMin;
+  if (fixedHigh) yRange.high = spec.yAxisMax;
+  const yAxis = chartDomain(yRange.low, yRange.high, fixedLow, fixedHigh);
+  const xValues = numericX ? xs.map(Number) : [];
+  const xAxis = numericX ? chartDomain(Math.min(...xValues), Math.max(...xValues), false, false) : undefined;
+  const px = numericX ? (index => plot.x + (xValues[index] - xAxis.low) / (xAxis.high - xAxis.low) * plot.w)
+    : (index => plot.x + (index + .5) / rows.length * plot.w);
+  const py = value => plot.y + plot.h - (value - yAxis.low) / (yAxis.high - yAxis.low) * plot.h;
+  const n = value => +value.toFixed(2);
+
+  const canvas = svgNode("svg", { viewBox: `0 0 ${width} ${height}`, role: "img" });
+  const title = meta.title || series.map(item => item.label).join("、");
+  canvas.setAttribute("aria-label", [title, meta.description].filter(Boolean).join("：") || "圖表");
+  canvas.append(svgNode("title", {}, title));
+  const grid = svgNode("g", { class: "chart-grid" });
+  const labels = svgNode("g", { class: "chart-labels" });
+  for (const tick of yAxis.ticks) {
+    const y = n(py(tick));
+    grid.append(svgNode("line", { x1: plot.x, x2: plot.x + plot.w, y1: y, y2: y, class: tick === 0 ? "chart-axis" : "" }));
+    labels.append(svgNode("text", { x: plot.x - 8, y: n(y + 4.5), "text-anchor": "end" }, chartNumber(tick)));
+  }
+  if (numericX) {
+    for (const tick of xAxis.ticks) {
+      const x = n(plot.x + (tick - xAxis.low) / (xAxis.high - xAxis.low) * plot.w);
+      grid.append(svgNode("line", { x1: x, x2: x, y1: plot.y, y2: plot.y + plot.h, class: tick === 0 ? "chart-axis" : "" }));
+      labels.append(svgNode("text", { x, y: plot.y + plot.h + 19, "text-anchor": "middle" }, chartNumber(tick)));
+    }
+  } else {
+    const crowded = Math.max(...xs.map(x => String(x).length)) * 13 * rows.length > plot.w;
+    rows.forEach((row, index) => labels.append(svgNode("text", {
+      x: n(px(index)), y: plot.y + plot.h + 19, "text-anchor": "middle", class: crowded ? "small" : ""
+    }, String(xs[index]))));
+  }
+  grid.append(svgNode("line", { x1: plot.x, x2: plot.x, y1: plot.y, y2: plot.y + plot.h, class: "chart-axis" }),
+    svgNode("line", { x1: plot.x, x2: plot.x + plot.w, y1: plot.y + plot.h, y2: plot.y + plot.h, class: "chart-axis" }));
+  if (xLabel) labels.append(svgNode("text", { x: plot.x + plot.w / 2, y: height - 10, "text-anchor": "middle", class: "chart-title" }, xLabel));
+  if (yLabel) {
+    labels.append(svgNode("text", {
+      transform: `translate(16 ${n(plot.y + plot.h / 2)}) rotate(-90)`, "text-anchor": "middle", class: "chart-title"
+    }, yLabel));
+  }
+  canvas.append(grid);
+
+  const marks = svgNode("g", { class: "chart-marks" });
+  const describe = (item, index, value) => `${item.label}｜${String(xs[index])}：${chartNumber(value)}${suffix}`;
+  series.forEach((item, seriesIndex) => {
+    const colour = `s${seriesIndex % 4}`;
+    if (kind === "bar") {
+      const band = plot.w / rows.length;
+      const group = band * .68;
+      const bar = group / series.length;
+      const base = py(Math.min(Math.max(0, yAxis.low), yAxis.high));
+      rows.forEach((row, index) => {
+        const value = number(row, item.key);
+        if (!Number.isFinite(value)) return;
+        const top = py(value);
+        const rect = svgNode("rect", {
+          x: n(px(index) - group / 2 + seriesIndex * bar), y: n(Math.min(top, base)), width: n(bar - 2),
+          height: n(Math.max(1, Math.abs(base - top))), class: `chart-bar ${colour}`
+        });
+        rect.append(svgNode("title", {}, describe(item, index, value)));
+        marks.append(rect);
+        marks.append(svgNode("text", {
+          x: n(px(index) - group / 2 + seriesIndex * bar + (bar - 2) / 2), y: n(value >= 0 ? top - 5 : top + 14),
+          "text-anchor": "middle", class: "chart-value"
+        }, chartNumber(value) + suffix));
+      });
+      return;
+    }
+    if (kind === "line") {
+      let path = "";
+      let pen = false;
+      rows.forEach((row, index) => {
+        const value = number(row, item.key);
+        if (!Number.isFinite(value)) { pen = false; return; }
+        path += `${pen ? "L" : "M"}${n(px(index))} ${n(py(value))}`;
+        pen = true;
+      });
+      if (path) marks.append(svgNode("path", { d: path, class: `chart-line ${colour}` }));
+    }
+    rows.forEach((row, index) => {
+      const value = number(row, item.key);
+      if (!Number.isFinite(value) || (kind === "line" && rows.length > 24)) return;
+      const dot = chartMarkerShape(seriesIndex, px(index), py(value), kind === "scatter" ? 5 : 3.4);
+      dot.setAttribute("class", `chart-dot ${colour}`);
+      dot.append(svgNode("title", {}, describe(item, index, value)));
+      marks.append(dot);
+    });
+  });
+  canvas.append(marks, labels);
+
+  const caption = element("figcaption");
+  if (meta.title) caption.append(element("strong", meta.title, "chart-name"));
+  if (meta.description) caption.append(element("span", meta.description, "chart-description"));
+  if (caption.childNodes.length) figure.append(caption);
+  figure.append(canvas);
+
+  const legend = element("ul", undefined, "chart-legend");
+  series.forEach((item, seriesIndex) => {
+    const key = svgNode("svg", { viewBox: "0 0 26 14", width: 26, height: 14, "aria-hidden": "true", class: `chart-key s${seriesIndex % 4}` });
+    if (kind === "bar") key.append(svgNode("rect", { x: 6, y: 2, width: 14, height: 10, class: "chart-bar" }));
+    else {
+      if (kind === "line") key.append(svgNode("path", { d: "M1 7H25", class: "chart-line" }));
+      const dot = chartMarkerShape(seriesIndex, 13, 7, 3.6);
+      dot.setAttribute("class", "chart-dot");
+      key.append(dot);
+    }
+    const entry = element("li");
+    entry.append(key, element("span", item.label));
+    legend.append(entry);
+  });
+  figure.append(legend);
+  if (meta.footer) figure.append(element("p", meta.footer, "chart-footer"));
+
+  const details = element("details", undefined, "chart-data");
+  details.append(element("summary", "查看資料表"));
+  const table = element("table");
+  const head = table.createTHead().insertRow();
+  for (const text of [xLabel || "x", ...series.map(item => item.label)]) head.append(element("th", text));
+  const body = table.createTBody();
+  rows.forEach((row, index) => {
+    const line = body.insertRow();
+    line.insertCell().textContent = String(xs[index]);
+    for (const item of series) {
+      const value = number(row, item.key);
+      line.insertCell().textContent = Number.isFinite(value) ? chartNumber(value) + suffix : "—";
+    }
+  });
+  const wrap = element("div", undefined, "table-wrap");
+  wrap.append(table);
+  details.append(wrap);
+  figure.append(details);
+}
+
 function blockElement(block) {
+  if (block.kind === "chart") return chartFigure(block.text);
   if (block.kind === "heading") return inline(element(`h${Math.max(2, block.level)}`), block.text);
   if (block.kind === "math") return asMath(block.text, true);
   if (block.kind === "rule") return element("hr");
@@ -585,6 +900,179 @@ function renderAnnotation(view, annotation) {
   }
 }
 
+function leadInDisclosure(label, text, className) {
+  const details = element("details", undefined, className);
+  details.append(element("summary", label), inline(element("p"), text));
+  return details;
+}
+
+function renderLeadIn(row, { question, hint, answer }) {
+  if (question) {
+    const bubble = element("section", undefined, "annotation-copy is-guide lead-in");
+    bubble.setAttribute("aria-label", "前導題");
+    bubble.append(element("p", "前導題", "lead-in-label"), inline(element("p"), question));
+    if (hint) bubble.append(leadInDisclosure("查看提示", hint, "lead-in-hint"));
+    row.prepend(bubble);
+  }
+  if (answer) row.append(leadInDisclosure("查看前導題解答", answer, "annotation-copy lead-in-answer"));
+}
+
+function feedbackPanel(state, title, text) {
+  const box = element("div", undefined, "annotation-copy lead-in-answer quiz-feedback");
+  box.append(element("p", title, ["quiz-feedback-title", state].filter(Boolean).join(" ")));
+  if (text) box.append(inline(element("p"), text));
+  return box;
+}
+
+// 題組外觀沿用前導題卡片；整組一次提交，不記住作答，重新整理即重來。
+// 填空比對：去空白、全形轉半形、忽略大小寫；兩邊都是數字時比數值。
+function normalizeFill(value) {
+  const plain = String(value).replace(/[！-～]/g, ch => String.fromCharCode(ch.charCodeAt(0) - 0xfee0))
+    .replace(/[\s,，]/g, "").replace(/[−–—]/g, "-").toLowerCase();
+  return plain;
+}
+function fillMatches(value, accepted) {
+  const got = normalizeFill(value);
+  if (!got) return false;
+  return accepted.some(answer => {
+    const want = normalizeFill(answer);
+    return got === want || (Number.isFinite(Number(got)) && Number.isFinite(Number(want)) && Number(got) === Number(want));
+  });
+}
+
+// 題組外觀沿用前導題卡片；整組一次提交，不記住作答，重新整理即重來。
+function quizGroup(group, headings, exercises) {
+  const kinds = new Set(group.questions.map(question => question.type));
+  const label = kinds.size > 1 ? "題組" : kinds.has("essay") ? "申論題" : kinds.has("fill") ? "填空題" : "選擇題";
+  const form = element("form", undefined, "annotation-copy is-guide lead-in quiz-group");
+  form.noValidate = true;
+  form.setAttribute("aria-label", label);
+  form.append(element("p", label, "lead-in-label"));
+  const renderMarkdown = (parent, markdown) => {
+    for (const block of markdownBlocks(markdown)) parent.append(blockElement(block));
+  };
+  const items = group.questions.map((question, index) => {
+    const item = element("section", undefined, "quiz-item");
+    const title = inline(element("h3"), question.title || `第 ${index + 1} 題`);
+    title.id = `section-${headings.length + 1}`;
+    headings.push({ id: title.id, text: title.textContent, level: 3 });
+    exercises.push({ id: title.id, text: title.textContent });
+    item.append(title);
+    let field;
+    const inputs = [];
+    const label = `${title.textContent} 作答`;
+    const prompt = element("div", undefined, "quiz-prompt");
+    if (question.parts.length) {
+      // 文字、填空格與作答區依原順序穿插
+      let blank = 0;
+      for (const part of question.parts) {
+        if (part.text) renderMarkdown(prompt, part.text);
+        else if (part.blank) {
+          const row = element("p", undefined, "quiz-blank");
+          const input = element("input");
+          input.type = "text";
+          input.autocomplete = "off";
+          input.placeholder = part.blank.hint || "填入答案";
+          input.setAttribute("aria-label", `${label}（第 ${++blank} 格）`);
+          inputs.push(input);
+          row.append(input);
+          if (part.blank.unit) row.append(inline(element("span"), part.blank.unit));
+          prompt.append(row);
+        } else if (part.area) {
+          const area = element("textarea");
+          area.rows = 5;
+          area.placeholder = part.area.hint || "在這裡寫下你的作答";
+          area.setAttribute("aria-label", label);
+          inputs.push(area);
+          prompt.append(area);
+        }
+      }
+      item.append(prompt);
+      field = prompt;
+    } else {
+      renderMarkdown(prompt, question.prompt);
+      item.append(prompt);
+      if (question.type === "essay") {
+        field = element("textarea");
+        field.rows = 6;
+        field.setAttribute("aria-label", label);
+        field.placeholder = question.placeholder || "在這裡寫下你的作答";
+        inputs.push(field);
+        item.append(field);
+      } else {
+        field = element("fieldset");
+        field.setAttribute("aria-labelledby", title.id);
+        for (const option of question.options) {
+          const row = element("label", undefined, "option");
+          const input = element("input");
+          input.type = question.multiple ? "checkbox" : "radio";
+          input.name = `answer-${index}`;
+          input.value = option.value;
+          row.append(input, inline(element("span"), option.label));
+          field.append(row);
+        }
+        item.append(field);
+      }
+    }
+    const slot = element("div", undefined, "quiz-slot");
+    slot.setAttribute("aria-live", "polite");
+    item.append(slot);
+    form.append(item);
+    return { question, field, inputs, slot };
+  });
+  const submit = element("button", "提交", "primary");
+  submit.type = "submit";
+  const score = element("p", undefined, "quiz-score");
+  score.setAttribute("role", "status");
+  const actions = element("div", undefined, "quiz-actions");
+  actions.append(submit, score);
+  form.append(actions);
+  form.addEventListener("submit", event => {
+    event.preventDefault();
+    let graded = 0, correct = 0, gradable = 0;
+    for (const { question, field, inputs, slot } of items) {
+      let panel;
+      if (question.type === "essay") {
+        if (inputs.some(input => input.value.trim())) {
+          panel = element("details", undefined, "annotation-copy lead-in-answer quiz-feedback");
+          panel.append(element("summary", "參考答案（供自我對照）"));
+          const body = element("div", undefined, "quiz-prompt");
+          renderMarkdown(body, question.reference || "尚未填入參考答案。");
+          panel.append(body);
+        }
+      } else if (question.type === "fill") {
+        gradable++;
+        const filled = inputs.filter(input => input.value.trim()).length;
+        if (!filled) panel = feedbackPanel("", "尚未作答。");
+        else if (question.answers.some(accepted => !accepted.length)) panel = feedbackPanel("", "已送出，這題尚未設定正解，無法判分。");
+        else {
+          graded++;
+          const right = inputs.every((input, i) => fillMatches(input.value, question.answers[i]));
+          if (right) correct++;
+          panel = right ? feedbackPanel("correct", "答對了", question.explanation)
+            : feedbackPanel("incorrect", "再想一想", question.guidance || "答案還不完全正確，可以修改後重新提交。");
+        }
+      } else {
+        gradable++;
+        const values = [...field.querySelectorAll("input:checked")].map(input => input.value);
+        if (!values.length) panel = feedbackPanel("", "尚未作答。");
+        else if (!question.answers.length) panel = feedbackPanel("", "已送出，這題尚未設定正解，無法判分。");
+        else {
+          graded++;
+          const right = values.length === question.answers.length && values.every(value => question.answers.includes(value));
+          if (right) correct++;
+          panel = right ? feedbackPanel("correct", "答對了", question.explanation)
+            : feedbackPanel("incorrect", "再想一想", question.guidance || "答案還不完全正確，可以修改後重新提交。");
+        }
+      }
+      slot.replaceChildren(...(panel ? [panel] : []));
+    }
+    score.textContent = graded ? `本組得分：${correct} / ${graded}`
+      : gradable ? "尚未設定正解，無法計分。" : "";
+  });
+  return form;
+}
+
 function annotatableBlock(node, block, key, annotation) {
   const row = element("div", undefined, "reading-block");
   const content = element("div", undefined, "block-content");
@@ -603,6 +1091,26 @@ function annotatableBlock(node, block, key, annotation) {
 
 const exerciseName = /^(?:第\s*[0-9０-９一二三四五六七八九十百]+\s*[題题]|(?:習題|理解檢查|自我檢核|練習題|練習|測驗|question|exercise|problem|quiz)\s*[#＃]?\s*[0-9０-９一二三四五六七八九十百]+)/i;
 const exerciseSection = /(?:習題|練習題|理解檢查|自我檢核|測驗|exercises|practice questions)/i;
+
+const widgetLostButton = /^\[(?:確認答案|檢查答案|查看答案與解析|確認答案並繼續)[^\]]*\]$/;
+const widgetSubmit = /^\[(?:提交|送出|批改|顯示全部|查看)[^\]]*\]$/;
+const widgetButton = /^\[(?:重設|重新|上一題|下一題|檢查|確認)[^\]]*\]$/;
+const widgetProgress = /(?:已作答|已填寫|已提交|已檢查|題正確|作答進度|已完成作答|已完成檢查)/;
+// 單行、沒有題目轉成互動卡片時才會殘留的 UI 文字；回傳 "lost"（選項遺失的選擇題按鈕）、"set"（整組題目的提交鈕）、"chrome"（其他）或空字串
+function widgetLeftover(source) {
+  const text = source.replace(/\s*[（(]無法取得目前的值。[)）]/g, "").trim();
+  if (text.includes("\n")) return "";
+  if (text === "目前的選取項目無法使用。") return "chrome";
+  // 對話裡「請把答案回覆給我、我會批改」的句子：搬到講義桌後題目可以直接作答，這句話已經沒有對象
+  if (text.length <= 200 && /我會(?:依|根據|先判斷)你的|可一次回覆所有理解檢查|可以先回覆.{0,8}理解檢查的答案/.test(text)) return "chrome";
+  // 「說明文字 ＋ 按鈕」同一行的殘影，例如「空白答案會視為未答…。 [提交並批改]」
+  if (/^.{1,50}?\s*\[(?:提交|送出|批改|顯示全部|查看|重設|重新)[^\]]*\]$/.test(text)) return "chrome";
+  if (widgetLostButton.test(text)) return "lost";
+  if (widgetSubmit.test(text)) return "set";
+  if (widgetButton.test(text)) return "chrome";
+  if (text.length <= 40 && (widgetProgress.test(text) && /[/／]|^\**[^\s*]{2,12}\**$/.test(text) || text === "作答區")) return "chrome";
+  return "";
+}
 
 function renderMessage(message, doc, parent, pending, headings, exercises = []) {
   const blockCounts = new Map();
@@ -626,6 +1134,33 @@ function renderMessage(message, doc, parent, pending, headings, exercises = []) 
         continue;
       }
     }
+    const group = message.role === "assistant" && block.kind !== "code" && block.kind !== "rule"
+      ? doc.quizGroups.find(item => item.start === block.text.trim()) : undefined;
+    if (group) {
+      // 題組卡片取代原文的題目與選項；跳過的區塊仍計入出現次序，避免後面的註解錨點位移。
+      parent.append(quizGroup(group, headings, exercises));
+      let next = index + 1;
+      const stop = group.count ? Math.min(blocks.length, index + group.count) : blocks.length;
+      while (next < stop && (group.count || blocks[next].kind !== "rule") &&
+          !(blocks[next].kind === "heading" && blocks[next].level < block.level) &&
+          !(group.until && blocks[next].text.trim().startsWith(group.until))) {
+        const skipped = fingerprint(blocks[next].text);
+        blockCounts.set(skipped, (blockCounts.get(skipped) ?? 0) + 1);
+        next++;
+      }
+      index = next - 1;
+      continue;
+    }
+    // 匯出時留下的互動元件殘影：按鈕文字、作答進度。選項已經遺失的題目補一句說明，其餘直接略過。
+    const leftover = message.role === "assistant" && block.kind === "paragraph" ? widgetLeftover(block.text) : "";
+    if (leftover) {
+      if (leftover === "lost" || leftover === "set") {
+        parent.append(element("p", leftover === "lost"
+          ? "這題的選項原本是互動元件，匯出時沒有保存下來，目前只能閱讀題幹。"
+          : "這一節的作答題目原本是互動元件，匯出時沒有保存下來。", "widget-lost"));
+      }
+      continue;
+    }
     const node = blockElement(block);
     node.dataset.anchor = key;
     const isAssistantHeading = block.kind === "heading" && message.role === "assistant";
@@ -645,6 +1180,8 @@ function renderMessage(message, doc, parent, pending, headings, exercises = []) 
       exercises.push({ id: node.id, text: isAssistantHeading ? node.textContent : title.split("\n")[0].slice(0, 88) });
     }
     const row = block.kind === "rule" ? node : annotatableBlock(node, block, key, doc.annotations.get(key));
+    const leadIn = doc.leadIns.get(key);
+    if (leadIn && row !== node) renderLeadIn(row, leadIn);
     parent.append(row);
     if (!question) continue;
     // A matching heading anchors the widget. Skip source question text only when its options also match.
@@ -735,6 +1272,13 @@ function render() {
   $("import").disabled = importing;
   $("sample").hidden = typeof window.readLessonSample !== "function" || library.has(window.lessonSampleId);
   $("sample").disabled = importing;
+  $("cover").hidden = tutorialOnly;
+  $("tutorial").hidden = Boolean(doc);
+  $("tutorial-title").setAttribute("aria-level", tutorialOnly ? "1" : "2");
+  for (const heading of $("tutorial").querySelectorAll("h3")) {
+    heading.setAttribute("aria-level", tutorialOnly ? "2" : "3");
+  }
+  $("body").hidden = !doc;
   $("reading-tools").hidden = !doc;
   $("outline").hidden = true;
   $("exercise-outline").hidden = true;
@@ -745,7 +1289,9 @@ function render() {
   const questionCount = doc?.questions.length ?? 0;
   subtitle.textContent = doc
     ? (questionCount ? `${questionCount} 道互動題` : "")
-    : "匯入 JSON、Markdown 或純文字對話，或從範例開始。";
+    : $("course-catalog")
+      ? "從課程資料庫挑一份講義，或匯入自己的對話。"
+      : "匯入 JSON、Markdown 或純文字對話，或從範例開始。";
   subtitle.hidden = !subtitle.textContent;
   document.title = doc ? `${doc.title}｜講義桌` : "講義桌";
   if (!doc) return;
@@ -833,13 +1379,16 @@ function setupNavigation() {
   });
 }
 
-function select(id) {
+function select(id, showTutorial = false) {
+  if (showTutorial) $("status").textContent = "";
   requestedLesson = undefined;
-  if (id === activeId) return;
-  if (library.has(activeId)) library.get(activeId).scroll = window.scrollY;
-  activeId = id;
-  render();
-  $("lesson").focus({ preventScroll: true });
+  if (id !== activeId || showTutorial !== tutorialOnly) {
+    if (library.has(activeId)) library.get(activeId).scroll = window.scrollY;
+    activeId = id;
+    tutorialOnly = showTutorial;
+    render();
+  } else if (!showTutorial) return;
+  $(showTutorial ? "tutorial-title" : "lesson").focus({ preventScroll: true });
   window.scrollTo(0, library.get(id)?.scroll ?? 0);
 }
 
@@ -1086,6 +1635,13 @@ $("files").addEventListener("change", event => {
   void importFiles(files);
 });
 $("sample").addEventListener("click", loadSample);
+for (const link of document.querySelectorAll(".tutorial-link")) {
+  link.addEventListener("click", event => {
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    select(undefined, true);
+  });
+}
 document.addEventListener("click", revealAnnotationTrigger);
 $("cancel-note").addEventListener("click", () => $("annotation").close());
 $("annotation").addEventListener("close", () => {
@@ -1129,6 +1685,8 @@ $("save").addEventListener("click", () => {
     subject: doc.subject, sourceUrl: doc.sourceUrl,
     messages: doc.messages, questions: doc.questions, annotations: Object.fromEntries(doc.annotations)
   };
+  if (doc.leadIns.size) data.leadIns = Object.fromEntries(doc.leadIns);
+  if (doc.quizGroups.length) data.quizGroups = doc.quizGroups;
   const url = URL.createObjectURL(new Blob([JSON.stringify(data, null, 2)], { type: "application/json" }));
   const link = element("a");
   link.href = url;
@@ -1151,4 +1709,3 @@ setupNavigation();
 render();
 const catalog = $("course-catalog");
 if (catalog) loadCourseCatalog(catalog);
-else loadSample();

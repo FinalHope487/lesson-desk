@@ -72,6 +72,9 @@ button:disabled { cursor: default; opacity: .65 }
 .side-slot { position: sticky; top: 1.25rem; max-block-size: calc(100dvh - 2.5rem); min-inline-size: 0; overflow: auto; padding: .25rem }
 .library, .contents { min-width: 0; color: var(--muted); font-size: .88rem }
 .compact-navigation { display: none }
+.tutorial-link { display: inline-flex; align-items: center; min-block-size: 36px; padding-inline: .3rem; color: var(--accent); text-decoration: none; font-weight: 700; white-space: nowrap }
+.tutorial-link:hover { text-decoration: underline }
+
 .library h2, .contents summary { color: var(--ink); font-size: .95rem; font-weight: 750; margin: .55rem 0 .8rem }
 .library ul, .contents ol { padding: 0; margin: 0 0 .75rem; list-style: none }
 .library li { display: flex; align-items: center; border-radius: 8px; margin: 0 0 .25rem }
@@ -100,6 +103,16 @@ main { min-width: 0; border: 1px solid var(--line); border-radius: 14px; backgro
 .reading-tools { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: .5rem 1rem; padding: .72rem clamp(1rem, 3.6vw, 2.6rem); border-bottom: 1px solid var(--line) }
 .reading-tools button { font-size: .87rem }
 .annotation-hint { margin: 0; color: var(--muted); font-size: .87rem }
+main:has(#body[hidden]) { border: 0; background: transparent; overflow: visible }
+main:has(#body[hidden]) .cover, .tutorial { border: 1px solid var(--line); border-radius: 14px }
+.tutorial { padding: clamp(1.15rem, 4.1vw, 3.4rem); background: var(--paper) }
+.cover:not([hidden]) + .tutorial { margin-block-start: 1rem }
+.tutorial h2 { margin: 0 0 .65rem; font: 750 clamp(1.65rem, 3.3vw, 2.35rem)/1.25 var(--serif); scroll-margin-block-start: 4.25rem }
+.tutorial h3 { margin: 1.45rem 0 .4rem; font-size: 1.08rem }
+.tutorial p, .tutorial ol { max-inline-size: 42rem; margin: 0; line-height: 1.8 }
+.tutorial ol { padding-inline-start: 1.35em }
+.tutorial li + li { margin-block-start: .55rem }
+.tutorial li::marker { color: var(--accent); font-weight: 700 }
 #body { padding: .45rem clamp(1rem, 3.6vw, 2.6rem) 2.4rem; overflow-wrap: anywhere }
 #body p { margin: .78rem 0; line-height: 1.85 }
 #body h2, #body h3, #body h4, #body h5, #body h6 { scroll-margin-top: 1rem; margin: 1.65rem 0 .62rem; line-height: 1.42 }
@@ -125,6 +138,31 @@ code { font-family: var(--mono); font-size: .94em }
 figure { margin: 1rem 0; text-align: center }
 figure img { display: block; margin: auto; width: min(100%, 480px); height: auto }
 :root[data-theme="dark"] figure img { padding: .45rem; border-radius: .45rem; background: var(--diagram-paper) }
+/* 圖表（reader.js drawChart）：色彩取自變數，並以形狀區分系列，不只靠顏色 */
+:root { --chart-0: #2449a5; --chart-1: #c2570c; --chart-2: #0b7a64; --chart-3: #8b3fae }
+:root[data-theme="dark"] { --chart-0: #8fb0ff; --chart-1: #ffa56b; --chart-2: #5fd9bb; --chart-3: #d9a6ff }
+figure.chart { margin: 1.1rem 0; padding: .7rem .8rem .5rem; border: 1px solid var(--line); border-radius: 9px; background: var(--paper) }
+.chart figcaption { display: grid; gap: .1rem; margin-block-end: .35rem; text-align: center }
+.chart .chart-name { font-size: 1rem }
+.chart .chart-description, .chart .chart-footer { font-size: .88rem; color: var(--muted) }
+.chart .chart-footer { margin: .3rem 0 0 }
+.chart svg:not(.chart-key) { display: block; width: 100%; max-width: 560px; height: auto; margin: auto; overflow: visible }
+.chart text { font: 13px var(--sans); fill: var(--muted) }
+.chart text.small { font-size: 10.5px }
+.chart text.chart-title { font-size: 13.5px; fill: var(--ink) }
+.chart text.chart-value { fill: var(--ink); font-size: 12.5px; font-weight: 650 }
+.chart .chart-grid line { stroke: var(--line); stroke-width: 1 }
+.chart .chart-grid line.chart-axis { stroke: var(--muted); stroke-width: 1.4 }
+.chart .s0 { --c: var(--chart-0) } .chart .s1 { --c: var(--chart-1) } .chart .s2 { --c: var(--chart-2) } .chart .s3 { --c: var(--chart-3) }
+.chart .chart-line { fill: none; stroke: var(--c); stroke-width: 2.6; stroke-linejoin: round; stroke-linecap: round }
+.chart .chart-dot { fill: var(--c); stroke: var(--paper); stroke-width: 1.2 }
+.chart .chart-bar { fill: var(--c) }
+.chart-legend { display: flex; flex-wrap: wrap; justify-content: center; gap: .15rem 1.1rem; margin: .45rem 0 0; padding: 0; list-style: none; font-size: .92rem }
+.chart-legend li { display: inline-flex; align-items: center; gap: .35rem }
+.chart-key { flex: none; overflow: visible }
+.widget-lost { margin: .4rem 0 1rem; padding: .35rem .7rem; border-left: 3px solid var(--line); color: var(--muted); font-size: .9rem }
+.chart-data { margin: .5rem 0 0; font-size: .9rem; text-align: left }
+.chart-data summary { color: var(--accent); width: max-content }
 details { margin: .6rem 0 }
 summary { cursor: pointer }
 .user-turn, .annotation-copy, .quiz { border: 1px solid var(--line); border-radius: 9px; padding: .65rem .9rem; margin: .95rem 0 }
@@ -142,6 +180,22 @@ summary { cursor: pointer }
 .annotation-copy summary { color: var(--accent-strong) }
 #body .annotation-copy p { white-space: pre-wrap; margin: .4rem 0 }
 .annotation-copy summary, .user-turn summary { font-weight: 650 }
+.lead-in, .lead-in-answer { width: 100%; max-width: none; margin-inline: 0; border-radius: 1rem }
+.lead-in-label { color: var(--accent-strong); font-weight: 700 }
+.lead-in-hint { margin: .25rem 0 0 }
+.lead-in-hint > summary, .lead-in-answer > summary { min-height: 44px; padding-block: .55rem }
+.lead-in-answer { padding-block: .15rem }
+.quiz-group { padding: .65rem .9rem .85rem }
+.quiz-item + .quiz-item { margin-top: 1.1rem; padding-top: .9rem; border-top: 1px solid var(--line) }
+#body .quiz-item h3 { margin: .45rem 0 .3rem; padding: 0; border: 0; font-size: 1.05rem }
+#body .quiz-item .quiz-prompt p { white-space: normal; margin: .55rem 0 }
+.quiz-group fieldset { border: 0; padding: 0; margin: .3rem 0 0; min-width: 0 }
+.quiz-group textarea { display: block; min-height: 7.5rem; margin-top: .55rem; resize: vertical; background: var(--paper) }
+.quiz-feedback { margin-block: .65rem 0 }
+#body .quiz-feedback .quiz-feedback-title { margin: .25rem 0; font-weight: 700 }
+.quiz-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem .9rem; margin-top: 1rem }
+.quiz-score { margin: 0; font-weight: 650; color: var(--accent-strong) }
+.quiz-score:empty { display: none }
 .note-edit { font-size: .85rem }
 .quiz fieldset { border: 0; padding: 0; margin: 0 0 .6rem; min-width: 0 }
 .quiz legend { font-weight: 700; padding: 0 0 .4rem }
@@ -178,6 +232,7 @@ body:has(.navigation-dialog[open]) { overflow-y: hidden }
   .side-slot { display: none }
   .compact-navigation { position: sticky; inset-block-start: 0; z-index: 2; display: flex; justify-content: space-between; gap: .5rem; padding: .35rem clamp(.85rem, 3.3vw, 3rem); background: var(--paper); border-block-end: 1px solid var(--line) }
   .compact-navigation button { min-block-size: 44px; font-size: .88rem; font-weight: 650; white-space: nowrap }
+  .compact-navigation .tutorial-link { min-block-size: 44px; font-size: .88rem }
   #body [id] { scroll-margin-block-start: 4.25rem }
 }
 @media (max-width: 40rem) {
@@ -196,3 +251,6 @@ body:has(.navigation-dialog[open]) { overflow-y: hidden }
 }
 .formula menclose { display: inline-block; border: 1px solid var(--muted); padding: 3px }
 .formula menclose[notation~="updiagonalstrike"] { border: 0; text-decoration: line-through }
+
+.quiz-blank { display: flex; align-items: center; gap: 0.5rem; margin: 0.5rem 0; }
+.quiz-blank input { flex: 1 1 12rem; max-width: 24rem; padding: 0.45rem 0.7rem; border: 1px solid var(--line, #c9c4b8); border-radius: 0.6rem; font: inherit; background: transparent; color: inherit; }
