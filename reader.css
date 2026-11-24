@@ -200,6 +200,8 @@ summary { cursor: pointer }
 .quiz fieldset { border: 0; padding: 0; margin: 0 0 .6rem; min-width: 0 }
 .quiz legend { font-weight: 700; padding: 0 0 .4rem }
 .option { display: flex; gap: .6rem; align-items: baseline; padding: .45rem .5rem; min-height: 44px; border-radius: 6px; cursor: pointer }
+.option > div { min-inline-size: 0; overflow-wrap: anywhere }
+.reading-anchor { display: block; block-size: 0 }
 .option:hover, .option:has(:checked) { background: var(--wash) }
 input[type=radio], input[type=checkbox] { accent-color: var(--accent) }
 .quiz-status { margin: .45rem 0 0; font-size: .94rem }

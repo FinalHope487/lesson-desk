@@ -1,6 +1,7 @@
 "use strict";
 
 const $ = id => document.getElementById(id);
+const readerAssets = new URL(".", document.currentScript.src);
 const library = new Map();
 const sourceLabel = { user: "原始提問", assistant: "教材回覆" };
 const catalogGroupState = new Map();
@@ -224,26 +225,6 @@ function normalizeQuestion(question) {
   };
 }
 
-// 自製解析器只涵蓋少數指令；其餘交給 KaTeX（僅輸出 MathML，不需字型或 CSS）。
-function renderWithKatex(wrapper, source, block, parserError) {
-  try {
-    if (typeof katex !== "object") throw new Error("KaTeX 未載入");
-    const holder = document.createElement("template");
-    holder.innerHTML = katex.renderToString(source, { output: "mathml", displayMode: block, throwOnError: true, trust: false });
-    const root = holder.content.querySelector("math");
-    if (!root) throw new Error("KaTeX 未輸出 MathML");
-    root.querySelector("annotation")?.remove();
-    root.setAttribute("display", block ? "block" : "inline");
-    wrapper.append(root);
-    wrapper.classList.add("typeset");
-  } catch (error) {
-    console.warn("LaTeX 渲染失敗", { source, parser: parserError.message, katex: error.message });
-    wrapper.textContent = source;
-    wrapper.classList.add("math-fallback");
-    wrapper.title = `LaTeX 原文 · ${parserError.message}；KaTeX：${error.message}`;
-  }
-}
-
 function asMath(tex, block = false) {
   const wrapper = element(block ? "div" : "span", undefined, block ? "formula block" : "formula");
   const source = tex.trim();
@@ -415,7 +396,7 @@ function asMath(tex, block = false) {
   } catch (error) {
     wrapper.replaceChildren();
     wrapper.classList.remove("typeset");
-    renderWithKatex(wrapper, source, block, error);
+    LessonMarkdown.renderWithKatex(wrapper, source, block, error);
   }
   return wrapper;
 }
@@ -424,6 +405,18 @@ function asMath(tex, block = false) {
 const bracketMath = /\\[a-zA-Z]|[\^_=<>+]|\d\s*[-*/]\s*\d|\([^)]*\)\s*\(/;
 
 function inline(parent, raw) {
+  if (typeof LessonMarkdown === "undefined") return legacyInline(parent, raw);
+  return LessonMarkdown.render(parent, raw, { inline: true, renderMath: appendMarkdownMath });
+}
+
+function appendMarkdownMath(parent, raw, display) {
+  if (raw.startsWith("$$")) parent.append(asMath(raw.slice(2, -2), true));
+  else if (raw.startsWith("\\[")) parent.append(asMath(raw.slice(2, -2), display));
+  else if (raw.startsWith("\\(")) parent.append(asMath(raw.slice(2, -2)));
+  else legacyInline(parent, raw);
+}
+
+function legacyInline(parent, raw) {
   // 匯出時殘留的引用標記與輸入元件說明，都不是教材內容。
   const text = raw.replace(/\uE200cite\uE202[^\uE201]*\uE201/g, "")
     .replace(/（無法取得目前的值。）/g, "").replace(/\s*\\?\(目前的選取項目無法使用。\)/g, "");
@@ -436,7 +429,7 @@ function inline(parent, raw) {
     else if (match[2] || match[4]) parent.append(asMath(match[2] ?? match[4]));
     else if (match[5]) {
       const strong = element("strong");
-      inline(strong, match[5]);
+      legacyInline(strong, match[5]);
       parent.append(strong);
     } else if (match[6]) parent.append(element("code", match[6]));
     else if (match[7]) {
@@ -458,6 +451,8 @@ function markdownBlocks(raw) {
   const blocks = [];
   const special = /^(?:#{1,6}\s|```|~~~|\\\[|\$\$|(?:[-*+]|\d+[.)])\s|>\s?|\|)/;
   for (let index = 0; index < lines.length;) {
+    const startLine = index;
+    const firstBlock = blocks.length;
     const line = lines[index++].trim();
     if (!line.trim()) continue;
     const heading = line.match(/^(#{1,6})\s+(.+)$/);
@@ -483,7 +478,7 @@ function markdownBlocks(raw) {
         const trailingText = last.slice(closeAt + closing.length).trim();
         parts[parts.length - 1] = last.slice(0, closeAt);
         blocks.push({ kind: "math", text: parts.join("\n") });
-        if (trailingText) blocks.push({ kind: "paragraph", text: trailingText });
+        if (trailingText) blocks.push({ kind: "paragraph", text: trailingText, trailingMathText: true });
         index = end;
       }
     } else if (line.startsWith(chartMarker)) blocks.push({ kind: "chart", text: line });
@@ -513,6 +508,10 @@ function markdownBlocks(raw) {
         !lines[index].trimStart().startsWith(chartMarker) &&
         !/^([-*_])(?:\s*\1){2,}$/.test(lines[index].trim())) text += "\n" + lines[index++];
       blocks.push({ kind: "paragraph", text });
+    }
+    for (const block of blocks.slice(firstBlock)) {
+      block.startLine = block.kind === "paragraph" && blocks.length - firstBlock > 1 ? index - 1 : startLine;
+      block.endLine = index;
     }
   }
   return blocks;
@@ -746,7 +745,34 @@ function drawChart(figure, spec) {
   figure.append(details);
 }
 
-function blockElement(block) {
+function markdownPresentation(raw, blocks, isBoundary) {
+  return typeof LessonMarkdown === "undefined" ? new Map() : LessonMarkdown.plan(raw, blocks,
+    block => block.trailingMathText || isBoundary?.(block));
+}
+
+function appendMarkdown(parent, raw, fragment = false) {
+  const blocks = markdownBlocks(raw);
+  const presentation = markdownPresentation(raw, blocks);
+  if (fragment && blocks.length === 1 && blocks[0].kind === "paragraph") {
+    return LessonMarkdown.render(parent, raw, { fragment: true, renderMath: appendMarkdownMath });
+  }
+  for (const [index, block] of blocks.entries()) {
+    const display = presentation.get(index);
+    if (!display?.continuation) parent.append(blockElement(block, display));
+  }
+  return parent;
+}
+
+function blockElement(block, display) {
+  if (display?.source && !(block.kind === "rule" && /^[-*_\s]+$/.test(display.source))) {
+    const container = element("div");
+    LessonMarkdown.render(container, display.source, { renderMath: appendMarkdownMath, references: display.references });
+    if (container.childElementCount === 1 && container.textContent.trim() === container.firstElementChild.textContent.trim()) {
+      return container.firstElementChild;
+    }
+    if (!container.childElementCount && !container.textContent.trim()) container.hidden = true;
+    return container;
+  }
   if (block.kind === "chart") return chartFigure(block.text);
   if (block.kind === "heading") return inline(element(`h${Math.max(2, block.level)}`), block.text);
   if (block.kind === "math") return asMath(block.text, true);
@@ -762,7 +788,7 @@ function blockElement(block) {
         image.alt = alt;
         image.loading = "lazy";
         image.addEventListener("error", () => figure.replaceChildren(element("figcaption", `無法載入圖片：${alt}`)));
-        image.src = src;
+        image.src = new URL(src, readerAssets).href;
         figure.append(image);
       } catch (error) {
         console.warn("無法讀取教材圖片", error.message);
@@ -833,13 +859,22 @@ function quiz(question, doc, key) {
   const form = element("form", undefined, "quiz");
   form.noValidate = true;
   const fieldset = element("fieldset");
-  fieldset.append(inline(element("legend"), question.prompt));
+  const promptBlocks = markdownBlocks(question.prompt);
+  if (promptBlocks.length === 1 && promptBlocks[0].kind === "paragraph" && !question.prompt.includes("\n")) {
+    fieldset.append(inline(element("legend"), question.prompt));
+  } else {
+    fieldset.append(element("legend", question.title || "作答"));
+    appendMarkdown(fieldset, question.prompt);
+  }
   const remembered = doc.answers.get(key);
-  const feedback = element("p", undefined, "quiz-status");
+  const feedback = element("div", undefined, "quiz-status");
   feedback.setAttribute("role", "status");
   const show = result => {
     feedback.textContent = "";
-    inline(feedback, result.text);
+    if (result.state === "correct" && question.feedback) {
+      feedback.append(element("p", "答對了。"));
+      appendMarkdown(feedback, question.feedback);
+    } else inline(feedback, result.text);
     feedback.className = ["quiz-status", result.state].filter(Boolean).join(" ");
   };
   if (question.type === "fill-in") {
@@ -859,7 +894,7 @@ function quiz(question, doc, key) {
       input.name = "answer";
       input.value = option.value;
       input.checked = remembered?.includes(option.value) ?? false;
-      label.append(input, inline(element("span"), option.label));
+      label.append(input, appendMarkdown(element("div"), option.label, true));
       fieldset.append(label);
     }
   }
@@ -890,7 +925,7 @@ function renderAnnotation(view, annotation) {
     if (kind === "guide") details.classList.add("is-guide");
     if (annotation.side !== "left") details.classList.add("is-right");
     details.open = true;
-    details.append(element("summary", label), element("p", annotation[kind]));
+    details.append(element("summary", label), appendMarkdown(element("div"), annotation[kind]));
     const edit = element("button", "編輯註解", "note-edit");
     edit.type = "button";
     edit.addEventListener("click", () => editAnnotation(view, edit));
@@ -902,7 +937,7 @@ function renderAnnotation(view, annotation) {
 
 function leadInDisclosure(label, text, className) {
   const details = element("details", undefined, className);
-  details.append(element("summary", label), inline(element("p"), text));
+  details.append(element("summary", label), appendMarkdown(element("div"), text));
   return details;
 }
 
@@ -910,7 +945,7 @@ function renderLeadIn(row, { question, hint, answer }) {
   if (question) {
     const bubble = element("section", undefined, "annotation-copy is-guide lead-in");
     bubble.setAttribute("aria-label", "前導題");
-    bubble.append(element("p", "前導題", "lead-in-label"), inline(element("p"), question));
+    bubble.append(element("p", "前導題", "lead-in-label"), appendMarkdown(element("div"), question));
     if (hint) bubble.append(leadInDisclosure("查看提示", hint, "lead-in-hint"));
     row.prepend(bubble);
   }
@@ -920,7 +955,7 @@ function renderLeadIn(row, { question, hint, answer }) {
 function feedbackPanel(state, title, text) {
   const box = element("div", undefined, "annotation-copy lead-in-answer quiz-feedback");
   box.append(element("p", title, ["quiz-feedback-title", state].filter(Boolean).join(" ")));
-  if (text) box.append(inline(element("p"), text));
+  if (text) box.append(appendMarkdown(element("div"), text));
   return box;
 }
 
@@ -948,9 +983,6 @@ function quizGroup(group, headings, exercises) {
   form.noValidate = true;
   form.setAttribute("aria-label", label);
   form.append(element("p", label, "lead-in-label"));
-  const renderMarkdown = (parent, markdown) => {
-    for (const block of markdownBlocks(markdown)) parent.append(blockElement(block));
-  };
   const items = group.questions.map((question, index) => {
     const item = element("section", undefined, "quiz-item");
     const title = inline(element("h3"), question.title || `第 ${index + 1} 題`);
@@ -966,7 +998,7 @@ function quizGroup(group, headings, exercises) {
       // 文字、填空格與作答區依原順序穿插
       let blank = 0;
       for (const part of question.parts) {
-        if (part.text) renderMarkdown(prompt, part.text);
+        if (part.text) appendMarkdown(prompt, part.text);
         else if (part.blank) {
           const row = element("p", undefined, "quiz-blank");
           const input = element("input");
@@ -990,7 +1022,7 @@ function quizGroup(group, headings, exercises) {
       item.append(prompt);
       field = prompt;
     } else {
-      renderMarkdown(prompt, question.prompt);
+      appendMarkdown(prompt, question.prompt);
       item.append(prompt);
       if (question.type === "essay") {
         field = element("textarea");
@@ -1008,7 +1040,7 @@ function quizGroup(group, headings, exercises) {
           input.type = question.multiple ? "checkbox" : "radio";
           input.name = `answer-${index}`;
           input.value = option.value;
-          row.append(input, inline(element("span"), option.label));
+          row.append(input, appendMarkdown(element("div"), option.label, true));
           field.append(row);
         }
         item.append(field);
@@ -1037,7 +1069,7 @@ function quizGroup(group, headings, exercises) {
           panel = element("details", undefined, "annotation-copy lead-in-answer quiz-feedback");
           panel.append(element("summary", "參考答案（供自我對照）"));
           const body = element("div", undefined, "quiz-prompt");
-          renderMarkdown(body, question.reference || "尚未填入參考答案。");
+          appendMarkdown(body, question.reference || "尚未填入參考答案。");
           panel.append(body);
         }
       } else if (question.type === "fill") {
@@ -1112,9 +1144,13 @@ function widgetLeftover(source) {
   return "";
 }
 
-function renderMessage(message, doc, parent, pending, headings, exercises = []) {
+function renderMessage(message, doc, parent, pending, headings, exercises, blocks, explicitSlots) {
   const blockCounts = new Map();
-  const blocks = markdownBlocks(message.text);
+  const chapterGaps = message.role === "assistant"
+    ? LessonMarkdown.chapterQuizGaps(blocks, doc.quizGroups, doc.questions.length) : new Map();
+  const presentation = markdownPresentation(message.text, blocks, block => message.role === "assistant" &&
+    (chapterGaps.has(block) || pending.some(item => item.question.title && item.question.title === block.text) ||
+      doc.quizGroups.some(group => group.start === block.text.trim())));
   let exerciseLevel;
   for (let index = 0; index < blocks.length; index++) {
     const block = blocks[index];
@@ -1122,6 +1158,10 @@ function renderMessage(message, doc, parent, pending, headings, exercises = []) 
     const occurrence = (blockCounts.get(print) ?? 0) + 1;
     blockCounts.set(print, occurrence);
     const key = `${message.id ?? message.role}:${print}:${occurrence}`;
+    if (chapterGaps.has(block)) {
+      parent.append(LessonMarkdown.gapNotice(chapterGaps.get(block), key));
+      continue;
+    }
     if (message.role === "assistant" && block.kind === "code" && block.language === "lesson-quiz" &&
         /^\d+$/.test(block.text)) {
       const slot = pending.findIndex(item => item.index === Number(block.text));
@@ -1142,6 +1182,7 @@ function renderMessage(message, doc, parent, pending, headings, exercises = []) 
       let next = index + 1;
       const stop = group.count ? Math.min(blocks.length, index + group.count) : blocks.length;
       while (next < stop && (group.count || blocks[next].kind !== "rule") &&
+          !(blocks[next].kind === "heading" && /(?:章末|本章).*(?:習題|練習|測驗|題組)/.test(blocks[next].text)) &&
           !(blocks[next].kind === "heading" && blocks[next].level < block.level) &&
           !(group.until && blocks[next].text.trim().startsWith(group.until))) {
         const skipped = fingerprint(blocks[next].text);
@@ -1161,25 +1202,34 @@ function renderMessage(message, doc, parent, pending, headings, exercises = []) 
       }
       continue;
     }
-    const node = blockElement(block);
+    const display = presentation.get(index);
+    const node = display?.continuation ? element("span") : blockElement(block, display);
     node.dataset.anchor = key;
     const isAssistantHeading = block.kind === "heading" && message.role === "assistant";
     const title = block.text.replace(/^\*+|\*+$/g, "").trim();
     const isNumberedExercise = message.role === "assistant" && (isAssistantHeading || block.kind === "paragraph") &&
       (exerciseName.test(title) || (isAssistantHeading && exerciseLevel !== undefined
         && block.level > exerciseLevel && /^[0-9０-９]+\s*[.、)｜:：]/.test(title)));
-    const question = isAssistantHeading ? pending.find(item => item.question.title === block.text) : undefined;
+    const question = isAssistantHeading
+      ? pending.find(item => item.question.title === block.text && !explicitSlots.has(item.index)) : undefined;
     if (isAssistantHeading) {
       node.id = `section-${headings.length + 1}`;
-      headings.push({ id: node.id, text: node.textContent, level: block.level });
+      const headingText = display?.continuation ? inline(element("span"), block.text).textContent : node.textContent;
+      headings.push({ id: node.id, text: headingText, level: block.level });
       if (exerciseLevel !== undefined && block.level <= exerciseLevel) exerciseLevel = undefined;
       if (!isNumberedExercise && exerciseSection.test(title)) exerciseLevel = block.level;
     }
     if (isNumberedExercise || question) {
       if (!node.id) node.id = "exercise-text-" + (exercises.length + 1);
-      exercises.push({ id: node.id, text: isAssistantHeading ? node.textContent : title.split("\n")[0].slice(0, 88) });
+      exercises.push({ id: node.id, text: isAssistantHeading && !display?.continuation ? node.textContent : title.split("\n")[0].slice(0, 88) });
     }
-    const row = block.kind === "rule" ? node : annotatableBlock(node, block, key, doc.annotations.get(key));
+    if (display?.continuation && !doc.annotations.has(key) && !doc.leadIns.has(key)) {
+      node.className = "reading-anchor";
+      node.setAttribute("aria-hidden", "true");
+      parent.append(node);
+      continue;
+    }
+    const row = block.kind === "rule" || node.hidden ? node : annotatableBlock(node, block, key, doc.annotations.get(key));
     const leadIn = doc.leadIns.get(key);
     if (leadIn && row !== node) renderLeadIn(row, leadIn);
     parent.append(row);
@@ -1191,9 +1241,15 @@ function renderMessage(message, doc, parent, pending, headings, exercises = []) 
     if (next?.text.trim() === question.question.prompt.trim()
         && followingOptions.length === options.length
         && followingOptions.every((item, slot) => item.text.trim() === options[slot])) {
+      for (const skipped of [next, ...followingOptions]) {
+        const print = fingerprint(skipped.text);
+        blockCounts.set(print, (blockCounts.get(print) ?? 0) + 1);
+      }
       index += 1 + options.length;
     }
-    row.after(quiz(question.question, doc, question.index));
+    const form = quiz(question.question, doc, question.index);
+    form.id = "exercise-quiz-" + (question.index + 1);
+    row.after(form);
     pending.splice(pending.indexOf(question), 1);
   }
 }
@@ -1287,8 +1343,9 @@ function render() {
   $("subject").textContent = doc?.project ?? "";
   const subtitle = $("subtitle");
   const questionCount = doc?.questions.length ?? 0;
+  const groupQuestionCount = doc?.quizGroups.reduce((total, group) => total + group.questions.length, 0) ?? 0;
   subtitle.textContent = doc
-    ? (questionCount ? `${questionCount} 道互動題` : "")
+    ? (questionCount + groupQuestionCount ? `${questionCount + groupQuestionCount} 道互動題` : "")
     : $("course-catalog")
       ? "從課程資料庫挑一份講義，或匯入自己的對話。"
       : "匯入 JSON、Markdown 或純文字對話，或從範例開始。";
@@ -1298,13 +1355,17 @@ function render() {
   const headings = [];
   const exercises = [];
   const pending = doc.questions.map((question, index) => ({ question, index }));
-  for (const message of doc.messages) {
+  const messages = doc.messages.map(message => ({ message, blocks: markdownBlocks(message.text) }));
+  const explicitSlots = new Set(messages.filter(({ message }) => message.role === "assistant")
+    .flatMap(({ blocks }) => blocks.filter(block => block.kind === "code" && block.language === "lesson-quiz" &&
+      /^\d+$/.test(block.text)).map(block => Number(block.text))));
+  for (const { message, blocks } of messages) {
     if (message.role === "user") {
       const details = element("details", undefined, "user-turn");
       details.append(element("summary", "原始提問"));
-      renderMessage(message, doc, details, [], []);
+      renderMessage(message, doc, details, [], [], [], blocks, explicitSlots);
       $("body").append(details);
-    } else renderMessage(message, doc, $("body"), pending, headings, exercises);
+    } else renderMessage(message, doc, $("body"), pending, headings, exercises, blocks, explicitSlots);
   }
   if (pending.length) {
     const heading = element("h2", "練習題");
@@ -1416,7 +1477,7 @@ async function openLesson(item) {
 function loadCourseLesson(item) {
   if (item.loading) return item.loading;
   const script = document.createElement("script");
-  script.src = `course-content/${item.id}.js${item.version ? `?v=${item.version}` : ""}`;
+  script.src = new URL(`course-content/${item.id}.js${item.version ? `?v=${item.version}` : ""}`, readerAssets).href;
   item.loading = new Promise((resolve, reject) => {
     const timer = window.setTimeout(() => finish(new Error("教材載入逾時")), 20000);
     function finish(error) {
