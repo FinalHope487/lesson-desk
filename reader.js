@@ -997,6 +997,8 @@ function quizGroup(group, headings, exercises) {
     if (question.parts.length) {
       // 文字、填空格與作答區依原順序穿插
       let blank = 0;
+      let areaNumber = 0;
+      const areaCount = question.parts.filter(part => part.area).length;
       for (const part of question.parts) {
         if (part.text) appendMarkdown(prompt, part.text);
         else if (part.blank) {
@@ -1014,7 +1016,7 @@ function quizGroup(group, headings, exercises) {
           const area = element("textarea");
           area.rows = 5;
           area.placeholder = part.area.hint || "在這裡寫下你的作答";
-          area.setAttribute("aria-label", label);
+          area.setAttribute("aria-label", areaCount > 1 ? `${label}（第 ${++areaNumber} 小題）` : label);
           inputs.push(area);
           prompt.append(area);
         }
