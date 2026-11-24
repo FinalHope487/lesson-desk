@@ -162,7 +162,7 @@ function normalizeQuizGroups(raw) {
   return (Array.isArray(raw) ? raw : []).map(group => {
     if (!group || !text(group.start) || !Array.isArray(group.questions)) return null;
     const questions = group.questions.map(question => {
-      if (!question || !["choice", "essay", "fill"].includes(question.type)) return null;
+      if (!question || !["choice", "essay", "fill", "reveal"].includes(question.type)) return null;
       // parts：題幹中穿插文字、填空格（blank）與作答區（area）時使用，依序渲染。
       const parts = (Array.isArray(question.parts) ? question.parts : []).map(part => {
         if (part?.blank) return { blank: { hint: text(part.blank.hint), unit: text(part.blank.unit) } };
@@ -186,6 +186,7 @@ function normalizeQuizGroups(raw) {
           .map(option => ({ value: text(option.value), label: text(option.label) })) : [];
       if (question.type === "choice" && !options.length) return null;
       if (question.type === "essay" && !text(question.prompt) && !parts.some(part => part.text)) return null;
+      if (question.type === "reveal" && (!text(question.prompt) || !text(question.reference))) return null;
       const answers = (Array.isArray(question.answers) ? question.answers : [])
         .map(text).filter(answer => options.some(option => option.value === answer));
       return {
@@ -978,7 +979,7 @@ function fillMatches(value, accepted) {
 // 題組外觀沿用前導題卡片；整組一次提交，不記住作答，重新整理即重來。
 function quizGroup(group, headings, exercises) {
   const kinds = new Set(group.questions.map(question => question.type));
-  const label = kinds.size > 1 ? "題組" : kinds.has("essay") ? "申論題" : kinds.has("fill") ? "填空題" : "選擇題";
+  const label = kinds.size > 1 || kinds.has("reveal") ? "題組" : kinds.has("essay") ? "申論題" : kinds.has("fill") ? "填空題" : "選擇題";
   const form = element("form", undefined, "annotation-copy is-guide lead-in quiz-group");
   form.noValidate = true;
   form.setAttribute("aria-label", label);
@@ -994,6 +995,15 @@ function quizGroup(group, headings, exercises) {
     const inputs = [];
     const label = `${title.textContent} 作答`;
     const prompt = element("div", undefined, "quiz-prompt");
+    if (question.type === "reveal") {
+      item.append(appendMarkdown(prompt, question.prompt));
+      const answer = element("details", undefined, "annotation-copy lead-in-answer quiz-feedback");
+      answer.append(element("summary", "查看答案與解析"),
+        appendMarkdown(element("div", undefined, "quiz-prompt"), question.reference));
+      item.append(answer);
+      form.append(item);
+      return null;
+    }
     if (question.parts.length) {
       // 文字、填空格與作答區依原順序穿插
       let blank = 0;
@@ -1053,7 +1063,8 @@ function quizGroup(group, headings, exercises) {
     item.append(slot);
     form.append(item);
     return { question, field, inputs, slot };
-  });
+  }).filter(Boolean);
+  if (!items.length) return form;
   const submit = element("button", "提交", "primary");
   submit.type = "submit";
   const score = element("p", undefined, "quiz-score");
