@@ -178,7 +178,9 @@ function normalizeQuizGroups(raw) {
           return (Array.isArray(value) ? value : [value]).map(text).filter(Boolean);
         });
         return { type: "fill", title: text(question.title), prompt: text(question.prompt), options: [], multiple: false,
-          answers, parts, explanation: text(question.explanation), guidance: text(question.guidance), reference: "", placeholder: "" };
+          answers, parts, explanation: text(question.explanation), guidance: text(question.guidance), hint: text(question.hint),
+          tolerance: Number.isFinite(question.tolerance) && question.tolerance > 0 ? question.tolerance : 0,
+          reference: "", placeholder: "" };
       }
       if (!text(question.prompt) && !parts.length) return null;
       const options = question.type === "choice" && Array.isArray(question.options)
@@ -192,13 +194,14 @@ function normalizeQuizGroups(raw) {
       return {
         type: question.type, title: text(question.title), prompt: text(question.prompt), options,
         multiple: question.multiple === true, answers, parts, explanation: text(question.explanation),
-        guidance: text(question.guidance), reference: text(question.reference), placeholder: text(question.placeholder)
+        guidance: text(question.guidance), hint: text(question.hint), reference: text(question.reference), placeholder: text(question.placeholder)
       };
     }).filter(Boolean);
     // start：被取代範圍的第一個區塊文字；until（選填）：不被取代的第一個區塊開頭，用於沒有分隔線的題組；
     // count（選填）：被取代的區塊總數（含 start），給了就以它為準。
     const count = Number.isInteger(group.count) && group.count > 0 ? group.count : 0;
-    return questions.length ? { start: text(group.start), until: text(group.until), count, questions } : null;
+    return questions.length ? { start: text(group.start), until: text(group.until), count,
+      scoreFillPerBlank: group.scoreFillPerBlank === true, questions } : null;
   }).filter(Boolean);
 }
 
@@ -961,18 +964,25 @@ function feedbackPanel(state, title, text) {
 }
 
 // 題組外觀沿用前導題卡片；整組一次提交，不記住作答，重新整理即重來。
-// 填空比對：去空白、全形轉半形、忽略大小寫；兩邊都是數字時比數值。
+// 填空比對：去空白、全形轉半形、忽略大小寫；數值題可指定絕對誤差。
 function normalizeFill(value) {
   const plain = String(value).replace(/[！-～]/g, ch => String.fromCharCode(ch.charCodeAt(0) - 0xfee0))
     .replace(/[\s,，]/g, "").replace(/[−–—]/g, "-").toLowerCase();
   return plain;
 }
-function fillMatches(value, accepted) {
+function fillMatches(value, accepted, tolerance) {
   const got = normalizeFill(value);
   if (!got) return false;
+  const gotNumber = Number(got);
   return accepted.some(answer => {
     const want = normalizeFill(answer);
-    return got === want || (Number.isFinite(Number(got)) && Number.isFinite(Number(want)) && Number(got) === Number(want));
+    if (got === want) return true;
+    const wantNumber = Number(want);
+    if (!Number.isFinite(gotNumber) || !Number.isFinite(wantNumber)) return false;
+    const difference = Math.abs(gotNumber - wantNumber);
+    if (!tolerance) return difference === 0;
+    const roundingError = Number.EPSILON * Math.max(1, Math.abs(gotNumber), Math.abs(wantNumber));
+    return difference <= tolerance + roundingError;
   });
 }
 
@@ -995,8 +1005,12 @@ function quizGroup(group, headings, exercises) {
     const inputs = [];
     const label = `${title.textContent} 作答`;
     const prompt = element("div", undefined, "quiz-prompt");
+    const hint = question.hint ? element("details", undefined, "annotation-copy quiz-hint") : null;
+    if (hint) hint.append(element("summary", "查看提示"),
+      appendMarkdown(element("div", undefined, "quiz-prompt"), question.hint));
     if (question.type === "reveal") {
       item.append(appendMarkdown(prompt, question.prompt));
+      if (hint) item.append(hint);
       const answer = element("details", undefined, "annotation-copy lead-in-answer quiz-feedback");
       answer.append(element("summary", "查看答案與解析"),
         appendMarkdown(element("div", undefined, "quiz-prompt"), question.reference));
@@ -1058,6 +1072,7 @@ function quizGroup(group, headings, exercises) {
         item.append(field);
       }
     }
+    if (hint) item.append(hint);
     const slot = element("div", undefined, "quiz-slot");
     slot.setAttribute("aria-live", "polite");
     item.append(slot);
@@ -1086,16 +1101,18 @@ function quizGroup(group, headings, exercises) {
           panel.append(body);
         }
       } else if (question.type === "fill") {
-        gradable++;
+        gradable += group.scoreFillPerBlank ? inputs.length : 1;
         const filled = inputs.filter(input => input.value.trim()).length;
         if (!filled) panel = feedbackPanel("", "尚未作答。");
         else if (question.answers.some(accepted => !accepted.length)) panel = feedbackPanel("", "已送出，這題尚未設定正解，無法判分。");
         else {
-          graded++;
-          const right = inputs.every((input, i) => fillMatches(input.value, question.answers[i]));
-          if (right) correct++;
+          const matches = inputs.filter((input, i) => fillMatches(input.value, question.answers[i], question.tolerance)).length;
+          const right = matches === inputs.length;
+          graded += group.scoreFillPerBlank ? filled : 1;
+          correct += group.scoreFillPerBlank ? matches : Number(right);
           panel = right ? feedbackPanel("correct", "答對了", question.explanation)
-            : feedbackPanel("incorrect", "再想一想", question.guidance || "答案還不完全正確，可以修改後重新提交。");
+            : feedbackPanel("incorrect", group.scoreFillPerBlank ? `答對 ${matches} / ${inputs.length} 格` : "再想一想",
+              question.guidance || "答案還不完全正確，可以修改後重新提交。");
         }
       } else {
         gradable++;
@@ -1112,8 +1129,8 @@ function quizGroup(group, headings, exercises) {
       }
       slot.replaceChildren(...(panel ? [panel] : []));
     }
-    score.textContent = graded ? `本組得分：${correct} / ${graded}`
-      : gradable ? "尚未設定正解，無法計分。" : "";
+    score.textContent = graded ? `本組得分：${correct} / ${group.scoreFillPerBlank ? gradable : graded}`
+      : gradable ? group.scoreFillPerBlank ? "尚未作答。" : "尚未設定正解，無法計分。" : "";
   });
   return form;
 }
