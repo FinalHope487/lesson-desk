@@ -801,6 +801,8 @@ function blockElement(block, display) {
       return figure;
     }
     if (block.language === "svg" && /^\s*<svg[\s>]/i.test(block.text)) {
+      const interactiveTriangle = globalThis.LessonVisualization?.renderInteractiveTriangle(block.text);
+      if (interactiveTriangle) return interactiveTriangle;
       const figure = element("figure");
       const image = element("img");
       image.alt = "教材插圖";
@@ -1182,12 +1184,25 @@ function renderMessage(message, doc, parent, pending, headings, exercises, block
     (chapterGaps.has(block) || pending.some(item => item.question.title && item.question.title === block.text) ||
       doc.quizGroups.some(group => group.start === block.text.trim())));
   let exerciseLevel;
+  let reconstructedWidgetRendered = false;
   for (let index = 0; index < blocks.length; index++) {
     const block = blocks[index];
     const print = fingerprint(block.text);
     const occurrence = (blockCounts.get(print) ?? 0) + 1;
     blockCounts.set(print, occurrence);
     const key = `${message.id ?? message.role}:${print}:${occurrence}`;
+    if (reconstructedWidgetRendered && block.kind === "quote" && block.text.includes("目前的值無法使用")) continue;
+    const reconstructed = globalThis.LessonVisualization?.reconstructedSpecFor(doc, message, block);
+    if (reconstructed) {
+      const node = globalThis.LessonVisualization.renderReconstructed(reconstructed);
+      node.dataset.anchor = key;
+      const row = annotatableBlock(node, block, key, doc.annotations.get(key));
+      const leadIn = doc.leadIns.get(key);
+      if (leadIn && row !== node) renderLeadIn(row, leadIn);
+      parent.append(row);
+      reconstructedWidgetRendered = true;
+      continue;
+    }
     if (chapterGaps.has(block)) {
       parent.append(LessonMarkdown.gapNotice(chapterGaps.get(block), key));
       continue;
