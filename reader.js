@@ -1741,13 +1741,6 @@ $("files").addEventListener("change", event => {
   void importFiles(files);
 });
 $("sample").addEventListener("click", loadSample);
-for (const link of document.querySelectorAll(".tutorial-link")) {
-  link.addEventListener("click", event => {
-    if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
-    event.preventDefault();
-    select(undefined, true);
-  });
-}
 document.addEventListener("click", revealAnnotationTrigger);
 $("cancel-note").addEventListener("click", () => $("annotation").close());
 $("annotation").addEventListener("close", () => {
