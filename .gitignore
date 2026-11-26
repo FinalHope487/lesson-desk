@@ -6,3 +6,4 @@ course-exports/
 course-library.html
 *.log
 *.jsonl
+node_modules/
