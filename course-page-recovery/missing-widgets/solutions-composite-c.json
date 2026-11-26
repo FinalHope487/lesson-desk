@@ -1,0 +1,154 @@
+{
+  "30": {
+    "cardIndex": 4,
+    "questions": [
+      {
+        "type": "choice",
+        "title": "第 1 題｜反應式平衡",
+        "prompt": "已知反應 Fe + O₂ → Fe₂O₃。均衡後，氧氣的最簡整數係數為多少？",
+        "options": [
+          { "value": "A", "label": "A. 2" },
+          { "value": "B", "label": "B. 3" },
+          { "value": "C", "label": "C. 4" },
+          { "value": "D", "label": "D. 6" }
+        ],
+        "multiple": false,
+        "answers": ["B"],
+        "explanation": "補解：平衡為 4Fe+3O₂→2Fe₂O₃，氧氣係數為 3。",
+        "guidance": "",
+        "reference": "",
+        "placeholder": ""
+      },
+      {
+        "type": "choice",
+        "title": "第 2 題｜限量試劑",
+        "prompt": "反應 N₂ + 3H₂ → 2NH₃，若有 28 g N₂ 與 3 g H₂，何者為限量試劑？（N=14，H=1）",
+        "options": [
+          { "value": "A", "label": "A. N₂" },
+          { "value": "B", "label": "B. H₂" },
+          { "value": "C", "label": "C. 兩者恰好用完" },
+          { "value": "D", "label": "D. 無法判斷" }
+        ],
+        "multiple": false,
+        "answers": ["B"],
+        "explanation": "補解：28 g N₂ 為 1 mol；3 g H₂ 為 1.5 mol，而 1 mol N₂ 需要 3 mol H₂，因此 H₂ 不足，是限量試劑。",
+        "guidance": "",
+        "reference": "",
+        "placeholder": ""
+      },
+      {
+        "type": "choice",
+        "title": "第 3 題｜理論產量",
+        "prompt": "承上題，理論上最多可生成多少克 NH₃？（N=14，H=1）",
+        "options": [
+          { "value": "A", "label": "A. 8.5 g" },
+          { "value": "B", "label": "B. 17 g" },
+          { "value": "C", "label": "C. 25.5 g" },
+          { "value": "D", "label": "D. 34 g" }
+        ],
+        "multiple": false,
+        "answers": ["B"],
+        "explanation": "補解：1.5 mol H₂ 最多生成 1 mol NH₃，質量為 17 g。",
+        "guidance": "",
+        "reference": "",
+        "placeholder": ""
+      },
+      {
+        "type": "choice",
+        "title": "第 4 題｜實際產量",
+        "prompt": "某反應的理論產量為 25 g，實際產率為 80%，實際產量是多少？",
+        "options": [
+          { "value": "A", "label": "A. 15 g" },
+          { "value": "B", "label": "B. 20 g" },
+          { "value": "C", "label": "C. 25 g" },
+          { "value": "D", "label": "D. 31.25 g" }
+        ],
+        "multiple": false,
+        "answers": ["B"],
+        "explanation": "補解：實際產量=25×0.80=20 g。",
+        "guidance": "",
+        "reference": "",
+        "placeholder": ""
+      },
+      {
+        "type": "choice",
+        "title": "第 5 題｜氧化數",
+        "prompt": "在 MnO₄⁻ 中，若氧的氧化數為 −2，Mn 的氧化數是多少？",
+        "options": [
+          { "value": "A", "label": "A. +2" },
+          { "value": "B", "label": "B. +4" },
+          { "value": "C", "label": "C. +6" },
+          { "value": "D", "label": "D. +7" }
+        ],
+        "multiple": false,
+        "answers": ["D"],
+        "explanation": "補解：設 Mn 氧化數為 x，x+4(−2)=−1，故 x=+7。",
+        "guidance": "",
+        "reference": "",
+        "placeholder": ""
+      },
+      {
+        "type": "choice",
+        "title": "第 6 題｜反應物莫耳數與產量",
+        "prompt": "若某化學反應中所有反應物的起始莫耳數都加倍，且其他條件允許完全按相同反應式反應，理論產量如何變化？",
+        "options": [
+          { "value": "A", "label": "A. 不變" },
+          { "value": "B", "label": "B. 變成兩倍" },
+          { "value": "C", "label": "C. 變成四倍" },
+          { "value": "D", "label": "D. 無法由係數推算" }
+        ],
+        "multiple": false,
+        "answers": ["B"],
+        "explanation": "補解：反應物莫耳數按相同比例加倍，理論產量也按比例加倍。",
+        "guidance": "",
+        "reference": "",
+        "placeholder": ""
+      }
+    ],
+    "notes": "原卡包含 6 個單選小題；題幹與各題選項取自 card.body，答案逐題驗算。請整合至其原有 6 題綜合練習的題組位置。"
+  },
+  "36": {
+    "cardIndex": 2,
+    "questions": [
+      {
+        "type": "choice",
+        "title": "第 3 題｜布拉格繞射角（單選）",
+        "prompt": "某晶體的晶面間距為 0.20 nm，使用波長 0.20 nm 的 X 射線照射，觀察到第一級繞射峰。如果繞射儀記錄的是 2θ，那麼該峰應出現在什麼角度？",
+        "options": [
+          { "value": "A", "label": "30°" },
+          { "value": "B", "label": "60°" },
+          { "value": "C", "label": "90°" },
+          { "value": "D", "label": "120°" }
+        ],
+        "multiple": false,
+        "answers": ["B"],
+        "explanation": "補解：布拉格定律 nλ=2d sinθ。取 n=1、λ=d=0.20 nm，得 sinθ=1/2、θ=30°；儀器讀值 2θ=60°。",
+        "guidance": "",
+        "reference": "",
+        "placeholder": ""
+      },
+      {
+        "type": "choice",
+        "title": "第 5 題｜能量守恆與 X 射線產生（單選）",
+        "prompt": "某理想化 X 射線管中，電子由靜止開始，僅受到 24 kV 電位差加速，接著撞擊靶材。若有人聲稱此 X 射線管產生了能量 30 keV 的單一光子，下列判斷何者正確？",
+        "options": [
+          { "value": "A", "label": "合理，因為制動輻射能量可以大於原本電子的動能" },
+          { "value": "B", "label": "合理，只要選擇具有特性 X 射線的靶材即可" },
+          { "value": "C", "label": "不合理，因為電子最多只有 24 keV 的動能可轉換成單一光子" },
+          { "value": "D", "label": "不合理，因為 X 射線的能量與電壓完全無關" }
+        ],
+        "multiple": false,
+        "answers": ["C"],
+        "explanation": "補解：24 kV 電位差最多提供電子 24 keV 動能；單一光子能量不能超過可供轉換的電子動能，因此 30 keV 不可能。",
+        "guidance": "",
+        "reference": "",
+        "placeholder": ""
+      }
+    ],
+    "notes": "原卡共 5 題；第 1/2 題已有兩題基線、第 4 題已有一題基線。本次只補第 3、5 題的 choice schema。"
+  },
+  "37": {
+    "cardIndex": 3,
+    "notes": "基線已有 6 題 essay，outline 的 6 個 textarea 與第 1–6 題標題一一對應；本次不重複新增。與 row 36 的 X 射線題組內容不同，兩列沒有完全相同題目或答案。"
+  }
+}

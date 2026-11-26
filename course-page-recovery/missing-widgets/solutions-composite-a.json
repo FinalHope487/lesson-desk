@@ -1,0 +1,172 @@
+{
+  "3": {
+    "questions": [
+      {
+        "type": "choice",
+        "title": "第 1 題｜結構異構與反應產物",
+        "prompt": "已知分子式為 C₃H₇Cl 的兩種結構異構物。下列哪些敘述正確？",
+        "options": [
+          { "value": "A", "label": "兩者分別為 1-氯丙烷與 2-氯丙烷。" },
+          { "value": "B", "label": "兩者都屬於一級鹵代烷。" },
+          { "value": "C", "label": "兩者在適當條件下脫鹵化氫，都可能形成丙烯。" },
+          { "value": "D", "label": "兩者進行取代反應，生成的醇一定相同。" }
+        ],
+        "multiple": true,
+        "answers": ["A", "C"],
+        "parts": [],
+        "explanation": "補解：C₃H₇Cl 有 1-氯丙烷與 2-氯丙烷兩種結構異構物；後者為二級鹵代烷。兩者消去均可得丙烯，但取代產物分別為 1-丙醇與 2-丙醇。",
+        "guidance": "比較兩種氯丙烷的碳連接方式、鹵代烷級數及消去／取代產物。",
+        "reference": "",
+        "placeholder": ""
+      },
+      {
+        "type": "choice",
+        "title": "第 2 題｜極性與反應性",
+        "prompt": "某學生發現 C—F 鍵比 C—I 鍵具有更明顯的極性，因此推論氟代烷在相同條件下必定比碘代烷更容易發生取代反應。哪項解釋最適合評估他的推論？",
+        "options": [
+          { "value": "A", "label": "推論正確，因為極性愈大，鍵一定愈弱。" },
+          { "value": "B", "label": "推論不充分，因為取代反應還與鍵強度及離去基能力有關。" },
+          { "value": "C", "label": "推論正確，因為氟的原子半徑比碘大。" },
+          { "value": "D", "label": "兩種化合物的 C—X 鍵都沒有極性。" }
+        ],
+        "multiple": false,
+        "answers": ["B"],
+        "parts": [],
+        "explanation": "補解：鍵的極性不足以單獨決定取代速率；C—F 鍵強，且 F⁻ 通常是較差的離去基，因此原推論不充分。",
+        "guidance": "反應性還受鍵解離難易及離去基穩定性影響。",
+        "reference": "",
+        "placeholder": ""
+      },
+      {
+        "type": "choice",
+        "title": "第 3 題｜反應條件與結構限制",
+        "prompt": "考慮溴乙烷（CH₃CH₂Br）與氯甲烷（CH₃Cl）。哪些判斷正確？",
+        "options": [
+          { "value": "A", "label": "溴乙烷可以在不同條件下，分別偏向取代或消去反應。" },
+          { "value": "B", "label": "氯甲烷沒有 β 碳，因此無法透過一般脫鹵化氫反應產生烯類。" },
+          { "value": "C", "label": "溴乙烷形成乙烯時，原有的兩個碳原子仍留在有機產物中。" },
+          { "value": "D", "label": "溴乙烷只要有 C—Br 鍵，就無論條件為何都只會生成乙醇。" }
+        ],
+        "multiple": true,
+        "answers": ["A", "B", "C"],
+        "parts": [],
+        "explanation": "補解：溴乙烷可依條件進行取代或消去；消去時形成乙烯並保留兩個碳。氯甲烷沒有 β 碳，不能作一般 β-消去。",
+        "guidance": "辨認取代與消去條件，並確認消去反應需要 β 碳上的氫。",
+        "reference": "",
+        "placeholder": ""
+      },
+      {
+        "type": "choice",
+        "title": "第 4 題｜氯乙烯與 PVC",
+        "prompt": "關於氯乙烯加成聚合形成 PVC 的過程，下列哪些敘述正確？",
+        "options": [
+          { "value": "A", "label": "原本雙鍵中的 π 鍵參與聚合過程。" },
+          { "value": "B", "label": "每個重複單元中的氯原子都會以氯離子形式脫離。" },
+          { "value": "C", "label": "PVC 的重複單元可表示為 —CH₂—CH(Cl)—。" },
+          { "value": "D", "label": "PVC 的形成屬於典型的鹵素取代反應。" }
+        ],
+        "multiple": true,
+        "answers": ["A", "C"],
+        "parts": [],
+        "explanation": "補解：加成聚合時 C=C 的 π 鍵轉為形成新的 C—C 單鍵；氯保留在重複單元 —CH₂—CH(Cl)— 中，並非取代離去。",
+        "guidance": "追蹤單體雙鍵如何轉為聚合物主鏈，並確認取代基是否保留。",
+        "reference": "",
+        "placeholder": ""
+      }
+    ]
+  },
+  "13": {
+    "questions": [
+      {
+        "type": "choice",
+        "title": "第 1 題",
+        "prompt": "以惰性電極電解熔融 MgCl₂ 與 MgCl₂ 水溶液。下列何者正確？",
+        "options": [
+          { "value": "A", "label": "兩者陰極皆產生 Mg" },
+          { "value": "B", "label": "熔融狀態陰極產生 Mg，水溶液陰極通常產生 H₂" },
+          { "value": "C", "label": "兩者陽極皆產生 O₂" },
+          { "value": "D", "label": "水溶液不會導電" }
+        ],
+        "multiple": false,
+        "answers": ["B"],
+        "parts": [],
+        "explanation": "補解：熔融 MgCl₂ 中 Mg²⁺ 在陰極還原成 Mg；水溶液中水比 Mg²⁺ 容易還原，陰極通常產生 H₂。",
+        "guidance": "比較熔融鹽與水溶液中陰極可被還原的粒子。",
+        "reference": "",
+        "placeholder": ""
+      },
+      {
+        "type": "choice",
+        "title": "第 2 題",
+        "prompt": "將相同電量分別通入 AgNO₃ 與 CuSO₄ 水溶液，假設皆使用惰性電極，且陰極電流效率皆為 100%。何者正確？",
+        "options": [
+          { "value": "A", "label": "兩種金屬析出莫耳數相同" },
+          { "value": "B", "label": "銅析出莫耳數為銀的兩倍" },
+          { "value": "C", "label": "銀析出莫耳數為銅的兩倍" },
+          { "value": "D", "label": "兩種金屬析出質量相同" }
+        ],
+        "multiple": false,
+        "answers": ["C"],
+        "parts": [],
+        "explanation": "補解：Ag⁺ 每還原 1 mol 需 1 mol 電子；Cu²⁺ 每還原 1 mol 需 2 mol 電子。同電量下銀析出莫耳數為銅的兩倍。",
+        "guidance": "先寫出兩種金屬離子的還原半反應，再比較每莫耳金屬需要的電子數。",
+        "reference": "",
+        "placeholder": ""
+      },
+      {
+        "type": "choice",
+        "title": "第 3 題",
+        "prompt": "以 5.00 A 電流電解 CuSO₄ 溶液 1930 秒，陰極電流效率為 80%。若 M(Cu)=63.5 g/mol，析出銅約多少克？",
+        "options": [
+          { "value": "A", "label": "2.54 g" },
+          { "value": "B", "label": "3.18 g" },
+          { "value": "C", "label": "5.08 g" },
+          { "value": "D", "label": "6.35 g" }
+        ],
+        "multiple": false,
+        "answers": ["A"],
+        "parts": [],
+        "explanation": "補解：Q=It=9650 C≈0.100 mol e⁻。有效電子量為 0.0800 mol；Cu²⁺+2e⁻→Cu，故 n(Cu)=0.0400 mol，質量約 2.54 g。",
+        "guidance": "先用電流效率修正電子莫耳數，再按 Cu²⁺ 還原的電子係數換算。",
+        "reference": "",
+        "placeholder": ""
+      },
+      {
+        "type": "choice",
+        "title": "第 4 題",
+        "prompt": "某電解池以惰性電極電解 Na₂SO₄ 水溶液，收集到陰極 H₂ 為 0.20 mol。假設氣體皆完整收集且無副反應，陽極產生多少 mol O₂？",
+        "options": [
+          { "value": "A", "label": "0.05 mol" },
+          { "value": "B", "label": "0.10 mol" },
+          { "value": "C", "label": "0.20 mol" },
+          { "value": "D", "label": "0.40 mol" }
+        ],
+        "multiple": false,
+        "answers": ["B"],
+        "parts": [],
+        "explanation": "補解：陰極每生成 1 mol H₂ 消耗 2 mol 電子；陽極每生成 1 mol O₂ 產生 4 mol 電子。電子守恆得 n(O₂)=0.20×2/4=0.10 mol。",
+        "guidance": "由陰極 H₂ 先求電子莫耳數，再用陽極 O₂ 半反應換算。",
+        "reference": "",
+        "placeholder": ""
+      },
+      {
+        "type": "choice",
+        "title": "第 5 題",
+        "prompt": "銅電鍍裝置使用可溶性銅陽極，電解一段時間後，哪個現象最合理？",
+        "options": [
+          { "value": "A", "label": "陽極質量增加，陰極質量減少" },
+          { "value": "B", "label": "陽極與陰極質量皆增加" },
+          { "value": "C", "label": "陽極質量減少，陰極質量增加" },
+          { "value": "D", "label": "陽極與陰極質量皆不變" }
+        ],
+        "multiple": false,
+        "answers": ["C"],
+        "parts": [],
+        "explanation": "補解：可溶性銅陽極發生 Cu→Cu²⁺+2e⁻ 而溶解、質量減少；陰極 Cu²⁺+2e⁻→Cu 沉積，質量增加。",
+        "guidance": "分別寫出可溶性陽極的氧化與陰極的還原半反應。",
+        "reference": "",
+        "placeholder": ""
+      }
+    ]
+  }
+}

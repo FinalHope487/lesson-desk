@@ -1,0 +1,224 @@
+{
+  "7": {
+    "questions": [
+      {
+        "type": "choice",
+        "title": "題 1｜由重複單元反推單體（單選）",
+        "prompt": "某聚合物的重複單元為 [-CH₂-CH(CH₃)-]ₙ。最可能的單體是？",
+        "options": [
+          { "value": "A", "label": "A. CH₃–CH₃" },
+          { "value": "B", "label": "B. CH₂=CH–CH₃" },
+          { "value": "C", "label": "C. CH₃–CH₂–OH" },
+          { "value": "D", "label": "D. CH₂=CHCl" }
+        ],
+        "multiple": false,
+        "answers": ["B"],
+        "explanation": "補解：加成聚合會打開單體的 C=C，形成主鏈 –CH₂–CH(CH₃)–；對應單體是丙烯 CH₂=CH–CH₃。",
+        "guidance": ""
+      },
+      {
+        "type": "choice",
+        "title": "題 2｜官能基與聚合反應（多選）",
+        "prompt": "以 H₂N–R–NH₂ 和 HOOC–R′–COOH 為單體形成高分子，下列哪些判斷正確？",
+        "options": [
+          { "value": "A", "label": "A. 可以形成聚醯胺" },
+          { "value": "B", "label": "B. 主要連接鍵具有 –C(=O)–NH– 結構" },
+          { "value": "C", "label": "C. 典型反應可產生水" },
+          { "value": "D", "label": "D. 因為反應物都沒有 C=C，所以不可能聚合" }
+        ],
+        "multiple": true,
+        "answers": ["A", "B", "C"],
+        "explanation": "補解：二胺與二羧酸可縮合形成聚醯胺，主鏈含醯胺鍵 –C(=O)–NH–，典型反應會脫去水；聚合不必一定靠 C=C，因此 D 錯。",
+        "guidance": ""
+      },
+      {
+        "type": "choice",
+        "title": "題 3｜澱粉、纖維素與核酸（多選）",
+        "prompt": "從分子組成與結構的角度判斷，哪些敘述正確？",
+        "options": [
+          { "value": "A", "label": "A. 澱粉與纖維素具有相同種類的來源單體" },
+          { "value": "B", "label": "B. 同樣由葡萄糖形成的聚合物，鍵結方式可能不同" },
+          { "value": "C", "label": "C. DNA 的重複結構中包含糖與磷酸" },
+          { "value": "D", "label": "D. 蛋白質的胺基酸排列順序不會影響其結構" }
+        ],
+        "multiple": true,
+        "answers": ["A", "B", "C"],
+        "explanation": "補解：澱粉與纖維素都由葡萄糖單體形成，但糖苷鍵型式不同；DNA 骨架含糖與磷酸。蛋白質的一級結構會影響後續摺疊，因此 D 錯。",
+        "guidance": ""
+      },
+      {
+        "type": "choice",
+        "title": "題 4｜共軛結構與導電性（單選）",
+        "prompt": "下列哪一項最能說明聚乙炔經適當摻雜後導電性提高的原因？",
+        "options": [
+          { "value": "A", "label": "A. 每個碳原子都變成金屬原子" },
+          { "value": "B", "label": "B. 共軛結構與摻雜有助於電荷的形成和傳遞" },
+          { "value": "C", "label": "C. 所有碳碳鍵都轉變成離子鍵" },
+          { "value": "D", "label": "D. 聚乙炔的主鏈完全不含雙鍵" }
+        ],
+        "multiple": false,
+        "answers": ["B"],
+        "explanation": "補解：聚乙炔的共軛 π 電子系統可延展，適當摻雜會產生可移動的電荷載子，提升沿高分子鏈的電荷傳遞；不會把碳變成金屬或把鍵全改成離子鍵。",
+        "guidance": ""
+      },
+      {
+        "type": "choice",
+        "title": "題 5｜材料回收（多選）",
+        "prompt": "工程師要評估 PE 與 PET 的回收方式。哪些推論合理？",
+        "options": [
+          { "value": "A", "label": "A. PET 主鏈具有酯鍵，可評估特定的化學分解回收方法" },
+          { "value": "B", "label": "B. PE 與 PET 都可以直接利用一般酯鍵水解方式分解" },
+          { "value": "C", "label": "C. 即使材料具有相同辨識碼，實際回收仍受製品及當地回收制度影響" },
+          { "value": "D", "label": "D. 只要有塑膠材質辨識碼，材料就一定可以無限次回收而不劣化" }
+        ],
+        "multiple": true,
+        "answers": ["A", "C"],
+        "explanation": "補解：PET 主鏈含可進行特定解聚的酯鍵，PE 主鏈則沒有酯鍵；實際可回收性取決於製品與地方設施，回收也可能伴隨材料劣化。",
+        "guidance": ""
+      }
+    ]
+  },
+  "18": {
+    "questions": [
+      {
+        "type": "choice",
+        "title": "第 1 題",
+        "prompt": "在某溫度下，A ⇌ 2B 的平衡常數為 9。若將反應式改寫為 B ⇌ ½A，新的平衡常數為多少？",
+        "options": [
+          { "value": "A", "label": "A. 1/3" },
+          { "value": "B", "label": "B. 3" },
+          { "value": "C", "label": "C. 1/9" },
+          { "value": "D", "label": "D. 81" }
+        ],
+        "multiple": false,
+        "answers": ["A"],
+        "explanation": "補解：反應先反向，K 變為 1/9；再將係數乘以 1/2，新的 K=(1/9)^(1/2)=1/3。",
+        "guidance": ""
+      },
+      {
+        "type": "choice",
+        "title": "第 2 題",
+        "prompt": "A ⇌ 2B，起始 [A] = 1.0 M、[B] = 0，平衡時 [A] = 0.6 M。Kc 為多少？",
+        "options": [
+          { "value": "A", "label": "A. 0.4" },
+          { "value": "B", "label": "B. 0.8" },
+          { "value": "C", "label": "C. 16/15" },
+          { "value": "D", "label": "D. 8/3" }
+        ],
+        "multiple": false,
+        "answers": ["C"],
+        "explanation": "補解：平衡時 A 減少 0.4 M，依係數 B 增加 0.8 M；Kc=[B]²/[A]=(0.8)²/0.6=16/15。",
+        "guidance": ""
+      },
+      {
+        "type": "choice",
+        "title": "第 3 題",
+        "prompt": "對 CaCO₃(s) ⇌ CaO(s) + CO₂(g)，在固定溫度下且兩種固體均存在時，增加 CaCO₃ 固體的量，哪個敘述正確？",
+        "options": [
+          { "value": "A", "label": "A. Kc 增大" },
+          { "value": "B", "label": "B. Kc 減小" },
+          { "value": "C", "label": "C. Kc 不變，平衡 CO₂ 濃度也不變" },
+          { "value": "D", "label": "D. 平衡 CO₂ 濃度必定加倍" }
+        ],
+        "multiple": false,
+        "answers": ["C"],
+        "explanation": "補解：純固體不列入 Kc 表式；固定溫度下 Kc 不變，兩種固體均存在時 CO₂ 的平衡濃度由溫度決定，不因增加固體量而改變。",
+        "guidance": ""
+      },
+      {
+        "type": "choice",
+        "title": "第 4 題",
+        "prompt": "A ⇌ B 的 Kc = 4。起始 [A] = 1.0 M、[B] = 1.0 M。達到平衡後，[B] 是多少？",
+        "options": [
+          { "value": "A", "label": "A. 1.0 M" },
+          { "value": "B", "label": "B. 1.2 M" },
+          { "value": "C", "label": "C. 1.6 M" },
+          { "value": "D", "label": "D. 1.8 M" }
+        ],
+        "multiple": false,
+        "answers": ["C"],
+        "explanation": "補解：令反應向右進行 x M，平衡時 [A]=1−x、[B]=1+x。由 (1+x)/(1−x)=4 得 x=0.6，因此 [B]=1.6 M。",
+        "guidance": ""
+      }
+    ]
+  },
+  "26": {
+    "questions": [
+      {
+        "type": "choice",
+        "title": "第 1 題｜單選",
+        "prompt": "反應 2A → 3B 中，A 的濃度在 20 秒內由 0.80 M 降至 0.40 M。此反應的平均反應速率是多少？",
+        "options": [
+          { "value": "A", "label": "A. 0.010 M/s" },
+          { "value": "B", "label": "B. 0.020 M/s" },
+          { "value": "C", "label": "C. 0.030 M/s" },
+          { "value": "D", "label": "D. 0.040 M/s" }
+        ],
+        "multiple": false,
+        "answers": ["A"],
+        "explanation": "補解：平均反應速率 v=−(1/2)Δ[A]/Δt=(1/2)(0.40/20)=0.010 M/s。",
+        "guidance": ""
+      },
+      {
+        "type": "choice",
+        "title": "第 2 題｜單選",
+        "prompt": "某反應速率定律為 r=k[A]^m。當 [A] 變成原來的 3 倍時，速率變成 9 倍。m 為多少？",
+        "options": [
+          { "value": "A", "label": "A. 0" },
+          { "value": "B", "label": "B. 1" },
+          { "value": "C", "label": "C. 2" },
+          { "value": "D", "label": "D. 3" }
+        ],
+        "multiple": false,
+        "answers": ["C"],
+        "explanation": "補解：速率比為 3^m=9=3²，因此 m=2。",
+        "guidance": ""
+      },
+      {
+        "type": "choice",
+        "title": "第 3 題｜單選",
+        "prompt": "某零級反應初始濃度為 0.80 M，k=0.020 M/s。濃度降到 0.20 M 需要多少秒？",
+        "options": [
+          { "value": "A", "label": "A. 10 秒" },
+          { "value": "B", "label": "B. 20 秒" },
+          { "value": "C", "label": "C. 30 秒" },
+          { "value": "D", "label": "D. 40 秒" }
+        ],
+        "multiple": false,
+        "answers": ["C"],
+        "explanation": "補解：零級反應 [A]=[A]₀−kt，故 t=(0.80−0.20)/0.020=30 秒。",
+        "guidance": ""
+      },
+      {
+        "type": "choice",
+        "title": "第 4 題｜單選",
+        "prompt": "某一級反應半生期為 8 分鐘，初始濃度 0.80 M。經過 24 分鐘後，濃度為多少？",
+        "options": [
+          { "value": "A", "label": "A. 0.40 M" },
+          { "value": "B", "label": "B. 0.20 M" },
+          { "value": "C", "label": "C. 0.10 M" },
+          { "value": "D", "label": "D. 0.05 M" }
+        ],
+        "multiple": false,
+        "answers": ["C"],
+        "explanation": "補解：24 分鐘是 3 個半生期，濃度為 0.80×(1/2)³=0.10 M。",
+        "guidance": ""
+      },
+      {
+        "type": "choice",
+        "title": "第 5 題｜單選",
+        "prompt": "某反應在不同初始濃度下，測得速率如下：[A]=0.10 M 時 r=0.030 M/s；[A]=0.20 M 時 r=0.030 M/s；[A]=0.40 M 時 r=0.030 M/s。哪個敘述正確？",
+        "options": [
+          { "value": "A", "label": "A. 此反應是一級反應" },
+          { "value": "B", "label": "B. 速率常數為 0.030 s⁻¹" },
+          { "value": "C", "label": "C. 此反應為零級反應" },
+          { "value": "D", "label": "D. 濃度增加會使速率下降" }
+        ],
+        "multiple": false,
+        "answers": ["C"],
+        "explanation": "補解：濃度改變而速率保持 0.030 M/s，符合零級反應；零級速率常數單位為 M/s，所以 B 的單位錯。",
+        "guidance": ""
+      }
+    ]
+  }
+}
