@@ -102,15 +102,7 @@ main { min-width: 0; border: 1px solid var(--line); border-radius: 14px; backgro
 .reading-tools button { font-size: .87rem }
 .annotation-hint { margin: 0; color: var(--muted); font-size: .87rem }
 main:has(#body[hidden]) { border: 0; background: transparent; overflow: visible }
-main:has(#body[hidden]) .cover, .tutorial { border: 1px solid var(--line); border-radius: 14px }
-.tutorial { padding: clamp(1.15rem, 4.1vw, 3.4rem); background: var(--paper) }
-.cover:not([hidden]) + .tutorial { margin-block-start: 1rem }
-.tutorial h2 { margin: 0 0 .65rem; font: 750 clamp(1.65rem, 3.3vw, 2.35rem)/1.25 var(--serif); scroll-margin-block-start: 4.25rem }
-.tutorial h3 { margin: 1.45rem 0 .4rem; font-size: 1.08rem }
-.tutorial p, .tutorial ol { max-inline-size: 42rem; margin: 0; line-height: 1.8 }
-.tutorial ol { padding-inline-start: 1.35em }
-.tutorial li + li { margin-block-start: .55rem }
-.tutorial li::marker { color: var(--accent); font-weight: 700 }
+main:has(#body[hidden]) .cover { border: 1px solid var(--line); border-radius: 14px }
 #body { padding: .45rem clamp(1rem, 3.6vw, 2.6rem) 2.4rem; overflow-wrap: anywhere }
 #body p { margin: .78rem 0; line-height: 1.85 }
 #body h2, #body h3, #body h4, #body h5, #body h6 { scroll-margin-top: 1rem; margin: 1.65rem 0 .62rem; line-height: 1.42 }
@@ -228,13 +220,19 @@ dialog .actions { justify-content: flex-end; margin-top: .8rem }
 .navigation-content .contents a { min-block-size: 44px; display: flex; align-items: center }
 body:has(.navigation-dialog[open]) { overflow-y: hidden }
 @media (max-width: 68rem) {
-  .workspace { grid-template-columns: minmax(0, 1fr); max-width: 55rem }
-  .side-slot { display: none }
-  .compact-navigation { position: sticky; inset-block-start: 0; z-index: 2; display: flex; justify-content: space-between; gap: .5rem; padding: .35rem clamp(.85rem, 3.3vw, 3rem); background: var(--paper); border-block-end: 1px solid var(--line) }
+  .workspace { grid-template-columns: minmax(9rem, 12rem) minmax(0, 1fr); max-width: 70rem }
+  #library-slot { display: block }
+  #outline-slot { display: none }
+  .compact-navigation { position: sticky; inset-block-start: 0; z-index: 2; display: flex; justify-content: flex-end; gap: .5rem; padding: .35rem clamp(.85rem, 3.3vw, 3rem); background: var(--paper); border-block-end: 1px solid var(--line) }
+  #show-library { display: none }
   .compact-navigation button { min-block-size: 44px; font-size: .88rem; font-weight: 650; white-space: nowrap }
   #body [id] { scroll-margin-block-start: 4.25rem }
 }
-@media (max-width: 40rem) {
+@media (max-width: 32rem) {
+  .workspace { grid-template-columns: minmax(0, 1fr); max-width: 55rem }
+  #library-slot { display: none }
+  .compact-navigation { justify-content: space-between }
+  #show-library { display: inline-flex }
   .top button, .library button { min-height: 44px }
   .cover::after { right: -58% }
 }
@@ -274,17 +272,22 @@ body:has(.navigation-dialog[open]) { overflow-y: hidden }
 .visualization-axis { stroke: var(--muted); stroke-width: 1.5; }
 .visualization-grid { stroke: var(--line); stroke-width: 1; }
 .visualization-marker { fill: var(--accent); stroke: var(--paper); stroke-width: 2; }
+.visualization-marker-line { stroke: var(--chart-2); stroke-width: 1.5; stroke-dasharray: 4 3; }
+.visualization-block { fill: var(--wash); stroke: var(--line); stroke-width: 1.5; }
 .visualization-endpoint { fill: var(--muted); }
 .visualization-label { fill: var(--ink); font: 12px var(--sans); }
 .visualization-controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); align-items: end; gap: .7rem; margin-top: .5rem; }
 .visualization-controls label { display: grid; gap: .2rem; font-weight: 650; }
+.visualization-controls .visualization-control { display: grid; grid-template-columns: minmax(0, 1fr) 6.5rem; align-items: center; gap: .2rem .5rem; }
+.visualization-controls .control-title { grid-column: 1 / -1; }
+.visualization-controls .visualization-control select { grid-column: 1 / -1; width: 100%; min-height: 44px; }
+.visualization-controls .visually-hidden { position: absolute; inline-size: 1px; block-size: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
 .visualization-controls input[type="range"] { width: 100%; min-height: 44px; accent-color: var(--accent); }
 .visualization-controls input[type="number"] { width: 100%; min-height: 44px; padding: .4rem .55rem; border: 1px solid var(--muted); border-radius: 6px; color: var(--ink); background: var(--paper); }
 .visualization-output { display: block; min-height: 1.7em; margin-top: .45rem; text-align: center; font-variant-numeric: tabular-nums; }
-.visualization-controls .visualization-control { grid-template-columns: minmax(0, 1fr) 6.5rem; align-items: center; }
-.visualization-controls .visualization-control > span { grid-column: 1 / -1; }
-.visualization-controls .visualization-control input[type="range"] { grid-column: 1; grid-row: 2; }
-.visualization-controls .visualization-control input[type="number"] { grid-column: 2; grid-row: 2; }
+.visualization-provenance { margin: .45rem 0 0; color: var(--muted); text-align: center; font-size: .82rem; }
+.visualization-controls .visualization-control input[type="range"] { grid-column: 1; }
+.visualization-controls .visualization-control input[type="number"] { grid-column: 2; }
 .visualization-legend { display: flex; flex-wrap: wrap; justify-content: center; gap: .3rem 1rem; margin: .15rem 0 .55rem; padding: 0; list-style: none; font-size: .88rem; }
 .visualization-legend li::before { content: ""; display: inline-block; width: .8rem; height: .18rem; margin-inline-end: .35rem; vertical-align: middle; background: currentColor; }
 .visualization-legend .c0 { color: var(--chart-0); }

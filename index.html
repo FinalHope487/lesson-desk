@@ -5,13 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta id="theme-color" name="theme-color" content="#f5f6f8">
   <title>講義桌</title>
-  <link rel="stylesheet" href="reader.css?v=be70f0b1a0a8">
+  <link rel="stylesheet" href="reader.css?v=0f5b32f7206f">
 
   <script defer src="katex.min.js?v=0.16.11"></script>
   <script defer src="marked.umd.js?v=17.0.5"></script>
   <script defer src="lesson-markdown.js?v=cb1f00f72f44"></script>
   <script defer src="lesson-visualization.js?v=165cc048c069"></script>
-  <script defer src="reader.js?v=54f2a6f1afb9"></script>
+  <script defer src="lesson-legacy-widgets.js?v=dfaf7928f90e"></script>
+  <script defer src="reader.js?v=a726da008224"></script>
 </head>
 <body>
   <a class="skip" href="#lesson">跳至教材</a>
@@ -46,20 +47,6 @@
           <p id="subtitle"></p>
         </div>
       </div>
-      <section id="tutorial" class="tutorial" aria-labelledby="tutorial-title">
-        <h2 id="tutorial-title" tabindex="-1">三分鐘上手講義桌</h2>
-        <p>你可以用講義桌自學或複習高中數學、物理和化學。上課前想先有個概念，可以挑一小節看看。下課後哪裡還想不通，就回來翻那一段。考前可以挑幾題做，看看哪些地方還需要複習。</p>
-
-        <h3>先完成一次小練習</h3>
-        <ol>
-          <li><strong>挑一份教材。</strong>到「課程資料庫」挑一門科目，再選一份你想看的講義。用手機的話，先點「教材」。如果有「開啟範例」，也可以先拿它試讀。手邊有自己的資料，就點「匯入對話」，選擇 JSON、Markdown 或純文字檔。</li>
-          <li><strong>帶著一個問題讀。</strong>想弄懂哪裡，就從「教材章節」跳到那一節。找一個觀念或例子讀讀看，再試著用自己的話講一遍。</li>
-          <li><strong>挑一題試試看。</strong>如果這份講義有互動題，可以從「跳到習題」選一題自己做做看。做到一半卡住了，就回去翻相關段落，點旁邊的「＋」把疑問記下來，下次可以從那裡接著讀。</li>
-        </ol>
-
-        <h3>一次讀一小段就夠了</h3>
-        <p>講義一打開就有好幾頁？先看看目錄，挑今天用得上的一節就好。會的地方可以跳過，還沒想通的就先留個註解。只要能把一個觀念說清楚，或知道自己卡在哪裡，今天就可以先讀到這裡。</p>
-      </section>
       <div id="reading-tools" class="reading-tools" hidden>
         <p class="annotation-hint">滑過或點一下段落，即可加入註解。</p>
         <button id="save" type="button">匯出含註解的 JSON</button>

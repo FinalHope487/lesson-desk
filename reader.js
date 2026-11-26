@@ -9,7 +9,6 @@ const catalogProjects = [];
 const courseSubjects = new Map([["數學", "高中數學"], ["物理", "高中物理"], ["化學", "高中化學"]]);
 const conversationIdPattern = /^[a-f0-9]{8}(?:-[a-f0-9]{4}){3}-[a-f0-9]{12}$/i;
 let activeId;
-let tutorialOnly = false;
 let requestedLesson;
 let annotationBlock;
 let revealedBlock;
@@ -1180,18 +1179,56 @@ function renderMessage(message, doc, parent, pending, headings, exercises, block
   const blockCounts = new Map();
   const chapterGaps = message.role === "assistant"
     ? LessonMarkdown.chapterQuizGaps(blocks, doc.quizGroups, doc.questions.length) : new Map();
-  const presentation = markdownPresentation(message.text, blocks, block => message.role === "assistant" &&
+  const legacyPlan = globalThis.LessonLegacyWidgets?.planMessage(doc, message, blocks) ?? new Map();
+  const legacyWidgetBlocks = new Set([...legacyPlan.keys()].map(index => blocks[index]));
+  const legacyInitialBlocks = new Set();
+  for (const [index, widget] of legacyPlan) {
+    if (widget.skippedCount) {
+      legacyInitialBlocks.add(blocks[index + 1]);
+      legacyInitialBlocks.add(blocks[index + 2]);
+    }
+  }
+  const presentation = markdownPresentation(message.text, blocks, block => legacyWidgetBlocks.has(block) ||
+    legacyInitialBlocks.has(block) || message.role === "assistant" &&
     (chapterGaps.has(block) || pending.some(item => item.question.title && item.question.title === block.text) ||
       doc.quizGroups.some(group => group.start === block.text.trim())));
   let exerciseLevel;
-  let reconstructedWidgetRendered = false;
   for (let index = 0; index < blocks.length; index++) {
     const block = blocks[index];
     const print = fingerprint(block.text);
     const occurrence = (blockCounts.get(print) ?? 0) + 1;
     blockCounts.set(print, occurrence);
     const key = `${message.id ?? message.role}:${print}:${occurrence}`;
-    if (reconstructedWidgetRendered && block.kind === "quote" && block.text.includes("目前的值無法使用")) continue;
+    const legacyWidget = legacyPlan.get(index);
+    if (legacyWidget) {
+      const node = globalThis.LessonLegacyWidgets.render(legacyWidget.spec, legacyWidget.values, legacyWidget.sourceParameters);
+      node.dataset.anchor = key;
+      const row = annotatableBlock(node, block, key, doc.annotations.get(key));
+      const leadIn = doc.leadIns.get(key);
+      if (leadIn && row !== node) renderLeadIn(row, leadIn);
+      parent.append(row);
+      let skippedCount = legacyWidget.skippedCount;
+      if (skippedCount) {
+        const pendingCounts = new Map();
+        for (let offset = 1; offset <= skippedCount; offset++) {
+          const skippedPrint = fingerprint(blocks[index + offset].text);
+          const skippedOccurrence = (blockCounts.get(skippedPrint) ?? 0) +
+            (pendingCounts.get(skippedPrint) ?? 0) + 1;
+          const skippedKey = (message.id ?? message.role) + ":" + skippedPrint + ":" + skippedOccurrence;
+          if (doc.annotations.has(skippedKey) || doc.leadIns.has(skippedKey)) {
+            skippedCount = 0;
+            break;
+          }
+          pendingCounts.set(skippedPrint, (pendingCounts.get(skippedPrint) ?? 0) + 1);
+        }
+      }
+      for (let offset = 1; offset <= skippedCount; offset++) {
+        const skippedPrint = fingerprint(blocks[index + offset].text);
+        blockCounts.set(skippedPrint, (blockCounts.get(skippedPrint) ?? 0) + 1);
+      }
+      index += skippedCount;
+      continue;
+    }
     const reconstructed = globalThis.LessonVisualization?.reconstructedSpecFor(doc, message, block);
     if (reconstructed) {
       const node = globalThis.LessonVisualization.renderReconstructed(reconstructed);
@@ -1200,7 +1237,6 @@ function renderMessage(message, doc, parent, pending, headings, exercises, block
       const leadIn = doc.leadIns.get(key);
       if (leadIn && row !== node) renderLeadIn(row, leadIn);
       parent.append(row);
-      reconstructedWidgetRendered = true;
       continue;
     }
     if (chapterGaps.has(block)) {
@@ -1373,12 +1409,7 @@ function render() {
   $("import").disabled = importing;
   $("sample").hidden = typeof window.readLessonSample !== "function" || library.has(window.lessonSampleId);
   $("sample").disabled = importing;
-  $("cover").hidden = tutorialOnly;
-  $("tutorial").hidden = Boolean(doc);
-  $("tutorial-title").setAttribute("aria-level", tutorialOnly ? "1" : "2");
-  for (const heading of $("tutorial").querySelectorAll("h3")) {
-    heading.setAttribute("aria-level", tutorialOnly ? "2" : "3");
-  }
+  $("cover").hidden = false;
   $("body").hidden = !doc;
   $("reading-tools").hidden = !doc;
   $("outline").hidden = true;
@@ -1485,16 +1516,13 @@ function setupNavigation() {
   });
 }
 
-function select(id, showTutorial = false) {
-  if (showTutorial) $("status").textContent = "";
+function select(id) {
   requestedLesson = undefined;
-  if (id !== activeId || showTutorial !== tutorialOnly) {
-    if (library.has(activeId)) library.get(activeId).scroll = window.scrollY;
-    activeId = id;
-    tutorialOnly = showTutorial;
-    render();
-  } else if (!showTutorial) return;
-  $(showTutorial ? "tutorial-title" : "lesson").focus({ preventScroll: true });
+  if (id === activeId) return;
+  if (library.has(activeId)) library.get(activeId).scroll = window.scrollY;
+  activeId = id;
+  render();
+  $("lesson").focus({ preventScroll: true });
   window.scrollTo(0, library.get(id)?.scroll ?? 0);
 }
 
