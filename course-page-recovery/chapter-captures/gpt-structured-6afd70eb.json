@@ -1,0 +1,118 @@
+{
+  "id": "6afd70eb-8bf8-83e8-9273-5a10a71af1b6",
+  "heading": "十、本章綜合習題",
+  "exactQuestionCount": 5,
+  "extraction": "DOM extraction using neighboring option labels, radio/checkbox groups, and question card boundaries. No answers inferred; raw HTML remains fallback.",
+  "sections": [
+    {
+      "heading": "十、本章綜合習題",
+      "questionCount": 5,
+      "sourceControlCounts": {
+        "radio": 20,
+        "checkbox": 0
+      },
+      "extractedControlCounts": {
+        "radio": 20,
+        "checkbox": 0
+      },
+      "questionRecords": [
+        {
+          "index": 1,
+          "promptBlocks": [
+            "第 1 題",
+            "單選題"
+          ],
+          "optionGroups": [
+            {
+              "type": "radio",
+              "options": [
+                "A. 電子改由溶液直接流向陰極",
+                "B. 電池仍可長時間維持原本電流",
+                "C. 電流很快受到抑制，因為兩側無法持續維持電中性",
+                "D. 鋅電極立刻改為陰極"
+              ]
+            }
+          ],
+          "sourceText": "第 1 題\n單選題\n某鋅銅電池正常運作時，若鹽橋突然被移除，最可能發生什麼現象？\nA. 電子改由溶液直接流向陰極\nB. 電池仍可長時間維持原本電流\nC. 電流很快受到抑制，因為兩側無法持續維持電中性\nD. 鋅電極立刻改為陰極\n檢查與查看解析"
+        },
+        {
+          "index": 2,
+          "promptBlocks": [
+            "第 2 題",
+            "單選題"
+          ],
+          "optionGroups": [
+            {
+              "type": "radio",
+              "options": [
+                "A. Mg 為陰極，電壓 2.03 V",
+                "B. Cu 為陰極，電壓 2.71 V",
+                "C. Cu 為陽極，電壓 2.71 V",
+                "D. Mg 為陰極，電壓 2.71 V"
+              ]
+            }
+          ],
+          "sourceText": "第 2 題\n單選題\n已知 Mg²⁺/Mg = −2.37 V，Cu²⁺/Cu = +0.34 V。兩者組成標準電池，下列何者正確？\nA. Mg 為陰極，電壓 2.03 V\nB. Cu 為陰極，電壓 2.71 V\nC. Cu 為陽極，電壓 2.71 V\nD. Mg 為陰極，電壓 2.71 V\n檢查與查看解析"
+        },
+        {
+          "index": 3,
+          "promptBlocks": [
+            "第 3 題",
+            "單選題"
+          ],
+          "optionGroups": [
+            {
+              "type": "radio",
+              "options": [
+                "A. +2.40 V",
+                "B. +0.80 V",
+                "C. +0.27 V",
+                "D. −0.80 V"
+              ]
+            }
+          ],
+          "sourceText": "第 3 題\n單選題\n某半反應 Ag⁺ + e⁻ → Ag 的標準還原電位為 +0.80 V。若將反應乘以 3，新的標準還原電位是多少？\nA. +2.40 V\nB. +0.80 V\nC. +0.27 V\nD. −0.80 V\n檢查與查看解析"
+        },
+        {
+          "index": 4,
+          "promptBlocks": [
+            "第 4 題",
+            "單選題"
+          ],
+          "optionGroups": [
+            {
+              "type": "radio",
+              "options": [
+                "A. 硫酸濃度增加，兩極都形成 Pb",
+                "B. 硫酸濃度下降，兩極都逐漸形成 PbSO₄",
+                "C. 兩極都生成 PbO₂",
+                "D. 放電不涉及氧化還原反應"
+              ]
+            }
+          ],
+          "sourceText": "第 4 題\n單選題\n鉛蓄電池正常放電時，下列哪一項最符合其化學變化？\nA. 硫酸濃度增加，兩極都形成 Pb\nB. 硫酸濃度下降，兩極都逐漸形成 PbSO₄\nC. 兩極都生成 PbO₂\nD. 放電不涉及氧化還原反應\n檢查與查看解析"
+        },
+        {
+          "index": 5,
+          "promptBlocks": [
+            "第 5 題",
+            "單選題"
+          ],
+          "optionGroups": [
+            {
+              "type": "radio",
+              "options": [
+                "A. Fe²⁺ 在陰極被還原",
+                "B. 電子由 Ag 電極流向 Fe 電極",
+                "C. 電池總反應為 Fe+2Ag⁺→Fe²⁺+2Ag",
+                "D. Ag 電極是負極"
+              ]
+            }
+          ],
+          "sourceText": "第 5 題\n單選題\n某電池表示為 Fe(s)|Fe²⁺(aq)||Ag⁺(aq)|Ag(s)。下列何者正確？\nA. Fe²⁺ 在陰極被還原\nB. 電子由 Ag 電極流向 Fe 電極\nC. 電池總反應為 Fe+2Ag⁺→Fe²⁺+2Ag\nD. Ag 電極是負極\n檢查與查看解析"
+        }
+      ],
+      "status": "ready"
+    }
+  ]
+}

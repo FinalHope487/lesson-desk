@@ -1,0 +1,123 @@
+{
+  "id": "6afd5739-9200-83ee-a351-f8c4a0797707",
+  "heading": "十、本章綜合習題",
+  "exactQuestionCount": 5,
+  "extraction": "DOM extraction using neighboring option labels, radio/checkbox groups, and question card boundaries. No answers inferred; raw HTML remains fallback.",
+  "sections": [
+    {
+      "heading": "十、本章綜合習題",
+      "questionCount": 5,
+      "sourceControlCounts": {
+        "radio": 12,
+        "checkbox": 8
+      },
+      "extractedControlCounts": {
+        "radio": 12,
+        "checkbox": 8
+      },
+      "questionRecords": [
+        {
+          "index": 1,
+          "promptBlocks": [
+            "第 1 題 · 單選",
+            "難度 ★★☆",
+            "某化合物由 X³⁺ 與 Y²⁻ 組成，其正確化學式為何？"
+          ],
+          "optionGroups": [
+            {
+              "type": "radio",
+              "options": [
+                "A. XY",
+                "B. X₂Y₃",
+                "C. X₃Y₂",
+                "D. X₆Y₆"
+              ]
+            }
+          ],
+          "sourceText": "第 1 題 · 單選\n難度 ★★☆\n某化合物由 X³⁺ 與 Y²⁻ 組成，其正確化學式為何？\nA. XY\nB. X₂Y₃\nC. X₃Y₂\nD. X₆Y₆\n檢查答案與解析"
+        },
+        {
+          "index": 2,
+          "promptBlocks": [
+            "第 2 題 · 多選",
+            "難度 ★★☆",
+            "下列哪些物質在所述狀態下通常能導電？（多選）"
+          ],
+          "optionGroups": [
+            {
+              "type": "checkbox",
+              "options": [
+                "A. 固態 NaCl",
+                "B. 熔融 MgCl₂",
+                "C. 固態 Cu",
+                "D. NaCl 水溶液"
+              ]
+            }
+          ],
+          "sourceText": "第 2 題 · 多選\n難度 ★★☆\n下列哪些物質在所述狀態下通常能導電？（多選）\nA. 固態 NaCl\nB. 熔融 MgCl₂\nC. 固態 Cu\nD. NaCl 水溶液\n檢查答案與解析"
+        },
+        {
+          "index": 3,
+          "promptBlocks": [
+            "第 3 題 · 單選",
+            "難度 ★★★",
+            "某晶體熔點高、固態不導電、熔融態能導電，受敲擊容易碎裂。最合理的推論為何？"
+          ],
+          "optionGroups": [
+            {
+              "type": "radio",
+              "options": [
+                "A. 具有典型金屬鍵",
+                "B. 主要由獨立中性分子組成",
+                "C. 可能是離子晶體",
+                "D. 必定由同一種元素組成"
+              ]
+            }
+          ],
+          "sourceText": "第 3 題 · 單選\n難度 ★★★\n某晶體熔點高、固態不導電、熔融態能導電，受敲擊容易碎裂。最合理的推論為何？\nA. 具有典型金屬鍵\nB. 主要由獨立中性分子組成\nC. 可能是離子晶體\nD. 必定由同一種元素組成\n檢查答案與解析"
+        },
+        {
+          "index": 4,
+          "promptBlocks": [
+            "第 4 題 · 單選",
+            "難度 ★★★",
+            "比較 MgO 與 NaCl，下列哪項解釋最合理？"
+          ],
+          "optionGroups": [
+            {
+              "type": "radio",
+              "options": [
+                "A. MgO 離子電荷較大且距離較短，靜電作用較強",
+                "B. MgO 一定含有自由電子",
+                "C. NaCl 是獨立分子，所以熔點較低",
+                "D. 只要含氧，熔點必定較高"
+              ]
+            }
+          ],
+          "sourceText": "第 4 題 · 單選\n難度 ★★★\n比較 MgO 與 NaCl，下列哪項解釋最合理？\nA. MgO 離子電荷較大且距離較短，靜電作用較強\nB. MgO 一定含有自由電子\nC. NaCl 是獨立分子，所以熔點較低\nD. 只要含氧，熔點必定較高\n檢查答案與解析"
+        },
+        {
+          "index": 5,
+          "promptBlocks": [
+            "第 5 題 · 多選",
+            "難度 ★★★",
+            "金屬能被拉成細線，離子晶體卻通常容易碎裂。哪些說法合理？（多選）"
+          ],
+          "optionGroups": [
+            {
+              "type": "checkbox",
+              "options": [
+                "A. 金屬受力時離域電子仍能維持結合作用",
+                "B. 離子晶體受力滑移時可能使同號離子相鄰",
+                "C. 金屬的所有化學鍵在拉伸時都完全消失",
+                "D. 離子晶體中正負離子之間沒有吸引力"
+              ]
+            }
+          ],
+          "sourceText": "第 5 題 · 多選\n難度 ★★★\n金屬能被拉成細線，離子晶體卻通常容易碎裂。哪些說法合理？（多選）\nA. 金屬受力時離域電子仍能維持結合作用\nB. 離子晶體受力滑移時可能使同號離子相鄰\nC. 金屬的所有化學鍵在拉伸時都完全消失\nD. 離子晶體中正負離子之間沒有吸引力\n檢查答案與解析"
+        }
+      ],
+      "status": "ready"
+    }
+  ]
+}

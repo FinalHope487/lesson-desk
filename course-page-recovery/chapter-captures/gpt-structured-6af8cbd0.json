@@ -1,0 +1,222 @@
+{
+  "id": "6af8cbd0-8524-83e8-a28b-b32c180c11e3",
+  "heading": "八、章末綜合習題",
+  "exactQuestionCount": 5,
+  "capturedCountTotal": 6,
+  "extraction": "Source-only DOM extraction of prompts, control groups and TeX annotations. No solutions generated; original HTML remains in matching gpt-source packet.",
+  "sections": [
+    {
+      "heading": "八、章末綜合習題",
+      "capturedQuestionCount": 5,
+      "capturedBodySize": 1025,
+      "sourceIncluded": true,
+      "sourceText": "這一部分結合波粒二象性、動量、動能與駐波條件，難度比前面的觀念檢查稍高。\n共 5 題，包含數值計算、比例關係與觀念整合。每題請先自行作答，最後統一批改並顯示解題說明。\n章末測驗\n5 題｜每題 20 分\n本測驗使用：\nh=6.63×10−34 J⋅s\nme​=9.11×10−31 kg\ne=1.60×10−19 C\n所有電子皆假設速率遠小於光速。\n第 1 題｜德布羅意波長計算\n一個電子以 2.0×106 m/s 的速率運動，求它的德布羅意波長。\n答案以 nm 表示，四捨五入至三位有效數字。\nnm\n第 2 題｜電壓與物質波\n一個電子從靜止出發，經過 150 V 的電位差加速。假設電場作的功全部轉換為電子動能。\n求加速後的德布羅意波長。\n答案以 nm 表示，四捨五入至三位有效數字。\nnm\n第 3 題｜比例關係\n電子原本由靜止經 100 V 加速，後來改成 400 V。\n設原本波長為 λ1​，改變後波長為 λ2​。\n求：\nλ1​λ2​​=?\n第 4 題｜光子與電子的比較\n一個光子與一個電子的德布羅意波長相同，下列何者正確？\nA. 兩者質量相同\nB. 兩者的動量大小相同，但能量不一定相同\nC. 兩者的速率相同\nD. 兩者的總能量一定相同\n第 5 題｜環狀物質波\n在理想化的環狀駐波模型中，某圓形軌道周長為 1.50 nm。\n假設電子的德布羅意波長為 0.60 nm，是否符合環狀駐波條件？\nA. 符合，因為 n=2.5\nB. 符合，因為 n 可以四捨五入為整數\nC. 不符合，因為圓周長不是整數個完整波長\nD. 無法判斷，必須知道電子質量\n空白答案會視為未答，批改後可再修改重試。\n提交並批改",
+      "questionMarkers": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "questionRecords": [
+        {
+          "index": 1,
+          "sourceText": "第 1 題｜德布羅意波長計算一個電子以 2.0×106 m/s 的速率運動，求它的德布羅意波長。\n答案以 nm 表示，四捨五入至三位有效數字。\nnm",
+          "choiceGroups": [],
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "placeholder": "輸入數值，例如 0.123",
+              "label": null
+            }
+          ],
+          "actionButtons": [],
+          "mathAnnotations": [
+            "2.0\\times10^6\\ \\mathrm{m/s}"
+          ],
+          "sourceExtent": "HTML from this question marker through the next marker"
+        },
+        {
+          "index": 2,
+          "sourceText": "第 2 題｜電壓與物質波一個電子從靜止出發，經過 150 V 的電位差加速。假設電場作的功全部轉換為電子動能。\n求加速後的德布羅意波長。\n答案以 nm 表示，四捨五入至三位有效數字。\nnm",
+          "choiceGroups": [],
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "placeholder": "輸入數值",
+              "label": null
+            }
+          ],
+          "actionButtons": [],
+          "mathAnnotations": [
+            "150\\ \\mathrm V"
+          ],
+          "sourceExtent": "HTML from this question marker through the next marker"
+        },
+        {
+          "index": 3,
+          "sourceText": "第 3 題｜比例關係電子原本由靜止經 100 V 加速，後來改成 400 V。\n設原本波長為 λ1​，改變後波長為 λ2​。\n求：\nλ1​λ2​​=?",
+          "choiceGroups": [],
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "placeholder": "輸入倍數，例如 0.5",
+              "label": null
+            }
+          ],
+          "actionButtons": [],
+          "mathAnnotations": [
+            "100\\ \\mathrm V",
+            "400\\ \\mathrm V",
+            "\\lambda_1",
+            "\\lambda_2",
+            "\\frac{\\lambda_2}{\\lambda_1}=?"
+          ],
+          "sourceExtent": "HTML from this question marker through the next marker"
+        },
+        {
+          "index": 4,
+          "sourceText": "第 4 題｜光子與電子的比較一個光子與一個電子的德布羅意波長相同，下列何者正確？\nA. 兩者質量相同\nB. 兩者的動量大小相同，但能量不一定相同\nC. 兩者的速率相同\nD. 兩者的總能量一定相同",
+          "choiceGroups": [
+            {
+              "type": "radio",
+              "options": [
+                "A. 兩者質量相同",
+                "B. 兩者的動量大小相同，但能量不一定相同",
+                "C. 兩者的速率相同",
+                "D. 兩者的總能量一定相同"
+              ]
+            }
+          ],
+          "fields": [],
+          "actionButtons": [],
+          "mathAnnotations": [],
+          "sourceExtent": "HTML from this question marker through the next marker"
+        },
+        {
+          "index": 5,
+          "sourceText": "第 5 題｜環狀物質波在理想化的環狀駐波模型中，某圓形軌道周長為 1.50 nm。\n假設電子的德布羅意波長為 0.60 nm，是否符合環狀駐波條件？\nA. 符合，因為 n=2.5\nB. 符合，因為 n 可以四捨五入為整數\nC. 不符合，因為圓周長不是整數個完整波長\nD. 無法判斷，必須知道電子質量\n空白答案會視為未答，批改後可再修改重試。\n提交並批改",
+          "choiceGroups": [
+            {
+              "type": "radio",
+              "options": [
+                "A. 符合，因為 n=2.5",
+                "B. 符合，因為 n 可以四捨五入為整數",
+                "C. 不符合，因為圓周長不是整數個完整波長",
+                "D. 無法判斷，必須知道電子質量"
+              ]
+            }
+          ],
+          "fields": [],
+          "actionButtons": [
+            "提交並批改"
+          ],
+          "mathAnnotations": [
+            "1.50\\ \\mathrm{nm}",
+            "0.60\\ \\mathrm{nm}",
+            "n=2.5",
+            "n"
+          ],
+          "sourceExtent": "HTML from this question marker through the next marker"
+        }
+      ],
+      "segmentationStatus": "marker count matches captured count",
+      "interactionSummary": {
+        "checkbox": 0,
+        "fields": 3,
+        "radio": 8,
+        "reveal": 0,
+        "submit": 1,
+        "textarea": 0
+      },
+      "choiceGroups": [
+        {
+          "type": "radio",
+          "options": [
+            "A. 兩者質量相同",
+            "B. 兩者的動量大小相同，但能量不一定相同",
+            "C. 兩者的速率相同",
+            "D. 兩者的總能量一定相同"
+          ]
+        },
+        {
+          "type": "radio",
+          "options": [
+            "A. 符合，因為 n=2.5",
+            "B. 符合，因為 n 可以四捨五入為整數",
+            "C. 不符合，因為圓周長不是整數個完整波長",
+            "D. 無法判斷，必須知道電子質量"
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "tag": "input",
+          "type": "text",
+          "placeholder": "輸入數值，例如 0.123",
+          "label": null
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "placeholder": "輸入數值",
+          "label": null
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "placeholder": "輸入倍數，例如 0.5",
+          "label": null
+        }
+      ],
+      "actionButtons": [
+        "提交並批改"
+      ],
+      "mathAnnotations": [
+        "h=6.63\\times10^{-34}\\ \\mathrm{J\\cdot s}",
+        "m_e=9.11\\times10^{-31}\\ \\mathrm{kg}",
+        "e=1.60\\times10^{-19}\\ \\mathrm C",
+        "2.0\\times10^6\\ \\mathrm{m/s}",
+        "150\\ \\mathrm V",
+        "100\\ \\mathrm V",
+        "400\\ \\mathrm V",
+        "\\lambda_1",
+        "\\lambda_2",
+        "\\frac{\\lambda_2}{\\lambda_1}=?",
+        "1.50\\ \\mathrm{nm}",
+        "0.60\\ \\mathrm{nm}",
+        "n=2.5",
+        "n"
+      ],
+      "mathTeXSource": "MathML application/x-tex annotation extracted verbatim (entity-decoded); raw HTML retained in fallback packet."
+    },
+    {
+      "heading": "章末測驗",
+      "capturedQuestionCount": 1,
+      "capturedBodySize": 11,
+      "sourceIncluded": false,
+      "sourceText": "5 題｜每題 20 分",
+      "questionMarkers": [],
+      "questionRecords": [],
+      "segmentationStatus": "marker/control structure differs from captured count; keep source groups separate for review",
+      "interactionSummary": {
+        "checkbox": 0,
+        "fields": 0,
+        "radio": 0,
+        "reveal": 0,
+        "submit": 0,
+        "textarea": 0
+      },
+      "choiceGroups": [],
+      "fields": [],
+      "actionButtons": [],
+      "mathAnnotations": [],
+      "mathTeXSource": "MathML application/x-tex annotation extracted verbatim (entity-decoded); raw HTML retained in fallback packet.",
+      "disposition": "informational section; no question content; excluded from exactQuestionCount"
+    }
+  ],
+  "questionCountNote": "The first section contains five numbered questions. A second one-count section is an informational “章末測驗” capture with no question content; excluded from exactQuestionCount."
+}

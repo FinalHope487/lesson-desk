@@ -1,0 +1,120 @@
+{
+  "id": "6afd583c-8a64-83e8-82e1-9b7ee437d461",
+  "heading": "八、本章綜合習題",
+  "exactQuestionCount": 5,
+  "extraction": "DOM extraction using neighboring option labels, radio/checkbox groups, and question card boundaries. No answers inferred; raw HTML remains fallback.",
+  "sections": [
+    {
+      "heading": "八、本章綜合習題",
+      "questionCount": 5,
+      "sourceControlCounts": {
+        "radio": 0,
+        "checkbox": 22
+      },
+      "extractedControlCounts": {
+        "radio": 0,
+        "checkbox": 22
+      },
+      "questionRecords": [
+        {
+          "index": 1,
+          "promptBlocks": [
+            "第 1 題 · 多選",
+            "下列分子中，哪些具有永久淨偶極？"
+          ],
+          "optionGroups": [
+            {
+              "type": "checkbox",
+              "options": [
+                "A. CO₂",
+                "B. NH₃",
+                "C. BF₃",
+                "D. CH₃Cl",
+                "E. CCl₄"
+              ]
+            }
+          ],
+          "sourceText": "第 1 題 · 多選\n下列分子中，哪些具有永久淨偶極？\nA. CO₂\nB. NH₃\nC. BF₃\nD. CH₃Cl\nE. CCl₄\n檢查答案"
+        },
+        {
+          "index": 2,
+          "promptBlocks": [
+            "第 2 題 · 單選",
+            "下列哪個敘述最能解釋 I₂ 的沸點高於 Cl₂？"
+          ],
+          "optionGroups": [
+            {
+              "type": "checkbox",
+              "options": [
+                "A. I₂ 的分子極性較強",
+                "B. I₂ 具有氫鍵",
+                "C. I₂ 的電子雲較易極化，分散力較強",
+                "D. Cl₂ 分子之間完全沒有吸引力"
+              ]
+            }
+          ],
+          "sourceText": "第 2 題 · 單選\n下列哪個敘述最能解釋 I₂ 的沸點高於 Cl₂？\nA. I₂ 的分子極性較強\nB. I₂ 具有氫鍵\nC. I₂ 的電子雲較易極化，分散力較強\nD. Cl₂ 分子之間完全沒有吸引力\n檢查答案"
+        },
+        {
+          "index": 3,
+          "promptBlocks": [
+            "第 3 題 · 單選",
+            "比較 H₂O、H₂S 與 H₂Se 的常壓沸點，下列何者正確？"
+          ],
+          "optionGroups": [
+            {
+              "type": "checkbox",
+              "options": [
+                "A. H₂O > H₂Se > H₂S",
+                "B. H₂Se > H₂S > H₂O",
+                "C. H₂S > H₂O > H₂Se",
+                "D. H₂O > H₂S > H₂Se"
+              ]
+            }
+          ],
+          "sourceText": "第 3 題 · 單選\n比較 H₂O、H₂S 與 H₂Se 的常壓沸點，下列何者正確？\nA. H₂O > H₂Se > H₂S\nB. H₂Se > H₂S > H₂O\nC. H₂S > H₂O > H₂Se\nD. H₂O > H₂S > H₂Se\n檢查答案"
+        },
+        {
+          "index": 4,
+          "promptBlocks": [
+            "第 4 題 · 多選",
+            "下列關於分子極性與物理性質的敘述，哪些正確？"
+          ],
+          "optionGroups": [
+            {
+              "type": "checkbox",
+              "options": [
+                "A. 所有非極性分子都具有相同的沸點",
+                "B. 極性分子也可能具有顯著的倫敦分散力",
+                "C. 分子間作用力越強，液體在同溫下通常越不易揮發",
+                "D. 只要兩種物質都具有極性，就一定可以任意比例互溶",
+                "E. 沸騰通常不需要打斷分子內的共價鍵"
+              ]
+            }
+          ],
+          "sourceText": "第 4 題 · 多選\n下列關於分子極性與物理性質的敘述，哪些正確？\nA. 所有非極性分子都具有相同的沸點\nB. 極性分子也可能具有顯著的倫敦分散力\nC. 分子間作用力越強，液體在同溫下通常越不易揮發\nD. 只要兩種物質都具有極性，就一定可以任意比例互溶\nE. 沸騰通常不需要打斷分子內的共價鍵\n檢查答案"
+        },
+        {
+          "index": 5,
+          "promptBlocks": [
+            "第 5 題 · 單選",
+            "正戊烷與新戊烷具有相同分子式 C₅H₁₂。下列何者最合理？"
+          ],
+          "optionGroups": [
+            {
+              "type": "checkbox",
+              "options": [
+                "A. 新戊烷因為分子量較小，所以沸點較低",
+                "B. 正戊烷的分子形狀較延伸，通常具有較強的整體分散力",
+                "C. 正戊烷具有氫鍵，但新戊烷沒有",
+                "D. 兩者都是非極性分子，因此沸點必定相同"
+              ]
+            }
+          ],
+          "sourceText": "第 5 題 · 單選\n正戊烷與新戊烷具有相同分子式 C₅H₁₂。下列何者最合理？\nA. 新戊烷因為分子量較小，所以沸點較低\nB. 正戊烷的分子形狀較延伸，通常具有較強的整體分散力\nC. 正戊烷具有氫鍵，但新戊烷沒有\nD. 兩者都是非極性分子，因此沸點必定相同\n檢查答案"
+        }
+      ],
+      "status": "ready"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "6afd534c-8960-83ec-b48d-440c64d34d1e",
+  "heading": "十、本章綜合習題",
+  "exactQuestionCount": 4,
+  "extraction": "DOM extraction using neighboring option labels, radio/checkbox groups, and question card boundaries. No answers inferred; raw HTML remains fallback.",
+  "sections": [
+    {
+      "heading": "十、本章綜合習題",
+      "questionCount": 4,
+      "sourceControlCounts": {
+        "radio": 12,
+        "checkbox": 4
+      },
+      "extractedControlCounts": {
+        "radio": 12,
+        "checkbox": 4
+      },
+      "questionRecords": [
+        {
+          "index": 1,
+          "promptBlocks": [
+            "第 1 題",
+            "單選題"
+          ],
+          "optionGroups": [
+            {
+              "type": "radio",
+              "options": [
+                "A. 增加為 1.5 倍",
+                "B. 增加為 2.25 倍",
+                "C. 減少為原本的 2/3",
+                "D. 不變"
+              ]
+            }
+          ],
+          "sourceText": "第 1 題\n單選題\n某密閉剛性容器中有理想氣體，溫度由 300 K 升至 450 K。若粒子數不變，壓力如何變化？\nA. 增加為 1.5 倍\nB. 增加為 2.25 倍\nC. 減少為原本的 2/3\nD. 不變\n檢查並查看解析"
+        },
+        {
+          "index": 2,
+          "promptBlocks": [
+            "第 2 題",
+            "單選題"
+          ],
+          "optionGroups": [
+            {
+              "type": "radio",
+              "options": [
+                "A. 60 mm",
+                "B. 90 mm",
+                "C. 120 mm",
+                "D. 150 mm"
+              ]
+            }
+          ],
+          "sourceText": "第 2 題\n單選題\n一開口式汞壓力計測得氣體側液面較低，高度差 90 mm。若當地大氣壓由 760 mmHg 降為 730 mmHg，而待測氣體壓力維持不變，新的高度差是多少？\nA. 60 mm\nB. 90 mm\nC. 120 mm\nD. 150 mm\n檢查並查看解析"
+        },
+        {
+          "index": 3,
+          "promptBlocks": [
+            "第 3 題",
+            "多選題"
+          ],
+          "optionGroups": [
+            {
+              "type": "checkbox",
+              "options": [
+                "A. 粒子具有不可忽略的體積",
+                "B. 粒子之間存在作用力",
+                "C. 粒子完全停止運動",
+                "D. 粒子的質量隨壓力增加而消失"
+              ]
+            }
+          ],
+          "sourceText": "第 3 題\n多選題\n某氣體在低溫、高壓時偏離理想氣體模型。以下哪兩項可能是重要原因？（多選）A. 粒子具有不可忽略的體積\nB. 粒子之間存在作用力\nC. 粒子完全停止運動\nD. 粒子的質量隨壓力增加而消失\n檢查並查看解析"
+        },
+        {
+          "index": 4,
+          "promptBlocks": [
+            "第 4 題",
+            "單選題"
+          ],
+          "optionGroups": [
+            {
+              "type": "radio",
+              "options": [
+                "A. 兩者壓力相同",
+                "B. B 的壓力為 A 的兩倍",
+                "C. B 的粒子平均動能是 A 的兩倍",
+                "D. A 的粒子速率一定較快"
+              ]
+            }
+          ],
+          "sourceText": "第 4 題\n單選題\n兩個體積相同、溫度相同的容器，A 裝 100 個理想氣體粒子，B 裝 200 個同種粒子。哪個敘述最合理？\nA. 兩者壓力相同\nB. B 的壓力為 A 的兩倍\nC. B 的粒子平均動能是 A 的兩倍\nD. A 的粒子速率一定較快\n檢查並查看解析"
+        }
+      ],
+      "status": "ready"
+    }
+  ]
+}

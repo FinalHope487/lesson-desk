@@ -1,0 +1,139 @@
+{
+  "id": "6afd6c8e-ad10-83ee-bee4-b9bdb921c71e",
+  "heading": "十、本章綜合習題",
+  "exactQuestionCount": 4,
+  "extraction": "DOM-based visible source text extraction only; no solutions generated. Raw HTML is retained in the corresponding gpt-source packet.",
+  "sections": [
+    {
+      "heading": "十、本章綜合習題",
+      "count": 4,
+      "capturedBodySize": null,
+      "visibleMarkdown": "以下題目依序增加難度。建議先自行列出溶解平衡式、判斷濃度關係，再進行計算。\n第 1 題\n基礎應用\n某難溶性鹽類 M(OH)₂ 的 Ksp 為 3.2×10⁻¹²。假設 OH⁻ 完全來自該鹽類，求其在純水中的莫耳溶解度。提示參考解答\n參考解答\nKsp=4s³，所以 s=(3.2×10⁻¹²/4)^(1/3)≈9.28×10⁻⁵ M。這裡依題意忽略水的自解離。\n第 2 題\n基礎應用\n將 100 mL、0.020 M 的 AgNO₃ 與 100 mL、0.010 M 的 NaCl 混合。已知 Ksp(AgCl)=1.8×10⁻¹⁰。判斷是否沉澱，並估算平衡時剩餘的 Ag⁺ 濃度。提示參考解答\n參考解答\n初始混合後 [Ag⁺]=0.010 M、[Cl⁻]=0.0050 M，Qsp=5.0×10⁻⁵>Ksp。Ag⁺ 過量約 0.0050 M，平衡時 [Ag⁺]≈0.0050 M；殘餘 [Cl⁻]≈3.6×10⁻⁸ M。\n第 3 題\n比較分析\n兩種鹽類 AB 與 CD₂ 的 Ksp 分別為 9.0×10⁻¹⁰ 與 4.0×10⁻¹²。比較兩者在純水中的莫耳溶解度，並說明為何不能直接比較 Ksp。提示參考解答\n參考解答\nAB：s=3.0×10⁻⁵ M。CD₂：s=1.0×10⁻⁴ M。因此 CD₂ 溶解度較大。不同化學計量比例的 Ksp 與 s 關係不同。\n第 4 題\n進階整合\n某溶液含 0.010 M 的 M²⁺ 與 0.010 M 的 N²⁺。其氫氧化物的 Ksp 分別為 1.0×10⁻¹⁰ 與 1.0×10⁻¹⁶。逐漸增加 OH⁻ 濃度時，哪種離子先沉澱？當另一種剛開始沉澱時，先沉澱的離子還剩多少？提示參考解答\n參考解答\nN(OH)₂ 先沉澱，其臨界 [OH⁻]=1.0×10⁻⁷ M。M(OH)₂ 的臨界值為 1.0×10⁻⁴ M。此時 [N²⁺]=10⁻¹⁶/(10⁻⁴)²=1.0×10⁻⁸ M，剩餘原濃度的 0.0001%。此題將 OH⁻ 視為可獨立控制，忽略其他平衡。",
+      "sourceBlocks": [
+        {
+          "tag": "p",
+          "text": "以下題目依序增加難度。建議先自行列出溶解平衡式、判斷濃度關係，再進行計算。"
+        },
+        {
+          "tag": "span",
+          "text": "第 1 題"
+        },
+        {
+          "tag": "p",
+          "text": "基礎應用"
+        },
+        {
+          "tag": "p",
+          "text": "參考解答"
+        },
+        {
+          "tag": "span",
+          "text": "第 2 題"
+        },
+        {
+          "tag": "p",
+          "text": "基礎應用"
+        },
+        {
+          "tag": "p",
+          "text": "參考解答"
+        },
+        {
+          "tag": "span",
+          "text": "第 3 題"
+        },
+        {
+          "tag": "p",
+          "text": "比較分析"
+        },
+        {
+          "tag": "p",
+          "text": "參考解答"
+        },
+        {
+          "tag": "span",
+          "text": "第 4 題"
+        },
+        {
+          "tag": "p",
+          "text": "進階整合"
+        },
+        {
+          "tag": "p",
+          "text": "參考解答"
+        }
+      ],
+      "questionRecords": [
+        {
+          "index": 1,
+          "sourceText": "第 1 題\n基礎應用\n某難溶性鹽類 M(OH)₂ 的 Ksp 為 3.2×10⁻¹²。假設 OH⁻ 完全來自該鹽類，求其在純水中的莫耳溶解度。提示參考解答\n參考解答\nKsp=4s³，所以 s=(3.2×10⁻¹²/4)^(1/3)≈9.28×10⁻⁵ M。這裡依題意忽略水的自解離。",
+          "interactions": [
+            {
+              "label": "提示",
+              "semantics": "hint reveal trigger; captured HTML contains the trigger but no associated hint body text"
+            },
+            {
+              "label": "參考解答",
+              "semantics": "reference-answer reveal trigger; captured HTML includes answer text in this question card"
+            }
+          ],
+          "promptAndAnswerEvidence": "sourceText preserves the original DOM text order; prompt, buttons and reference answer are not split into inferred fields."
+        },
+        {
+          "index": 2,
+          "sourceText": "第 2 題\n基礎應用\n將 100 mL、0.020 M 的 AgNO₃ 與 100 mL、0.010 M 的 NaCl 混合。已知 Ksp(AgCl)=1.8×10⁻¹⁰。判斷是否沉澱，並估算平衡時剩餘的 Ag⁺ 濃度。提示參考解答\n參考解答\n初始混合後 [Ag⁺]=0.010 M、[Cl⁻]=0.0050 M，Qsp=5.0×10⁻⁵>Ksp。Ag⁺ 過量約 0.0050 M，平衡時 [Ag⁺]≈0.0050 M；殘餘 [Cl⁻]≈3.6×10⁻⁸ M。",
+          "interactions": [
+            {
+              "label": "提示",
+              "semantics": "hint reveal trigger; captured HTML contains the trigger but no associated hint body text"
+            },
+            {
+              "label": "參考解答",
+              "semantics": "reference-answer reveal trigger; captured HTML includes answer text in this question card"
+            }
+          ],
+          "promptAndAnswerEvidence": "sourceText preserves the original DOM text order; prompt, buttons and reference answer are not split into inferred fields."
+        },
+        {
+          "index": 3,
+          "sourceText": "第 3 題\n比較分析\n兩種鹽類 AB 與 CD₂ 的 Ksp 分別為 9.0×10⁻¹⁰ 與 4.0×10⁻¹²。比較兩者在純水中的莫耳溶解度，並說明為何不能直接比較 Ksp。提示參考解答\n參考解答\nAB：s=3.0×10⁻⁵ M。CD₂：s=1.0×10⁻⁴ M。因此 CD₂ 溶解度較大。不同化學計量比例的 Ksp 與 s 關係不同。",
+          "interactions": [
+            {
+              "label": "提示",
+              "semantics": "hint reveal trigger; captured HTML contains the trigger but no associated hint body text"
+            },
+            {
+              "label": "參考解答",
+              "semantics": "reference-answer reveal trigger; captured HTML includes answer text in this question card"
+            }
+          ],
+          "promptAndAnswerEvidence": "sourceText preserves the original DOM text order; prompt, buttons and reference answer are not split into inferred fields."
+        },
+        {
+          "index": 4,
+          "sourceText": "第 4 題\n進階整合\n某溶液含 0.010 M 的 M²⁺ 與 0.010 M 的 N²⁺。其氫氧化物的 Ksp 分別為 1.0×10⁻¹⁰ 與 1.0×10⁻¹⁶。逐漸增加 OH⁻ 濃度時，哪種離子先沉澱？當另一種剛開始沉澱時，先沉澱的離子還剩多少？提示參考解答\n參考解答\nN(OH)₂ 先沉澱，其臨界 [OH⁻]=1.0×10⁻⁷ M。M(OH)₂ 的臨界值為 1.0×10⁻⁴ M。此時 [N²⁺]=10⁻¹⁶/(10⁻⁴)²=1.0×10⁻⁸ M，剩餘原濃度的 0.0001%。此題將 OH⁻ 視為可獨立控制，忽略其他平衡。",
+          "interactions": [
+            {
+              "label": "提示",
+              "semantics": "hint reveal trigger; captured HTML contains the trigger but no associated hint body text"
+            },
+            {
+              "label": "參考解答",
+              "semantics": "reference-answer reveal trigger; captured HTML includes answer text in this question card"
+            }
+          ],
+          "promptAndAnswerEvidence": "sourceText preserves the original DOM text order; prompt, buttons and reference answer are not split into inferred fields."
+        }
+      ],
+      "segmentationMethod": "one bordered card per captured question",
+      "controls": [],
+      "mathAnnotations": [],
+      "rawTagEvidence": {
+        "radioGroups": 0,
+        "radio": 0,
+        "checkbox": 0,
+        "mathClass": 0
+      }
+    }
+  ]
+}

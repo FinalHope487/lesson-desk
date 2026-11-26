@@ -1,0 +1,115 @@
+{
+  "id": "6af8c88a-fe88-83ec-b39e-633d06351e96",
+  "heading": "七、章末習題",
+  "exactQuestionCount": 6,
+  "capturedCountTotal": 7,
+  "extraction": "Source-only DOM extraction of prompts, control groups and TeX annotations. No solutions generated; original HTML remains in matching gpt-source packet.",
+  "sections": [
+    {
+      "heading": "七、章末習題",
+      "capturedQuestionCount": 6,
+      "capturedBodySize": 642,
+      "sourceIncluded": true,
+      "sourceText": "以下五題涵蓋明暗判斷、變因分析、雙狹縫反推波長，以及單狹縫繞射的綜合計算。請先自行完成，再按「提交並批改」查看計分與解析。\n物理光學章末測驗\n5 題｜每題 20 分｜總分 100 分\n綜合應用\n第 1 題｜條紋間距\n雙狹縫實驗中，波長從 500 nm 增至 600 nm，其他條件不變，新的亮紋間距是原來的多少倍？\n0.83 倍\n1.20 倍\n1.44 倍\n保持不變\n第 2 題｜明暗判斷\n兩道同頻率、同相、等振幅的光波，在某點的路徑差為 (1.5\\lambda)，則該點為何？\n最亮的位置\n亮暗之間的中間強度\n完全相消的暗點\n無法判斷\n第 3 題｜雙狹縫與繞射的結合\n雙狹縫實驗中，每條狹縫的寬度 (a) 固定，狹縫中心距離 (d) 增為兩倍。下列何者正確？假設遠場條件持續成立。\n干涉條紋間距減半，單狹縫繞射包絡寬度不變\n干涉條紋與繞射包絡的寬度都減半\n干涉條紋間距不變，繞射包絡變兩倍\n干涉條紋與繞射包絡都變兩倍\n第 4 題｜反推光的波長\n某雙狹縫實驗中，兩狹縫相距 0.36 mm，屏幕距離 1.8 m。測得第二階亮紋距中央 5.0 mm。\n求光的波長，以 nm 為單位。\nnm\n第 5 題｜單狹縫繞射綜合題\n將第 4 題的光改為通過寬度 0.12 mm 的單狹縫，屏幕距離仍為 1.8 m。\n求中央亮紋的完整寬度，以 mm 為單位。\nmm\n提交並批改\n第 6 題｜觀念申論（延伸）\n有位同學說：\n「只要兩道光走過的路徑差為一個波長，就一定會形成亮紋。」\n這個說法是否完全正確？請說明還需要確認哪些條件，並用相位差的觀念解釋。\n送出申論答案並批改",
+      "questionMarkers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        4,
+        6
+      ],
+      "questionRecords": null,
+      "segmentationStatus": "ambiguous; seven question markers for six captured questions; repeated marker 4 appears after marker 5; preserved full section text and raw HTML in source order",
+      "interactionSummary": {
+        "checkbox": 0,
+        "fields": 2,
+        "radio": 12,
+        "reveal": 0,
+        "submit": 2,
+        "textarea": 1
+      },
+      "choiceGroups": [
+        {
+          "type": "radio",
+          "options": [
+            "0.83 倍",
+            "1.20 倍",
+            "1.44 倍",
+            "保持不變"
+          ]
+        },
+        {
+          "type": "radio",
+          "options": [
+            "最亮的位置",
+            "亮暗之間的中間強度",
+            "完全相消的暗點",
+            "無法判斷"
+          ]
+        },
+        {
+          "type": "radio",
+          "options": [
+            "干涉條紋間距減半，單狹縫繞射包絡寬度不變",
+            "干涉條紋與繞射包絡的寬度都減半",
+            "干涉條紋間距不變，繞射包絡變兩倍",
+            "干涉條紋與繞射包絡都變兩倍"
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "tag": "input",
+          "type": "text",
+          "placeholder": "輸入數值",
+          "label": null
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "placeholder": "輸入數值",
+          "label": null
+        },
+        {
+          "tag": "textarea",
+          "type": null,
+          "placeholder": "寫下你的判斷與理由，試著使用『初始相位差』與『總相位差』說明。",
+          "label": null
+        }
+      ],
+      "actionButtons": [
+        "提交並批改",
+        "送出申論答案並批改"
+      ],
+      "mathAnnotations": [],
+      "mathTeXSource": "MathML application/x-tex annotation extracted verbatim (entity-decoded); raw HTML retained in fallback packet."
+    },
+    {
+      "heading": "物理光學章末測驗",
+      "capturedQuestionCount": 1,
+      "capturedBodySize": 20,
+      "sourceIncluded": false,
+      "sourceText": "5 題｜每題 20 分｜總分 100 分",
+      "questionMarkers": [],
+      "questionRecords": [],
+      "segmentationStatus": "marker/control structure differs from captured count; keep source groups separate for review",
+      "interactionSummary": {
+        "checkbox": 0,
+        "fields": 0,
+        "radio": 0,
+        "reveal": 0,
+        "submit": 0,
+        "textarea": 0
+      },
+      "choiceGroups": [],
+      "fields": [],
+      "actionButtons": [],
+      "mathAnnotations": [],
+      "mathTeXSource": "MathML application/x-tex annotation extracted verbatim (entity-decoded); raw HTML retained in fallback packet.",
+      "disposition": "informational section; no question content; excluded from exactQuestionCount"
+    }
+  ],
+  "questionCountNote": "A second one-count “物理光學章末測驗” capture has no question content and is excluded from exactQuestionCount. The exercise has seven “第 n 題” markers but six captured questions; Q4 is duplicated after Q5. Keep all source text and raw HTML in order, and do not merge or infer the extra marker assignment."
+}

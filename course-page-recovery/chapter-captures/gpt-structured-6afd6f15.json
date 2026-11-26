@@ -1,0 +1,154 @@
+{
+  "id": "6afd6f15-0a20-83ec-9655-7113a69d5dab",
+  "heading": "十一、章末綜合習題",
+  "exactQuestionCount": 6,
+  "capturedCountTotal": 6,
+  "extraction": "Source-only DOM extraction of prompts, control groups and TeX annotations. No solutions generated; original HTML remains in matching gpt-source packet.",
+  "sections": [
+    {
+      "heading": "十一、章末綜合習題",
+      "capturedQuestionCount": 6,
+      "capturedBodySize": null,
+      "sourceIncluded": true,
+      "sourceText": "以下題目依難度排列，涵蓋氧化數、反應判斷、氧化還原能力及均衡。建議先自行作答，再查看解析。\n第 1 題 ｜觀念判斷\n基礎\n在 NH₄NO₃ 中，兩個氮原子的氧化數分別是多少？為什麼不能直接把氮的平均氧化數當成兩個氮各自的氧化數？收起解析\nNH₄⁺ 中 N 為 −3；NO₃⁻ 中 N 為 +5。兩個 N 所處的化學環境不同，平均值 +1 不能代表個別原子的氧化數。\n第 2 題 ｜觀念判斷\n基礎\n判斷 2NO₂ + H₂O → HNO₂ + HNO₃ 是否為氧化還原反應，並指出氧化劑與還原劑。收起解析\n是歧化反應。NO₂ 中 N 為 +4，HNO₂ 中為 +3，HNO₃ 中為 +5。NO₂ 同時是氧化劑與還原劑。\n第 3 題 ｜反應均衡\n進階\n以氧化數法均衡酸性條件下的 MnO₄⁻ + C₂O₄²⁻ → Mn²⁺ + CO₂。收起解析\n2MnO₄⁻ + 5C₂O₄²⁻ + 16H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O。Mn 每個減少 5，兩個共減少 10；每個 C₂O₄²⁻ 的兩個 C 合計增加 2，五個共增加 10。\n第 4 題 ｜反應均衡\n進階\n以半反應法均衡鹼性條件下的 Cl₂ → Cl⁻ + ClO⁻，並說明反應類型。收起解析\nCl₂ + 2OH⁻ → Cl⁻ + ClO⁻ + H₂O。Cl 由 0 分別變為 −1 與 +1，因此是歧化反應。\n第 5 題 ｜綜合應用\n挑戰\n已知 Zn 能與 Cu²⁺ 反應，Fe 也能與 Cu²⁺ 反應，而 Zn 能與 Fe²⁺ 反應。比較 Zn、Fe、Cu 的還原能力，以及 Zn²⁺、Fe²⁺、Cu²⁺ 的氧化能力。收起解析\n還原能力 Zn > Fe > Cu；對應的氧化能力 Cu²⁺ > Fe²⁺ > Zn²⁺。此比較依題目所給自發反應的相同條件成立。\n第 6 題 ｜綜合應用\n挑戰\n以半反應法均衡鹼性條件下的 MnO₄⁻ + SO₃²⁻ → MnO₂ + SO₄²⁻。收起解析\n2MnO₄⁻ + 3SO₃²⁻ + H₂O → 2MnO₂ + 3SO₄²⁻ + 2OH⁻。Mn 每個得 3e⁻，S 每個失 2e⁻，最小公倍數為 6。",
+      "questionMarkers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "questionRecords": [
+        {
+          "index": 1,
+          "sourceText": "第 1 題 ｜觀念判斷基礎\n在 NH₄NO₃ 中，兩個氮原子的氧化數分別是多少？為什麼不能直接把氮的平均氧化數當成兩個氮各自的氧化數？收起解析\nNH₄⁺ 中 N 為 −3；NO₃⁻ 中 N 為 +5。兩個 N 所處的化學環境不同，平均值 +1 不能代表個別原子的氧化數。",
+          "choiceGroups": [],
+          "fields": [],
+          "actionButtons": [
+            "收起解析"
+          ],
+          "mathAnnotations": [],
+          "sourceExtent": "HTML from this question marker through the next marker"
+        },
+        {
+          "index": 2,
+          "sourceText": "第 2 題 ｜觀念判斷基礎\n判斷 2NO₂ + H₂O → HNO₂ + HNO₃ 是否為氧化還原反應，並指出氧化劑與還原劑。收起解析\n是歧化反應。NO₂ 中 N 為 +4，HNO₂ 中為 +3，HNO₃ 中為 +5。NO₂ 同時是氧化劑與還原劑。",
+          "choiceGroups": [],
+          "fields": [],
+          "actionButtons": [
+            "收起解析"
+          ],
+          "mathAnnotations": [],
+          "sourceExtent": "HTML from this question marker through the next marker"
+        },
+        {
+          "index": 3,
+          "sourceText": "第 3 題 ｜反應均衡進階\n以氧化數法均衡酸性條件下的 MnO₄⁻ + C₂O₄²⁻ → Mn²⁺ + CO₂。收起解析\n2MnO₄⁻ + 5C₂O₄²⁻ + 16H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O。Mn 每個減少 5，兩個共減少 10；每個 C₂O₄²⁻ 的兩個 C 合計增加 2，五個共增加 10。",
+          "choiceGroups": [],
+          "fields": [],
+          "actionButtons": [
+            "收起解析"
+          ],
+          "mathAnnotations": [],
+          "sourceExtent": "HTML from this question marker through the next marker"
+        },
+        {
+          "index": 4,
+          "sourceText": "第 4 題 ｜反應均衡進階\n以半反應法均衡鹼性條件下的 Cl₂ → Cl⁻ + ClO⁻，並說明反應類型。收起解析\nCl₂ + 2OH⁻ → Cl⁻ + ClO⁻ + H₂O。Cl 由 0 分別變為 −1 與 +1，因此是歧化反應。",
+          "choiceGroups": [],
+          "fields": [],
+          "actionButtons": [
+            "收起解析"
+          ],
+          "mathAnnotations": [],
+          "sourceExtent": "HTML from this question marker through the next marker"
+        },
+        {
+          "index": 5,
+          "sourceText": "第 5 題 ｜綜合應用挑戰\n已知 Zn 能與 Cu²⁺ 反應，Fe 也能與 Cu²⁺ 反應，而 Zn 能與 Fe²⁺ 反應。比較 Zn、Fe、Cu 的還原能力，以及 Zn²⁺、Fe²⁺、Cu²⁺ 的氧化能力。收起解析\n還原能力 Zn > Fe > Cu；對應的氧化能力 Cu²⁺ > Fe²⁺ > Zn²⁺。此比較依題目所給自發反應的相同條件成立。",
+          "choiceGroups": [],
+          "fields": [],
+          "actionButtons": [
+            "收起解析"
+          ],
+          "mathAnnotations": [],
+          "sourceExtent": "HTML from this question marker through the next marker"
+        },
+        {
+          "index": 6,
+          "sourceText": "第 6 題 ｜綜合應用挑戰\n以半反應法均衡鹼性條件下的 MnO₄⁻ + SO₃²⁻ → MnO₂ + SO₄²⁻。收起解析\n2MnO₄⁻ + 3SO₃²⁻ + H₂O → 2MnO₂ + 3SO₄²⁻ + 2OH⁻。Mn 每個得 3e⁻，S 每個失 2e⁻，最小公倍數為 6。",
+          "choiceGroups": [],
+          "fields": [],
+          "actionButtons": [
+            "收起解析"
+          ],
+          "mathAnnotations": [],
+          "sourceExtent": "HTML from this question marker through the next marker"
+        }
+      ],
+      "segmentationStatus": "marker count matches captured count",
+      "interactionSummary": {},
+      "choiceGroups": [],
+      "fields": [],
+      "actionButtons": [
+        "收起解析",
+        "收起解析",
+        "收起解析",
+        "收起解析",
+        "收起解析",
+        "收起解析"
+      ],
+      "mathAnnotations": [],
+      "mathTeXSource": "MathML application/x-tex annotation extracted verbatim (entity-decoded); raw HTML retained in fallback packet.",
+      "referenceContentStatus": {
+        "status": "available_in_capture",
+        "evidence": "All six prompt segments contain a “收起解析” button and reference/solution text marker; no expansion is required to recover the existing visible references.",
+        "referencesPerQuestion": [
+          {
+            "index": 1,
+            "button": [
+              "收起解析"
+            ],
+            "referenceMarker": true
+          },
+          {
+            "index": 2,
+            "button": [
+              "收起解析"
+            ],
+            "referenceMarker": true
+          },
+          {
+            "index": 3,
+            "button": [
+              "收起解析"
+            ],
+            "referenceMarker": true
+          },
+          {
+            "index": 4,
+            "button": [
+              "收起解析"
+            ],
+            "referenceMarker": true
+          },
+          {
+            "index": 5,
+            "button": [
+              "收起解析"
+            ],
+            "referenceMarker": true
+          },
+          {
+            "index": 6,
+            "button": [
+              "收起解析"
+            ],
+            "referenceMarker": true
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "6afd733b-981c-83ee-af7f-e84934e89848",
+  "heading": "十一、本章綜合習題",
+  "exactQuestionCount": 5,
+  "extraction": "DOM extraction using neighboring option labels, radio/checkbox groups, and question card boundaries. No answers inferred; raw HTML remains fallback.",
+  "sections": [
+    {
+      "heading": "十一、本章綜合習題",
+      "questionCount": 5,
+      "sourceControlCounts": {
+        "radio": 0,
+        "checkbox": 20
+      },
+      "extractedControlCounts": {
+        "radio": 0,
+        "checkbox": 20
+      },
+      "questionRecords": [
+        {
+          "index": 1,
+          "promptBlocks": [
+            "第 1 題",
+            "多選題"
+          ],
+          "optionGroups": [
+            {
+              "type": "checkbox",
+              "options": [
+                "A. 兩者在常溫下都是氣體",
+                "B. CO₂ 主要由獨立分子組成",
+                "C. SiO₂ 通常具有共價網狀結構",
+                "D. 兩者具有相同的熔點與導電性"
+              ]
+            }
+          ],
+          "sourceText": "第 1 題\n多選題\n下列關於 CO₂ 與 SiO₂ 的敘述，哪些正確？（多選）A. 兩者在常溫下都是氣體\nB. CO₂ 主要由獨立分子組成\nC. SiO₂ 通常具有共價網狀結構\nD. 兩者具有相同的熔點與導電性\n檢查答案與解析"
+        },
+        {
+          "index": 2,
+          "promptBlocks": [
+            "第 2 題",
+            "多選題"
+          ],
+          "optionGroups": [
+            {
+              "type": "checkbox",
+              "options": [
+                "A. CO 是還原劑",
+                "B. Fe 的氧化數由 +3 變為 0",
+                "C. 碳的氧化數由 +4 變為 +2",
+                "D. Fe₂O₃ 被氧化"
+              ]
+            }
+          ],
+          "sourceText": "第 2 題\n多選題\n在 Fe₂O₃ + 3CO → 2Fe + 3CO₂ 中，下列哪些敘述正確？（多選）A. CO 是還原劑\nB. Fe 的氧化數由 +3 變為 0\nC. 碳的氧化數由 +4 變為 +2\nD. Fe₂O₃ 被氧化\n檢查答案與解析"
+        },
+        {
+          "index": 3,
+          "promptBlocks": [
+            "第 3 題",
+            "多選題"
+          ],
+          "optionGroups": [
+            {
+              "type": "checkbox",
+              "options": [
+                "A. 升高壓力有利於 NH₃ 的平衡生成",
+                "B. 催化劑會提高平衡常數",
+                "C. 降低溫度有利於放熱方向的平衡",
+                "D. 升高溫度一定能提高 NH₃ 的平衡產率"
+              ]
+            }
+          ],
+          "sourceText": "第 3 題\n多選題\n對合成氨反應 N₂ + 3H₂ ⇌ 2NH₃（放熱），下列哪些敘述正確？（多選）A. 升高壓力有利於 NH₃ 的平衡生成\nB. 催化劑會提高平衡常數\nC. 降低溫度有利於放熱方向的平衡\nD. 升高溫度一定能提高 NH₃ 的平衡產率\n檢查答案與解析"
+        },
+        {
+          "index": 4,
+          "promptBlocks": [
+            "第 4 題",
+            "多選題"
+          ],
+          "optionGroups": [
+            {
+              "type": "checkbox",
+              "options": [
+                "A. 所有非金屬單質都不導電",
+                "B. 臭氧在平流層與近地面具有不同的環境意義",
+                "C. NH₃ 溶於水可使溶液呈弱鹼性",
+                "D. 所有含氯化合物都具有相同的氧化性"
+              ]
+            }
+          ],
+          "sourceText": "第 4 題\n多選題\n下列關於非金屬及其化合物的敘述，哪些正確？（多選）A. 所有非金屬單質都不導電\nB. 臭氧在平流層與近地面具有不同的環境意義\nC. NH₃ 溶於水可使溶液呈弱鹼性\nD. 所有含氯化合物都具有相同的氧化性\n檢查答案與解析"
+        },
+        {
+          "index": 5,
+          "promptBlocks": [
+            "第 5 題",
+            "單選題"
+          ],
+          "optionGroups": [
+            {
+              "type": "checkbox",
+              "options": [
+                "A. X 一定是金屬",
+                "B. X 可能具有很高的硬度",
+                "C. X 一定容易溶於水",
+                "D. X 的原子間沒有共價鍵"
+              ]
+            }
+          ],
+          "sourceText": "第 5 題\n單選題\n某固體 X 是由單一元素形成的三維共價網狀結構，且通常不導電。下列哪個推論最合理？（單選）A. X 一定是金屬\nB. X 可能具有很高的硬度\nC. X 一定容易溶於水\nD. X 的原子間沒有共價鍵\n檢查答案與解析"
+        }
+      ],
+      "status": "ready"
+    }
+  ]
+}

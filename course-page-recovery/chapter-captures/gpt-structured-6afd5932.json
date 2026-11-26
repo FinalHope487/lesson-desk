@@ -1,0 +1,118 @@
+{
+  "id": "6afd5932-2f34-83ee-ba40-57222bb343c3",
+  "heading": "十三、本章綜合習題",
+  "exactQuestionCount": 5,
+  "extraction": "DOM extraction using neighboring option labels, radio/checkbox groups, and question card boundaries. No answers inferred; raw HTML remains fallback.",
+  "sections": [
+    {
+      "heading": "十三、本章綜合習題",
+      "questionCount": 5,
+      "sourceControlCounts": {
+        "radio": 12,
+        "checkbox": 8
+      },
+      "extractedControlCounts": {
+        "radio": 12,
+        "checkbox": 8
+      },
+      "questionRecords": [
+        {
+          "index": 1,
+          "promptBlocks": [
+            "第 1 題",
+            "多選題"
+          ],
+          "optionGroups": [
+            {
+              "type": "checkbox",
+              "options": [
+                "A. 縮小容器體積，反應物莫耳數不變",
+                "B. 定容加入惰性氣體",
+                "C. 定壓加入惰性氣體",
+                "D. 定容增加某氣體反應物的莫耳數"
+              ]
+            }
+          ],
+          "sourceText": "第 1 題\n多選題\n某氣體反應在定溫下進行。下列哪些操作可能使反應物濃度增加？A. 縮小容器體積，反應物莫耳數不變\nB. 定容加入惰性氣體\nC. 定壓加入惰性氣體\nD. 定容增加某氣體反應物的莫耳數\n檢查答案與解析"
+        },
+        {
+          "index": 2,
+          "promptBlocks": [
+            "第 2 題",
+            "單選題"
+          ],
+          "optionGroups": [
+            {
+              "type": "radio",
+              "options": [
+                "A. 1 倍",
+                "B. 2 倍",
+                "C. 4 倍",
+                "D. 8 倍"
+              ]
+            }
+          ],
+          "sourceText": "第 2 題\n單選題\n某反應在定溫下符合 v=k[A]²[B]。若 [A] 變為原來的兩倍、[B] 變為原來的一半，速率變成多少倍？\nA. 1 倍\nB. 2 倍\nC. 4 倍\nD. 8 倍\n檢查答案與解析"
+        },
+        {
+          "index": 3,
+          "promptBlocks": [
+            "第 3 題",
+            "多選題"
+          ],
+          "optionGroups": [
+            {
+              "type": "checkbox",
+              "options": [
+                "A. 正向反應的有效活化能可能降低",
+                "B. 產物能量會變得更低",
+                "C. 正反應與逆反應都可能加快",
+                "D. 平衡常數增加"
+              ]
+            }
+          ],
+          "sourceText": "第 3 題\n多選題\n某放熱反應加入適當催化劑後，下列哪些敘述正確？A. 正向反應的有效活化能可能降低\nB. 產物能量會變得更低\nC. 正反應與逆反應都可能加快\nD. 平衡常數增加\n檢查答案與解析"
+        },
+        {
+          "index": 4,
+          "promptBlocks": [
+            "第 4 題",
+            "單選題"
+          ],
+          "optionGroups": [
+            {
+              "type": "radio",
+              "options": [
+                "A. 2/3 倍",
+                "B. 1 倍",
+                "C. 1.5 倍",
+                "D. 2.25 倍"
+              ]
+            }
+          ],
+          "sourceText": "第 4 題\n單選題\n某實驗中，每次反應皆產生相同固定量的氣體。實驗甲耗時 30 秒，乙耗時 45 秒。甲的平均產氣速率是乙的幾倍？\nA. 2/3 倍\nB. 1 倍\nC. 1.5 倍\nD. 2.25 倍\n檢查答案與解析"
+        },
+        {
+          "index": 5,
+          "promptBlocks": [
+            "第 5 題",
+            "單選題"
+          ],
+          "optionGroups": [
+            {
+              "type": "radio",
+              "options": [
+                "A. 升溫一定使活化能上升",
+                "B. 80°C 時反應物不再碰撞",
+                "C. 高溫可能改變酵素結構，使催化活性降低",
+                "D. 酵素會改變反應平衡常數"
+              ]
+            }
+          ],
+          "sourceText": "第 5 題\n單選題\n某酵素反應由 25°C 升至 40°C 時變快，但升至 80°C 時幾乎停止。下列何者最合理？\nA. 升溫一定使活化能上升\nB. 80°C 時反應物不再碰撞\nC. 高溫可能改變酵素結構，使催化活性降低\nD. 酵素會改變反應平衡常數\n檢查答案與解析"
+        }
+      ],
+      "status": "ready"
+    }
+  ]
+}

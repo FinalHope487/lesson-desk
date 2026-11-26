@@ -1,0 +1,72 @@
+{
+  "id": "6afd7a9d-38f0-83e8-bcd4-e23476d2a829",
+  "heading": "十、本章綜合習題",
+  "exactQuestionCount": 4,
+  "extraction": "DOM-based visible source text extraction only; no solutions generated. Raw HTML is retained in the corresponding gpt-source packet.",
+  "sections": [
+    {
+      "heading": "十、本章綜合習題",
+      "count": 4,
+      "capturedBodySize": 365,
+      "visibleMarkdown": "以下四題涵蓋計算、概念整合與環境證據判讀。題目難度高於前面的理解檢查，但不需要進階大學化學知識。\n建議先自行作答，不提供預設解答。\n第 1 題｜原子經濟性與產率\n石灰石分解反應為 CaCO₃ → CaO + CO₂。已知 Ca=40、C=12、O=16。投入 200 g 純 CaCO₃，實際取得 CaO 100.8 g。計算本反應以 CaO 為目標產物的原子經濟性。\n計算 CaO 的實際產率。\n若要評估此製程是否符合綠色化學，除了上述兩個數值，還應考慮哪些因素？\n檢查作答\n第 2 題｜循環經濟的定量比較\n第 3 題｜氮循環與氧化還原\n第 4 題｜科學證據與綠色化學決策\n本章最值得建立的觀念是：綠色化學不是只追求一個漂亮的數值，循環經濟也不是只把廢棄物重新加工。兩者都需要在物質守恆、反應效率、能源需求與環境影響之間，做有科學依據的整體判斷。",
+      "sourceBlocks": [
+        {
+          "tag": "p",
+          "text": "以下四題涵蓋計算、概念整合與環境證據判讀。題目難度高於前面的理解檢查，但不需要進階大學化學知識。"
+        },
+        {
+          "tag": "p",
+          "text": "建議先自行作答，不提供預設解答。"
+        },
+        {
+          "tag": "p",
+          "text": "第 1 題｜原子經濟性與產率"
+        },
+        {
+          "tag": "li",
+          "text": "計算本反應以 CaO 為目標產物的原子經濟性。"
+        },
+        {
+          "tag": "li",
+          "text": "計算 CaO 的實際產率。"
+        },
+        {
+          "tag": "li",
+          "text": "若要評估此製程是否符合綠色化學，除了上述兩個數值，還應考慮哪些因素？"
+        },
+        {
+          "tag": "p",
+          "text": "第 2 題｜循環經濟的定量比較"
+        },
+        {
+          "tag": "p",
+          "text": "第 3 題｜氮循環與氧化還原"
+        },
+        {
+          "tag": "p",
+          "text": "第 4 題｜科學證據與綠色化學決策"
+        },
+        {
+          "tag": "span",
+          "text": "綠色化學不是只追求一個漂亮的數值，循環經濟也不是只把廢棄物重新加工。兩者都需要在物質守恆、反應效率、能源需求與環境影響之間，做有科學依據的整體判斷。"
+        }
+      ],
+      "questionRecords": null,
+      "segmentationMethod": "ambiguous; ordered source text retained",
+      "controls": [
+        {
+          "kind": "textarea",
+          "label": "在這裡寫下你的想法或計算過程……",
+          "value": ""
+        }
+      ],
+      "mathAnnotations": [],
+      "rawTagEvidence": {
+        "radioGroups": 0,
+        "radio": 0,
+        "checkbox": 0,
+        "mathClass": 0
+      }
+    }
+  ]
+}

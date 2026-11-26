@@ -1,0 +1,63 @@
+{
+  "id": "6afd57ef-bf7c-83ee-9662-ce9fd0e6a08d",
+  "heading": "十、本章綜合習題",
+  "exactQuestionCount": 4,
+  "extraction": "DOM-based visible source text extraction only; no solutions generated. Raw HTML is retained in the corresponding gpt-source packet.",
+  "sections": [
+    {
+      "heading": "十、本章綜合習題",
+      "count": 4,
+      "capturedBodySize": null,
+      "visibleMarkdown": "以下題目需要整合路易斯結構、電子域與鍵角觀念，比前面的理解檢查更有挑戰性。\n1. 比較 CO₂、SO₂ 與 H₂O 的分子形狀。哪些相同？哪些電子域排列不同？\n顯示提示\n2. 已知某分子中心原子有三個單鍵及一對孤電子對。判斷電子域排列、分子形狀，並解釋鍵角為何可能小於 109.5°。\n顯示提示\n3. 比較 CH₄、NH₃、H₂O 的鍵角大小，並說明為什麼三者雖然具有相同電子域數，鍵角卻不完全相同。\n顯示提示\n4. 某分子的中心原子有兩個雙鍵與一對孤電子對。預測它的電子域排列及分子形狀，並解釋為何不能把雙鍵各算成兩個電子域。\n顯示提示",
+      "sourceBlocks": [
+        {
+          "tag": "p",
+          "text": "以下題目需要整合路易斯結構、電子域與鍵角觀念，比前面的理解檢查更有挑戰性。"
+        },
+        {
+          "tag": "p",
+          "text": "1. 比較 CO₂、SO₂ 與 H₂O 的分子形狀。哪些相同？哪些電子域排列不同？"
+        },
+        {
+          "tag": "p",
+          "text": "2. 已知某分子中心原子有三個單鍵及一對孤電子對。判斷電子域排列、分子形狀，並解釋鍵角為何可能小於 109.5°。"
+        },
+        {
+          "tag": "p",
+          "text": "3. 比較 CH₄、NH₃、H₂O 的鍵角大小，並說明為什麼三者雖然具有相同電子域數，鍵角卻不完全相同。"
+        },
+        {
+          "tag": "p",
+          "text": "4. 某分子的中心原子有兩個雙鍵與一對孤電子對。預測它的電子域排列及分子形狀，並解釋為何不能把雙鍵各算成兩個電子域。"
+        }
+      ],
+      "questionRecords": [
+        {
+          "index": 1,
+          "sourceText": "1. 比較 CO₂、SO₂ 與 H₂O 的分子形狀。哪些相同？哪些電子域排列不同？"
+        },
+        {
+          "index": 2,
+          "sourceText": "2. 已知某分子中心原子有三個單鍵及一對孤電子對。判斷電子域排列、分子形狀，並解釋鍵角為何可能小於 109.5°。"
+        },
+        {
+          "index": 3,
+          "sourceText": "3. 比較 CH₄、NH₃、H₂O 的鍵角大小，並說明為什麼三者雖然具有相同電子域數，鍵角卻不完全相同。"
+        },
+        {
+          "index": 4,
+          "sourceText": "4. 某分子的中心原子有兩個雙鍵與一對孤電子對。預測它的電子域排列及分子形狀，並解釋為何不能把雙鍵各算成兩個電子域。"
+        }
+      ],
+      "segmentationMethod": "explicit numbered source blocks",
+      "controls": [],
+      "mathAnnotations": [],
+      "rawTagEvidence": {
+        "radioGroups": 0,
+        "radio": 0,
+        "checkbox": 0,
+        "mathClass": 0
+      }
+    }
+  ]
+}

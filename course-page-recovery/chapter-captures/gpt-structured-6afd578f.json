@@ -1,0 +1,95 @@
+{
+  "id": "6afd578f-69fc-83e8-a5a0-c099e0b343fb",
+  "heading": "十一、本章綜合習題",
+  "exactQuestionCount": 4,
+  "extraction": "DOM extraction using neighboring option labels, radio/checkbox groups, and question card boundaries. No answers inferred; raw HTML remains fallback.",
+  "sections": [
+    {
+      "heading": "十一、本章綜合習題",
+      "questionCount": 4,
+      "sourceControlCounts": {
+        "radio": 0,
+        "checkbox": 16
+      },
+      "extractedControlCounts": {
+        "radio": 0,
+        "checkbox": 16
+      },
+      "questionRecords": [
+        {
+          "index": 1,
+          "promptBlocks": [
+            "1. 關於 CO₂ 與 H₂O，下列哪些敘述正確？（多選）"
+          ],
+          "optionGroups": [
+            {
+              "type": "checkbox",
+              "options": [
+                "A. 兩者的中心原子皆為 sp³ 混成",
+                "B. CO₂ 中的碳為 sp 混成",
+                "C. H₂O 中的氧有兩對孤電子對",
+                "D. 兩者都具有直線形分子結構"
+              ]
+            }
+          ],
+          "sourceText": "1. 關於 CO₂ 與 H₂O，下列哪些敘述正確？（多選）\nA. 兩者的中心原子皆為 sp³ 混成\nB. CO₂ 中的碳為 sp 混成\nC. H₂O 中的氧有兩對孤電子對\nD. 兩者都具有直線形分子結構\n檢查答案"
+        },
+        {
+          "index": 2,
+          "promptBlocks": [
+            "2. 對乙炔 C₂H₂，下列哪些敘述正確？（多選）"
+          ],
+          "optionGroups": [
+            {
+              "type": "checkbox",
+              "options": [
+                "A. 兩個碳均為 sp 混成",
+                "B. 分子共有 3 條 σ 鍵",
+                "C. 分子共有 2 條 π 鍵",
+                "D. C≡C 中含有三條 σ 鍵"
+              ]
+            }
+          ],
+          "sourceText": "2. 對乙炔 C₂H₂，下列哪些敘述正確？（多選）\nA. 兩個碳均為 sp 混成\nB. 分子共有 3 條 σ 鍵\nC. 分子共有 2 條 π 鍵\nD. C≡C 中含有三條 σ 鍵\n檢查答案"
+        },
+        {
+          "index": 3,
+          "promptBlocks": [
+            "3. 碳酸根 CO₃²⁻ 的三個主要共振結構等價，下列哪些敘述正確？（多選）"
+          ],
+          "optionGroups": [
+            {
+              "type": "checkbox",
+              "options": [
+                "A. 三條 C–O 鍵長相同",
+                "B. 三條 C–O 鍵的平均鍵級為 4/3",
+                "C. 分子會在三個結構之間快速切換",
+                "D. 中心碳可用 sp² 混成模型描述"
+              ]
+            }
+          ],
+          "sourceText": "3. 碳酸根 CO₃²⁻ 的三個主要共振結構等價，下列哪些敘述正確？（多選）\nA. 三條 C–O 鍵長相同\nB. 三條 C–O 鍵的平均鍵級為 4/3\nC. 分子會在三個結構之間快速切換\nD. 中心碳可用 sp² 混成模型描述\n檢查答案"
+        },
+        {
+          "index": 4,
+          "promptBlocks": [
+            "4. 關於鑽石、石墨及固態 CO₂，下列哪些敘述正確？（多選）"
+          ],
+          "optionGroups": [
+            {
+              "type": "checkbox",
+              "options": [
+                "A. 鑽石與石墨具有不同的碳原子排列方式",
+                "B. 固態 CO₂ 是共價網狀固體",
+                "C. 石墨的導電性與離域電子有關",
+                "D. 鑽石硬度高與三維共價鍵網路有關"
+              ]
+            }
+          ],
+          "sourceText": "4. 關於鑽石、石墨及固態 CO₂，下列哪些敘述正確？（多選）\nA. 鑽石與石墨具有不同的碳原子排列方式\nB. 固態 CO₂ 是共價網狀固體\nC. 石墨的導電性與離域電子有關\nD. 鑽石硬度高與三維共價鍵網路有關\n檢查答案"
+        }
+      ],
+      "status": "ready"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "6afd56e7-9954-83ec-a904-16424b62a913",
+  "heading": "十、本章綜合習題",
+  "exactQuestionCount": 5,
+  "extraction": "DOM extraction using neighboring option labels, radio/checkbox groups, and question card boundaries. No answers inferred; raw HTML remains fallback.",
+  "sections": [
+    {
+      "heading": "十、本章綜合習題",
+      "questionCount": 5,
+      "sourceControlCounts": {
+        "radio": 12,
+        "checkbox": 8
+      },
+      "extractedControlCounts": {
+        "radio": 12,
+        "checkbox": 8
+      },
+      "questionRecords": [
+        {
+          "index": 1,
+          "promptBlocks": [
+            "第 1 題",
+            "單選"
+          ],
+          "optionGroups": [
+            {
+              "type": "radio",
+              "options": [
+                "A. X 位於第三週期、第 13 族",
+                "B. X 的第一游離能一定大於 Mg",
+                "C. X 最容易形成 X³⁻",
+                "D. X 屬於 d 區元素"
+              ]
+            }
+          ],
+          "sourceText": "第 1 題\n單選\n某元素 X 的基態電子組態為 [Ne]3s²3p¹。下列何者正確？\nA. X 位於第三週期、第 13 族\nB. X 的第一游離能一定大於 Mg\nC. X 最容易形成 X³⁻\nD. X 屬於 d 區元素\n檢查並查看解析"
+        },
+        {
+          "index": 2,
+          "promptBlocks": [
+            "第 2 題",
+            "單選"
+          ],
+          "optionGroups": [
+            {
+              "type": "radio",
+              "options": [
+                "A. Na > Mg > Na⁺ > Mg²⁺",
+                "B. Mg > Na > Mg²⁺ > Na⁺",
+                "C. Na⁺ > Mg²⁺ > Na > Mg",
+                "D. Mg²⁺ > Na⁺ > Mg > Na"
+              ]
+            }
+          ],
+          "sourceText": "第 2 題\n單選\n比較 Na、Mg、Na⁺、Mg²⁺ 的半徑，下列何者正確？\nA. Na > Mg > Na⁺ > Mg²⁺\nB. Mg > Na > Mg²⁺ > Na⁺\nC. Na⁺ > Mg²⁺ > Na > Mg\nD. Mg²⁺ > Na⁺ > Mg > Na\n檢查並查看解析"
+        },
+        {
+          "index": 3,
+          "promptBlocks": [
+            "第 3 題",
+            "多選"
+          ],
+          "optionGroups": [
+            {
+              "type": "checkbox",
+              "options": [
+                "A. 它最外層可能只有一個電子",
+                "B. 它可能屬第 1 族",
+                "C. 它的第二游離能大幅增加，表示第二個電子較難移走",
+                "D. 它最可能是第 17 族"
+              ]
+            }
+          ],
+          "sourceText": "第 3 題\n多選\n某元素連續游離能為 496、4562、6910、9543 kJ/mol（約值）。下列哪些推論合理？A. 它最外層可能只有一個電子\nB. 它可能屬第 1 族\nC. 它的第二游離能大幅增加，表示第二個電子較難移走\nD. 它最可能是第 17 族\n檢查並查看解析"
+        },
+        {
+          "index": 4,
+          "promptBlocks": [
+            "第 4 題",
+            "多選"
+          ],
+          "optionGroups": [
+            {
+              "type": "checkbox",
+              "options": [
+                "A. I₁(Be) > I₁(B)",
+                "B. I₁(O) > I₁(N)",
+                "C. I₁(N) > I₁(B)",
+                "D. I₁(B) > I₁(Be)"
+              ]
+            }
+          ],
+          "sourceText": "第 4 題\n多選\n已知第二週期的 Be、B、N、O，以下哪些比較正確？A. I₁(Be) > I₁(B)\nB. I₁(O) > I₁(N)\nC. I₁(N) > I₁(B)\nD. I₁(B) > I₁(Be)\n檢查並查看解析"
+        },
+        {
+          "index": 5,
+          "promptBlocks": [
+            "第 5 題",
+            "單選"
+          ],
+          "optionGroups": [
+            {
+              "type": "radio",
+              "options": [
+                "A. Na 最大，因為它是金屬",
+                "B. F 最大，且 H—F 的鍵結電子偏向 F",
+                "C. Cl 比 F 大，因為 Cl 的原子較大",
+                "D. H—F 中 F 帶完整 −1 電荷"
+              ]
+            }
+          ],
+          "sourceText": "第 5 題\n單選\n對 H、F、Cl、Na 的電負度，下列何者正確？\nA. Na 最大，因為它是金屬\nB. F 最大，且 H—F 的鍵結電子偏向 F\nC. Cl 比 F 大，因為 Cl 的原子較大\nD. H—F 中 F 帶完整 −1 電荷\n檢查並查看解析"
+        }
+      ],
+      "status": "ready"
+    }
+  ]
+}

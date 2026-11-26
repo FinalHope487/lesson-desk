@@ -1,0 +1,103 @@
+{
+  "id": "6afd565d-9a08-83ee-8d10-7feb69917418",
+  "heading": "十四、本章進階習題",
+  "exactQuestionCount": 4,
+  "extraction": "DOM extraction using neighboring option labels, radio/checkbox groups, and question card boundaries. No answers inferred; raw HTML remains fallback.",
+  "sections": [
+    {
+      "heading": "十四、本章進階習題",
+      "questionCount": 4,
+      "sourceControlCounts": {
+        "radio": 0,
+        "checkbox": 16
+      },
+      "extractedControlCounts": {
+        "radio": 0,
+        "checkbox": 16
+      },
+      "questionRecords": [
+        {
+          "index": 1,
+          "promptBlocks": [
+            "第 1 題",
+            "單選",
+            "某中性原子的基態組態為 [Ne]3s²3p⁴。下列敘述何者正確？"
+          ],
+          "optionGroups": [
+            {
+              "type": "checkbox",
+              "options": [
+                "A. 具有 4 個價電子",
+                "B. 具有 2 個未成對電子",
+                "C. 屬於第 4 週期",
+                "D. 最外層為全滿"
+              ]
+            }
+          ],
+          "sourceText": "第 1 題\n單選\n某中性原子的基態組態為 [Ne]3s²3p⁴。下列敘述何者正確？\nA. 具有 4 個價電子\nB. 具有 2 個未成對電子\nC. 屬於第 4 週期\nD. 最外層為全滿\n檢查答案"
+        },
+        {
+          "index": 2,
+          "promptBlocks": [
+            "第 2 題",
+            "多選",
+            "下列哪些粒子具有相同的電子組態？（多選）"
+          ],
+          "optionGroups": [
+            {
+              "type": "checkbox",
+              "options": [
+                "A. Na⁺ 與 Ne",
+                "B. Mg²⁺ 與 F⁻",
+                "C. Cl⁻ 與 K⁺",
+                "D. Fe²⁺ 與 Ar"
+              ]
+            }
+          ],
+          "sourceText": "第 2 題\n多選\n下列哪些粒子具有相同的電子組態？（多選）\nA. Na⁺ 與 Ne\nB. Mg²⁺ 與 F⁻\nC. Cl⁻ 與 K⁺\nD. Fe²⁺ 與 Ar\n檢查答案"
+        },
+        {
+          "index": 3,
+          "promptBlocks": [
+            "第 3 題",
+            "單選",
+            "關於 Cr 的基態電子組態，下列何者正確？"
+          ],
+          "optionGroups": [
+            {
+              "type": "checkbox",
+              "options": [
+                "A. [Ar]4s²3d⁴",
+                "B. [Ar]4s¹3d⁵",
+                "C. [Ar]3d⁶",
+                "D. [Ar]4s²3d⁵"
+              ]
+            }
+          ],
+          "sourceText": "第 3 題\n單選\n關於 Cr 的基態電子組態，下列何者正確？\nA. [Ar]4s²3d⁴\nB. [Ar]4s¹3d⁵\nC. [Ar]3d⁶\nD. [Ar]4s²3d⁵\n檢查答案"
+        },
+        {
+          "index": 4,
+          "promptBlocks": [
+            "第 4 題",
+            "多選",
+            "下列關於電子組態與能量的敘述，哪些正確？（多選）"
+          ],
+          "optionGroups": [
+            {
+              "type": "checkbox",
+              "options": [
+                "A. 激發態一定比基態具有更高能量",
+                "B. 所有原子的 4s 軌域都比 3d 能量低",
+                "C. 電子躍遷時可能吸收或放出光子",
+                "D. 洪德定則適用於等能量軌域的填入"
+              ]
+            }
+          ],
+          "sourceText": "第 4 題\n多選\n下列關於電子組態與能量的敘述，哪些正確？（多選）\nA. 激發態一定比基態具有更高能量\nB. 所有原子的 4s 軌域都比 3d 能量低\nC. 電子躍遷時可能吸收或放出光子\nD. 洪德定則適用於等能量軌域的填入\n檢查答案"
+        }
+      ],
+      "status": "ready"
+    }
+  ]
+}

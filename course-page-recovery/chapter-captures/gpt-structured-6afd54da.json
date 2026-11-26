@@ -1,0 +1,71 @@
+{
+  "id": "6afd54da-7e70-83ec-8771-36f269ff7846",
+  "heading": "十二、本章綜合習題",
+  "exactQuestionCount": 5,
+  "extraction": "DOM-based visible source text extraction only; no solutions generated. Raw HTML is retained in the corresponding gpt-source packet.",
+  "sections": [
+    {
+      "heading": "十二、本章綜合習題",
+      "count": 5,
+      "capturedBodySize": 116,
+      "visibleMarkdown": "以下題目難度由中等到進階，涵蓋計算、概念判斷與綜合應用。先不提供答案，作答後再逐題檢討。\n第 1 題｜濃度與莫耳分率\n展開\n第 2 題｜溶解度與冷卻結晶\n展開\n第 3 題｜亨利定律\n展開\n第 4 題｜沉澱反應與計量\n展開\n第 5 題｜離子分離策略\n展開",
+      "sourceBlocks": [
+        {
+          "tag": "p",
+          "text": "以下題目難度由中等到進階，涵蓋計算、概念判斷與綜合應用。先不提供答案，作答後再逐題檢討。"
+        },
+        {
+          "tag": "span",
+          "text": "第 1 題｜濃度與莫耳分率"
+        },
+        {
+          "tag": "span",
+          "text": "第 2 題｜溶解度與冷卻結晶"
+        },
+        {
+          "tag": "span",
+          "text": "第 3 題｜亨利定律"
+        },
+        {
+          "tag": "span",
+          "text": "第 4 題｜沉澱反應與計量"
+        },
+        {
+          "tag": "span",
+          "text": "第 5 題｜離子分離策略"
+        }
+      ],
+      "questionRecords": [
+        {
+          "index": 1,
+          "sourceText": "第 1 題｜濃度與莫耳分率\n展開"
+        },
+        {
+          "index": 2,
+          "sourceText": "第 2 題｜溶解度與冷卻結晶\n展開"
+        },
+        {
+          "index": 3,
+          "sourceText": "第 3 題｜亨利定律\n展開"
+        },
+        {
+          "index": 4,
+          "sourceText": "第 4 題｜沉澱反應與計量\n展開"
+        },
+        {
+          "index": 5,
+          "sourceText": "第 5 題｜離子分離策略\n展開"
+        }
+      ],
+      "segmentationMethod": "one bordered card per captured question",
+      "controls": [],
+      "mathAnnotations": [],
+      "rawTagEvidence": {
+        "radioGroups": 0,
+        "radio": 0,
+        "checkbox": 0,
+        "mathClass": 0
+      }
+    }
+  ]
+}
