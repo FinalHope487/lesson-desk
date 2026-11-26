@@ -1,0 +1,30 @@
+[
+  {
+    "type": "reveal",
+    "title": "第 1 題",
+    "prompt": "基礎應用",
+    "hint": "解題提示",
+    "reference": "參考解答"
+  },
+  {
+    "type": "reveal",
+    "title": "第 2 題",
+    "prompt": "基礎應用",
+    "hint": "解題提示",
+    "reference": "參考解答"
+  },
+  {
+    "type": "reveal",
+    "title": "第 3 題",
+    "prompt": "比較分析",
+    "hint": "解題提示",
+    "reference": "參考解答"
+  },
+  {
+    "type": "reveal",
+    "title": "第 4 題",
+    "prompt": "進階整合",
+    "hint": "解題提示",
+    "reference": "參考解答"
+  }
+]

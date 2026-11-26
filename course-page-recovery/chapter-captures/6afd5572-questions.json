@@ -1,0 +1,72 @@
+[
+  {
+    "type": "choice",
+    "multiple": false,
+    "title": "第 1 題｜蒸氣壓下降",
+    "prompt": "1. 將相同莫耳數的葡萄糖與 NaCl 分別溶於相同質量的水中。假設完全解離且近似理想，何者的蒸氣壓較低？",
+    "options": [
+      { "value": "A", "label": "A. 葡萄糖水溶液" },
+      { "value": "B", "label": "B. NaCl 水溶液" },
+      { "value": "C", "label": "C. 兩者相同" },
+      { "value": "D", "label": "D. 無法判斷" }
+    ],
+    "answers": ["B"],
+    "explanation": "補解：依蒸氣壓下降的依數性質，溶液中的溶質粒子數越多，蒸氣壓越低。相同莫耳數下，葡萄糖不解離；NaCl 完全解離成 Na⁺、Cl⁻，粒子數較多，因此 NaCl 水溶液的蒸氣壓較低。"
+  },
+  {
+    "type": "choice",
+    "multiple": false,
+    "title": "第 2 題｜凝固點下降",
+    "prompt": "2. 將 0.20 mol CaCl₂ 溶於 1.00 kg 水中，假設完全解離。已知水的 Kf = 1.86 °C·kg/mol，凝固點約為多少？",
+    "options": [
+      { "value": "A", "label": "A. −0.372°C" },
+      { "value": "B", "label": "B. −0.744°C" },
+      { "value": "C", "label": "C. −1.116°C" },
+      { "value": "D", "label": "D. −1.860°C" }
+    ],
+    "answers": ["C"],
+    "explanation": "補解：莫耳濃度為重量莫耳濃度 m = 0.20 mol ÷ 1.00 kg = 0.20 mol/kg。CaCl₂ 完全解離成 3 個離子，i = 3。ΔTf = iKf m = 3 × 1.86 °C·kg/mol × 0.20 mol/kg = 1.116 °C，因此溶液凝固點約為 0 − 1.116 = −1.116°C。"
+  },
+  {
+    "type": "choice",
+    "multiple": false,
+    "title": "第 3 題｜滲透壓",
+    "prompt": "3. 在 300 K 時，0.10 M NaCl 溶液的理想滲透壓約為多少？取 R=0.0821 L·atm/(mol·K)，假設完全解離。",
+    "options": [
+      { "value": "A", "label": "A. 1.23 atm" },
+      { "value": "B", "label": "B. 2.46 atm" },
+      { "value": "C", "label": "C. 4.93 atm" },
+      { "value": "D", "label": "D. 24.6 atm" }
+    ],
+    "answers": ["C"],
+    "explanation": "補解：理想滲透壓 π = iMRT。NaCl 完全解離時 i = 2，因此 π = 2 × 0.10 mol/L × 0.0821 L·atm/(mol·K) × 300 K = 4.926 atm，約為 4.93 atm。"
+  },
+  {
+    "type": "choice",
+    "multiple": false,
+    "title": "第 4 題｜滲透作用方向",
+    "prompt": "4. 兩個等溫溶液由只允許水通過的半透膜隔開。A 側為 0.10 M 葡萄糖，B 側為 0.10 M NaCl，假設完全解離。起初兩側壓力相同，水的淨移動方向為何？",
+    "options": [
+      { "value": "A", "label": "A. A → B" },
+      { "value": "B", "label": "B. B → A" },
+      { "value": "C", "label": "C. 沒有淨移動" },
+      { "value": "D", "label": "D. 水完全不能通過" }
+    ],
+    "answers": ["A"],
+    "explanation": "補解：相同莫耳濃度下，葡萄糖不解離，A 側有效溶質粒子濃度較低；NaCl 完全解離，B 側有效溶質粒子濃度較高、滲透壓較大。水會由較低溶質粒子濃度側移向較高溶質粒子濃度側，因此淨移動方向為 A → B。"
+  },
+  {
+    "type": "choice",
+    "multiple": false,
+    "title": "第 5 題｜凝固點下降比值",
+    "prompt": "5. 兩種非電解質溶液使用相同溶劑，重量莫耳濃度分別為 0.20 與 0.50 mol/kg。其凝固點下降量的比值為何？",
+    "options": [
+      { "value": "A", "label": "A. 1：1" },
+      { "value": "B", "label": "B. 2：5" },
+      { "value": "C", "label": "C. 5：2" },
+      { "value": "D", "label": "D. 1：5" }
+    ],
+    "answers": ["B"],
+    "explanation": "補解：相同溶劑的凝固點下降量 ΔTf = iKf m。兩者都是非電解質，i = 1，且 Kf 相同，因此下降量比等於重量莫耳濃度比：0.20：0.50 = 2：5。"
+  }
+]

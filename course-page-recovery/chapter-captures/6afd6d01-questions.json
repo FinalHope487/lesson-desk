@@ -1,0 +1,72 @@
+[
+  {
+    "type": "choice",
+    "multiple": false,
+    "title": "第 1 題｜兩性物種",
+    "prompt": "1. 下列關於 HSO₄⁻ 的敘述，何者正確？",
+    "options": [
+      { "value": "A", "label": "A. 只能當酸" },
+      { "value": "B", "label": "B. 只能當鹼" },
+      { "value": "C", "label": "C. 可以當酸，也可以當鹼" },
+      { "value": "D", "label": "D. 因為帶負電，所以不能提供 H⁺" }
+    ],
+    "answers": ["C"],
+    "explanation": "補解：HSO₄⁻ 可以提供 H⁺ 生成 SO₄²⁻，所以能作為酸；也可以接受 H⁺ 生成 H₂SO₄，所以能作為鹼。它是兩性物種。"
+  },
+  {
+    "type": "choice",
+    "multiple": false,
+    "title": "第 2 題｜共軛鹼強度",
+    "prompt": "2. 已知酸強弱為 HCl > HF > CH₃COOH，下列共軛鹼由強到弱的順序何者正確？",
+    "options": [
+      { "value": "A", "label": "A. Cl⁻ > F⁻ > CH₃COO⁻" },
+      { "value": "B", "label": "B. CH₃COO⁻ > F⁻ > Cl⁻" },
+      { "value": "C", "label": "C. F⁻ > Cl⁻ > CH₃COO⁻" },
+      { "value": "D", "label": "D. 三者強弱相同" }
+    ],
+    "answers": ["B"],
+    "explanation": "補解：酸越弱，其共軛鹼越強。由已知酸強度 HCl > HF > CH₃COOH，反向排列共軛鹼強度，得到 CH₃COO⁻ > F⁻ > Cl⁻。"
+  },
+  {
+    "type": "choice",
+    "multiple": false,
+    "title": "第 3 題｜質子轉移平衡",
+    "prompt": "3. 考慮 NH₄⁺ + CO₃²⁻ ⇌ NH₃ + HCO₃⁻。已知 NH₄⁺ 比 HCO₃⁻（作為酸時）強，下列何者正確？",
+    "options": [
+      { "value": "A", "label": "A. NH₄⁺ 是鹼，反應偏左" },
+      { "value": "B", "label": "B. CO₃²⁻ 是酸，反應偏右" },
+      { "value": "C", "label": "C. NH₄⁺ 是酸，平衡偏右" },
+      { "value": "D", "label": "D. NH₃ 是酸，平衡偏左" }
+    ],
+    "answers": ["C"],
+    "explanation": "補解：NH₄⁺ 提供質子給 CO₃²⁻，因此 NH₄⁺ 是酸、CO₃²⁻ 是鹼。平衡傾向生成較弱的酸與鹼；題目指出 HCO₃⁻ 作為酸時比 NH₄⁺ 弱，故平衡偏向右側的 NH₃ 與 HCO₃⁻。"
+  },
+  {
+    "type": "choice",
+    "multiple": false,
+    "title": "第 4 題｜弱酸與強鹼中和",
+    "prompt": "4. 將等莫耳的 CH₃COOH 與 NaOH 混合並使其充分反應，下列何者最合理？",
+    "options": [
+      { "value": "A", "label": "A. 生成的溶液一定呈中性" },
+      { "value": "B", "label": "B. CH₃COO⁻ 可與水反應產生 OH⁻，溶液可能呈鹼性" },
+      { "value": "C", "label": "C. 因醋酸是弱酸，所以不會與 NaOH 反應" },
+      { "value": "D", "label": "D. 反應後只存在水分子" }
+    ],
+    "answers": ["B"],
+    "explanation": "補解：等莫耳醋酸與 NaOH 完全中和，主要生成 CH₃COONa 和水。乙酸根是弱酸 CH₃COOH 的共軛鹼，會水解：CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻，所以溶液可能呈鹼性。"
+  },
+  {
+    "type": "choice",
+    "multiple": false,
+    "title": "第 5 題｜布－洛與阿瑞尼斯理論",
+    "prompt": "5. 下列何者最能說明布－洛理論與阿瑞尼斯理論的差異？",
+    "options": [
+      { "value": "A", "label": "A. 布－洛理論認為所有酸都必須含氧" },
+      { "value": "B", "label": "B. 布－洛理論只能解釋水溶液" },
+      { "value": "C", "label": "C. 布－洛理論可以描述非水環境中的質子轉移" },
+      { "value": "D", "label": "D. 布－洛理論認為酸鹼反應一定完全進行" }
+    ],
+    "answers": ["C"],
+    "explanation": "補解：阿瑞尼斯酸鹼定義以水溶液中 H⁺ 或 OH⁻ 的產生為基礎；布－洛理論以質子移轉定義酸鹼，因此可描述非水環境中的質子轉移。"
+  }
+]
