@@ -1,0 +1,3 @@
+Syntax passed: github-pages-release/lesson-legacy-widgets.js, github-pages-release/reader.js, github-pages-release/lesson-visualization.js, build-course-library.js
+Inventory: {"matched":32,"lessons":25,"unmatched":[{"id":"6afd6c8e-ad10-83ee-bee4-b9bdb921c71e","message":"bb6624fe-010d-4995-8976-9228fc0ca968"}]}
+Earlier inventory harness attempt failed due a temporary script construction error; corrected command above completed successfully.
