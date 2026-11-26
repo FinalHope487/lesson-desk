@@ -1,0 +1,2700 @@
+[
+  {
+    "row": 1,
+    "id": "6afd74ed-dfc4-83ee-a861-4445ff890da3",
+    "site": {
+      "occurrence": 1,
+      "anchor": "90856fba-88da-4e4b-8be8-de8637fb0257:nxvoh9:1",
+      "kind": "widget"
+    },
+    "mi": 0,
+    "anchor": 436,
+    "index": 437,
+    "marker": "[提交已完成的習題並檢查]",
+    "left": [
+      "以下題目難度略高於前面的理解檢查，結合元素分析、結構判讀、命名與異構物判斷。先自行作答，提交後再逐題檢查與解釋。",
+      "十二、本章綜合習題",
+      "**給定化學式或結構，能夠判斷原子數、鍵結、碳骨架、名稱及異構關係。**",
+      "本章最重要的不是背誦大量名稱，而是建立以下判斷能力：",
+      "| 核心觀念 | 必須掌握的內容 |\n| 碳的鍵結 | 碳通常形成四個共價鍵，可形成鏈、環及多重鍵 |\n| 元素分析 | 先由質量換算莫耳，再求原子數比例 |\n| 實驗式 | 各元素原子數的最簡整數比 |\n| 分子式 | 一個分子中各元素的實際原子數 |\n| 結構表示 | 分子式、結構式、結構簡式、鍵線式的差別 |\n| 有機物分類 | 烷、烯、炔、環烷及常見官能基 |\n| 系統命名 | 主鏈、編號、取代基、多重鍵位置 |\n| 構造異構 | 分子式相同，原子連接方式不同 |\n| 順反異構 | 原子連接相同，但受限旋轉造成不同空間排列 |\n| 結構與性質 | 官能基、分子形狀及分子間作用力會影響性質 |"
+    ],
+    "right": [
+      "可以只作答部分題目，不必一次完成全部五題。",
+      "本章的課綱對照主要依據普通型高中選修化學的 CJf-Va-1「有機化合物組成」及 CJf-Va-2「有機化合物的命名、結構及官能基」；相關的反應與聚合物內容屬於相鄰課程主題，本章未展開。citeturn594551search6turn594551search5turn594551search14"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 5,
+        "type": "fill-in",
+        "options": 0,
+        "score": 8.021794871794873,
+        "same": true,
+        "nearby": 1,
+        "present": 0.3181818181818182
+      },
+      {
+        "cardIndex": 1,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 3.125,
+        "same": false,
+        "nearby": 0.75,
+        "present": 0.8333333333333334
+      },
+      {
+        "cardIndex": 0,
+        "type": "single-choice",
+        "options": 4,
+        "score": 3.0865384615384617,
+        "same": false,
+        "nearby": 0.75,
+        "present": 0.8571428571428571
+      },
+      {
+        "cardIndex": 2,
+        "type": "single-choice",
+        "options": 4,
+        "score": 3.0865384615384617,
+        "same": false,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 4,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 2.928623188405797,
+        "same": false,
+        "nearby": 0.75,
+        "present": 0.8333333333333334
+      },
+      {
+        "cardIndex": 3,
+        "type": "single-choice",
+        "options": 4,
+        "score": 2.6838235294117645,
+        "same": false,
+        "nearby": 0.75,
+        "present": 1
+      }
+    ]
+  },
+  {
+    "row": 2,
+    "id": "6afd75aa-352c-83ee-ba6c-61b179191072",
+    "site": {
+      "occurrence": 1,
+      "anchor": "cb6d10c7-38b2-4970-9a45-de27e5907ce0:1rjctjf:1",
+      "kind": "choice-options"
+    },
+    "mi": 0,
+    "anchor": 137,
+    "index": 138,
+    "marker": "[確認答案]",
+    "left": [
+      "**下列哪些敘述正確？（多選）**",
+      "理解檢查 2",
+      "因此在分子量與結構相近時，醇的沸點通常高於醚。",
+      "| 性質 | 醇 | 醚 |\n| 結構 | R–OH | R–O–R′ |\n| 是否含 O–H | 是 | 否 |\n| 純物質分子間能否彼此形成 O–H 型氫鍵 | 可以 | 不可以 |\n| 能否與水形成氫鍵 | 可以 | 通常可以 |",
+      "醚與醇的重要差別：",
+      "二甲醚。"
+    ],
+    "right": [
+      "六、羰基化合物：醛與酮",
+      "羰基是：",
+      "\n\\boxed{\\mathrm{C=O}}\n",
+      "但含有 C=O 的化合物不一定是醛或酮，因為羧酸、酯及醯胺也具有羰基。"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 1,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 7.104166666666667,
+        "same": true,
+        "nearby": 0.8333333333333334,
+        "present": 0.2222222222222222
+      },
+      {
+        "cardIndex": 0,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.3625,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 2,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.1125,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 3,
+        "type": "multiple-choice",
+        "options": 6,
+        "score": 0.22619047619047616,
+        "same": false,
+        "nearby": 0,
+        "present": 0
+      }
+    ]
+  },
+  {
+    "row": 3,
+    "id": "6afd779b-834c-83ec-adbb-b61d16d5ed32",
+    "site": {
+      "occurrence": 1,
+      "anchor": "8042b05f-cc2a-4e35-ac05-ae2b0d424404:1672tp8:1",
+      "kind": "widget"
+    },
+    "mi": 0,
+    "anchor": 264,
+    "index": 265,
+    "marker": "[提交章末習題並取得解析]",
+    "left": [
+      "以下題目需要整合本章不同觀念，難度略高於前面的理解檢查。先不提供解答，以便依你的作答分析概念掌握程度。",
+      "十、章末習題",
+      "**材料用途、製造方式與使用限制**",
+      "**物理性質及反應傾向**",
+      "**C—X 鍵的極性、強度與分子形狀**"
+    ],
+    "right": [
+      "第 1、3、4 題為多選，第 2 題為單選。提交後會依你的答案提供解析。",
+      "前面的三個理解檢查也可以直接回覆，例如「①ACD、②C、③BC」。我會依實際作答判斷哪些概念已經建立、哪些需要補強，而不是只提供答案對照。"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 0,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 8.095833333333333,
+        "same": true,
+        "nearby": 1,
+        "present": 0
+      }
+    ]
+  },
+  {
+    "row": 4,
+    "id": "6afd7881-2564-83ee-8f42-a711cd163a8e",
+    "site": {
+      "occurrence": 1,
+      "anchor": "6c2ad20f-2d0e-4627-a4d6-0b48faa9b341:d5r5xv:1",
+      "kind": "widget"
+    },
+    "mi": 0,
+    "anchor": 284,
+    "index": 287,
+    "marker": "[送出答案並檢查]",
+    "left": [
+      "\\(3) 若 C 經過適當氧化，得到的第一個羰基產物是否能產生銀鏡反應？請解釋。",
+      "\\(2) B 與 C 都含有氧原子，為何兩者純物質的分子間作用力不同？",
+      "\\(1) 比較三者常壓下的沸點大小，並說明原因。",
+      "\n\\begin{aligned}\n\\mathrm{A}&:\\mathrm{CH_3CH_2CH_3}\\\\\n\\mathrm{B}&:\\mathrm{CH_3CH_2CHO}\\\\\n\\mathrm{C}&:\\mathrm{CH_3CH_2CH_2OH}\n\\end{aligned}\n"
+    ],
+    "right": [],
+    "ranks": [
+      {
+        "cardIndex": 3,
+        "type": "other",
+        "options": 0,
+        "score": 3.1166666666666667,
+        "same": true,
+        "nearby": 0.03333333333333333,
+        "present": 0
+      },
+      {
+        "cardIndex": 0,
+        "type": "other",
+        "options": 0,
+        "score": 0.5333333333333333,
+        "same": false,
+        "nearby": 0.08,
+        "present": 0
+      },
+      {
+        "cardIndex": 2,
+        "type": "other",
+        "options": 0,
+        "score": 0.3620689655172414,
+        "same": false,
+        "nearby": 0.10344827586206896,
+        "present": 0
+      },
+      {
+        "cardIndex": 1,
+        "type": "other",
+        "options": 0,
+        "score": 0.21764705882352942,
+        "same": false,
+        "nearby": 0.04,
+        "present": 0
+      }
+    ]
+  },
+  {
+    "row": 5,
+    "id": "6afd791b-46e0-83ee-a376-f2d8de1bb022",
+    "site": {
+      "occurrence": 1,
+      "anchor": "644f3852-74a0-45fd-b772-07d3727950b3:lah9ej:1",
+      "kind": "choice-options"
+    },
+    "mi": 0,
+    "anchor": 171,
+    "index": 172,
+    "marker": "[確認答案]",
+    "left": [
+      "哪些化合物含有醯胺官能基？（多選）",
+      "理解檢查 3｜結構辨認",
+      "| 項目 | 胺 | 醯胺 |\n| 主要結構 | \\(\\mathrm{RNH_2}\\) 等 | \\(\\mathrm{RCONH_2}\\) 等 |\n| 羰基直接連接 N | 否 | 是 |\n| 通常具有明顯鹼性 | 是，通常為弱鹼 | 鹼性極弱 |\n| 小分子與水作用 | 可形成氫鍵 | 可形成氫鍵 |\n| 典型重要反應 | 與酸反應形成銨鹽 | 製備及水解 |\n| 代表物質 | 甲胺、苯胺 | 乙醯胺、尿素 |",
+      "7-3 胺與醯胺比較表",
+      "高中階段只要理解羰基對氮原子電子分布的影響即可，不必進一步計算共振能量。",
+      "這是定性比較，不表示醯胺在任何條件下都完全不能接受質子。"
+    ],
+    "right": [
+      "八、醯胺的製備與水解",
+      "8-1 醯胺的簡單製備原理",
+      "醯胺可以從羧酸與氨或胺的結構關係理解。",
+      "例如羧酸："
+    ],
+    "ranks": [
+      {
+        "cardIndex": 2,
+        "type": "other",
+        "options": 0,
+        "score": 6.5,
+        "same": true,
+        "nearby": 1,
+        "present": 0
+      },
+      {
+        "cardIndex": 0,
+        "type": "other",
+        "options": 0,
+        "score": 3.7596153846153846,
+        "same": true,
+        "nearby": 0.15384615384615385,
+        "present": 0
+      },
+      {
+        "cardIndex": 1,
+        "type": "other",
+        "options": 0,
+        "score": 3.458974358974359,
+        "same": true,
+        "nearby": 0.07692307692307693,
+        "present": 0
+      }
+    ]
+  },
+  {
+    "row": 6,
+    "id": "6afd7945-ba18-83ec-af65-fcb849333f60",
+    "site": {
+      "occurrence": 1,
+      "anchor": "1f46df9c-23f7-4343-88d4-7c56a5198c5c:xhq5aq:1",
+      "kind": "widget"
+    },
+    "mi": 0,
+    "anchor": 236,
+    "index": 237,
+    "marker": "[提交作答並取得解析]",
+    "left": [
+      "以下題目需要整合多個概念，而非單純記憶定義。先不顯示解答，保留自行推理的機會。",
+      "七、本章綜合習題",
+      "| 常見誤解 | 正確認識 |\n| 聚合物就是塑膠 | 聚合物還包括纖維、橡膠、蛋白質等 |\n| 同一種聚合物的每條鏈長度都一樣 | 實際聚合物通常具有分子鏈長度分布 |\n| 線形聚合物就是筆直的分子鏈 | 線形描述連接方式，不代表實際形狀 |\n| 交聯一定讓材料更有彈性 | 適量交聯有助橡膠回彈，過度交聯可能使材料剛硬 |\n| 加成聚合物一定是熱塑性 | 聚合反應類型與熱塑／熱固分類不是同一件事 |\n| 聚合物越硬就越耐衝擊 | 剛性與韌性不同，硬的材料也可能脆 |",
+      "本章容易混淆的觀念",
+      "但也要知道這套方法的限制：它適合判斷**典型材料、比較明確的結構差異，以及其他條件大致相同時的趨勢**。不能單憑某一個官能基或交聯特徵，就精確預測所有機械性質。"
+    ],
+    "right": [
+      "可以只完成部分題目。未作答的題目不會影響其他題目的批改。",
+      "八、本章總結",
+      "真正需要建立的不是一張聚合物名稱記憶表，而是以下幾個因果關係：",
+      "**單體的結構**決定能透過哪些化學反應形成聚合物；**分子鏈的連接方式**影響分子鏈能否移動；**鏈間作用力、排列與交聯程度**進一步影響剛性、強度、彈性及受熱行為。",
+      "只要能掌握這些關係，就能理解為什麼 PE 可以因支鏈程度不同而表現不同性質、為什麼耐綸適合製成纖維，以及為什麼熱塑性塑膠和交聯橡膠、熱固性樹脂的行為不同。"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 1,
+        "type": "fill-in",
+        "options": 0,
+        "score": 8.15,
+        "same": true,
+        "nearby": 1,
+        "present": 0.18181818181818182
+      },
+      {
+        "cardIndex": 0,
+        "type": "multiple-choice",
+        "options": 1,
+        "score": 0.8080808080808081,
+        "same": false,
+        "nearby": 0,
+        "present": 0.6666666666666666
+      }
+    ]
+  },
+  {
+    "row": 7,
+    "id": "6afd7996-4514-83e8-bbcd-b9cc826dd072",
+    "site": {
+      "occurrence": 1,
+      "anchor": "71abe190-9eb4-41ed-b017-0f89e5f11ed8:g9w0d1:1",
+      "kind": "widget"
+    },
+    "mi": 0,
+    "anchor": 337,
+    "index": 338,
+    "marker": "[提交五題答案並批改]",
+    "left": [
+      "以下題目需要整合前面不同段落的知識。先自行作答，不在題目後直接附答案。",
+      "九、本章綜合習題",
+      "這是該聚合物鏈的近似相對分子質量；若表達成莫耳質量，則約為 \\(28000\\ \\mathrm{g/mol}\\)。",
+      "\nM_{\\text{polymer}}\\approx1000\\times28=28000\n",
+      "若 \\(n=1000\\)，則："
+    ],
+    "right": [
+      "進階申論題",
+      "**題 6｜從分子結構解釋材料差異**",
+      "某學生提出以下主張：",
+      "「聚乙烯、聚氯乙烯與聚苯乙烯都透過加成聚合形成，所以它們的物理性質應該完全相同。」",
+      "請指出這段推論的問題，並從分子結構出發，說明至少兩項可能影響材料性質的因素。"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 3,
+        "type": "other",
+        "options": 0,
+        "score": 8.15,
+        "same": true,
+        "nearby": 1,
+        "present": 0.4186046511627907
+      },
+      {
+        "cardIndex": 0,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.7134920634920634,
+        "same": false,
+        "nearby": 0.03333333333333333,
+        "present": 0
+      },
+      {
+        "cardIndex": 1,
+        "type": "multiple-choice",
+        "options": 1,
+        "score": 0.6761111111111111,
+        "same": false,
+        "nearby": 0,
+        "present": 0
+      },
+      {
+        "cardIndex": 2,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.2,
+        "same": false,
+        "nearby": 0,
+        "present": 0
+      }
+    ]
+  },
+  {
+    "row": 8,
+    "id": "6afd7b73-0bfc-83e8-939b-bf200f7c6002",
+    "site": {
+      "occurrence": 1,
+      "anchor": "decc8cd9-e47e-4935-82e8-254ddff38a12:ylv3od:1",
+      "kind": "widget"
+    },
+    "mi": 0,
+    "anchor": 211,
+    "index": 212,
+    "marker": "[送出判斷]",
+    "left": [
+      "關於氫氣與太陽能，下列哪些敘述正確？",
+      "多選，至少一項正確",
+      "理解檢查 2",
+      "| 技術 | 主要角色 | 必須記住的區別 |\n| 太陽能電池 | 發電 | 光能直接轉電能 |\n| 充電電池 | 儲能 | 電能與化學能可往返轉換 |\n| 氫燃料電池 | 能源轉換 | 持續消耗供應的氫氣以輸出電能 |",
+      "6.4 三種能源技術的角色",
+      "例如，手機重視體積與續航力；大型電網儲能可能更重視成本、壽命、安全與維護。"
+    ],
+    "right": [
+      "七、替代能源在臺灣的發展與限制",
+      "7.1 臺灣的能源現況",
+      "臺灣的能源問題有一個重要背景：**自產化石能源相當有限，能源供給高度依賴進口。**",
+      "根據經濟部能源署統計，2025 年（民國 114 年）臺灣發電量的主要來源如下："
+    ],
+    "ranks": [
+      {
+        "cardIndex": 1,
+        "type": "other",
+        "options": 0,
+        "score": 6.5,
+        "same": true,
+        "nearby": 1,
+        "present": 0
+      },
+      {
+        "cardIndex": 0,
+        "type": "other",
+        "options": 0,
+        "score": 4.583333333333333,
+        "same": true,
+        "nearby": 0.3333333333333333,
+        "present": 0
+      },
+      {
+        "cardIndex": 6,
+        "type": "other",
+        "options": 0,
+        "score": 1.065,
+        "same": false,
+        "nearby": 0.2857142857142857,
+        "present": 0
+      },
+      {
+        "cardIndex": 3,
+        "type": "other",
+        "options": 0,
+        "score": 0.5928571428571427,
+        "same": false,
+        "nearby": 0.14285714285714285,
+        "present": 0
+      },
+      {
+        "cardIndex": 2,
+        "type": "other",
+        "options": 0,
+        "score": 0.40555555555555556,
+        "same": false,
+        "nearby": 0,
+        "present": 0
+      },
+      {
+        "cardIndex": 4,
+        "type": "other",
+        "options": 0,
+        "score": 0.18333333333333332,
+        "same": false,
+        "nearby": 0,
+        "present": 0
+      },
+      {
+        "cardIndex": 5,
+        "type": "other",
+        "options": 0,
+        "score": 0.016666666666666666,
+        "same": false,
+        "nearby": 0,
+        "present": 0
+      }
+    ]
+  },
+  {
+    "row": 9,
+    "id": "6afd6f15-0a20-83ec-9655-7113a69d5dab",
+    "site": {
+      "occurrence": 1,
+      "anchor": "88ac7eb3-25f7-45c1-bf77-9b8b5e2d50d2:9rrtag:1",
+      "kind": "choice-options"
+    },
+    "mi": 0,
+    "anchor": 122,
+    "index": 123,
+    "marker": "[確認答案]",
+    "left": [
+      "下列哪些反應屬於氧化還原反應？（多選）",
+      "理解檢查 3",
+      "其中 Fe 的氧化數由 \\(0\\) 與 \\(+3\\) 分別變為 \\(+2\\)。",
+      "\n\\mathrm{Fe+2Fe^{3+}\\rightarrow 3Fe^{2+}}\n",
+      "相反地，若同一元素由不同氧化數變成共同的中間氧化數，稱為歸中反應。例如：",
+      "這稱為**歧化反應**。"
+    ],
+    "right": [
+      "五、半反應式與三大守恆",
+      "5.1 為什麼要把反應拆成兩半？",
+      "\n\\mathrm{Fe^{2+}+Ce^{4+}\\rightarrow Fe^{3+}+Ce^{3+}}\n"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 2,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 8.15,
+        "same": true,
+        "nearby": 1,
+        "present": 0.23076923076923078
+      },
+      {
+        "cardIndex": 0,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.445833333333333,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 3,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.374195906432749,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 1,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.2236111111111105,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      }
+    ]
+  },
+  {
+    "row": 10,
+    "id": "6afd6f6b-7a08-83ee-9bc9-a8cc35e59982",
+    "site": {
+      "occurrence": 1,
+      "anchor": "4a2b4f83-dc43-468a-ad21-b9a2e231bc40:lvh2z7:1",
+      "kind": "choice-options"
+    },
+    "mi": 0,
+    "anchor": 229,
+    "index": 230,
+    "marker": "[查看答案與解析]",
+    "left": [
+      "某學生使用標準液滴定未知濃度的還原劑。下列哪些情況可能使計算得到的未知濃度偏高？（多選）",
+      "理解檢查 3",
+      "若三次數據非常接近，代表重複測量的一致性良好。但是否準確，還需要確認標準液濃度、操作方式及終點判定。",
+      "\n\\boxed{\\bar V=20.15\\ \\mathrm{mL}}\n",
+      "\n\\bar V=\\frac{20.15+20.10+20.20}{3}\n",
+      "平均值："
+    ],
+    "right": [
+      "十一、本章重點公式整理",
+      "**1\\. 溶液莫耳數**",
+      "\n\\boxed{n=MV}\n",
+      "**2\\. 電子守恆**"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 1,
+        "type": "single-choice",
+        "options": 4,
+        "score": 1.9166666666666665,
+        "same": false,
+        "nearby": 0.3333333333333333,
+        "present": 0
+      },
+      {
+        "cardIndex": 2,
+        "type": "single-choice",
+        "options": 4,
+        "score": 1.4361111111111111,
+        "same": false,
+        "nearby": 0.19444444444444445,
+        "present": 0
+      },
+      {
+        "cardIndex": 0,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.75,
+        "same": false,
+        "nearby": 0,
+        "present": 0
+      },
+      {
+        "cardIndex": 3,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.6861111111111111,
+        "same": false,
+        "nearby": 0.19444444444444445,
+        "present": 0
+      },
+      {
+        "cardIndex": 4,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.6861111111111111,
+        "same": false,
+        "nearby": 0.19444444444444445,
+        "present": 0
+      }
+    ]
+  },
+  {
+    "row": 11,
+    "id": "6afd70eb-8bf8-83e8-9273-5a10a71af1b6",
+    "site": {
+      "occurrence": 1,
+      "anchor": "14706ad7-213b-4fcf-bfe3-14443c6a613b:1x2ydw4:1",
+      "kind": "choice-options"
+    },
+    "mi": 0,
+    "anchor": 104,
+    "index": 105,
+    "marker": "[確認答案]",
+    "left": [
+      "鋅銅電池持續放電時，下列哪些敘述正確？（多選）",
+      "理解檢查 2",
+      "**鹽橋中主要移動的是離子，不是電子。**",
+      "提供離子傳導路徑，使電池內部電路完整。\n維持兩側溶液近似電中性，讓反應持續。",
+      "所以鹽橋有兩個主要功能：",
+      "補償減少的正電荷"
+    ],
+    "right": [
+      "四、電池反應式與電池表示法",
+      "4-1 如何把兩個半反應合併？",
+      "回到鋅銅電池。",
+      "陽極的氧化半反應：",
+      "\n\\mathrm{Zn(s)\\rightarrow Zn^{2+}(aq)+2e^-}\n"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 1,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 8.15,
+        "same": true,
+        "nearby": 1,
+        "present": 0.1111111111111111
+      },
+      {
+        "cardIndex": 0,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.7124999999999995,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 2,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.7124999999999995,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 4,
+        "type": "single-choice",
+        "options": 4,
+        "score": 1.1777777777777778,
+        "same": false,
+        "nearby": 0.2222222222222222,
+        "present": 0
+      },
+      {
+        "cardIndex": 5,
+        "type": "single-choice",
+        "options": 4,
+        "score": 1.1777777777777778,
+        "same": false,
+        "nearby": 0.2222222222222222,
+        "present": 0
+      },
+      {
+        "cardIndex": 6,
+        "type": "single-choice",
+        "options": 4,
+        "score": 1.1777777777777778,
+        "same": false,
+        "nearby": 0.2222222222222222,
+        "present": 0
+      },
+      {
+        "cardIndex": 7,
+        "type": "single-choice",
+        "options": 4,
+        "score": 1.1666666666666665,
+        "same": false,
+        "nearby": 0.3333333333333333,
+        "present": 0
+      },
+      {
+        "cardIndex": 3,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.2857142857142857,
+        "same": false,
+        "nearby": 0,
+        "present": 0
+      }
+    ]
+  },
+  {
+    "row": 12,
+    "id": "6afd727e-327c-83ec-8548-726f536bc234",
+    "site": {
+      "occurrence": 1,
+      "anchor": "57dfd85b-d953-45a9-8796-c939a0182440:1hffrn7:1",
+      "kind": "choice-options"
+    },
+    "mi": 0,
+    "anchor": 222,
+    "index": 223,
+    "marker": "[確認答案]",
+    "left": [
+      "在電流效率皆為 100%、其他條件相同的情況下，下列哪些敘述正確？（多選）",
+      "理解檢查 3",
+      "也就是說，相同電量下，銀的析出質量約為銅的 3.40 倍。",
+      "\n\\frac{m_{\\mathrm{Ag}}}{m_{\\mathrm{Cu}}}\n=\\frac{108/1}{63.5/2}\n\\approx3.40\n",
+      "\n\\mathrm{Cu^{2+}+2e^-\\rightarrow Cu}\n"
+    ],
+    "right": [
+      "七、電鍍與無電電鍍",
+      "1\\. 電鍍的原理",
+      "電鍍是利用電解，使金屬沉積在物體表面的技術。",
+      "例如希望在某個導電物體表面鍍銅。"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 2,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 7.816666666666667,
+        "same": true,
+        "nearby": 1,
+        "present": 0.13043478260869565
+      },
+      {
+        "cardIndex": 0,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.3125,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 1,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.255357142857143,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 3,
+        "type": "single-choice",
+        "options": 4,
+        "score": 2.825,
+        "same": false,
+        "nearby": 0.75,
+        "present": 0.6086956521739131
+      }
+    ]
+  },
+  {
+    "row": 13,
+    "id": "6afd727e-327c-83ec-8548-726f536bc234",
+    "site": {
+      "occurrence": 2,
+      "anchor": "57dfd85b-d953-45a9-8796-c939a0182440:71ujwp:1",
+      "kind": "widget"
+    },
+    "mi": 0,
+    "anchor": 278,
+    "index": 280,
+    "marker": "[提交並查看完整解析]",
+    "left": [
+      "以下題目包含觀念判斷與定量計算，難度略高於前面的理解檢查。建議先自行完成，再查看解答。",
+      "十、本章綜合習題",
+      "陽極不一定是正極，但一定發生氧化。\n水溶液中的陽離子不一定會在陰極形成金屬。\n相同電量代表相同的電子莫耳數，不代表不同產物的質量或莫耳數相同。",
+      "最容易混淆的三件事"
+    ],
+    "right": [
+      "本章的核心是把三件事連接起來：**氧化還原決定電極反應、電解條件決定實際產物、電子轉移數量決定產量。** 只要掌握這三層關係，就能應對高中常見的電解、電鍍及法拉第定律題目。"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 3,
+        "type": "single-choice",
+        "options": 4,
+        "score": 8.095833333333333,
+        "same": true,
+        "nearby": 1,
+        "present": 0.6086956521739131
+      },
+      {
+        "cardIndex": 1,
+        "type": "single-choice",
+        "options": 4,
+        "score": 3.196428571428571,
+        "same": false,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 0,
+        "type": "single-choice",
+        "options": 4,
+        "score": 2.8472222222222223,
+        "same": false,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 2,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 2.825,
+        "same": false,
+        "nearby": 0.75,
+        "present": 0.13043478260869565
+      }
+    ]
+  },
+  {
+    "row": 14,
+    "id": "6afd73b8-b520-83e8-b386-6971b84f907b",
+    "site": {
+      "occurrence": 1,
+      "anchor": "38c74dd9-5464-41f8-ae18-7482ad68f7f7:cruzg9:1",
+      "kind": "choice-options"
+    },
+    "mi": 0,
+    "anchor": 275,
+    "index": 276,
+    "marker": "[確認答案]",
+    "left": [
+      "關於鋁的熔融電解，下列哪些敘述正確？（多選）",
+      "理解檢查 3",
+      "這也是回收鋁的重要原因之一：重新熔融與加工回收鋁，通常比從氧化鋁重新電解製鋁節省大量能源。",
+      "因此鋁的電解製造屬於耗能較高的工業過程。",
+      "氧化鋁相當穩定，要將其中的鋁還原成金屬，需要持續提供電能。",
+      "3\\. 為什麼鋁的製造耗電？"
+    ],
+    "right": [
+      "十一、金屬的腐蝕與保護",
+      "1\\. 金屬腐蝕是什麼？",
+      "金屬腐蝕是金屬與周圍環境發生化學或電化學反應，使金屬材料逐漸劣化的現象。",
+      "例如鐵在潮濕空氣中生鏽。"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 2,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 7.875,
+        "same": true,
+        "nearby": 1,
+        "present": 0.17647058823529413
+      },
+      {
+        "cardIndex": 0,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.398214285714285,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 1,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.255357142857143,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 3,
+        "type": "single-choice",
+        "options": 4,
+        "score": 2.767857142857143,
+        "same": false,
+        "nearby": 0.75,
+        "present": 0.15789473684210525
+      }
+    ]
+  },
+  {
+    "row": 15,
+    "id": "6afd7429-7798-83ee-bbf4-3caa599ce766",
+    "site": {
+      "occurrence": 1,
+      "anchor": "d0bcaee0-ce84-4676-aec1-2c7654801885:xoagnf:1",
+      "kind": "choice-options"
+    },
+    "mi": 0,
+    "anchor": 125,
+    "index": 126,
+    "marker": "[確認答案]",
+    "left": [
+      "關於鐵的化合物，哪些敘述正確？（多選）",
+      "理解檢查 2",
+      "這個反應稍後會連結到配位化合物。",
+      "\n\\mathrm{Fe^{3+}+SCN^-\\rightleftharpoons [FeSCN]^{2+}}\n",
+      "另一個常見的 Fe³⁺ 鑑定反應，是加入硫氰酸根 \\(\\mathrm{SCN^-}\\) 後形成血紅色錯合物：",
+      "Fe(OH)₂ 在空氣中容易逐漸被氧化，顏色也可能變成褐色，因此不能假設沉澱會永久維持淡綠色。"
+    ],
+    "right": [
+      "五、過渡金屬的用途",
+      "過渡金屬的用途往往來自它們的金屬性質、可變氧化態或催化能力。",
+      "| 金屬 | 重要性質 | 常見用途 |\n| 鐵 Fe | 強度高、成本相對低 | 建築、機械、鋼鐵 |\n| 銅 Cu | 導電、導熱性佳 | 電線、電子元件 |\n| 鎳 Ni | 耐腐蝕、可作催化劑 | 不鏽鋼、電池材料 |\n| 鉻 Cr | 可形成保護性氧化層 | 不鏽鋼、表面鍍層 |\n| 鈦 Ti | 強度重量比高、耐腐蝕 | 航太、醫療植入物 |\n| 鉑 Pt | 化學穩定性高、催化活性佳 | 觸媒、電極 |",
+      "這裡有一個重要區別：**金屬本身的性質與其化合物的性質，不一定相同。**"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 1,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 8.15,
+        "same": true,
+        "nearby": 1,
+        "present": 0.21428571428571427
+      },
+      {
+        "cardIndex": 0,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.567045454545454,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 3,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.541071428571429,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 2,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.4125,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 7,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.6214285714285714,
+        "same": false,
+        "nearby": 0.07142857142857142,
+        "present": 0.125
+      },
+      {
+        "cardIndex": 8,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.47857142857142854,
+        "same": false,
+        "nearby": 0.07142857142857142,
+        "present": 0.125
+      },
+      {
+        "cardIndex": 5,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.3928571428571428,
+        "same": false,
+        "nearby": 0.07142857142857142,
+        "present": 0.125
+      },
+      {
+        "cardIndex": 6,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.3928571428571428,
+        "same": false,
+        "nearby": 0.07142857142857142,
+        "present": 0.125
+      },
+      {
+        "cardIndex": 4,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.14285714285714285,
+        "same": false,
+        "nearby": 0,
+        "present": 0.125
+      }
+    ]
+  },
+  {
+    "row": 16,
+    "id": "6afd7491-5308-83e8-bdf3-4619eb561c21",
+    "site": {
+      "occurrence": 1,
+      "anchor": "794e2c4a-5af9-49e1-84ed-785a9ce36a19:16cv2hc:1",
+      "kind": "choice-options"
+    },
+    "mi": 0,
+    "anchor": 99,
+    "index": 100,
+    "marker": "[查看答案與解析]",
+    "left": [
+      "下列關於高分子結構與性質的敘述，哪些正確？（多選）",
+      "理解檢查 2",
+      "因此，判斷材料是否環保，不能只看它是不是天然的，還需要考慮原料取得、製造能耗、使用壽命、回收及廢棄處理。",
+      "例如棉花主要由纖維素構成，通常具有生物可分解性；PET 則可透過適當的回收系統再利用。",
+      "天然材料不一定容易分解，合成材料也不一定難以回收。",
+      "| 比較 | 天然材料 | 合成材料 |\n| 來源 | 自然界取得 | 透過人工化學製程製造 |\n| 例子 | 棉、羊毛、天然橡膠 | 尼龍、聚酯、合成橡膠 |\n| 結構 | 由自然生物或地質過程形成 | 可依需求設計組成及加工條件 |\n| 性質 | 依材料而異 | 依材料而異 |\n| 環境影響 | 不一定較小 | 不一定較大 |"
+    ],
+    "right": [
+      "四、半導體：介於導體與絕緣體之間",
+      "4-1 導電需要什麼條件？",
+      "電流是電荷有方向性的移動。",
+      "在金屬中，電子能在材料內移動，因此金屬通常具有良好的導電性。"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 1,
+        "type": "other",
+        "options": 0,
+        "score": 1.225,
+        "same": false,
+        "nearby": 0.35,
+        "present": 0
+      },
+      {
+        "cardIndex": 4,
+        "type": "other",
+        "options": 0,
+        "score": 0.875,
+        "same": false,
+        "nearby": 0.25,
+        "present": 0
+      },
+      {
+        "cardIndex": 0,
+        "type": "other",
+        "options": 0,
+        "score": 0.49999999999999994,
+        "same": false,
+        "nearby": 0.14285714285714285,
+        "present": 0
+      },
+      {
+        "cardIndex": 2,
+        "type": "other",
+        "options": 0,
+        "score": 0.3833333333333333,
+        "same": false,
+        "nearby": 0.1,
+        "present": 0
+      },
+      {
+        "cardIndex": 3,
+        "type": "other",
+        "options": 0,
+        "score": 0.05263157894736842,
+        "same": false,
+        "nearby": 0,
+        "present": 0
+      }
+    ]
+  },
+  {
+    "row": 17,
+    "id": "6afd5980-8354-83e8-b4f1-ddf3426f0246",
+    "site": {
+      "occurrence": 1,
+      "anchor": "9257884a-c211-4504-af16-a749b74c740f:hsnusr:1",
+      "kind": "choice-options"
+    },
+    "mi": 0,
+    "anchor": 99,
+    "index": 100,
+    "marker": "[確認答案]",
+    "left": [
+      "下列哪些敘述正確？（多選）",
+      "\n\\mathrm{2SO_2(g)+O_2(g)\\rightleftharpoons 2SO_3(g)}\n",
+      "理解檢查 2",
+      "補充：嚴格的熱力學平衡常數以活性定義，沒有單位。高中使用濃度表示式時，常直接代入 mol/L 的數值，並依教材慣例處理單位。",
+      "但這不代表固體沒有參與反應，也不代表可以把固體從化學反應式中刪除。"
+    ],
+    "right": [
+      "五、反應式改寫，平衡常數如何改變？",
+      "\n\\mathrm{A\\rightleftharpoons B},\\qquad K=4\n",
+      "原本的關係是：",
+      "\nK=\\frac{[B]}{[A]}=4\n"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 1,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 8.095833333333333,
+        "same": true,
+        "nearby": 1,
+        "present": 0.7
+      },
+      {
+        "cardIndex": 2,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.95,
+        "same": true,
+        "nearby": 0.875,
+        "present": 1
+      },
+      {
+        "cardIndex": 0,
+        "type": "single-choice",
+        "options": 4,
+        "score": 4.946901709401709,
+        "same": true,
+        "nearby": 0.2222222222222222,
+        "present": 1
+      },
+      {
+        "cardIndex": 6,
+        "type": "single-choice",
+        "options": 4,
+        "score": 1.1666666666666665,
+        "same": false,
+        "nearby": 0.3333333333333333,
+        "present": 0
+      },
+      {
+        "cardIndex": 4,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.21978021978021978,
+        "same": false,
+        "nearby": 0,
+        "present": 0
+      },
+      {
+        "cardIndex": 5,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.15384615384615385,
+        "same": false,
+        "nearby": 0,
+        "present": 0
+      },
+      {
+        "cardIndex": 3,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.07692307692307693,
+        "same": false,
+        "nearby": 0,
+        "present": 0
+      }
+    ]
+  },
+  {
+    "row": 18,
+    "id": "6afd5980-8354-83e8-b4f1-ddf3426f0246",
+    "site": {
+      "occurrence": 2,
+      "anchor": "9257884a-c211-4504-af16-a749b74c740f:16uynj7:1",
+      "kind": "widget"
+    },
+    "mi": 0,
+    "anchor": 202,
+    "index": 203,
+    "marker": "[顯示全部解析]",
+    "left": [
+      "以下題目難度略高於前面的理解檢查，包含係數處理、平衡濃度與反應方向的綜合應用。",
+      "九、本章綜合習題",
+      "| 核心概念 | 必須理解的關係 |\n| 動態平衡 | \\(v_{\\text{正}}=v_{\\text{逆}}\\)，但反應沒有停止 |\n| 平衡濃度 | 隨時間維持不變，不必彼此相等 |\n| 濃度平衡常數 | 由平衡濃度與反應係數建立 |\n| 反應式反轉 | \\(K'=1/K\\) |\n| 係數乘以 \\(n\\) | \\(K'=K^n\\) |\n| 溫度影響 | 吸熱反應升溫 \\(K\\) 增大；放熱反應升溫 \\(K\\) 減小 |\n| 平衡計算 | 化學計量關係＋平衡常數 |\n| 反應方向 | 比較 \\(Q\\) 與 \\(K\\) |",
+      "八、本章重點整理",
+      "D. 無法判斷"
+    ],
+    "right": [
+      "完成這一章後，最重要的能力不是單純記住 \\(K\\) 的公式，而是能夠區分三件事：**反應進行的快慢、平衡時的組成，以及尚未平衡時的淨反應方向**。它們彼此相關，但不能混為一談。"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 1,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 3.266346153846154,
+        "same": false,
+        "nearby": 0.75,
+        "present": 0.7
+      },
+      {
+        "cardIndex": 0,
+        "type": "single-choice",
+        "options": 4,
+        "score": 3.1432692307692305,
+        "same": false,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 2,
+        "type": "single-choice",
+        "options": 4,
+        "score": 2.988141025641026,
+        "same": false,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 5,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.306998556998557,
+        "same": false,
+        "nearby": 0.05714285714285714,
+        "present": 0
+      },
+      {
+        "cardIndex": 4,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.2946053946053946,
+        "same": false,
+        "nearby": 0.05714285714285714,
+        "present": 0
+      },
+      {
+        "cardIndex": 6,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.23240938166311298,
+        "same": false,
+        "nearby": 0.05714285714285714,
+        "present": 0
+      },
+      {
+        "cardIndex": 3,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.05405405405405406,
+        "same": false,
+        "nearby": 0,
+        "present": 0
+      }
+    ]
+  },
+  {
+    "row": 19,
+    "id": "6afd6c8e-ad10-83ee-bee4-b9bdb921c71e",
+    "site": {
+      "occurrence": 1,
+      "anchor": "bb6624fe-010d-4995-8976-9228fc0ca968:t4t7h4:1",
+      "kind": "choice-options"
+    },
+    "mi": 0,
+    "anchor": 203,
+    "index": 204,
+    "marker": "[確認答案]",
+    "left": [
+      "在高中常見的理想稀溶液模型中，將少量 AgCl 固體加入不同溶液，哪些條件會使 AgCl 的莫耳溶解度低於純水中的值？（多選）",
+      "理解檢查 3",
+      "注意，這個計算採用稀溶液的濃度近似，並忽略離子活性與錯離子等其他效應。",
+      "加入共同離子後，AgCl 的溶解度顯著降低。",
+      "| 溶液條件 | AgCl 莫耳溶解度 |\n| 純水 | \\(1.34\\times10^{-5}\\ \\mathrm M\\) |\n| 0.10 M NaCl | \\(1.8\\times10^{-9}\\ \\mathrm M\\) |",
+      "與純水比較："
+    ],
+    "right": [
+      "七、比較不同離子化合物的溶解度",
+      "這裡有一個重要迷思：",
+      "**\\(K_{sp}\\) 越大，溶解度就一定越大嗎？**",
+      "答案是：不一定。"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 2,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 8.15,
+        "same": true,
+        "nearby": 1,
+        "present": 0.2857142857142857
+      },
+      {
+        "cardIndex": 0,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.3625,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 1,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.279166666666667,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      }
+    ]
+  },
+  {
+    "row": 20,
+    "id": "6afd6d01-4058-83ec-8556-affbfbd46800",
+    "site": {
+      "occurrence": 1,
+      "anchor": "b4a439e8-779f-483c-9159-edc54794179f:1iqa2d8:1",
+      "kind": "choice-options"
+    },
+    "mi": 0,
+    "anchor": 109,
+    "index": 110,
+    "marker": "[確認答案]",
+    "left": [
+      "下列哪些是正確的共軛酸鹼對？",
+      "理解檢查 2｜多選",
+      "這將引出下一個概念：兩性物質。",
+      "它是 H₂CO₃ 的共軛鹼。\n它是 CO₃²⁻ 的共軛酸。",
+      "所以 HCO₃⁻ 同時具有兩種身分：",
+      "\n\\mathrm{HCO_3^-\\rightleftharpoons H^++CO_3^{2-}}\n"
+    ],
+    "right": [
+      "六、兩性物質：同一物質可以當酸，也可以當鹼",
+      "6.1 水為什麼可以有兩種角色？",
+      "先比較：",
+      "\n\\mathrm{HCl+H_2O\\rightarrow H_3O^++Cl^-}\n",
+      "水接受 H⁺，所以是鹼。"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 1,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 8.15,
+        "same": true,
+        "nearby": 1,
+        "present": 0.5
+      },
+      {
+        "cardIndex": 3,
+        "type": "single-choice",
+        "options": 4,
+        "score": 5.379050925925926,
+        "same": true,
+        "nearby": 0.5,
+        "present": 1
+      },
+      {
+        "cardIndex": 2,
+        "type": "single-choice",
+        "options": 4,
+        "score": 5.304166666666666,
+        "same": true,
+        "nearby": 0.5,
+        "present": 0.6666666666666666
+      },
+      {
+        "cardIndex": 0,
+        "type": "single-choice",
+        "options": 4,
+        "score": 5.134391534391534,
+        "same": true,
+        "nearby": 0.5,
+        "present": 1
+      },
+      {
+        "cardIndex": 4,
+        "type": "other",
+        "options": 0,
+        "score": 0.6474358974358974,
+        "same": false,
+        "nearby": 0.16666666666666666,
+        "present": 0
+      }
+    ]
+  },
+  {
+    "row": 21,
+    "id": "6afd6dcd-aafc-83e8-af2c-8bcd0523da3e",
+    "site": {
+      "occurrence": 1,
+      "anchor": "02231897-09c6-4f6f-a200-309ef32d3f75:960stj:1",
+      "kind": "choice-options"
+    },
+    "mi": 0,
+    "anchor": 215,
+    "index": 216,
+    "marker": "[檢查答案]",
+    "left": [
+      "下列哪些鹽的水溶液通常呈鹼性？",
+      "理解檢查 3｜多選",
+      "這個分類適用於一般高中常見的簡單鹽類。某些多價金屬離子（如 Al³⁺）也可能因水解使溶液呈酸性，不能單純視為不反應的金屬離子。",
+      "| 鹽的來源 | 主要水解離子 | 水溶液酸鹼性 |\n| 強酸＋強鹼 | 無顯著水解 | 中性 |\n| 強酸＋弱鹼 | 陽離子 | 酸性 |\n| 弱酸＋強鹼 | 陰離子 | 鹼性 |\n| 弱酸＋弱鹼 | 陽、陰離子 | 視相對強弱而定 |",
+      "7-5 四種情況總整理",
+      "這裡比較的是**原本弱酸與弱鹼的解離常數**，而不是隨意拿兩個不同反應的常數比較。"
+    ],
+    "right": [
+      "八、酸式鹽的酸鹼性：不能只看名稱",
+      "前面學過，酸式鹽的酸根保留了可以解離的氫。",
+      "但是，某些酸式酸根不只可以提供 H⁺，也可以接受 H⁺。",
+      "例如 HCO₃⁻："
+    ],
+    "ranks": [
+      {
+        "cardIndex": 0,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 8.041666666666666,
+        "same": true,
+        "nearby": 1,
+        "present": 0.75
+      },
+      {
+        "cardIndex": 5,
+        "type": "single-choice",
+        "options": 4,
+        "score": 1.6153846153846154,
+        "same": false,
+        "nearby": 0.46153846153846156,
+        "present": 0
+      },
+      {
+        "cardIndex": 2,
+        "type": "single-choice",
+        "options": 4,
+        "score": 1.1384615384615384,
+        "same": false,
+        "nearby": 0.15384615384615385,
+        "present": 0
+      },
+      {
+        "cardIndex": 3,
+        "type": "single-choice",
+        "options": 4,
+        "score": 1.1384615384615384,
+        "same": false,
+        "nearby": 0.15384615384615385,
+        "present": 0
+      },
+      {
+        "cardIndex": 4,
+        "type": "single-choice",
+        "options": 4,
+        "score": 1.1384615384615384,
+        "same": false,
+        "nearby": 0.15384615384615385,
+        "present": 0
+      },
+      {
+        "cardIndex": 1,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.4,
+        "same": false,
+        "nearby": 0,
+        "present": 0
+      }
+    ]
+  },
+  {
+    "row": 22,
+    "id": "6afd6e26-09a4-83e8-ab21-2ce0d09f4c45",
+    "site": {
+      "occurrence": 1,
+      "anchor": "987d8fdc-2de2-4169-be35-d71aecede310:13suaba:1",
+      "kind": "choice-options"
+    },
+    "mi": 0,
+    "anchor": 140,
+    "index": 141,
+    "marker": "[確認答案]",
+    "left": [
+      "一杯含有 \\(\\mathrm{NH_3}\\) 與 \\(\\mathrm{NH_4^+}\\) 的緩衝溶液，加入少量 NaOH 後，下列哪些敘述正確？（多選）",
+      "理解檢查 2",
+      "新的平衡會對應到稍微不同的 \\([H^+]\\)，所以 pH 仍然會變化，只是幅度較小。",
+      "\\(\\mathrm{A^-}\\) 減少。\n\\(\\mathrm{HA}\\) 增加。",
+      "例如加入酸後：",
+      "因為加入酸或鹼後，\\(\\mathrm{HA}\\) 和 \\(\\mathrm{A^-}\\) 的數量比例已經改變。"
+    ],
+    "right": [
+      "七、緩衝溶液的 pH 計算",
+      "現在我們已經知道，緩衝溶液中存在一組弱酸與共軛鹼。接下來要回答：",
+      "**為什麼改變這兩種物質的比例，就能控制 pH？**",
+      "1\\. 從酸游離常數開始",
+      "對弱酸緩衝系統："
+    ],
+    "ranks": [
+      {
+        "cardIndex": 1,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 8.095833333333333,
+        "same": true,
+        "nearby": 1,
+        "present": 0.1794871794871795
+      },
+      {
+        "cardIndex": 0,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.5569444444444445,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 2,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.279166666666667,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 3,
+        "type": "other",
+        "options": 0,
+        "score": 0,
+        "same": false,
+        "nearby": 0,
+        "present": 0
+      },
+      {
+        "cardIndex": 4,
+        "type": "other",
+        "options": 0,
+        "score": 0,
+        "same": false,
+        "nearby": 0,
+        "present": 0
+      },
+      {
+        "cardIndex": 5,
+        "type": "other",
+        "options": 0,
+        "score": 0,
+        "same": false,
+        "nearby": 0,
+        "present": 0
+      },
+      {
+        "cardIndex": 6,
+        "type": "other",
+        "options": 0,
+        "score": 0,
+        "same": false,
+        "nearby": 0,
+        "present": 0
+      },
+      {
+        "cardIndex": 7,
+        "type": "other",
+        "options": 0,
+        "score": 0,
+        "same": false,
+        "nearby": 0,
+        "present": 0
+      }
+    ]
+  },
+  {
+    "row": 23,
+    "id": "6afd5605-635c-83ee-80e0-5bec3e6c7759",
+    "site": {
+      "occurrence": 1,
+      "anchor": "4e7cfd5d-fd24-40a0-bff9-f85bfccaa5c7:11aldx0:1",
+      "kind": "choice-options"
+    },
+    "mi": 0,
+    "anchor": 132,
+    "index": 133,
+    "marker": "[確認答案]",
+    "left": [
+      "依序為 \\((n,\\ell,m_\\ell,m_s)\\)。",
+      "**下列哪些量子數組合是允許的？（多選）**",
+      "理解檢查 2",
+      "這組量子數可以描述一個電子的狀態。",
+      "\\(n=3\\)：第三主能層。\n\\(\\ell=1\\)：p 副層，因此是 3p。\n\\(m_\\ell=0\\)：指定 3p 副層中的其中一個軌域。\n\\(m_s=+\\frac12\\)：指定其中一種自旋狀態。",
+      "我們可以逐步判讀："
+    ],
+    "right": [
+      "六、軌域數與電子容量",
+      "這是高中化學最常見的計算題型之一。",
+      "我們從已知的關係出發，而不是直接背公式。",
+      "6-1 一個副層能容納多少電子？"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 1,
+        "type": "multiple-choice",
+        "options": 5,
+        "score": 8.15,
+        "same": true,
+        "nearby": 1,
+        "present": 0.14285714285714285
+      },
+      {
+        "cardIndex": 2,
+        "type": "single-choice",
+        "options": 4,
+        "score": 4.8446428571428575,
+        "same": true,
+        "nearby": 0.14285714285714285,
+        "present": 1
+      },
+      {
+        "cardIndex": 0,
+        "type": "single-choice",
+        "options": 4,
+        "score": 4.7196428571428575,
+        "same": true,
+        "nearby": 0.14285714285714285,
+        "present": 1
+      }
+    ]
+  },
+  {
+    "row": 24,
+    "id": "6afd56e7-9954-83ec-a904-16424b62a913",
+    "site": {
+      "occurrence": 1,
+      "anchor": "9560bfe8-3f73-4473-96cd-0fdd04aa4382:tbsih5:1",
+      "kind": "choice-options"
+    },
+    "mi": 0,
+    "anchor": 284,
+    "index": 285,
+    "marker": "[確認答案]",
+    "left": [
+      "**以下哪些敘述正確？（多選）**",
+      "理解檢查 4",
+      "但金屬性並不完全等於游離能，實際化學反應還涉及其他能量因素。",
+      "越往下，第一游離能通常越低，金屬性越強。",
+      "\n\\mathrm{Li\\rightarrow Na\\rightarrow K}\n",
+      "例如第 1 族："
+    ],
+    "right": [
+      "十、本章綜合習題",
+      "以下題目比前面的理解檢查稍難，重點是能否將不同概念連結起來。建議先自行完成，再查看解析。",
+      "十一、最後整理：解題時應該如何思考？",
+      "面對原子性質的比較題，可以依照以下順序判斷："
+    ],
+    "ranks": [
+      {
+        "cardIndex": 3,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 7.679166666666667,
+        "same": true,
+        "nearby": 0.8333333333333334,
+        "present": 0.14285714285714285
+      },
+      {
+        "cardIndex": 0,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.279166666666667,
+        "same": true,
+        "nearby": 0.75,
+        "present": 0.6666666666666666
+      },
+      {
+        "cardIndex": 1,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.183928571428571,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 2,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.171323529411764,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 8,
+        "type": "single-choice",
+        "options": 4,
+        "score": 1.9444444444444444,
+        "same": false,
+        "nearby": 0.5555555555555556,
+        "present": 0.25
+      },
+      {
+        "cardIndex": 7,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 1.1776315789473684,
+        "same": false,
+        "nearby": 0.25,
+        "present": 0
+      },
+      {
+        "cardIndex": 6,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 0.9802631578947368,
+        "same": false,
+        "nearby": 0.25,
+        "present": 0
+      },
+      {
+        "cardIndex": 5,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.6330409356725146,
+        "same": false,
+        "nearby": 0.1111111111111111,
+        "present": 0.25
+      },
+      {
+        "cardIndex": 4,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.35526315789473684,
+        "same": false,
+        "nearby": 0,
+        "present": 0.25
+      }
+    ]
+  },
+  {
+    "row": 25,
+    "id": "6afd5739-9200-83ee-a351-f8c4a0797707",
+    "site": {
+      "occurrence": 1,
+      "anchor": "0b9729a3-83e5-433c-ba20-50c295cff12e:1r2tgwz:1",
+      "kind": "choice-options"
+    },
+    "mi": 0,
+    "anchor": 222,
+    "index": 223,
+    "marker": "[確認答案]",
+    "left": [
+      "**根據電子海模型，下列哪些敘述合理？**（多選）",
+      "理解檢查 3",
+      "但實際金屬的延展性也受到晶體結構、缺陷、溫度與合金成分影響，並不是所有金屬都同樣容易拉伸或敲打。",
+      "這有助於解釋為什麼許多金屬可以產生永久形變，而不是立刻碎裂。",
+      "因此，金屬的某些晶面可以相對滑動，而不會像典型離子晶體一樣，因同號離子直接相鄰而產生強烈排斥。",
+      "在電子海模型中，金屬離子實即使發生相對位移，離域電子仍能分布在金屬結構中，提供維持結合的作用。"
+    ],
+    "right": [
+      "八、離子晶體與金屬晶體的完整比較",
+      "| 性質 | 離子晶體 | 金屬晶體 |\n| 主要組成粒子 | 陽離子、陰離子 | 金屬離子實、離域電子 |\n| 主要結合作用 | 正負離子靜電吸引 | 離子實與離域電子間的作用 |\n| 熔點 | 通常較高 | 差異很大 |\n| 硬度 | 通常較硬 | 差異很大 |\n| 脆性 | 通常較脆 | 多數具有延展性 |\n| 固態導電性 | 通常不導電 | 通常良好 |\n| 熔融導電性 | 通常可導電 | 通常可導電 |\n| 導電粒子 | 可移動的正負離子 | 離域電子 |\n| 導熱性 | 通常不如良導熱金屬 | 通常良好 |",
+      "請特別注意，表格中的「通常」很重要。",
+      "例如金屬汞在室溫下是液體，鎢的熔點非常高，而鈉金屬相對柔軟。"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 2,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 8.15,
+        "same": true,
+        "nearby": 1,
+        "present": 0.1875
+      },
+      {
+        "cardIndex": 1,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.445833333333333,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 0,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.2943181818181815,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 4,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 1.1826923076923077,
+        "same": false,
+        "nearby": 0.25,
+        "present": 0.2777777777777778
+      },
+      {
+        "cardIndex": 5,
+        "type": "single-choice",
+        "options": 4,
+        "score": 1.1826923076923077,
+        "same": false,
+        "nearby": 0.25,
+        "present": 0.375
+      },
+      {
+        "cardIndex": 6,
+        "type": "single-choice",
+        "options": 4,
+        "score": 1.1826923076923077,
+        "same": false,
+        "nearby": 0.25,
+        "present": 0.2222222222222222
+      },
+      {
+        "cardIndex": 7,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 0.875,
+        "same": false,
+        "nearby": 0.25,
+        "present": 0.05
+      },
+      {
+        "cardIndex": 3,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.3076923076923077,
+        "same": false,
+        "nearby": 0,
+        "present": 0.16666666666666666
+      }
+    ]
+  },
+  {
+    "row": 26,
+    "id": "6afd5884-99e8-83ec-b7c1-79a00aeb9799",
+    "site": {
+      "occurrence": 1,
+      "anchor": "d7f11009-c5ee-4acc-a13b-920965d3bdc4:1bic3rd:1",
+      "kind": "widget"
+    },
+    "mi": 0,
+    "anchor": 289,
+    "index": 290,
+    "marker": "[批改並查看解析]",
+    "left": [
+      "本章練習｜5 題單選 (中等～進階)",
+      "以下題目稍有難度，涵蓋反應速率、級數、半生期與實驗判讀。先自行作答，確認後再查看解析。",
+      "十一、本章綜合習題",
+      "因此，實驗比較濃度與速率的關係時，必須控制其他條件。",
+      "**濃度**：可能影響反應速率，但影響程度取決於速率定律。\n**溫度**：通常升高溫度會加快反應，並可能改變速率常數 \\(k\\)。\n**催化劑**：提供不同的反應途徑，可能提高反應速率。\n**接觸面積**：對涉及固體表面的反應，增加接觸面積通常有助於提高速率。"
+    ],
+    "right": [
+      "十二、本章重點整理",
+      "本章所有內容可以串成一條完整的理解路徑：",
+      "**反應物濃度隨時間改變**",
+      "**用濃度變化量除以時間，得到平均速率**"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 3,
+        "type": "single-choice",
+        "options": 4,
+        "score": 8.15,
+        "same": true,
+        "nearby": 1,
+        "present": 0.3488372093023256
+      },
+      {
+        "cardIndex": 1,
+        "type": "single-choice",
+        "options": 4,
+        "score": 1.3311594202898551,
+        "same": false,
+        "nearby": 0.25,
+        "present": 1
+      },
+      {
+        "cardIndex": 2,
+        "type": "single-choice",
+        "options": 4,
+        "score": 1.2388888888888887,
+        "same": false,
+        "nearby": 0.2857142857142857,
+        "present": 1
+      },
+      {
+        "cardIndex": 0,
+        "type": "single-choice",
+        "options": 4,
+        "score": 1.0733709273182956,
+        "same": false,
+        "nearby": 0.08333333333333333,
+        "present": 1
+      }
+    ]
+  },
+  {
+    "row": 27,
+    "id": "6afd58dc-cb18-83ee-94fb-50b9e7ebe18d",
+    "site": {
+      "occurrence": 1,
+      "anchor": "6b62faaa-5be6-485d-b597-698da9f3a37b:yr6a5b:1",
+      "kind": "choice-options"
+    },
+    "mi": 0,
+    "anchor": 217,
+    "index": 218,
+    "marker": "[確認答案]",
+    "left": [
+      "下列關於反應速率的敘述，哪些正確？（多選）",
+      "6\\. 多選理解檢查",
+      "| 改變條件 | 主要微觀解釋 | 活化能是否改變 |\n| 增加反應物濃度 | 碰撞機會通常增加 | 通常不變 |\n| 升高溫度 | 足夠能量的粒子比例增加 | 通常不變 |\n| 增加固體接觸面積 | 可反應的接觸位置增加 | 通常不變 |\n| 提高氣體濃度 | 碰撞機會通常增加 | 通常不變 |\n| 加入適當催化劑 | 提供較低能量障礙的途徑 | 改變有效反應途徑 |",
+      "5\\. 綜合比較",
+      "通常能提高反應速率。\n不改變反應的 \\(\\Delta H\\)。\n不改變化學平衡常數，也不改變平衡位置。\n在催化循環中會再生，不會在總反應中被淨消耗。",
+      "催化劑的關鍵特性是："
+    ],
+    "right": [
+      "八、本章重點整理",
+      "| 核心概念 | 最重要的判斷 |\n| 碰撞學說 | 反應速率與有效碰撞頻率有關 |\n| 有效碰撞 | 需要足夠能量及適當方向 |\n| 活化能 | 反應途徑需要跨越的能量障礙 |\n| 過渡狀態 | 單步反應能量障礙的頂端 |\n| 反應熱 | 生成物與反應物的焓差 |\n| 放熱反應 | \\(\\Delta H<0\\) |\n| 吸熱反應 | \\(\\Delta H>0\\) |\n| 反應機構 | 反應可能經過多個基本步驟 |\n| 速率決定步驟 | 對整體反應速率具有關鍵控制作用的步驟 |\n| 催化劑 | 提供不同且通常較低能障的反應途徑 |",
+      "本章最重要的兩個公式：",
+      "\n\\boxed{E_a=E_{\\text{過渡狀態}}-E_{\\text{反應物}}}\n"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 2,
+        "type": "multiple-choice",
+        "options": 5,
+        "score": 7.879166666666666,
+        "same": true,
+        "nearby": 1,
+        "present": 0.0625
+      },
+      {
+        "cardIndex": 1,
+        "type": "single-choice",
+        "options": 4,
+        "score": 5.408333333333333,
+        "same": true,
+        "nearby": 0.5,
+        "present": 1
+      },
+      {
+        "cardIndex": 0,
+        "type": "single-choice",
+        "options": 3,
+        "score": 4.267559523809524,
+        "same": true,
+        "nearby": 0.1875,
+        "present": 1
+      }
+    ]
+  },
+  {
+    "row": 28,
+    "id": "6afd5932-2f34-83ee-ba40-57222bb343c3",
+    "site": {
+      "occurrence": 1,
+      "anchor": "a632f935-40fc-409c-a78a-89ba47c57196:mkdt7u:1",
+      "kind": "choice-options"
+    },
+    "mi": 0,
+    "anchor": 213,
+    "index": 214,
+    "marker": "[確認答案]",
+    "left": [
+      "多選題：下列哪些敘述正確？",
+      "理解檢查 4",
+      "酵素應用包括食品加工、洗衣清潔、生物檢測，以及人體內的消化與代謝反應。",
+      "酵素活性隨溫度變化的概念示意。不同酵素的最適溫度及曲線形狀不一定相同。",
+      "<svg viewBox=\"0 0 340 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M36 12 V158 H323\" stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\" /><text x=\"5\" y=\"16\" font-size=\"11\" fill=\"currentColor\">活性</text><text x=\"270\" y=\"183\" font-size=\"11\" fill=\"currentColor\">溫度</text><path d=\"M40 154 C78 149 103 120 144 65 C161 43 179 36 190 43 C211 56 222 113 241 141 C260 155 288 156 318 156\" stroke=\"#3C9A76\" stroke-width=\"3\" fill=\"none\" /><path d=\"M190 43 V158\" stroke=\"currentColor\" stroke-dasharray=\"4 4\" stroke-width=\"1.2\" /><text x=\"190\" y=\"29\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\">最適溫度</text></svg>",
+      "**第三，受到酸鹼度影響。** 不同酵素有適合的 pH 範圍，偏離適當範圍可能降低活性。"
+    ],
+    "right": [
+      "十一、反應速率的變因控制與數據分析",
+      "在實驗中，如果同時改變溫度與濃度，發現反應變快，我們無法直接知道是哪個因素造成的。",
+      "因此，若要研究單一因素的影響，必須控制其他可能影響速率的條件。",
+      "1\\. 三種變因"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 3,
+        "type": "multiple-choice",
+        "options": 5,
+        "score": 7.941666666666666,
+        "same": true,
+        "nearby": 0.9166666666666666,
+        "present": 0.2
+      },
+      {
+        "cardIndex": 0,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.4125,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 1,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.343269230769231,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 2,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.2236111111111105,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 7,
+        "type": "single-choice",
+        "options": 4,
+        "score": 3.2333333333333334,
+        "same": false,
+        "nearby": 0.9,
+        "present": 0
+      },
+      {
+        "cardIndex": 8,
+        "type": "single-choice",
+        "options": 4,
+        "score": 3.15,
+        "same": false,
+        "nearby": 0.9,
+        "present": 0
+      },
+      {
+        "cardIndex": 5,
+        "type": "single-choice",
+        "options": 4,
+        "score": 1.8833333333333333,
+        "same": false,
+        "nearby": 0.5,
+        "present": 0
+      },
+      {
+        "cardIndex": 6,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 1.8833333333333333,
+        "same": false,
+        "nearby": 0.5,
+        "present": 0
+      },
+      {
+        "cardIndex": 4,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 1.5333333333333332,
+        "same": false,
+        "nearby": 0.4,
+        "present": 0
+      }
+    ]
+  },
+  {
+    "row": 29,
+    "id": "6afd5281-8950-83ee-a6ee-f0d0e9267db6",
+    "site": {
+      "occurrence": 1,
+      "anchor": "10564263-b187-48eb-acfc-d95404b2f1dd:hsnusr:1",
+      "kind": "choice-options"
+    },
+    "mi": 0,
+    "anchor": 348,
+    "index": 349,
+    "marker": "[確認答案]",
+    "left": [
+      "下列哪些敘述正確？（多選）",
+      "3\\. 理解檢查",
+      "但單一反應現象未必具有唯一性，因此實際鑑定通常需要結合多項性質與適當的對照。",
+      "這些反應可以作為物質鑑定的證據。",
+      "是否與某種試劑產生沉澱。\n是否與酸發生反應。\n是否發生特定的顏色變化。\n是否具有氧化或還原能力。"
+    ],
+    "right": [
+      "第八節　本章綜合習題",
+      "以下題目整合均衡、莫耳換算、限量試劑、產率與氧化還原概念。建議先獨立完成，再逐題檢查。"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 3,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 7.354166666666667,
+        "same": true,
+        "nearby": 0.8333333333333334,
+        "present": 0.3333333333333333
+      },
+      {
+        "cardIndex": 1,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.255357142857143,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 0,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.2236111111111105,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 2,
+        "type": "single-choice",
+        "options": 4,
+        "score": 4.820075757575758,
+        "same": true,
+        "nearby": 0.4166666666666667,
+        "present": 1
+      },
+      {
+        "cardIndex": 4,
+        "type": "single-choice",
+        "options": 4,
+        "score": 3.465277777777778,
+        "same": false,
+        "nearby": 0.8333333333333334,
+        "present": 0.3111111111111111
+      }
+    ]
+  },
+  {
+    "row": 30,
+    "id": "6afd5281-8950-83ee-a6ee-f0d0e9267db6",
+    "site": {
+      "occurrence": 2,
+      "anchor": "10564263-b187-48eb-acfc-d95404b2f1dd:zhcsk:1",
+      "kind": "widget"
+    },
+    "mi": 0,
+    "anchor": 352,
+    "index": 354,
+    "marker": "[提交並查看解析]",
+    "left": [
+      "以下題目整合均衡、莫耳換算、限量試劑、產率與氧化還原概念。建議先獨立完成，再逐題檢查。",
+      "第八節　本章綜合習題",
+      "下列哪些敘述正確？（多選）"
+    ],
+    "right": [
+      "本章重點整理",
+      "| 核心觀念 | 必須掌握的關係 |\n| 化學反應 | 原子重新排列，遵守守恆定律 |\n| 反應式均衡 | 各元素原子數相同，必要時也須符合電荷守恆 |\n| 莫耳數 | \\(n=N/N_A\\) |\n| 質量換算 | \\(n=m/M\\) |\n| 反應計量 | 均衡係數代表反應物消耗量與生成物生成量的莫耳比 |\n| 限量試劑 | 比較起始莫耳數除以反應係數 |\n| 百分產率 | 實際產量 ÷ 理論產量 × 100% |\n| 氧化還原 | 氧化數增加為氧化，減少為還原 |\n| 物質鑑定 | 綜合物理與化學性質判斷 |",
+      "這一章的關鍵，不是記住很多獨立公式，而是理解一條完整的推理鏈：",
+      "**原子守恆決定反應式係數 → 係數決定莫耳比例 → 莫耳比例決定反應物消耗與生成物產量。**"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 4,
+        "type": "single-choice",
+        "options": 4,
+        "score": 7.9875,
+        "same": true,
+        "nearby": 1,
+        "present": 0.3111111111111111
+      },
+      {
+        "cardIndex": 3,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 2.0069444444444446,
+        "same": false,
+        "nearby": 0.25,
+        "present": 0.3333333333333333
+      },
+      {
+        "cardIndex": 1,
+        "type": "single-choice",
+        "options": 4,
+        "score": 1.8902777777777777,
+        "same": false,
+        "nearby": 0.25,
+        "present": 1
+      },
+      {
+        "cardIndex": 0,
+        "type": "single-choice",
+        "options": 4,
+        "score": 1.793659420289855,
+        "same": false,
+        "nearby": 0.25,
+        "present": 1
+      },
+      {
+        "cardIndex": 2,
+        "type": "single-choice",
+        "options": 4,
+        "score": 1.7821969696969697,
+        "same": false,
+        "nearby": 0.25,
+        "present": 1
+      }
+    ]
+  },
+  {
+    "row": 31,
+    "id": "6afd52ed-e4e0-83e8-80ed-187991462cf6",
+    "site": {
+      "occurrence": 1,
+      "anchor": "3dcaee9f-be82-4277-ac9d-9602af2db2de:dgftb8:1",
+      "kind": "choice-options"
+    },
+    "mi": 0,
+    "anchor": 70,
+    "index": 71,
+    "marker": "[確認答案]",
+    "left": [
+      "某反應進行時，系統向周圍的水釋放熱量。下列哪些敘述正確？（多選）",
+      "4\\. 理解檢查：先確認核心觀念",
+      "這種解釋適合建立基礎直覺。實際反應熱還可能涉及物質的相態、粒子間作用力等，因此後續會使用焓變來完整描述。",
+      "整個反應是吸熱或放熱，要看所有能量變化的總結果，而不能只看某一條鍵。",
+      "**破壞化學鍵本身需要能量，並不是放出能量。**",
+      "這裡有一個重要的觀念："
+    ],
+    "right": [
+      "第二節：反應熱、焓變與熱化學反應式",
+      "1\\. 為什麼需要焓變？",
+      "化學反應可能同時涉及熱的傳遞與體積變化。例如氣體生成時，系統可能膨脹並對外界做功。",
+      "為了方便描述定壓條件下的熱量變化，化學使用**焓（enthalpy）**，符號為 \\(H\\)。"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 0,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 8.15,
+        "same": true,
+        "nearby": 1,
+        "present": 0
+      },
+      {
+        "cardIndex": 3,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.5913461538461539,
+        "same": false,
+        "nearby": 0.125,
+        "present": 0
+      },
+      {
+        "cardIndex": 2,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.5224358974358974,
+        "same": false,
+        "nearby": 0.08333333333333333,
+        "present": 0
+      },
+      {
+        "cardIndex": 4,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.40384615384615385,
+        "same": false,
+        "nearby": 0.11538461538461539,
+        "present": 0
+      },
+      {
+        "cardIndex": 1,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.2783882783882784,
+        "same": false,
+        "nearby": 0,
+        "present": 0
+      }
+    ]
+  },
+  {
+    "row": 32,
+    "id": "6afd5491-aca8-83ee-8779-8ccb4624bca8",
+    "site": {
+      "occurrence": 1,
+      "anchor": "0e56bdd3-b011-4d83-b2a4-d61c2a12986d:19e1omy:1",
+      "kind": "choice-options"
+    },
+    "mi": 0,
+    "anchor": 138,
+    "index": 139,
+    "marker": "[確認答案]",
+    "left": [
+      "**關於蒸發與沸騰，下列哪些敘述正確？（多選）**",
+      "理解檢查 2",
+      "| 比較 | 蒸發 | 沸騰 |\n| 發生位置 | 液體表面 | 液體內部與表面 |\n| 溫度條件 | 低於沸點也能發生 | 達到當地壓力下的沸點 |\n| 氣泡 | 不需形成氣泡 | 液體內部產生蒸氣泡 |\n| 影響因素 | 溫度、濕度、表面積等 | 溫度與外界壓力等 |",
+      "因此，高山上的水通常在低於 \\(100^\\circ\\mathrm C\\) 時沸騰。",
+      "若外界壓力降低，水不需要達到 \\(100^\\circ\\mathrm C\\) 就可能沸騰。",
+      "例如在標準大氣壓 \\(1\\ \\mathrm{atm}\\) 下，純水的正常沸點約為 \\(100^\\circ\\mathrm C\\)。"
+    ],
+    "right": [
+      "六、液體的基本物理性質",
+      "液體既能流動，又能保持近似固定的體積。這種特性使液體呈現一些固體與氣體較不明顯的現象。",
+      "6-1 表面張力",
+      "image_group{\"query\":[\"water droplet beading on hydrophobic leaf macro photograph\",\"water strider insect standing on water surface close up\"],\"aspect_ratio\":\"5:3\",\"layout\":\"carousel\"}"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 1,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 7.770833333333333,
+        "same": true,
+        "nearby": 1,
+        "present": 0.1875
+      },
+      {
+        "cardIndex": 2,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.445833333333333,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 0,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.334722222222222,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      }
+    ]
+  },
+  {
+    "row": 33,
+    "id": "6afd54da-7e70-83ec-8771-36f269ff7846",
+    "site": {
+      "occurrence": 1,
+      "anchor": "e1365503-83ba-4156-add6-2e89363e115c:1tg3qwn:1",
+      "kind": "widget"
+    },
+    "mi": 0,
+    "anchor": 201,
+    "index": 202,
+    "marker": "[提交作答]",
+    "left": [
+      "關於飽和溶液與溶解度，哪些敘述正確？",
+      "觀念應用｜多選",
+      "6-3 理解檢查",
+      "前提是水沒有蒸發，且最終達到溶解平衡。",
+      "\n80-30=\\boxed{50\\text{ g}}\n",
+      "因此析出："
+    ],
+    "right": [
+      "七、氣體的溶解度",
+      "7-1 為什麼汽水打開後會冒泡？",
+      "汽水中含有溶解的二氧化碳。",
+      "未開封時，瓶內二氧化碳的分壓較高，有利於二氧化碳溶於液體。"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 0,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 8.15,
+        "same": true,
+        "nearby": 1,
+        "present": 0.06666666666666667
+      }
+    ]
+  },
+  {
+    "row": 34,
+    "id": "6afd5529-0690-83e8-aee7-a4d75e05600e",
+    "site": {
+      "occurrence": 1,
+      "anchor": "c006c8dd-263e-4185-9aeb-b52a7361729f:fcml4s:1",
+      "kind": "choice-options"
+    },
+    "mi": 0,
+    "anchor": 255,
+    "index": 256,
+    "marker": "[確認答案]",
+    "left": [
+      "某理想溶液由揮發性液體 A、B 組成，且同溫下 \\(P_A^*>P_B^*\\)。下列哪些敘述正確？（多選）",
+      "理解檢查 3",
+      "因此，**平衡蒸氣通常富含較易揮發的成分。**",
+      "原因是 A 的純液體飽和蒸氣壓較高，表示它在同溫下較容易進入氣相。",
+      "雖然液相中 A 只有 40%，但氣相中 A 卻占 62.5%。",
+      "\nX_A=0.4,\\qquad Y_A=0.625\n"
+    ],
+    "right": [
+      "九、非理想溶液",
+      "9-1 為什麼有些溶液不遵守拉午耳定律？",
+      "拉午耳定律假設混合後，分子逃離液相的傾向沒有額外改變。",
+      "但真實溶液中，A–B 分子間作用力可能與 A–A、B–B 不同。"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 2,
+        "type": "multiple-choice",
+        "options": 4,
+        "score": 8.15,
+        "same": true,
+        "nearby": 1,
+        "present": 0.07407407407407407
+      },
+      {
+        "cardIndex": 1,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.3125,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 0,
+        "type": "single-choice",
+        "options": 4,
+        "score": 6.1125,
+        "same": true,
+        "nearby": 0.75,
+        "present": 1
+      },
+      {
+        "cardIndex": 6,
+        "type": "single-choice",
+        "options": 4,
+        "score": 1.1341911764705883,
+        "same": false,
+        "nearby": 0.3125,
+        "present": 0
+      },
+      {
+        "cardIndex": 7,
+        "type": "single-choice",
+        "options": 4,
+        "score": 1.1341911764705883,
+        "same": false,
+        "nearby": 0.3125,
+        "present": 0
+      },
+      {
+        "cardIndex": 4,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.7875,
+        "same": false,
+        "nearby": 0,
+        "present": 0
+      },
+      {
+        "cardIndex": 5,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.7135416666666667,
+        "same": false,
+        "nearby": 0.09375,
+        "present": 0
+      },
+      {
+        "cardIndex": 3,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.6,
+        "same": false,
+        "nearby": 0,
+        "present": 0
+      }
+    ]
+  },
+  {
+    "row": 35,
+    "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+    "site": {
+      "occurrence": 1,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:13q8d1v:1",
+      "kind": "widget"
+    },
+    "mi": 0,
+    "anchor": 390,
+    "index": 392,
+    "marker": "[提交答案進行批改]",
+    "left": [
+      "以下題目比前面的觀念檢查更有挑戰性，包含概念判斷、多步驟計算與解釋，適合檢驗是否真正理解本章。先不提供標準解答，避免影響獨立練習。",
+      "九、章末綜合習題",
+      "**集合**：哪些對象符合條件？\n**邏輯**：一個條件是否足以保證另一個條件？\n**統計**：資料有什麼特徵，兩個變數又呈現什麼關係？",
+      "本章大致可以用三個問題串起來："
+    ],
+    "right": [
+      "可只填寫部分題目，已輸入內容會隨提交一併送出供批改；未填寫的題目不視為答錯。",
+      "完成這章後，最重要的不是能否背出所有公式，而是能否理解：**一個集合符號究竟代表什麼條件、一個推論究竟保證了什麼，以及一個統計數字究竟能支持哪些結論。** 這三種能力是應對高中講義、數學證明及數據分析題目的共同基礎。"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 4,
+        "type": "fill-in",
+        "options": 0,
+        "score": 7.9875,
+        "same": true,
+        "nearby": 1,
+        "present": 0.125
+      },
+      {
+        "cardIndex": 3,
+        "type": "single-choice",
+        "options": 4,
+        "score": 1.4765282131661441,
+        "same": false,
+        "nearby": 0.2727272727272727,
+        "present": 1
+      },
+      {
+        "cardIndex": 2,
+        "type": "single-choice",
+        "options": 4,
+        "score": 1.4727272727272729,
+        "same": false,
+        "nearby": 0.36363636363636365,
+        "present": 1
+      },
+      {
+        "cardIndex": 0,
+        "type": "single-choice",
+        "options": 4,
+        "score": 1.1853146853146852,
+        "same": false,
+        "nearby": 0.2727272727272727,
+        "present": 1
+      },
+      {
+        "cardIndex": 1,
+        "type": "single-choice",
+        "options": 4,
+        "score": 1.1420454545454546,
+        "same": false,
+        "nearby": 0.2727272727272727,
+        "present": 1
+      }
+    ]
+  },
+  {
+    "row": 36,
+    "id": "6af8cb59-be70-83ec-8c96-80bb124eda94",
+    "site": {
+      "occurrence": 1,
+      "anchor": "9af10d4a-c360-4b9a-90ce-e171fb4f1253:1v6x5r0:1",
+      "kind": "widget"
+    },
+    "mi": 0,
+    "anchor": 318,
+    "index": 319,
+    "marker": "[提交答案並計分]",
+    "left": [
+      "不合理，因為 X 射線的能量與電壓完全無關",
+      "不合理，因為電子最多只有 24 keV 的動能可轉換成單一光子",
+      "合理，只要選擇具有特性 X 射線的靶材即可",
+      "合理，因為制動輻射能量可以大於原本電子的動能",
+      "若有人聲稱此 X 射線管產生了能量 \\(30\\ \\mathrm{keV}\\) 的單一光子，下列判斷何者正確？",
+      "某理想化 X 射線管中，電子由靜止開始，僅受到 \\(24\\ \\mathrm{kV}\\) 電位差加速，接著撞擊靶材。"
+    ],
+    "right": [
+      "**完成本章的理解標準：** 能區分制動輻射與特性 X 射線的來源，知道電子加速電壓如何限制最大光子能量，能在光子能量與波長間換算，並能從干涉原理理解布拉格定律，以及正確區分 \\(\\theta\\) 和 \\(2\\theta\\)。這些能力足以應對本章常見的基礎及進階高中物理題型。"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 2,
+        "type": "single-choice",
+        "options": 4,
+        "score": 7.9875,
+        "same": true,
+        "nearby": 1,
+        "present": 1
+      },
+      {
+        "cardIndex": 0,
+        "type": "single-choice",
+        "options": 4,
+        "score": 1.5437908496732027,
+        "same": false,
+        "nearby": 0.23529411764705882,
+        "present": 1
+      },
+      {
+        "cardIndex": 1,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.9926470588235294,
+        "same": false,
+        "nearby": 0.17647058823529413,
+        "present": 1
+      }
+    ]
+  },
+  {
+    "row": 37,
+    "id": "6af8c8c2-5628-83ee-aeea-3624022eddf5",
+    "site": {
+      "occurrence": 1,
+      "anchor": "ef5b7c91-e86a-4ebd-a6c1-443b7d59d54b:2mjbz5:1",
+      "kind": "widget"
+    },
+    "mi": 0,
+    "anchor": 431,
+    "index": 433,
+    "marker": "[送出作答並進行批改]",
+    "left": [
+      "下方可一次填寫六題答案。題目包含方向判斷、數值計算及物理解釋，因此會保留完整作答內容供後續逐題批改，而非只檢查最終數值。",
+      "電力方向為何？\n加速度方向為何？\n粒子的速度方向是否立即變成鉛直向上？\n為什麼它的軌跡可能是拋物線？",
+      "若不正確，請以「一顆帶正電粒子，具有向右的初速度，進入鉛直向上的均勻電場」為例，解釋：",
+      "請判斷這個說法是否正確。"
+    ],
+    "right": [
+      "可先提交部分題目；未作答題目會保留為未作答，不計入已作答題目的評分。",
+      "本章最值得建立的理解是：**源電荷產生電場，電場使其他帶電粒子受到電力，而電力透過牛頓第二運動定律決定粒子的加速度。** 只要能清楚區分這幾個階段，並正確處理向量方向，就能將靜電學與先前的力學知識連接起來，解決多數高中典型題目。"
+    ],
+    "ranks": [
+      {
+        "cardIndex": 3,
+        "type": "fill-in",
+        "options": 0,
+        "score": 7.5,
+        "same": true,
+        "nearby": 1,
+        "present": 1
+      },
+      {
+        "cardIndex": 1,
+        "type": "single-choice",
+        "options": 4,
+        "score": 1.1815734265734266,
+        "same": false,
+        "nearby": 0.25,
+        "present": 1
+      },
+      {
+        "cardIndex": 2,
+        "type": "multiple-choice",
+        "options": 3,
+        "score": 0.9055555555555554,
+        "same": false,
+        "nearby": 0.16666666666666666,
+        "present": 1
+      },
+      {
+        "cardIndex": 0,
+        "type": "single-choice",
+        "options": 4,
+        "score": 0.5688461538461538,
+        "same": false,
+        "nearby": 0.1,
+        "present": 1
+      }
+    ]
+  }
+]
