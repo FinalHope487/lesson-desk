@@ -1,0 +1,42 @@
+{
+  "edition": "pages",
+  "checks": {
+    "catalog": 103,
+    "lessons": 1,
+    "chartsExpected": 0,
+    "rasterExpected": 8,
+    "svgExpected": 2,
+    "rasterRendered": 8,
+    "svgRendered": 2,
+    "unresolvedImageGroups": 0,
+    "visibleImageGroupMarkers": 0,
+    "groupQuestions": 9,
+    "groupSubmissions": 9,
+    "recoveredGroups": 1,
+    "recoveredQuestions": 1,
+    "recoveredControls": 4,
+    "recoveredSubmissions": 1,
+    "leadInQuestions": 0,
+    "leadInAnswers": 0,
+    "tables": 8,
+    "formulas": 76,
+    "staticExerciseLinks": 1
+  },
+  "issues": [],
+  "version": "27092338883f7e65d2d9136b192ddc53b0f65ae2f5b238b33c3b69b0ead4cadc",
+  "chapters": [
+    {
+      "id": "6afd73b8-b520-83e8-b386-6971b84f907b",
+      "message": "38c74dd9-5464-41f8-ae18-7482ad68f7f7",
+      "line": 785,
+      "anchor": "section-55",
+      "expected": 6,
+      "sourceNumbered": 0,
+      "progress": 0,
+      "structured": 6,
+      "rendered": 6,
+      "staticNumbered": 0,
+      "verified": 6
+    }
+  ]
+}

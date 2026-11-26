@@ -1,0 +1,21 @@
+{
+  "edition": "pages",
+  "checks": {
+    "catalog": 103,
+    "lessons": 1,
+    "chartsExpected": 0,
+    "rasterExpected": 0,
+    "svgExpected": 8,
+    "svgRendered": 8,
+    "unresolvedImageGroups": 0,
+    "visibleImageGroupMarkers": 0,
+    "groupQuestions": 8,
+    "groupSubmissions": 8,
+    "leadInQuestions": 1,
+    "leadInAnswers": 1,
+    "tables": 7,
+    "formulas": 149
+  },
+  "issues": [],
+  "version": "a9201fa03d51c141bc204165cc13ea422b5188d6f604993a053914b40bc2a583"
+}

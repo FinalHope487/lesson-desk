@@ -1,0 +1,16 @@
+{
+  "edition": "pages",
+  "checks": {
+    "catalog": 103,
+    "lessons": 1,
+    "groupQuestions": 8,
+    "groupSubmissions": 8,
+    "leadInQuestions": 1,
+    "leadInAnswers": 1,
+    "tables": 2,
+    "formulas": 81,
+    "chemistryChapterRecovered": 5,
+    "chemistryKeyboardSubmission": 1
+  },
+  "issues": []
+}
