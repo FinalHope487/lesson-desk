@@ -1,0 +1,33 @@
+{
+  "edition": "online",
+  "checks": {
+    "catalog": 103,
+    "lessons": 103,
+    "chartsExpected": 33,
+    "rasterExpected": 258,
+    "svgExpected": 305,
+    "svgRendered": 305,
+    "unresolvedImageGroups": 0,
+    "visibleImageGroupMarkers": 0,
+    "groupQuestions": 570,
+    "groupSubmissions": 570,
+    "leadInQuestions": 73,
+    "leadInAnswers": 73,
+    "tables": 704,
+    "formulas": 15679,
+    "chartsRendered": 33,
+    "legacyQuestions": 20,
+    "legacySubmissions": 20,
+    "staticExerciseLinks": 107,
+    "rasterRendered": 258,
+    "recoveredGroups": 36,
+    "recoveredQuestions": 75,
+    "recoveredControls": 262,
+    "recoveredSubmissions": 75,
+    "chemistryChapterRecovered": 5,
+    "chemistryKeyboardSubmission": 1
+  },
+  "issues": [],
+  "version": "71b46fa18508b7273d6e283cf525b41301f02f9fd200cbcc51d398c2cde36c03",
+  "verifiedOnlineAssets": 366
+}

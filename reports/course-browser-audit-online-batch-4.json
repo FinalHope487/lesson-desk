@@ -1,0 +1,240 @@
+{
+  "edition": "online",
+  "checks": {
+    "catalog": 103,
+    "lessons": 9,
+    "chartsExpected": 4,
+    "chartsRendered": 4,
+    "rasterExpected": 9,
+    "svgExpected": 20,
+    "unresolvedImageGroups": 0,
+    "visibleImageGroupMarkers": 0,
+    "groupQuestions": 45,
+    "groupSubmissions": 45,
+    "recoveredGroups": 3,
+    "recoveredQuestions": 6,
+    "recoveredControls": 24,
+    "recoveredSubmissions": 6,
+    "leadInQuestions": 5,
+    "leadInAnswers": 5,
+    "tables": 56,
+    "formulas": 1423,
+    "staticExerciseLinks": 11,
+    "svgRendered": 20,
+    "rasterRendered": 9
+  },
+  "issues": [],
+  "version": "71b46fa18508b7273d6e283cf525b41301f02f9fd200cbcc51d398c2cde36c03",
+  "samples": [
+    {
+      "id": "6afd5980-8354-83e8-b4f1-ddf3426f0246",
+      "subject": "化學",
+      "title": "1. 化學平衡與平衡常數",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 1,
+        "chartsRendered": 1,
+        "rasterExpected": 0,
+        "svgExpected": 0,
+        "unresolvedImageGroups": 0,
+        "visibleImageGroupMarkers": 0,
+        "groupQuestions": 7,
+        "groupSubmissions": 7,
+        "recoveredGroups": 2,
+        "recoveredQuestions": 5,
+        "recoveredControls": 20,
+        "recoveredSubmissions": 5,
+        "leadInQuestions": 0,
+        "leadInAnswers": 0,
+        "tables": 7,
+        "formulas": 118,
+        "staticExerciseLinks": 1
+      }
+    },
+    {
+      "id": "6afd6d01-4058-83ec-8556-affbfbd46800",
+      "subject": "化學",
+      "title": "4. 布－洛酸鹼理論",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 0,
+        "rasterExpected": 0,
+        "svgExpected": 2,
+        "svgRendered": 2,
+        "unresolvedImageGroups": 0,
+        "visibleImageGroupMarkers": 0,
+        "groupQuestions": 4,
+        "groupSubmissions": 4,
+        "recoveredGroups": 1,
+        "recoveredQuestions": 1,
+        "recoveredControls": 4,
+        "recoveredSubmissions": 1,
+        "leadInQuestions": 0,
+        "leadInAnswers": 0,
+        "tables": 7,
+        "formulas": 47,
+        "staticExerciseLinks": 3
+      }
+    },
+    {
+      "id": "6afd53e1-2b34-83ec-b9e0-003c061d14e4",
+      "subject": "化學",
+      "title": "5. 理想氣體",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 1,
+        "chartsRendered": 1,
+        "rasterExpected": 0,
+        "svgExpected": 0,
+        "unresolvedImageGroups": 0,
+        "visibleImageGroupMarkers": 0,
+        "groupQuestions": 4,
+        "groupSubmissions": 4,
+        "leadInQuestions": 0,
+        "leadInAnswers": 0,
+        "tables": 5,
+        "formulas": 111,
+        "staticExerciseLinks": 2
+      }
+    },
+    {
+      "id": "6af8b359-d8f8-83ec-b0ed-96ba7d22d2da",
+      "subject": "物理",
+      "title": "5. 等速圓周運動",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 0,
+        "rasterExpected": 4,
+        "svgExpected": 4,
+        "rasterRendered": 4,
+        "svgRendered": 4,
+        "unresolvedImageGroups": 0,
+        "visibleImageGroupMarkers": 0,
+        "groupQuestions": 7,
+        "groupSubmissions": 7,
+        "leadInQuestions": 2,
+        "leadInAnswers": 2,
+        "tables": 8,
+        "formulas": 268
+      }
+    },
+    {
+      "id": "6afd5396-48ec-83ee-b084-fe3725a1cfc7",
+      "subject": "化學",
+      "title": "4. 氣體的基本定律",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 2,
+        "chartsRendered": 2,
+        "rasterExpected": 0,
+        "svgExpected": 0,
+        "unresolvedImageGroups": 0,
+        "visibleImageGroupMarkers": 0,
+        "groupQuestions": 1,
+        "groupSubmissions": 1,
+        "leadInQuestions": 0,
+        "leadInAnswers": 0,
+        "tables": 5,
+        "formulas": 56
+      }
+    },
+    {
+      "id": "6af8b7e4-d1ec-83ee-ab77-e026f724ae4d",
+      "subject": "物理",
+      "title": "7. 位能與力學能守恆",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 0,
+        "rasterExpected": 0,
+        "svgExpected": 4,
+        "svgRendered": 4,
+        "unresolvedImageGroups": 0,
+        "visibleImageGroupMarkers": 0,
+        "groupQuestions": 3,
+        "groupSubmissions": 3,
+        "leadInQuestions": 1,
+        "leadInAnswers": 1,
+        "tables": 6,
+        "formulas": 240,
+        "staticExerciseLinks": 5
+      }
+    },
+    {
+      "id": "6afd565d-9a08-83ee-8d10-7feb69917418",
+      "subject": "化學",
+      "title": "3. 電子組態",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 0,
+        "rasterExpected": 2,
+        "svgExpected": 2,
+        "rasterRendered": 2,
+        "svgRendered": 2,
+        "unresolvedImageGroups": 0,
+        "visibleImageGroupMarkers": 0,
+        "groupQuestions": 2,
+        "groupSubmissions": 2,
+        "leadInQuestions": 0,
+        "leadInAnswers": 0,
+        "tables": 6,
+        "formulas": 83
+      }
+    },
+    {
+      "id": "6af8b3dc-5ad4-83ee-9a6c-e98105cb5cd8",
+      "subject": "物理",
+      "title": "7. 牛頓運動定律",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 0,
+        "rasterExpected": 0,
+        "svgExpected": 8,
+        "svgRendered": 8,
+        "unresolvedImageGroups": 0,
+        "visibleImageGroupMarkers": 0,
+        "groupQuestions": 8,
+        "groupSubmissions": 8,
+        "leadInQuestions": 1,
+        "leadInAnswers": 1,
+        "tables": 7,
+        "formulas": 149
+      }
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "subject": "數學",
+      "title": "2. 空間中的平面與直線",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 0,
+        "rasterExpected": 3,
+        "svgExpected": 0,
+        "rasterRendered": 3,
+        "unresolvedImageGroups": 0,
+        "visibleImageGroupMarkers": 0,
+        "groupQuestions": 9,
+        "groupSubmissions": 9,
+        "leadInQuestions": 1,
+        "leadInAnswers": 1,
+        "tables": 5,
+        "formulas": 351
+      }
+    }
+  ],
+  "batch": {
+    "number": 4,
+    "seed": "course-render-audit-v1",
+    "ids": [
+      "6afd5980-8354-83e8-b4f1-ddf3426f0246",
+      "6afd6d01-4058-83ec-8556-affbfbd46800",
+      "6afd53e1-2b34-83ec-b9e0-003c061d14e4",
+      "6af8b359-d8f8-83ec-b0ed-96ba7d22d2da",
+      "6afd5396-48ec-83ee-b084-fe3725a1cfc7",
+      "6af8b7e4-d1ec-83ee-ab77-e026f724ae4d",
+      "6afd565d-9a08-83ee-8d10-7feb69917418",
+      "6af8b3dc-5ad4-83ee-9a6c-e98105cb5cd8",
+      "6af958ad-fad4-83ec-8ec3-466384b2d73e"
+    ]
+  },
+  "verifiedOnlineAssets": 23
+}
