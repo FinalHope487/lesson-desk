@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-11-25",
+  "evidenceType": "live-browser-observation",
+  "testedUrl": "https://finalhope487.github.io/lesson-desk/",
+  "lesson": {
+    "id": "6af955d0-1168-83ec-b520-a752fce3ba9b",
+    "title": "1. 三角比與三角形"
+  },
+  "resourceVersions": {
+    "reader": "6acdbbfe1e26",
+    "lessonMarkdown": "cb1f00f72f44",
+    "readerCss": "24575fecfbf5"
+  },
+  "observed": {
+    "fencedSvgBlocksInLocalReleaseRecord": 5,
+    "blobImagesInRenderedLesson": 5,
+    "inlineSvgCount": 0,
+    "rangeInputCount": 0,
+    "numberInputCount": 0,
+    "roleSliderCount": 0,
+    "consoleErrors": 0
+  },
+  "interactiveSourceBlock": {
+    "fenceIndex": 0,
+    "ariaLabels": [
+      "Interactive right triangle. The reference angle is at point B. Its angles are 90 degrees, 40 degrees, and 50 degrees. Adjacent side is 136, opposite side is 114, and hypotenuse is 177.5. Drag points B and C to adjust the shape.",
+      "Draggable point B. Use arrow keys to reshape the right triangle.",
+      "Draggable point C. Use arrow keys to reshape the right triangle."
+    ],
+    "roleButtonCount": 2,
+    "tabStopCount": 2,
+    "dataLearningBlockPanCount": 2
+  },
+  "classification": "RENDERER_CONVERTS_INTERACTIVE_SVG_TO_IMG",
+  "evidence": [
+    "Published lesson DOM contains five <figure><img src=\"blob:…\"> entries and zero inline <svg> elements.",
+    "The first fenced SVG in the local release record contains two role=\"button\" draggable-point groups with tabindex and data-learning-block-pan markers.",
+    "reader.js blockElement() converts svg blocks to an image/svg+xml Blob URL used as <img>."
+  ],
+  "limitations": [
+    "This is one live published lesson, not a full online scan of all 103 lessons.",
+    "The observation confirms the published reader DOM cannot expose the SVG point controls; original ChatGPT runtime drag behavior was not retested in this observation."
+  ]
+}

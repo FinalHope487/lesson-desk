@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-11-25",
+  "tool": "mcp__codex_app__read_thread",
+  "mode": "read-only",
+  "lessonCount": 103,
+  "threadsScanned": 103,
+  "allThreadPagesExhausted": 103,
+  "errors": [],
+  "otherItemTypeThreads": [],
+  "attachmentsPresent": [],
+  "truncatedMessages": [
+    {
+      "threadId": "6af8b310-0274-83ec-8aa9-047161ec20af",
+      "items": [
+        {
+          "type": "agentMessage",
+          "id": "04fd68fc-873b-475e-aa0e-df395977285e",
+          "chars": 20000
+        }
+      ]
+    },
+    {
+      "threadId": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "items": [
+        {
+          "type": "agentMessage",
+          "id": "69f62a0f-1f57-4f7b-addc-53d9883c392e",
+          "chars": 20000
+        }
+      ]
+    },
+    {
+      "threadId": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "items": [
+        {
+          "type": "agentMessage",
+          "id": "f7f88fb0-2132-483e-ae90-777618e2ab45",
+          "chars": 20000
+        }
+      ]
+    },
+    {
+      "threadId": "6af955d0-1168-83ec-b520-a752fce3ba9b",
+      "items": [
+        {
+          "type": "agentMessage",
+          "id": "0d5ca2cd-ed0c-485b-a35a-9b02de6086da",
+          "chars": 20000
+        }
+      ]
+    },
+    {
+      "threadId": "6af8c9b5-2a3c-83ee-814b-e8e68f2eaa50",
+      "items": [
+        {
+          "type": "agentMessage",
+          "id": "2b26aaf4-fe98-4326-8689-77706f0989eb",
+          "chars": 20000
+        }
+      ]
+    },
+    {
+      "threadId": "6af8b721-b69c-83e8-ad56-94fd9ee5bd96",
+      "items": [
+        {
+          "type": "agentMessage",
+          "id": "4665f565-4736-4708-af2b-27ea6cad1df6",
+          "chars": 20000
+        }
+      ]
+    },
+    {
+      "threadId": "6af8b788-b6e0-83e8-b35c-a704e000f9d7",
+      "items": [
+        {
+          "type": "agentMessage",
+          "id": "7b75786a-bbeb-4a29-a22a-e42e33c1df2d",
+          "chars": 20000
+        }
+      ]
+    }
+  ],
+  "unexpectedThreadKind": [],
+  "paginationIssues": [],
+  "itemTypeCounts": {
+    "userMessage": 106,
+    "agentMessage": 106
+  },
+  "itemKeyShapeCounts": {
+    "userMessage|content,id,type": 106,
+    "agentMessage|id,text,type": 99,
+    "agentMessage|id,text,truncated,type": 7
+  },
+  "limitations": [
+    "This probes the current adapter response, not historical exporter inputs.",
+    "A response exposes only the items and attachments represented by the current adapter.",
+    "Truncated message bodies cannot support a complete text-level payload absence claim."
+  ]
+}
