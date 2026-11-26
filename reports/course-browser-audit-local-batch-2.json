@@ -1,0 +1,268 @@
+{
+  "edition": "local",
+  "checks": {
+    "catalog": 103,
+    "lessons": 9,
+    "chartsExpected": 5,
+    "chartsRendered": 5,
+    "rasterExpected": 0,
+    "svgExpected": 17,
+    "svgRendered": 17,
+    "unresolvedImageGroups": 21,
+    "visibleImageGroupMarkers": 21,
+    "groupQuestions": 43,
+    "groupSubmissions": 43,
+    "leadInQuestions": 2,
+    "leadInAnswers": 2,
+    "tables": 70,
+    "formulas": 1488,
+    "staticExerciseLinks": 12,
+    "recoveredGroups": 2,
+    "recoveredQuestions": 2,
+    "recoveredControls": 8,
+    "recoveredSubmissions": 2
+  },
+  "issues": [
+    {
+      "id": "6af8cd72-4820-83e8-aea8-8c93248e3c7a",
+      "type": "source-image-group-without-assets",
+      "location": {
+        "count": 6
+      }
+    },
+    {
+      "id": "6afd6f6b-7a08-83ee-9bc9-a8cc35e59982",
+      "type": "source-image-group-without-assets",
+      "location": {
+        "count": 3
+      }
+    },
+    {
+      "id": "6afd7b73-0bfc-83e8-939b-bf200f7c6002",
+      "type": "source-image-group-without-assets",
+      "location": {
+        "count": 11
+      }
+    },
+    {
+      "id": "6af8cb9e-7368-83ec-84e8-d00507326afb",
+      "type": "source-image-group-without-assets",
+      "location": {
+        "count": 1
+      }
+    }
+  ],
+  "version": "87ff04cfaa3e930bff8d56dc1ccb41e567ad236c741077f8be6656e0769344ab",
+  "samples": [
+    {
+      "id": "6afd79be-45d4-83ee-bcda-066079974065",
+      "subject": "化學",
+      "title": "12. 環境化學與污染物檢測",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 1,
+        "chartsRendered": 1,
+        "rasterExpected": 0,
+        "svgExpected": 1,
+        "svgRendered": 1,
+        "unresolvedImageGroups": 0,
+        "visibleImageGroupMarkers": 0,
+        "groupQuestions": 3,
+        "groupSubmissions": 3,
+        "leadInQuestions": 0,
+        "leadInAnswers": 0,
+        "tables": 12,
+        "formulas": 32,
+        "staticExerciseLinks": 3
+      }
+    },
+    {
+      "id": "6af8cd72-4820-83e8-aea8-8c93248e3c7a",
+      "subject": "物理",
+      "title": "9. 基本交互作用與守恆律",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 0,
+        "rasterExpected": 0,
+        "svgExpected": 2,
+        "svgRendered": 2,
+        "unresolvedImageGroups": 6,
+        "visibleImageGroupMarkers": 6,
+        "groupQuestions": 3,
+        "groupSubmissions": 3,
+        "leadInQuestions": 0,
+        "leadInAnswers": 0,
+        "tables": 4,
+        "formulas": 117,
+        "staticExerciseLinks": 5
+      }
+    },
+    {
+      "id": "6afd6f6b-7a08-83ee-9bc9-a8cc35e59982",
+      "subject": "化學",
+      "title": "2. 氧化還原滴定",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 0,
+        "rasterExpected": 0,
+        "svgExpected": 1,
+        "svgRendered": 1,
+        "unresolvedImageGroups": 3,
+        "visibleImageGroupMarkers": 3,
+        "recoveredGroups": 1,
+        "groupQuestions": 1,
+        "recoveredQuestions": 1,
+        "recoveredControls": 4,
+        "groupSubmissions": 1,
+        "recoveredSubmissions": 1,
+        "leadInQuestions": 0,
+        "leadInAnswers": 0,
+        "tables": 4,
+        "formulas": 85,
+        "staticExerciseLinks": 3
+      }
+    },
+    {
+      "id": "6af8c7e8-5448-83ee-87d9-a4e24a741ef6",
+      "subject": "物理",
+      "title": "4. 聲波與共振",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 0,
+        "rasterExpected": 0,
+        "svgExpected": 1,
+        "svgRendered": 1,
+        "unresolvedImageGroups": 0,
+        "visibleImageGroupMarkers": 0,
+        "groupQuestions": 8,
+        "groupSubmissions": 8,
+        "leadInQuestions": 1,
+        "leadInAnswers": 1,
+        "tables": 10,
+        "formulas": 157
+      }
+    },
+    {
+      "id": "6afd7b73-0bfc-83e8-939b-bf200f7c6002",
+      "subject": "化學",
+      "title": "14. 能源、化學科技與社會",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 1,
+        "chartsRendered": 1,
+        "rasterExpected": 0,
+        "svgExpected": 4,
+        "svgRendered": 4,
+        "unresolvedImageGroups": 11,
+        "visibleImageGroupMarkers": 11,
+        "groupQuestions": 3,
+        "groupSubmissions": 3,
+        "recoveredGroups": 1,
+        "recoveredQuestions": 1,
+        "recoveredControls": 4,
+        "recoveredSubmissions": 1,
+        "leadInQuestions": 0,
+        "leadInAnswers": 0,
+        "tables": 13,
+        "formulas": 47,
+        "staticExerciseLinks": 1
+      }
+    },
+    {
+      "id": "6af8cb9e-7368-83ec-84e8-d00507326afb",
+      "subject": "物理",
+      "title": "5. 光電效應",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 1,
+        "chartsRendered": 1,
+        "rasterExpected": 0,
+        "svgExpected": 2,
+        "svgRendered": 2,
+        "unresolvedImageGroups": 1,
+        "visibleImageGroupMarkers": 1,
+        "groupQuestions": 5,
+        "groupSubmissions": 5,
+        "leadInQuestions": 1,
+        "leadInAnswers": 1,
+        "tables": 5,
+        "formulas": 143
+      }
+    },
+    {
+      "id": "6afd6d79-c8d0-83ee-8fd6-a9627b2900ab",
+      "subject": "化學",
+      "title": "5. 溶液的酸鹼度",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 0,
+        "rasterExpected": 0,
+        "svgExpected": 0,
+        "unresolvedImageGroups": 0,
+        "visibleImageGroupMarkers": 0,
+        "groupQuestions": 1,
+        "groupSubmissions": 1,
+        "leadInQuestions": 0,
+        "leadInAnswers": 0,
+        "tables": 5,
+        "formulas": 264
+      }
+    },
+    {
+      "id": "6af8cbd0-8524-83e8-a28b-b32c180c11e3",
+      "subject": "物理",
+      "title": "6. 物質波與波粒二象性",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 0,
+        "rasterExpected": 0,
+        "svgExpected": 1,
+        "svgRendered": 1,
+        "unresolvedImageGroups": 0,
+        "visibleImageGroupMarkers": 0,
+        "groupQuestions": 8,
+        "groupSubmissions": 8,
+        "leadInQuestions": 0,
+        "leadInAnswers": 0,
+        "tables": 6,
+        "formulas": 119
+      }
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "subject": "數學",
+      "title": "3. 多項式與函數",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 2,
+        "chartsRendered": 2,
+        "rasterExpected": 0,
+        "svgExpected": 5,
+        "svgRendered": 5,
+        "unresolvedImageGroups": 0,
+        "visibleImageGroupMarkers": 0,
+        "groupQuestions": 11,
+        "groupSubmissions": 11,
+        "leadInQuestions": 0,
+        "leadInAnswers": 0,
+        "tables": 11,
+        "formulas": 524
+      }
+    }
+  ],
+  "batch": {
+    "number": 2,
+    "seed": "course-render-audit-v1",
+    "ids": [
+      "6afd79be-45d4-83ee-bcda-066079974065",
+      "6af8cd72-4820-83e8-aea8-8c93248e3c7a",
+      "6afd6f6b-7a08-83ee-9bc9-a8cc35e59982",
+      "6af8c7e8-5448-83ee-87d9-a4e24a741ef6",
+      "6afd7b73-0bfc-83e8-939b-bf200f7c6002",
+      "6af8cb9e-7368-83ec-84e8-d00507326afb",
+      "6afd6d79-c8d0-83ee-8fd6-a9627b2900ab",
+      "6af8cbd0-8524-83e8-a28b-b32c180c11e3",
+      "6af9558a-5144-83e8-b71a-6caa5c591a9c"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "edition": "local",
+  "checks": {
+    "catalog": 103,
+    "lessons": 1,
+    "chartsExpected": 0,
+    "rasterExpected": 0,
+    "svgExpected": 2,
+    "svgRendered": 2,
+    "unresolvedImageGroups": 0,
+    "visibleImageGroupMarkers": 0,
+    "groupQuestions": 8,
+    "groupSubmissions": 8,
+    "leadInQuestions": 1,
+    "leadInAnswers": 1,
+    "tables": 2,
+    "formulas": 81,
+    "staticExerciseLinks": 1,
+    "chemistryChapterRecovered": 5,
+    "chemistryKeyboardSubmission": 1
+  },
+  "issues": [],
+  "version": "71b46fa18508b7273d6e283cf525b41301f02f9fd200cbcc51d398c2cde36c03"
+}

@@ -1,0 +1,260 @@
+{
+  "edition": "local",
+  "checks": {
+    "catalog": 103,
+    "lessons": 9,
+    "chartsExpected": 10,
+    "rasterExpected": 5,
+    "svgExpected": 41,
+    "svgRendered": 41,
+    "rasterRendered": 5,
+    "unresolvedImageGroups": 10,
+    "visibleImageGroupMarkers": 10,
+    "groupQuestions": 63,
+    "groupSubmissions": 63,
+    "legacyQuestions": 4,
+    "legacySubmissions": 4,
+    "leadInQuestions": 8,
+    "leadInAnswers": 8,
+    "tables": 68,
+    "formulas": 2002,
+    "chartsRendered": 10,
+    "recoveredGroups": 3,
+    "recoveredQuestions": 11,
+    "recoveredControls": 42,
+    "recoveredSubmissions": 11,
+    "staticExerciseLinks": 7,
+    "chemistryChapterRecovered": 5
+  },
+  "issues": [
+    {
+      "id": "6af8c96e-69f0-83ee-a3e0-d9bb91598fcd",
+      "type": "source-image-group-without-assets",
+      "location": {
+        "count": 2
+      }
+    },
+    {
+      "id": "6afd779b-834c-83ec-adbb-b61d16d5ed32",
+      "type": "source-image-group-without-assets",
+      "location": {
+        "count": 6
+      }
+    },
+    {
+      "id": "6afd5529-0690-83e8-aee7-a4d75e05600e",
+      "type": "source-image-group-without-assets",
+      "location": {
+        "count": 2
+      }
+    }
+  ],
+  "samples": [
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "subject": "數學",
+      "title": "3. 聯立方程式與矩陣",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 0,
+        "rasterExpected": 3,
+        "svgExpected": 12,
+        "svgRendered": 12,
+        "rasterRendered": 3,
+        "unresolvedImageGroups": 0,
+        "visibleImageGroupMarkers": 0,
+        "groupQuestions": 5,
+        "groupSubmissions": 5,
+        "legacyQuestions": 4,
+        "legacySubmissions": 4,
+        "leadInQuestions": 0,
+        "leadInAnswers": 0,
+        "tables": 6,
+        "formulas": 339
+      }
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "subject": "數學",
+      "title": "3. 多項式與函數",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 2,
+        "chartsRendered": 2,
+        "rasterExpected": 0,
+        "svgExpected": 5,
+        "svgRendered": 5,
+        "unresolvedImageGroups": 0,
+        "visibleImageGroupMarkers": 0,
+        "groupQuestions": 11,
+        "groupSubmissions": 11,
+        "leadInQuestions": 0,
+        "leadInAnswers": 0,
+        "tables": 11,
+        "formulas": 524
+      }
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "subject": "數學",
+      "title": "3. 集合、邏輯與數據分析",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 1,
+        "chartsRendered": 1,
+        "rasterExpected": 0,
+        "svgExpected": 2,
+        "svgRendered": 2,
+        "unresolvedImageGroups": 0,
+        "visibleImageGroupMarkers": 0,
+        "groupQuestions": 10,
+        "groupSubmissions": 10,
+        "recoveredGroups": 1,
+        "recoveredQuestions": 6,
+        "recoveredControls": 22,
+        "recoveredSubmissions": 6,
+        "leadInQuestions": 0,
+        "leadInAnswers": 0,
+        "tables": 10,
+        "formulas": 241
+      }
+    },
+    {
+      "id": "6af8b721-b69c-83e8-ad56-94fd9ee5bd96",
+      "subject": "物理",
+      "title": "4. 角動量與力矩",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 0,
+        "rasterExpected": 2,
+        "svgExpected": 5,
+        "rasterRendered": 2,
+        "svgRendered": 5,
+        "unresolvedImageGroups": 0,
+        "visibleImageGroupMarkers": 0,
+        "groupQuestions": 3,
+        "groupSubmissions": 3,
+        "leadInQuestions": 1,
+        "leadInAnswers": 1,
+        "tables": 5,
+        "formulas": 275,
+        "staticExerciseLinks": 5
+      }
+    },
+    {
+      "id": "6af8c96e-69f0-83ee-a3e0-d9bb91598fcd",
+      "subject": "物理",
+      "title": "3. 電流的磁效應",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 1,
+        "chartsRendered": 1,
+        "rasterExpected": 0,
+        "svgExpected": 6,
+        "svgRendered": 6,
+        "unresolvedImageGroups": 2,
+        "visibleImageGroupMarkers": 2,
+        "groupQuestions": 8,
+        "groupSubmissions": 8,
+        "leadInQuestions": 1,
+        "leadInAnswers": 1,
+        "tables": 8,
+        "formulas": 160
+      }
+    },
+    {
+      "id": "6af8b2ab-59ec-83ee-ad40-ab08b031bac4",
+      "subject": "物理",
+      "title": "3. 直線運動",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 2,
+        "chartsRendered": 2,
+        "rasterExpected": 0,
+        "svgExpected": 2,
+        "svgRendered": 2,
+        "unresolvedImageGroups": 0,
+        "visibleImageGroupMarkers": 0,
+        "groupQuestions": 8,
+        "groupSubmissions": 8,
+        "leadInQuestions": 3,
+        "leadInAnswers": 3,
+        "tables": 12,
+        "formulas": 251
+      }
+    },
+    {
+      "id": "6afd779b-834c-83ec-adbb-b61d16d5ed32",
+      "subject": "化學",
+      "title": "5. 有機鹵化物",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 1,
+        "chartsRendered": 1,
+        "rasterExpected": 0,
+        "svgExpected": 5,
+        "svgRendered": 5,
+        "unresolvedImageGroups": 6,
+        "visibleImageGroupMarkers": 6,
+        "groupQuestions": 7,
+        "groupSubmissions": 7,
+        "recoveredGroups": 1,
+        "recoveredQuestions": 4,
+        "recoveredControls": 16,
+        "recoveredSubmissions": 4,
+        "leadInQuestions": 0,
+        "leadInAnswers": 0,
+        "tables": 9,
+        "formulas": 45
+      }
+    },
+    {
+      "id": "6afd5529-0690-83e8-aee7-a4d75e05600e",
+      "subject": "化學",
+      "title": "9. 物質的蒸氣壓",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 3,
+        "chartsRendered": 3,
+        "rasterExpected": 0,
+        "svgExpected": 2,
+        "svgRendered": 2,
+        "unresolvedImageGroups": 2,
+        "visibleImageGroupMarkers": 2,
+        "groupQuestions": 3,
+        "groupSubmissions": 3,
+        "recoveredGroups": 1,
+        "recoveredQuestions": 1,
+        "recoveredControls": 4,
+        "recoveredSubmissions": 1,
+        "leadInQuestions": 2,
+        "leadInAnswers": 2,
+        "tables": 5,
+        "formulas": 86,
+        "staticExerciseLinks": 1
+      }
+    },
+    {
+      "id": "6afd5445-1e00-83e8-8dfa-b2637590b63b",
+      "subject": "化學",
+      "title": "6. 氣體的分壓",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 0,
+        "rasterExpected": 0,
+        "svgExpected": 2,
+        "svgRendered": 2,
+        "unresolvedImageGroups": 0,
+        "visibleImageGroupMarkers": 0,
+        "groupQuestions": 8,
+        "groupSubmissions": 8,
+        "leadInQuestions": 1,
+        "leadInAnswers": 1,
+        "tables": 2,
+        "formulas": 81,
+        "staticExerciseLinks": 1,
+        "chemistryChapterRecovered": 5
+      }
+    }
+  ]
+}

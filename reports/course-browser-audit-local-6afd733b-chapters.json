@@ -1,0 +1,36 @@
+{
+  "edition": "local",
+  "checks": {
+    "catalog": 103,
+    "lessons": 1,
+    "chartsExpected": 0,
+    "rasterExpected": 11,
+    "svgExpected": 0,
+    "rasterRendered": 11,
+    "unresolvedImageGroups": 0,
+    "visibleImageGroupMarkers": 0,
+    "groupQuestions": 8,
+    "groupSubmissions": 8,
+    "leadInQuestions": 0,
+    "leadInAnswers": 0,
+    "tables": 7,
+    "formulas": 56
+  },
+  "issues": [],
+  "version": "e522337638efb48b0a431ed134864848e8756b3f7411eaaae77c378a4ba4dd20",
+  "chapters": [
+    {
+      "id": "6afd733b-981c-83ee-af7f-e84934e89848",
+      "message": "141281fe-bd9b-486c-b66f-100935b15de7",
+      "line": 844,
+      "anchor": "section-43",
+      "expected": 5,
+      "sourceNumbered": 0,
+      "progress": 0,
+      "structured": 5,
+      "rendered": 5,
+      "staticNumbered": 0,
+      "verified": 5
+    }
+  ]
+}

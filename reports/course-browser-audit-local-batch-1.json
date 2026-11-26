@@ -1,0 +1,271 @@
+{
+  "edition": "local",
+  "checks": {
+    "catalog": 103,
+    "lessons": 9,
+    "chartsExpected": 5,
+    "rasterExpected": 9,
+    "svgExpected": 31,
+    "svgRendered": 31,
+    "unresolvedImageGroups": 8,
+    "visibleImageGroupMarkers": 8,
+    "groupQuestions": 55,
+    "groupSubmissions": 55,
+    "recoveredGroups": 5,
+    "recoveredQuestions": 17,
+    "recoveredControls": 56,
+    "recoveredSubmissions": 17,
+    "leadInQuestions": 8,
+    "leadInAnswers": 8,
+    "tables": 73,
+    "formulas": 1387,
+    "staticExerciseLinks": 16,
+    "chartsRendered": 5,
+    "rasterRendered": 9,
+    "legacyQuestions": 3,
+    "legacySubmissions": 3
+  },
+  "issues": [
+    {
+      "id": "6afd7881-2564-83ee-8f42-a711cd163a8e",
+      "type": "source-image-group-without-assets",
+      "location": {
+        "count": 4
+      }
+    },
+    {
+      "id": "6afd6e80-aadc-83ee-b9eb-4f8cc1d9e04a",
+      "type": "source-image-group-without-assets",
+      "location": {
+        "count": 1
+      }
+    },
+    {
+      "id": "6af8c90a-47d0-83ec-8e43-57b77f233bad",
+      "type": "source-image-group-without-assets",
+      "location": {
+        "count": 3
+      }
+    }
+  ],
+  "version": "87ff04cfaa3e930bff8d56dc1ccb41e567ad236c741077f8be6656e0769344ab",
+  "samples": [
+    {
+      "id": "6afd5281-8950-83ee-a6ee-f0d0e9267db6",
+      "subject": "化學",
+      "title": "1. 化學反應式的平衡及應用",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 0,
+        "rasterExpected": 0,
+        "svgExpected": 1,
+        "svgRendered": 1,
+        "unresolvedImageGroups": 0,
+        "visibleImageGroupMarkers": 0,
+        "groupQuestions": 10,
+        "groupSubmissions": 10,
+        "recoveredGroups": 2,
+        "recoveredQuestions": 7,
+        "recoveredControls": 28,
+        "recoveredSubmissions": 7,
+        "leadInQuestions": 1,
+        "leadInAnswers": 1,
+        "tables": 8,
+        "formulas": 100
+      }
+    },
+    {
+      "id": "6afd7881-2564-83ee-8f42-a711cd163a8e",
+      "subject": "化學",
+      "title": "7. 醛與酮",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 0,
+        "rasterExpected": 0,
+        "svgExpected": 4,
+        "svgRendered": 4,
+        "unresolvedImageGroups": 4,
+        "visibleImageGroupMarkers": 4,
+        "groupQuestions": 7,
+        "groupSubmissions": 7,
+        "recoveredGroups": 1,
+        "recoveredQuestions": 4,
+        "recoveredControls": 4,
+        "recoveredSubmissions": 4,
+        "leadInQuestions": 0,
+        "leadInAnswers": 0,
+        "tables": 6,
+        "formulas": 46,
+        "staticExerciseLinks": 4
+      }
+    },
+    {
+      "id": "6afd5884-99e8-83ec-b7c1-79a00aeb9799",
+      "subject": "化學",
+      "title": "9. 化學反應速率與表示法",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 4,
+        "chartsRendered": 4,
+        "rasterExpected": 0,
+        "svgExpected": 1,
+        "svgRendered": 1,
+        "unresolvedImageGroups": 0,
+        "visibleImageGroupMarkers": 0,
+        "groupQuestions": 8,
+        "groupSubmissions": 8,
+        "recoveredGroups": 1,
+        "recoveredQuestions": 5,
+        "recoveredControls": 20,
+        "recoveredSubmissions": 5,
+        "leadInQuestions": 0,
+        "leadInAnswers": 0,
+        "tables": 11,
+        "formulas": 107,
+        "staticExerciseLinks": 3
+      }
+    },
+    {
+      "id": "6af8c9b5-2a3c-83ee-814b-e8e68f2eaa50",
+      "subject": "物理",
+      "title": "5. 電磁感應",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 0,
+        "rasterExpected": 9,
+        "svgExpected": 14,
+        "rasterRendered": 9,
+        "svgRendered": 14,
+        "unresolvedImageGroups": 0,
+        "visibleImageGroupMarkers": 0,
+        "groupQuestions": 5,
+        "groupSubmissions": 5,
+        "legacyQuestions": 3,
+        "legacySubmissions": 3,
+        "leadInQuestions": 2,
+        "leadInAnswers": 2,
+        "tables": 9,
+        "formulas": 235
+      }
+    },
+    {
+      "id": "6afd6e80-aadc-83ee-b9eb-4f8cc1d9e04a",
+      "subject": "化學",
+      "title": "8. 酸鹼滴定",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 0,
+        "rasterExpected": 0,
+        "svgExpected": 0,
+        "unresolvedImageGroups": 1,
+        "visibleImageGroupMarkers": 1,
+        "groupQuestions": 4,
+        "groupSubmissions": 4,
+        "leadInQuestions": 0,
+        "leadInAnswers": 0,
+        "tables": 11,
+        "formulas": 99
+      }
+    },
+    {
+      "id": "6af8b191-1cb4-83ee-ae66-fc4abb63ab44",
+      "subject": "物理",
+      "title": "1. 測量與不確定度",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 0,
+        "rasterExpected": 0,
+        "svgExpected": 2,
+        "svgRendered": 2,
+        "unresolvedImageGroups": 0,
+        "visibleImageGroupMarkers": 0,
+        "groupQuestions": 9,
+        "groupSubmissions": 9,
+        "leadInQuestions": 3,
+        "leadInAnswers": 3,
+        "tables": 10,
+        "formulas": 265
+      }
+    },
+    {
+      "id": "6afd6f15-0a20-83ec-9655-7113a69d5dab",
+      "subject": "化學",
+      "title": "1. 氧化數及其應用",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 0,
+        "rasterExpected": 0,
+        "svgExpected": 2,
+        "svgRendered": 2,
+        "unresolvedImageGroups": 0,
+        "visibleImageGroupMarkers": 0,
+        "groupQuestions": 4,
+        "groupSubmissions": 4,
+        "recoveredGroups": 1,
+        "recoveredQuestions": 1,
+        "recoveredControls": 4,
+        "recoveredSubmissions": 1,
+        "leadInQuestions": 1,
+        "leadInAnswers": 1,
+        "tables": 8,
+        "formulas": 142,
+        "staticExerciseLinks": 1
+      }
+    },
+    {
+      "id": "6af8c90a-47d0-83ec-8e43-57b77f233bad",
+      "subject": "物理",
+      "title": "2. 電位與電位能",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 1,
+        "chartsRendered": 1,
+        "rasterExpected": 0,
+        "svgExpected": 1,
+        "svgRendered": 1,
+        "unresolvedImageGroups": 3,
+        "visibleImageGroupMarkers": 3,
+        "groupQuestions": 8,
+        "groupSubmissions": 8,
+        "leadInQuestions": 1,
+        "leadInAnswers": 1,
+        "tables": 6,
+        "formulas": 212
+      }
+    },
+    {
+      "id": "6af95847-1f60-83ee-af43-b8569f99ec54",
+      "subject": "數學",
+      "title": "1. 空間概念與空間向量",
+      "checks": {
+        "lessons": 1,
+        "chartsExpected": 0,
+        "rasterExpected": 0,
+        "svgExpected": 6,
+        "svgRendered": 6,
+        "unresolvedImageGroups": 0,
+        "visibleImageGroupMarkers": 0,
+        "leadInQuestions": 0,
+        "leadInAnswers": 0,
+        "tables": 4,
+        "formulas": 181,
+        "staticExerciseLinks": 8
+      }
+    }
+  ],
+  "batch": {
+    "number": 1,
+    "seed": "course-render-audit-v1",
+    "ids": [
+      "6afd5281-8950-83ee-a6ee-f0d0e9267db6",
+      "6afd7881-2564-83ee-8f42-a711cd163a8e",
+      "6afd5884-99e8-83ec-b7c1-79a00aeb9799",
+      "6af8c9b5-2a3c-83ee-814b-e8e68f2eaa50",
+      "6afd6e80-aadc-83ee-b9eb-4f8cc1d9e04a",
+      "6af8b191-1cb4-83ee-ae66-fc4abb63ab44",
+      "6afd6f15-0a20-83ec-9655-7113a69d5dab",
+      "6af8c90a-47d0-83ec-8e43-57b77f233bad",
+      "6af95847-1f60-83ee-af43-b8569f99ec54"
+    ]
+  }
+}

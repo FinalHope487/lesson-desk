@@ -1,0 +1,23 @@
+{
+  "edition": "local",
+  "checks": {
+    "catalog": 103,
+    "lessons": 1,
+    "chartsExpected": 1,
+    "chartsRendered": 1,
+    "rasterExpected": 2,
+    "svgExpected": 6,
+    "rasterRendered": 2,
+    "svgRendered": 6,
+    "unresolvedImageGroups": 0,
+    "visibleImageGroupMarkers": 0,
+    "groupQuestions": 8,
+    "groupSubmissions": 8,
+    "leadInQuestions": 1,
+    "leadInAnswers": 1,
+    "tables": 8,
+    "formulas": 160
+  },
+  "issues": [],
+  "version": "1cc303634cc7592c8ffd21ea68a1ff9a73a2179ff0491a108d5fe4140ba8a178"
+}
