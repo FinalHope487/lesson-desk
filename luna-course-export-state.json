@@ -1,0 +1,15 @@
+{
+  "updatedAt": "2026-11-19T05:53:18.6181531Z",
+  "phase": "all_conversations_archived",
+  "expected": 103,
+  "matched": 103,
+  "missing": 0,
+  "missingTargets": [],
+  "firstRoundTargetsAttempted": 78,
+  "firstRoundRecovered": 54,
+  "retry1Recovered": 13,
+  "retry2Recovered": 4,
+  "latestRetryPass": "retry3",
+  "officialExportRequest": "not_used_for_recovery",
+  "browserRecovered": 7
+}
