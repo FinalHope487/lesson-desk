@@ -1,0 +1,142 @@
+[
+  {
+    "title": "第1題",
+    "type": "choice",
+    "prompt": "下列哪一組物質全部屬於酸式鹽？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. NaHSO₄、NaHCO₃、KH₂PO₄"
+      },
+      {
+        "value": "B",
+        "label": "B. NH₄Cl、NaHSO₄、NaCl"
+      },
+      {
+        "value": "C",
+        "label": "C. NaOH、NaHCO₃、Na₂SO₄"
+      },
+      {
+        "value": "D",
+        "label": "D. Na₂CO₃、KNO₃、NaHSO₄"
+      }
+    ],
+    "answers": [
+      "A"
+    ],
+    "multiple": false,
+    "explanation": "補解：酸式鹽是多質子酸的可解離氫未被完全取代所形成的鹽，不等於水溶液必定呈酸性。NaHSO₄、NaHCO₃、KH₂PO₄ 均符合，故 A。B 含 NH₄Cl、NaCl，C 含 NaOH、Na₂SO₄，D 含 Na₂CO₃、KNO₃，皆非全部為酸式鹽。"
+  },
+  {
+    "title": "第2題",
+    "type": "choice",
+    "prompt": "將等濃度的 NaCl、NH₄Cl、CH₃COONa 分別溶於水，依 pH 由小到大排列，何者正確？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. NaCl < NH₄Cl < CH₃COONa"
+      },
+      {
+        "value": "B",
+        "label": "B. NH₄Cl < NaCl < CH₃COONa"
+      },
+      {
+        "value": "C",
+        "label": "C. CH₃COONa < NaCl < NH₄Cl"
+      },
+      {
+        "value": "D",
+        "label": "D. 三者 pH 相同"
+      }
+    ],
+    "answers": [
+      "B"
+    ],
+    "multiple": false,
+    "explanation": "補解：在通常高中水溶液模型下，NH₄⁺ 水解產生 H₃O⁺，NH₄Cl 呈酸性；NaCl 的兩種離子均無顯著水解，近中性；CH₃COO⁻ 水解產生 OH⁻，CH₃COONa 呈鹼性。故 pH 由小至大為 NH₄Cl、NaCl、CH₃COONa，選 B。A、C 的順序錯誤，D 忽略水解差異。"
+  },
+  {
+    "title": "第3題",
+    "type": "choice",
+    "prompt": "下列哪一個水解反應式正確？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. Cl⁻ + H₂O ⇌ HCl + OH⁻（顯著進行）"
+      },
+      {
+        "value": "B",
+        "label": "B. NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺"
+      },
+      {
+        "value": "C",
+        "label": "C. Na⁺ + H₂O ⇌ NaOH + H⁺（顯著進行）"
+      },
+      {
+        "value": "D",
+        "label": "D. CH₃COO⁻ + H₂O ⇌ CH₃COOH + H₃O⁺"
+      }
+    ],
+    "answers": [
+      "B"
+    ],
+    "multiple": false,
+    "explanation": "補解：NH₄⁺ 可向水提供質子，形成 NH₃ 與 H₃O⁺，故 B 的反應式及電荷均正確。A 的 Cl⁻ 是強酸 HCl 的共軛鹼，水解不顯著；C 的 Na⁺ 無顯著水解，且所列反應式氫原子數不守恆；D 的醋酸根應接受水提供的質子，生成 CH₃COOH 與 OH⁻，而非 H₃O⁺，原式電荷也不守恆。"
+  },
+  {
+    "title": "第4題",
+    "type": "choice",
+    "prompt": "某鹽由單質子弱酸 HA 與弱鹼 B 形成。已知 Ka(HA)=1.0×10⁻⁵，Kb(B)=1.0×10⁻⁹，則其水溶液通常呈什麼性質？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 酸性"
+      },
+      {
+        "value": "B",
+        "label": "B. 中性"
+      },
+      {
+        "value": "C",
+        "label": "C. 鹼性"
+      },
+      {
+        "value": "D",
+        "label": "D. 資料不足，完全無法判斷"
+      }
+    ],
+    "answers": [
+      "A"
+    ],
+    "multiple": false,
+    "explanation": "補解：形成的鹽含 BH⁺ 與 A⁻。由共軛酸鹼關係，Ka(BH⁺)＝Kw/Kb(B)，Kb(A⁻)＝Kw/Ka(HA)，前者為後者的 10⁴ 倍。BH⁺ 的酸性作用較強，因此在通常高中弱酸弱鹼鹽的水解模型下溶液呈酸性，選 A。B、C 不符酸鹼強弱比較，D 不成立，因為已提供足以判斷通常酸鹼性的常數。"
+  },
+  {
+    "title": "第5題",
+    "type": "choice",
+    "prompt": "NaHCO₃ 是酸式鹽，但水溶液通常呈弱鹼性。最合理的解釋是？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 酸式鹽在水中都會完全轉變成 OH⁻"
+      },
+      {
+        "value": "B",
+        "label": "B. Na⁺ 是強鹼，因此產生大量 OH⁻"
+      },
+      {
+        "value": "C",
+        "label": "C. HCO₃⁻ 能提供也能接受 H⁺，且其鹼性作用較強"
+      },
+      {
+        "value": "D",
+        "label": "D. HCO₃⁻ 不會與水反應"
+      }
+    ],
+    "answers": [
+      "C"
+    ],
+    "multiple": false,
+    "explanation": "補解：HCO₃⁻ 是兩性離子，可失去 H⁺ 成為 CO₃²⁻，也可接受 H⁺ 成為 H₂CO₃。在通常水溶液條件下，其接受質子的鹼性作用較強，故溶液呈弱鹼性，選 C。A 錯在酸式鹽並非都呈鹼性或完全轉變成 OH⁻；B 錯在 Na⁺ 並非強鹼；D 忽略 HCO₃⁻ 的酸鹼反應。"
+  }
+]

@@ -1,0 +1,173 @@
+[
+  {
+    "type": "choice",
+    "multiple": true,
+    "title": "第1題",
+    "prompt": "1. 下列哪一個分子同時含有羥基與羧基？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. CH₃CH₂OH"
+      },
+      {
+        "value": "B",
+        "label": "B. HOCH₂COOH"
+      },
+      {
+        "value": "C",
+        "label": "C. CH₃COOCH₃"
+      },
+      {
+        "value": "D",
+        "label": "D. CH₃OCH₃"
+      }
+    ],
+    "answers": [
+      "B"
+    ],
+    "explanation": "HOCH₂COOH 同時具有連接在飽和碳上的 –OH 與 –COOH。羧基本身的 –OH 不另算為醇類羥基。"
+  },
+  {
+    "type": "choice",
+    "multiple": true,
+    "title": "第2題",
+    "prompt": "2. 下列關於沸點的敘述，哪些正確？（多選）",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 乙醇通常比相近分子量的醚有較高沸點"
+      },
+      {
+        "value": "B",
+        "label": "B. 所有含氧有機物都能在純物質分子間形成氫鍵"
+      },
+      {
+        "value": "C",
+        "label": "C. 碳鏈變長可能提高分散力"
+      },
+      {
+        "value": "D",
+        "label": "D. 沸點只取決於官能基種類"
+      }
+    ],
+    "answers": [
+      "A",
+      "C"
+    ],
+    "explanation": "乙醇可形成分子間氫鍵；碳鏈變長也常使分散力增強。沸點受多種因素共同影響。"
+  },
+  {
+    "type": "choice",
+    "multiple": true,
+    "title": "第3題",
+    "prompt": "3. 某物質能產生銀鏡反應，但不與碳酸氫鈉產生明顯 CO₂。在以下選項中最可能是哪一個？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 乙酸"
+      },
+      {
+        "value": "B",
+        "label": "B. 乙醛"
+      },
+      {
+        "value": "C",
+        "label": "C. 丙酮"
+      },
+      {
+        "value": "D",
+        "label": "D. 乙酸乙酯"
+      }
+    ],
+    "answers": [
+      "B"
+    ],
+    "explanation": "乙醛能被溫和氧化劑氧化，通常可產生銀鏡；乙酸則能與碳酸氫鹽反應產生 CO₂。"
+  },
+  {
+    "type": "choice",
+    "multiple": true,
+    "title": "第4題",
+    "prompt": "4. CH₃CH₂CH₂COOCH₃ 的正確名稱為何？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 丁酸甲酯"
+      },
+      {
+        "value": "B",
+        "label": "B. 丙酸乙酯"
+      },
+      {
+        "value": "C",
+        "label": "C. 甲酸丁酯"
+      },
+      {
+        "value": "D",
+        "label": "D. 丁醚甲烷"
+      }
+    ],
+    "answers": [
+      "A"
+    ],
+    "explanation": "–COO– 左側含羰基碳在內共有四個碳，屬丁酸部分；右側是甲基，因此為丁酸甲酯。"
+  },
+  {
+    "type": "choice",
+    "multiple": true,
+    "title": "第5題",
+    "prompt": "5. 關於酚、醇、胺與醯胺，哪些敘述正確？（多選）",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 酚的 –OH 直接連接芳香環"
+      },
+      {
+        "value": "B",
+        "label": "B. 一般醇比酚更容易與 NaOH 反應"
+      },
+      {
+        "value": "C",
+        "label": "C. 一般脂肪族胺通常具有鹼性"
+      },
+      {
+        "value": "D",
+        "label": "D. 醯胺的氮受到相鄰羰基共振影響"
+      }
+    ],
+    "answers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": "酚通常比醇具有較明顯的酸性；一般脂肪族胺可接受 H⁺；醯胺氮的孤電子對受羰基共振影響。"
+  },
+  {
+    "type": "choice",
+    "multiple": true,
+    "title": "第6題",
+    "prompt": "6. 某化合物分子式為 C₃H₆O，已知它含有羰基，且在一般銀鏡試驗中呈陰性。下列哪一個最符合？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 丙醛"
+      },
+      {
+        "value": "B",
+        "label": "B. 丙酮"
+      },
+      {
+        "value": "C",
+        "label": "C. 丙醇"
+      },
+      {
+        "value": "D",
+        "label": "D. 丙酸"
+      }
+    ],
+    "answers": [
+      "B"
+    ],
+    "explanation": "丙酮是含三個碳的酮，分子式 C₃H₆O，且一般不產生銀鏡反應。丙醛則通常呈陽性。\n本章綜合練習成績"
+  }
+]

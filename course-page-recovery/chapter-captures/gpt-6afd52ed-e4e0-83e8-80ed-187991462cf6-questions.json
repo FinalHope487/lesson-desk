@@ -1,0 +1,114 @@
+[
+  {
+    "title": "第1題",
+    "type": "choice",
+    "prompt": "1. 已知 A → B，ΔH = −80 kJ；B → C，ΔH = +30 kJ。求 C → A 的焓變。",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. −110 kJ"
+      },
+      {
+        "value": "B",
+        "label": "B. +110 kJ"
+      },
+      {
+        "value": "C",
+        "label": "C. −50 kJ"
+      },
+      {
+        "value": "D",
+        "label": "D. +50 kJ"
+      }
+    ],
+    "answers": [
+      "D"
+    ],
+    "multiple": false,
+    "explanation": "補解：依赫斯定律，A→C 的焓變為 −80＋30＝−50 kJ，反向 C→A 則為＋50 kJ。A、B 的絕對值不符，C 是正向反應的焓變。"
+  },
+  {
+    "title": "第2題",
+    "type": "choice",
+    "prompt": "2. 下列哪個物質在 25°C、標準壓力下的標準莫耳生成焓為零？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. O(g)"
+      },
+      {
+        "value": "B",
+        "label": "B. O₃(g)"
+      },
+      {
+        "value": "C",
+        "label": "C. O₂(g)"
+      },
+      {
+        "value": "D",
+        "label": "D. H₂O(l)"
+      }
+    ],
+    "answers": [
+      "C"
+    ],
+    "multiple": false,
+    "explanation": "補解：元素在指定溫度與標準壓力下的參考態，其標準莫耳生成焓定為零。氧的參考態為 O₂(g)，故 C 正確；O(g) 與 O₃(g) 不是氧的參考態，H₂O(l) 是化合物。"
+  },
+  {
+    "title": "第3題",
+    "type": "choice",
+    "prompt": "3. 某反應放熱，將反應式係數全部乘以 3，新的反應焓變如何變化？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 維持不變"
+      },
+      {
+        "value": "B",
+        "label": "B. 變成原來 3 倍"
+      },
+      {
+        "value": "C",
+        "label": "C. 變成原來 1/3"
+      },
+      {
+        "value": "D",
+        "label": "D. 正負號顛倒"
+      }
+    ],
+    "answers": [
+      "B"
+    ],
+    "multiple": false,
+    "explanation": "補解：反應焓隨反應式所表示的物質量同比例改變，全部係數乘以 3，焓變亦乘以 3，放熱的負號不變。A、C 的比例不符，D 則混淆了係數倍乘與反向反應。"
+  },
+  {
+    "title": "第4題",
+    "type": "choice",
+    "prompt": "4. 量熱實驗中，若忽略實際存在的熱量散失，測得的放熱反應焓變通常如何偏離真值？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 更負"
+      },
+      {
+        "value": "B",
+        "label": "B. 較不負"
+      },
+      {
+        "value": "C",
+        "label": "C. 完全不變"
+      },
+      {
+        "value": "D",
+        "label": "D. 一定變成正值"
+      }
+    ],
+    "answers": [
+      "B"
+    ],
+    "multiple": false,
+    "explanation": "補解：放熱反應的部分熱量散失至環境，使量熱裝置測得的吸熱量偏小。由反應放熱量為裝置吸熱量的相反數，估得的反應焓絕對值偏小，數值較不負，故 B。A 方向相反，C 忽略散熱影響，D 並非必然。"
+  }
+]

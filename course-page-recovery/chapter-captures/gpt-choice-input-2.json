@@ -1,0 +1,185 @@
+[
+  {
+    "id": "6afd6dcd-aafc-83e8-af2c-8bcd0523da3e",
+    "heading": "十一、本章習題",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "第 1 題",
+        "options": [
+          "A. NaHSO₄、NaHCO₃、KH₂PO₄",
+          "B. NH₄Cl、NaHSO₄、NaCl",
+          "C. NaOH、NaHCO₃、Na₂SO₄",
+          "D. Na₂CO₃、KNO₃、NaHSO₄"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 2,
+        "prompt": "第 2 題",
+        "options": [
+          "A. NaCl < NH₄Cl < CH₃COONa",
+          "B. NH₄Cl < NaCl < CH₃COONa",
+          "C. CH₃COONa < NaCl < NH₄Cl",
+          "D. 三者 pH 相同"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 3,
+        "prompt": "第 3 題",
+        "options": [
+          "A. Cl⁻ + H₂O ⇌ HCl + OH⁻（顯著進行）",
+          "B. NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺",
+          "C. Na⁺ + H₂O ⇌ NaOH + H⁺（顯著進行）",
+          "D. CH₃COO⁻ + H₂O ⇌ CH₃COOH + H₃O⁺"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 4,
+        "prompt": "第 4 題",
+        "options": [
+          "A. 酸性",
+          "B. 中性",
+          "C. 鹼性",
+          "D. 資料不足，完全無法判斷"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 5,
+        "prompt": "第 5 題",
+        "options": [
+          "A. 酸式鹽在水中都會完全轉變成 OH⁻",
+          "B. Na⁺ 是強鹼，因此產生大量 OH⁻",
+          "C. HCO₃⁻ 能提供也能接受 H⁺，且其鹼性作用較強",
+          "D. HCO₃⁻ 不會與水反應"
+        ],
+        "optionType": "radio"
+      }
+    ]
+  },
+  {
+    "id": "6afd6e26-09a4-83e8-ab21-2ce0d09f4c45",
+    "heading": "十二、本章綜合習題",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "第 1 題",
+        "options": [
+          "A. 4.70",
+          "B. 5.00",
+          "C. 5.30",
+          "D. 6.00"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 2,
+        "prompt": "第 2 題",
+        "options": [
+          "A. 1 : 1",
+          "B. 7 : 3",
+          "C. 5 : 3",
+          "D. 3 : 5"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 3,
+        "prompt": "第 3 題",
+        "options": [
+          "A. 0.1",
+          "B. 0.5",
+          "C. 1",
+          "D. 10"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 4,
+        "prompt": "第 4 題",
+        "options": [
+          "A. 5",
+          "B. 7",
+          "C. 9",
+          "D. 10"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 5,
+        "prompt": "第 5 題",
+        "options": [
+          "A. Ka 變成零",
+          "B. 所有弱酸立即完全游離",
+          "C. 共軛鹼逐漸耗盡，無法有效消耗更多 H⁺",
+          "D. 水的離子積常數不再成立"
+        ],
+        "optionType": "radio"
+      }
+    ]
+  },
+  {
+    "id": "6afd6e80-aadc-83ee-b9eb-4f8cc1d9e04a",
+    "heading": "十一、本章綜合習題",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "第 1 題",
+        "options": [
+          "A. 0.0480 M",
+          "B. 0.0960 M",
+          "C. 0.192 M",
+          "D. 0.384 M"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 2,
+        "prompt": "第 2 題",
+        "options": [
+          "A. 弱酸的 pKa 約為 4.8",
+          "B. 當量點 pH 必定為 4.8",
+          "C. 弱酸濃度一定為 4.8 M",
+          "D. 此時已完全中和"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 3,
+        "prompt": "第 3 題",
+        "options": [
+          "A. 偏低",
+          "B. 偏高",
+          "C. 不變",
+          "D. 無法判斷"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 4,
+        "prompt": "第 4 題",
+        "options": [
+          "A. HCl 與 NaOH",
+          "B. CH₃COOH 與 NaOH",
+          "C. HCl 與 NH₃",
+          "D. HNO₃ 與 KOH"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 5,
+        "prompt": "第 5 題",
+        "options": [
+          "A. 2.00",
+          "B. 7.00",
+          "C. 11.05",
+          "D. 12.05"
+        ],
+        "optionType": "radio"
+      }
+    ]
+  }
+]

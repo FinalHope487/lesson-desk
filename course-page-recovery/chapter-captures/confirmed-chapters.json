@@ -1,0 +1,17 @@
+[
+  {
+    "id": "6afd53e1-2b34-83ec-b9e0-003c061d14e4",
+    "heading": "十二、本章綜合習題",
+    "questionsFile": "gas-questions.json"
+  },
+  {
+    "id": "6afd75aa-352c-83ee-ba6c-61b179191072",
+    "heading": "十三、本章綜合習題",
+    "questionsFile": "organic-questions.json"
+  },
+  {
+    "id": "6afd79be-45d4-83ee-bcda-066079974065",
+    "heading": "九、本章綜合習題",
+    "questionsFile": "environment-questions.json"
+  }
+]

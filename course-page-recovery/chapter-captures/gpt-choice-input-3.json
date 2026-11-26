@@ -1,0 +1,163 @@
+[
+  {
+    "id": "6afd55c3-2658-83ee-9d8f-e71f367eaa57",
+    "heading": "十一、本章綜合習題",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "1. 氫原子電子由 n=4 降到 n=2，與由 n=3 降到 n=2 相比，哪一個光子的波長較短？",
+        "options": [
+          "A. 4→2",
+          "B. 3→2",
+          "C. 相同",
+          "D. 無法判斷"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 2,
+        "prompt": "2. 某氫原子電子處於 n=2，若要使它游離，至少需要多少能量？",
+        "options": [
+          "A. 3.40 eV",
+          "B. 10.2 eV",
+          "C. 13.6 eV",
+          "D. 17.0 eV"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 3,
+        "prompt": "3. 氫原子電子從 n=4 回到 n=1，若允許經過中間能階，最多可以產生多少種不同波長的放射譜線？",
+        "options": [
+          "A. 3",
+          "B. 4",
+          "C. 5",
+          "D. 6"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 4,
+        "prompt": "4. 氫原子從基態吸收一個 10.2 eV 的光子後，電子最可能處於哪個能階？",
+        "options": [
+          "A. n=2",
+          "B. n=3",
+          "C. n=4",
+          "D. 游離態"
+        ],
+        "optionType": "radio"
+      }
+    ]
+  },
+  {
+    "id": "6afd5605-635c-83ee-80e0-5bec3e6c7759",
+    "heading": "十、本章綜合習題",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "第 1 題 · 單選",
+        "options": [
+          "A. 此電子屬於 4p 副層",
+          "B. 此副層共有 5 個軌域，最多容納 10 個電子",
+          "C. 磁量子數只能為 −1、0、+1",
+          "D. 此副層共有 7 個軌域"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 2,
+        "prompt": "第 2 題 · 單選",
+        "options": [
+          "A. 18",
+          "B. 24",
+          "C. 32",
+          "D. 50"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 3,
+        "prompt": "第 3 題 · 單選",
+        "options": [
+          "A. n=3",
+          "B. ℓ=3",
+          "C. ℓ≥3 且 n≥4",
+          "D. 電子必定屬於 4f 副層"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 4,
+        "prompt": "第 4 題 · 單選",
+        "options": [
+          "A. 兩電子的自旋量子數必須相反",
+          "B. 兩電子必須具有相同能量以外的所有性質",
+          "C. 兩電子必須位於不同副層",
+          "D. 這兩個電子不可能同時存在"
+        ],
+        "optionType": "radio"
+      }
+    ]
+  },
+  {
+    "id": "6afd58dc-cb18-83ee-94fb-50b9e7ebe18d",
+    "heading": "九、本章綜合習題",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "第 1 題 · 單選",
+        "options": [
+          "A. 正向活化能為 110 kJ/mol，為放熱反應",
+          "B. 正向活化能為 110 kJ/mol，為吸熱反應",
+          "C. 逆向活化能為 110 kJ/mol，為吸熱反應",
+          "D. 反應熱為 −50 kJ/mol"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 2,
+        "prompt": "第 2 題 · 單選",
+        "options": [
+          "A. 40 kJ/mol",
+          "B. 65 kJ/mol",
+          "C. 90 kJ/mol",
+          "D. 125 kJ/mol"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 3,
+        "prompt": "第 3 題 · 單選",
+        "options": [
+          "A. 第二步活化能為 115 kJ/mol",
+          "B. 第一步活化能為 70 kJ/mol",
+          "C. 第二步活化能高於第一步",
+          "D. 總反應為吸熱反應"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 4,
+        "prompt": "第 4 題 · 單選",
+        "options": [
+          "A. 所有粒子都具有相同的動能",
+          "B. 反應熱由負值變成正值",
+          "C. 活化能因溫度升高而自動消失",
+          "D. 具有足夠能量跨越障礙的粒子比例增加"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 5,
+        "prompt": "第 5 題 · 單選",
+        "options": [
+          "A. 中間物 I 必定出現在總反應式右側",
+          "B. I 必定是能量圖最高點的過渡狀態",
+          "C. 總反應式本身不足以確定完整反應機構",
+          "D. 反應一定只有一個基本步驟"
+        ],
+        "optionType": "radio"
+      }
+    ]
+  }
+]

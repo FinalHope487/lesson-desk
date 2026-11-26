@@ -1,0 +1,142 @@
+[
+  {
+    "title": "第1題",
+    "type": "choice",
+    "prompt": "以 0.150 M NaOH 滴定 25.0 mL 的未知 H₂SO₄，當量點時共使用 32.0 mL NaOH。硫酸濃度為何？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 0.0480 M"
+      },
+      {
+        "value": "B",
+        "label": "B. 0.0960 M"
+      },
+      {
+        "value": "C",
+        "label": "C. 0.192 M"
+      },
+      {
+        "value": "D",
+        "label": "D. 0.384 M"
+      }
+    ],
+    "answers": [
+      "B"
+    ],
+    "multiple": false,
+    "explanation": "補解：硫酸完全中和時 H₂SO₄＋2NaOH→Na₂SO₄＋2H₂O。NaOH 的莫耳數為 0.150×0.0320＝0.00480 mol，故 H₂SO₄ 為 0.00240 mol，濃度＝0.00240/0.0250＝0.0960 M，選 B。A、C、D 代回完全中和所需 NaOH 體積，分別得到 16.0、64.0、128 mL，均不符合 32.0 mL。"
+  },
+  {
+    "title": "第2題",
+    "type": "choice",
+    "prompt": "以強鹼滴定單質子弱酸，當量點需要 30.0 mL。當加入 15.0 mL 時，pH=4.8。下列何者最合理？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 弱酸的 pKa 約為 4.8"
+      },
+      {
+        "value": "B",
+        "label": "B. 當量點 pH 必定為 4.8"
+      },
+      {
+        "value": "C",
+        "label": "C. 弱酸濃度一定為 4.8 M"
+      },
+      {
+        "value": "D",
+        "label": "D. 此時已完全中和"
+      }
+    ],
+    "answers": [
+      "A"
+    ],
+    "multiple": false,
+    "explanation": "補解：加入 15.0 mL 為當量體積 30.0 mL 的一半，處於半當量點。在通常弱酸滴定的緩衝近似下，剩餘弱酸與生成共軛鹼的莫耳數相等，所以 pH≈pKa，即 pKa 約為 4.8，選 A。B 將半當量點誤認為當量點；C 無法由 pH 直接推出分析濃度；D 錯在此時僅有約一半原弱酸被中和。"
+  },
+  {
+    "title": "第3題",
+    "type": "choice",
+    "prompt": "以 NaOH 滴定 HCl。若滴定前滴定管尖端有氣泡，滴定結束後氣泡消失，且其他操作正常，所得 HCl 濃度如何變化？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 偏低"
+      },
+      {
+        "value": "B",
+        "label": "B. 偏高"
+      },
+      {
+        "value": "C",
+        "label": "C. 不變"
+      },
+      {
+        "value": "D",
+        "label": "D. 無法判斷"
+      }
+    ],
+    "answers": [
+      "B"
+    ],
+    "multiple": false,
+    "explanation": "補解：滴定過程中有部分 NaOH 填入原先含氣泡的管尖空間，沒有進入 HCl 溶液。滴定管讀數差因而大於真正參與中和的體積。由 c(HCl)＝c(NaOH)V(NaOH)/V(HCl)，使用偏大的體積會使 HCl 濃度估計偏高，選 B。A 方向相反，C 忽略體積誤差，D 不成立，因為誤差方向可以判定。"
+  },
+  {
+    "title": "第4題",
+    "type": "choice",
+    "prompt": "某滴定曲線的當量點 pH 約為 9.0。以下哪種組合最可能產生這種曲線？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. HCl 與 NaOH"
+      },
+      {
+        "value": "B",
+        "label": "B. CH₃COOH 與 NaOH"
+      },
+      {
+        "value": "C",
+        "label": "C. HCl 與 NH₃"
+      },
+      {
+        "value": "D",
+        "label": "D. HNO₃ 與 KOH"
+      }
+    ],
+    "answers": [
+      "B"
+    ],
+    "multiple": false,
+    "explanation": "補解：一般水溶液酸鹼滴定在約 25°C 時，弱酸與強鹼達當量點後，所得共軛鹼會水解產生 OH⁻，使 pH 大於 7，故醋酸與 NaOH 的組合最合理，選 B。A、D 是強酸強鹼組合，當量點通常近中性；C 是強酸弱鹼組合，所得 NH₄⁺ 水解使溶液呈酸性。"
+  },
+  {
+    "title": "第5題",
+    "type": "choice",
+    "prompt": "使用 0.100 M NaOH 滴定 20.0 mL、0.100 M HCl。加入 25.0 mL NaOH 後，溶液 pH 約為何？假設 25°C。",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 2.00"
+      },
+      {
+        "value": "B",
+        "label": "B. 7.00"
+      },
+      {
+        "value": "C",
+        "label": "C. 11.05"
+      },
+      {
+        "value": "D",
+        "label": "D. 12.05"
+      }
+    ],
+    "answers": [
+      "D"
+    ],
+    "multiple": false,
+    "explanation": "補解：HCl 初始為 0.100×0.0200＝0.00200 mol，加入 NaOH 為 0.100×0.0250＝0.00250 mol。依 1：1 中和，剩餘 OH⁻ 為 0.00050 mol。以通常體積可加近似，總體積為 0.0450 L，故 [OH⁻]≈0.0111 M，pOH≈1.95，25°C 時 pH≈12.05，選 D。A 為酸性、B 為中性，均與強鹼過量不符；C 亦不符合剩餘 OH⁻ 濃度。"
+  }
+]

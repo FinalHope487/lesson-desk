@@ -1,0 +1,142 @@
+[
+  {
+    "title": "第1題",
+    "type": "choice",
+    "prompt": "某鋅銅電池正常運作時，若鹽橋突然被移除，最可能發生什麼現象？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 電子改由溶液直接流向陰極"
+      },
+      {
+        "value": "B",
+        "label": "B. 電池仍可長時間維持原本電流"
+      },
+      {
+        "value": "C",
+        "label": "C. 電流很快受到抑制，因為兩側無法持續維持電中性"
+      },
+      {
+        "value": "D",
+        "label": "D. 鋅電極立刻改為陰極"
+      }
+    ],
+    "answers": [
+      "C"
+    ],
+    "multiple": false,
+    "explanation": "補解：鹽橋提供離子移動途徑以維持兩側電中性。移除後電荷累積，電流很快受抑制，故 C。A 混淆電子與離子傳導，B 忽略電荷累積，D 並不會因移除鹽橋而成立。"
+  },
+  {
+    "title": "第2題",
+    "type": "choice",
+    "prompt": "已知 Mg²⁺/Mg = −2.37 V，Cu²⁺/Cu = +0.34 V。兩者組成標準電池，下列何者正確？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. Mg 為陰極，電壓 2.03 V"
+      },
+      {
+        "value": "B",
+        "label": "B. Cu 為陰極，電壓 2.71 V"
+      },
+      {
+        "value": "C",
+        "label": "C. Cu 為陽極，電壓 2.71 V"
+      },
+      {
+        "value": "D",
+        "label": "D. Mg 為陰極，電壓 2.71 V"
+      }
+    ],
+    "answers": [
+      "B"
+    ],
+    "multiple": false,
+    "explanation": "補解：標準還原電位較高的 Cu²⁺/Cu 為陰極，Mg 為陽極。E°＝0.34−(−2.37)＝2.71 V，故 B；A、D 電極判斷錯誤，C 將銅誤作陽極。"
+  },
+  {
+    "title": "第3題",
+    "type": "choice",
+    "prompt": "某半反應 Ag⁺ + e⁻ → Ag 的標準還原電位為 +0.80 V。若將反應乘以 3，新的標準還原電位是多少？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. +2.40 V"
+      },
+      {
+        "value": "B",
+        "label": "B. +0.80 V"
+      },
+      {
+        "value": "C",
+        "label": "C. +0.27 V"
+      },
+      {
+        "value": "D",
+        "label": "D. −0.80 V"
+      }
+    ],
+    "answers": [
+      "B"
+    ],
+    "multiple": false,
+    "explanation": "補解：電位是強度性質，半反應係數乘以 3 時，電荷量與自由能變化均乘以 3，電位不變，故 B。A、C 錯誤地按係數倍乘或除法，D 則是反向半反應才會出現的符號。"
+  },
+  {
+    "title": "第4題",
+    "type": "choice",
+    "prompt": "鉛蓄電池正常放電時，下列哪一項最符合其化學變化？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 硫酸濃度增加，兩極都形成 Pb"
+      },
+      {
+        "value": "B",
+        "label": "B. 硫酸濃度下降，兩極都逐漸形成 PbSO₄"
+      },
+      {
+        "value": "C",
+        "label": "C. 兩極都生成 PbO₂"
+      },
+      {
+        "value": "D",
+        "label": "D. 放電不涉及氧化還原反應"
+      }
+    ],
+    "answers": [
+      "B"
+    ],
+    "multiple": false,
+    "explanation": "補解：鉛蓄電池放電的總反應為 Pb＋PbO₂＋2H₂SO₄→2PbSO₄＋2H₂O，因此硫酸濃度下降且兩極形成硫酸鉛，故 B。A、C 的產物或濃度方向錯誤，D 忽略氧化還原。"
+  },
+  {
+    "title": "第5題",
+    "type": "choice",
+    "prompt": "某電池表示為 Fe(s)|Fe²⁺(aq)||Ag⁺(aq)|Ag(s)。下列何者正確？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. Fe²⁺ 在陰極被還原"
+      },
+      {
+        "value": "B",
+        "label": "B. 電子由 Ag 電極流向 Fe 電極"
+      },
+      {
+        "value": "C",
+        "label": "C. 電池總反應為 Fe+2Ag⁺→Fe²⁺+2Ag"
+      },
+      {
+        "value": "D",
+        "label": "D. Ag 電極是負極"
+      }
+    ],
+    "answers": [
+      "C"
+    ],
+    "multiple": false,
+    "explanation": "補解：按電池表示法，左側 Fe 氧化為 Fe²⁺ 並失去兩電子，右側兩個 Ag⁺ 各接受一電子生成 Ag。總反應為 Fe＋2Ag⁺→Fe²⁺＋2Ag，故 C。A 錯在鐵側為陽極，B 電子方向相反，D 銀側為正極。"
+  }
+]

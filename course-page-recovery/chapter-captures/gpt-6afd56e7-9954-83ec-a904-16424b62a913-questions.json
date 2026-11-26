@@ -1,0 +1,145 @@
+[
+  {
+    "title": "第1題",
+    "type": "choice",
+    "prompt": "某元素 X 的基態電子組態為 [Ne]3s²3p¹。下列何者正確？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. X 位於第三週期、第 13 族"
+      },
+      {
+        "value": "B",
+        "label": "B. X 的第一游離能一定大於 Mg"
+      },
+      {
+        "value": "C",
+        "label": "C. X 最容易形成 X³⁻"
+      },
+      {
+        "value": "D",
+        "label": "D. X 屬於 d 區元素"
+      }
+    ],
+    "answers": [
+      "A"
+    ],
+    "multiple": false,
+    "explanation": "補解：組態共有 13 個電子，對應 Al；最高主量子數為 3，價電子為 3s²3p¹，因此位於第三週期第 13 族，選 A。B 錯在 Al 的 3p 電子比 Mg 的 3s 電子容易移除；C 錯在 Al 通常形成 Al³⁺；D 錯在其屬 p 區。"
+  },
+  {
+    "title": "第2題",
+    "type": "choice",
+    "prompt": "比較 Na、Mg、Na⁺、Mg²⁺ 的半徑，下列何者正確？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. Na > Mg > Na⁺ > Mg²⁺"
+      },
+      {
+        "value": "B",
+        "label": "B. Mg > Na > Mg²⁺ > Na⁺"
+      },
+      {
+        "value": "C",
+        "label": "C. Na⁺ > Mg²⁺ > Na > Mg"
+      },
+      {
+        "value": "D",
+        "label": "D. Mg²⁺ > Na⁺ > Mg > Na"
+      }
+    ],
+    "answers": [
+      "A"
+    ],
+    "multiple": false,
+    "explanation": "補解：同週期 Na 至 Mg 的有效核電荷通常增加，原子半徑減小；兩者形成陽離子時失去最外層電子，半徑縮小。Na⁺ 與 Mg²⁺ 均有 10 個電子，Mg²⁺ 核電荷較大，半徑較小。依高中常用半徑比較，Na＞Mg＞Na⁺＞Mg²⁺，選 A；B、D 的同類粒子排序相反，C 將陽離子排在中性原子之前。"
+  },
+  {
+    "title": "第3題",
+    "type": "choice",
+    "prompt": "某元素連續游離能為 496、4562、6910、9543 kJ/mol（約值）。下列哪些推論合理？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 它最外層可能只有一個電子"
+      },
+      {
+        "value": "B",
+        "label": "B. 它可能屬第 1 族"
+      },
+      {
+        "value": "C",
+        "label": "C. 它的第二游離能大幅增加，表示第二個電子較難移走"
+      },
+      {
+        "value": "D",
+        "label": "D. 它最可能是第 17 族"
+      }
+    ],
+    "answers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "multiple": true,
+    "explanation": "補解：第二游離能由第一游離能的 496 大幅增至 4562 kJ/mol，顯示移走第一個電子後，再移除電子需克服更強束縛，合理推測只有一個價電子，可能屬第 1 族，故 A、B、C。D 不符合第 17 族通常有七個價電子的情形；所列數值亦與 Na 的連續游離能相符。"
+  },
+  {
+    "title": "第4題",
+    "type": "choice",
+    "prompt": "已知第二週期的 Be、B、N、O，以下哪些比較正確？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. I₁(Be) > I₁(B)"
+      },
+      {
+        "value": "B",
+        "label": "B. I₁(O) > I₁(N)"
+      },
+      {
+        "value": "C",
+        "label": "C. I₁(N) > I₁(B)"
+      },
+      {
+        "value": "D",
+        "label": "D. I₁(B) > I₁(Be)"
+      }
+    ],
+    "answers": [
+      "A",
+      "C"
+    ],
+    "multiple": true,
+    "explanation": "補解：Be 的 2s 副層已填滿，B 新增的 2p 電子較易移除，因此 I₁(Be)＞I₁(B)。N 的 2p 為半滿，O 則有成對 2p 電子，排斥使 O 的第一游離能低於 N。N 的第一游離能亦高於 B，故 A、C 正確，B、D 的比較方向錯誤。"
+  },
+  {
+    "title": "第5題",
+    "type": "choice",
+    "prompt": "對 H、F、Cl、Na 的電負度，下列何者正確？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. Na 最大，因為它是金屬"
+      },
+      {
+        "value": "B",
+        "label": "B. F 最大，且 H—F 的鍵結電子偏向 F"
+      },
+      {
+        "value": "C",
+        "label": "C. Cl 比 F 大，因為 Cl 的原子較大"
+      },
+      {
+        "value": "D",
+        "label": "D. H—F 中 F 帶完整 −1 電荷"
+      }
+    ],
+    "answers": [
+      "B"
+    ],
+    "multiple": false,
+    "explanation": "補解：F 的電負度在所列元素中最大，H—F 的共價鍵電子偏向 F，故 B。A 錯在 Na 電負度低；C 錯在 Cl 的電負度小於 F；D 混淆極性共價鍵的部分電荷與完整離子電荷。"
+  }
+]

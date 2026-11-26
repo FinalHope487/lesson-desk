@@ -1,0 +1,717 @@
+[
+  {
+    "id": "6af8b2ab-59ec-83ee-ad40-ab08b031bac4",
+    "subject": "物理",
+    "title": "3. 直線運動",
+    "heading": "第二章｜直線運動・章末測驗",
+    "source": 5,
+    "sourceFile": "course-page-recovery/chapter-captures/6af8b2ab-59ec-83ee-ad40-ab08b031bac4.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6af8b2ab-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 0,
+      "input": 0,
+      "radio": 23,
+      "reveal": 0,
+      "submit": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd7a9d-38f0-83e8-bcd4-e23476d2a829",
+    "subject": "化學",
+    "title": "13. 綠色化學、資源保育與永續發展",
+    "heading": "十、本章綜合習題",
+    "source": 4,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd7a9d-38f0-83e8-bcd4-e23476d2a829.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd7a9d-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 0,
+      "fields": 0,
+      "radio": 0,
+      "reveal": 0,
+      "submit": 0,
+      "textarea": 1
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd7b73-0bfc-83e8-939b-bf200f7c6002",
+    "subject": "化學",
+    "title": "14. 能源、化學科技與社會",
+    "heading": "十四、本章綜合習題",
+    "source": 5,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd7b73-0bfc-83e8-939b-bf200f7c6002.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd7b73-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 0,
+      "fields": 0,
+      "radio": 0,
+      "reveal": 0,
+      "submit": 0,
+      "textarea": 5
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd6f15-0a20-83ec-9655-7113a69d5dab",
+    "subject": "化學",
+    "title": "1. 氧化數及其應用",
+    "heading": "十一、章末綜合習題",
+    "source": 6,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd6f15-0a20-83ec-9655-7113a69d5dab.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd6f15-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 0,
+      "fields": 0,
+      "radio": 0,
+      "reveal": 6,
+      "submit": 0,
+      "textarea": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd6f6b-7a08-83ee-9bc9-a8cc35e59982",
+    "subject": "化學",
+    "title": "2. 氧化還原滴定",
+    "heading": "十二、本章綜合習題",
+    "source": 5,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd6f6b-7a08-83ee-9bc9-a8cc35e59982.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd6f6b-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 0,
+      "fields": 0,
+      "radio": 20,
+      "reveal": 0,
+      "submit": 5,
+      "textarea": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd70eb-8bf8-83e8-9273-5a10a71af1b6",
+    "subject": "化學",
+    "title": "3. 電化電池",
+    "heading": "十、本章綜合習題",
+    "source": 5,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd70eb-8bf8-83e8-9273-5a10a71af1b6.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd70eb-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 0,
+      "input": 0,
+      "radio": 20,
+      "reveal": 0,
+      "submit": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd733b-981c-83ee-af7f-e84934e89848",
+    "subject": "化學",
+    "title": "5. 非金屬元素",
+    "heading": "十一、本章綜合習題",
+    "source": 5,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd733b-981c-83ee-af7f-e84934e89848.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd733b-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 20,
+      "fields": 0,
+      "radio": 0,
+      "reveal": 0,
+      "submit": 5,
+      "textarea": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd73b8-b520-83e8-b386-6971b84f907b",
+    "subject": "化學",
+    "title": "6. 主族金屬元素",
+    "heading": "十四、本章綜合習題",
+    "source": 6,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd73b8-b520-83e8-b386-6971b84f907b.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd73b8-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 8,
+      "fields": 0,
+      "radio": 16,
+      "reveal": 0,
+      "submit": 1,
+      "textarea": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd7429-7798-83ee-bbf4-3caa599ce766",
+    "subject": "化學",
+    "title": "7. 過渡金屬元素",
+    "heading": "十一、本章綜合習題",
+    "source": 5,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd7429-7798-83ee-bbf4-3caa599ce766.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd7429-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 0,
+      "fields": 0,
+      "radio": 20,
+      "reveal": 0,
+      "submit": 0,
+      "textarea": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd7491-5308-83e8-bdf3-4619eb561c21",
+    "subject": "化學",
+    "title": "8. 先進材料",
+    "heading": "九、本章綜合習題",
+    "source": 5,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd7491-5308-83e8-bdf3-4619eb561c21.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd7491-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 20,
+      "fields": 0,
+      "radio": 0,
+      "reveal": 1,
+      "submit": 5,
+      "textarea": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd6c8e-ad10-83ee-bee4-b9bdb921c71e",
+    "subject": "化學",
+    "title": "3. 溶解度平衡",
+    "heading": "十、本章綜合習題",
+    "source": 4,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd6c8e-ad10-83ee-bee4-b9bdb921c71e.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd6c8e-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 0,
+      "fields": 0,
+      "radio": 0,
+      "reveal": 0,
+      "submit": 0,
+      "textarea": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd6d79-c8d0-83ee-8fd6-a9627b2900ab",
+    "subject": "化學",
+    "title": "5. 溶液的酸鹼度",
+    "heading": "十、本章綜合習題",
+    "source": 6,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd6d79-c8d0-83ee-8fd6-a9627b2900ab.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd6d79-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 0,
+      "fields": 0,
+      "radio": 24,
+      "reveal": 0,
+      "submit": 1,
+      "textarea": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd6dcd-aafc-83e8-af2c-8bcd0523da3e",
+    "subject": "化學",
+    "title": "6. 鹽的命名與水解",
+    "heading": "十一、本章習題",
+    "source": 5,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd6dcd-aafc-83e8-af2c-8bcd0523da3e.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd6dcd-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 0,
+      "fields": 0,
+      "radio": 20,
+      "reveal": 0,
+      "submit": 5,
+      "textarea": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd6e26-09a4-83e8-ab21-2ce0d09f4c45",
+    "subject": "化學",
+    "title": "7. 緩衝溶液",
+    "heading": "十二、本章綜合習題",
+    "source": 5,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd6e26-09a4-83e8-ab21-2ce0d09f4c45.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd6e26-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 0,
+      "fields": 0,
+      "radio": 20,
+      "reveal": 0,
+      "submit": 5,
+      "textarea": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd6e80-aadc-83ee-b9eb-4f8cc1d9e04a",
+    "subject": "化學",
+    "title": "8. 酸鹼滴定",
+    "heading": "十一、本章綜合習題",
+    "source": 5,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd6e80-aadc-83ee-b9eb-4f8cc1d9e04a.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd6e80-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 0,
+      "fields": 0,
+      "radio": 20,
+      "reveal": 0,
+      "submit": 5,
+      "textarea": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd55c3-2658-83ee-9d8f-e71f367eaa57",
+    "subject": "化學",
+    "title": "1. 原子結構與氫原子光譜",
+    "heading": "十一、本章綜合習題",
+    "source": 4,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd55c3-2658-83ee-9d8f-e71f367eaa57.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd55c3-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 0,
+      "fields": 0,
+      "radio": 16,
+      "reveal": 0,
+      "submit": 4,
+      "textarea": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd5605-635c-83ee-80e0-5bec3e6c7759",
+    "subject": "化學",
+    "title": "2. 原子軌域",
+    "heading": "十、本章綜合習題",
+    "source": 4,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd5605-635c-83ee-80e0-5bec3e6c7759.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd5605-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 0,
+      "fields": 0,
+      "radio": 16,
+      "reveal": 4,
+      "submit": 0,
+      "textarea": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd565d-9a08-83ee-8d10-7feb69917418",
+    "subject": "化學",
+    "title": "3. 電子組態",
+    "heading": "十四、本章進階習題",
+    "source": 4,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd565d-9a08-83ee-8d10-7feb69917418.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd565d-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 16,
+      "fields": 0,
+      "radio": 0,
+      "reveal": 0,
+      "submit": 4,
+      "textarea": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd56e7-9954-83ec-a904-16424b62a913",
+    "subject": "化學",
+    "title": "4. 原子性質與週期性",
+    "heading": "十、本章綜合習題",
+    "source": 5,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd56e7-9954-83ec-a904-16424b62a913.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd56e7-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 8,
+      "fields": 0,
+      "radio": 12,
+      "reveal": 0,
+      "submit": 0,
+      "textarea": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd5739-9200-83ee-a351-f8c4a0797707",
+    "subject": "化學",
+    "title": "5. 離子鍵與金屬鍵",
+    "heading": "十、本章綜合習題",
+    "source": 5,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd5739-9200-83ee-a351-f8c4a0797707.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd5739-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 8,
+      "fields": 0,
+      "radio": 12,
+      "reveal": 0,
+      "submit": 5,
+      "textarea": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd578f-69fc-83e8-a5a0-c099e0b343fb",
+    "subject": "化學",
+    "title": "6. 共價鍵",
+    "heading": "十一、本章綜合習題",
+    "source": 4,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd578f-69fc-83e8-a5a0-c099e0b343fb.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd578f-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 16,
+      "fields": 0,
+      "radio": 0,
+      "reveal": 0,
+      "submit": 4,
+      "textarea": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd57ef-bf7c-83ee-9662-ce9fd0e6a08d",
+    "subject": "化學",
+    "title": "7. 價殼層電子對互斥理論與分子形狀",
+    "heading": "十、本章綜合習題",
+    "source": 4,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd57ef-bf7c-83ee-9662-ce9fd0e6a08d.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd57ef-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 0,
+      "fields": 0,
+      "radio": 0,
+      "reveal": 0,
+      "submit": 0,
+      "textarea": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd583c-8a64-83e8-82e1-9b7ee437d461",
+    "subject": "化學",
+    "title": "8. 分子極性與分子間作用力",
+    "heading": "八、本章綜合習題",
+    "source": 5,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd583c-8a64-83e8-82e1-9b7ee437d461.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd583c-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 22,
+      "fields": 0,
+      "radio": 0,
+      "reveal": 0,
+      "submit": 5,
+      "textarea": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd58dc-cb18-83ee-94fb-50b9e7ebe18d",
+    "subject": "化學",
+    "title": "10. 化學反應的模型",
+    "heading": "九、本章綜合習題",
+    "source": 5,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd58dc-cb18-83ee-94fb-50b9e7ebe18d.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd58dc-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 0,
+      "fields": 0,
+      "radio": 20,
+      "reveal": 5,
+      "submit": 0,
+      "textarea": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd5932-2f34-83ee-ba40-57222bb343c3",
+    "subject": "化學",
+    "title": "11. 影響化學反應速率的因素",
+    "heading": "十三、本章綜合習題",
+    "source": 5,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd5932-2f34-83ee-ba40-57222bb343c3.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd5932-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 8,
+      "fields": 0,
+      "radio": 12,
+      "reveal": 0,
+      "submit": 5,
+      "textarea": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd52ed-e4e0-83e8-80ed-187991462cf6",
+    "subject": "化學",
+    "title": "2. 化學反應中的能量變化",
+    "heading": "第六節：本章綜合練習",
+    "source": 4,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd52ed-e4e0-83e8-80ed-187991462cf6.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd52ed-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 0,
+      "fields": 0,
+      "radio": 16,
+      "reveal": 0,
+      "submit": 0,
+      "textarea": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd534c-8960-83ec-b48d-440c64d34d1e",
+    "subject": "化學",
+    "title": "3. 氣體的性質",
+    "heading": "十、本章綜合習題",
+    "source": 4,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd534c-8960-83ec-b48d-440c64d34d1e.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd534c-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 4,
+      "input": 0,
+      "radio": 12,
+      "reveal": 0,
+      "submit": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd5396-48ec-83ee-b084-fe3725a1cfc7",
+    "subject": "化學",
+    "title": "4. 氣體的基本定律",
+    "heading": "八、本章綜合習題",
+    "source": 5,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd5396-48ec-83ee-b084-fe3725a1cfc7.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd5396-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 0,
+      "input": 0,
+      "radio": 0,
+      "reveal": 0,
+      "submit": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd5491-aca8-83ee-8779-8ccb4624bca8",
+    "subject": "化學",
+    "title": "7. 物質的狀態",
+    "heading": "九、本章綜合習題",
+    "source": 4,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd5491-aca8-83ee-8779-8ccb4624bca8.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd5491-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 0,
+      "fields": 0,
+      "radio": 16,
+      "reveal": 4,
+      "submit": 0,
+      "textarea": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd54da-7e70-83ec-8771-36f269ff7846",
+    "subject": "化學",
+    "title": "8. 溶液中的溶解特性",
+    "heading": "十二、本章綜合習題",
+    "source": 5,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd54da-7e70-83ec-8771-36f269ff7846.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd54da-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 0,
+      "fields": 0,
+      "radio": 0,
+      "reveal": 0,
+      "submit": 0,
+      "textarea": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6afd5529-0690-83e8-aee7-a4d75e05600e",
+    "subject": "化學",
+    "title": "9. 物質的蒸氣壓",
+    "heading": "十一、本章綜合習題",
+    "source": 5,
+    "sourceFile": "course-page-recovery/chapter-captures/6afd5529-0690-83e8-aee7-a4d75e05600e.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6afd5529-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 0,
+      "fields": 0,
+      "radio": 20,
+      "reveal": 0,
+      "submit": 5,
+      "textarea": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6af95540-cc94-83ee-a684-394882b52822",
+    "subject": "數學",
+    "title": "2. 直線與圓",
+    "heading": "十一、章末綜合習題",
+    "source": 6,
+    "sourceFile": "course-page-recovery/chapter-captures/6af95540-cc94-83ee-a684-394882b52822.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6af95540-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": true,
+    "controls": {
+      "checkbox": 0,
+      "input": 0,
+      "radio": 0,
+      "reveal": 0,
+      "submit": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6af8cb59-be70-83ec-8c96-80bb124eda94",
+    "subject": "物理",
+    "title": "3. X 射線",
+    "heading": "八、章末綜合習題",
+    "source": 5,
+    "sourceFile": "course-page-recovery/chapter-captures/6af8cb59-be70-83ec-8c96-80bb124eda94.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6af8cb59-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 5,
+      "fields": 2,
+      "radio": 8,
+      "reveal": 0,
+      "submit": 1,
+      "textarea": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6af8cbd0-8524-83e8-a28b-b32c180c11e3",
+    "subject": "物理",
+    "title": "6. 物質波與波粒二象性",
+    "heading": "八、章末綜合習題",
+    "source": 5,
+    "sourceFile": "course-page-recovery/chapter-captures/6af8cbd0-8524-83e8-a28b-b32c180c11e3.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6af8cbd0-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 0,
+      "fields": 3,
+      "radio": 8,
+      "reveal": 0,
+      "submit": 1,
+      "textarea": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6af8cc07-8c48-83ec-9446-fbd8e47da050",
+    "subject": "物理",
+    "title": "7. 原子模型與光譜",
+    "heading": "九、章末習題",
+    "source": 4,
+    "sourceFile": "course-page-recovery/chapter-captures/6af8cc07-8c48-83ec-9446-fbd8e47da050.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6af8cc07-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 0,
+      "fields": 3,
+      "radio": 0,
+      "reveal": 0,
+      "submit": 1,
+      "textarea": 0
+    },
+    "status": "pending"
+  },
+  {
+    "id": "6af8c88a-fe88-83ec-b39e-633d06351e96",
+    "subject": "物理",
+    "title": "7. 物理光學：干涉與繞射",
+    "heading": "七、章末習題",
+    "source": 6,
+    "sourceFile": "course-page-recovery/chapter-captures/6af8c88a-fe88-83ec-b39e-633d06351e96.json",
+    "structuredFile": "course-page-recovery/chapter-captures/6af8c88a-questions.json",
+    "hasSource": true,
+    "htmlMayBeTruncated": false,
+    "controls": {
+      "checkbox": 0,
+      "fields": 2,
+      "radio": 12,
+      "reveal": 0,
+      "submit": 2,
+      "textarea": 1
+    },
+    "status": "pending"
+  }
+]

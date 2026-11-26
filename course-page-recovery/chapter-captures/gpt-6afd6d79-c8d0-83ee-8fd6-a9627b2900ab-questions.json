@@ -1,0 +1,170 @@
+[
+  {
+    "title": "第1題",
+    "type": "choice",
+    "prompt": "1. 在 25°C，某水溶液的 [H⁺] = 2.0 × 10⁻⁵ M。求 [OH⁻]、pH 與 pOH。",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. [OH⁻] = 5 × 10⁻¹⁰ M，pH ≈ 4.70"
+      },
+      {
+        "value": "B",
+        "label": "B. [OH⁻] = 2 × 10⁻⁹ M，pH ≈ 5.00"
+      },
+      {
+        "value": "C",
+        "label": "C. [OH⁻] = 5 × 10⁻¹⁰ M，pH ≈ 5.30"
+      },
+      {
+        "value": "D",
+        "label": "D. [OH⁻] = 2 × 10⁻⁵ M，pH ≈ 7.00"
+      }
+    ],
+    "answers": [
+      "A"
+    ],
+    "multiple": false,
+    "explanation": "補解：25°C 時 Kw＝1.0 × 10⁻¹⁴，因此 [OH⁻]＝Kw/[H⁺]＝5.0 × 10⁻¹⁰ M；pH＝−log(2.0 × 10⁻⁵)≈4.70，pOH≈9.30。B、D 的濃度不符，C 的 pH 不符。A 唯一符合所列數值，但原選項未列 pOH。"
+  },
+  {
+    "title": "第2題",
+    "type": "choice",
+    "prompt": "2. 0.020 M Ba(OH)₂ 在 25°C 完全解離，且可忽略水的自游離。求 pH。",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 11.70"
+      },
+      {
+        "value": "B",
+        "label": "B. 12.00"
+      },
+      {
+        "value": "C",
+        "label": "C. 12.60"
+      },
+      {
+        "value": "D",
+        "label": "D. 13.30"
+      }
+    ],
+    "answers": [
+      "C"
+    ],
+    "multiple": false,
+    "explanation": "補解：每莫耳 Ba(OH)₂ 完全解離產生 2 莫耳 OH⁻，故 [OH⁻]＝0.040 M，pOH≈1.40，pH≈12.60。其餘數值均不符合。"
+  },
+  {
+    "title": "第3題",
+    "type": "choice",
+    "prompt": "3. 某單質子弱酸 HA 的初始濃度為 0.10 M，Ka = 1.0 × 10⁻⁵。利用合理近似求 pH 與游離度。",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. pH ≈ 3，游離度 ≈ 1%"
+      },
+      {
+        "value": "B",
+        "label": "B. pH ≈ 5，游離度 ≈ 1%"
+      },
+      {
+        "value": "C",
+        "label": "C. pH ≈ 3，游離度 ≈ 10%"
+      },
+      {
+        "value": "D",
+        "label": "D. pH ≈ 1，游離度 ≈ 100%"
+      }
+    ],
+    "answers": [
+      "A"
+    ],
+    "multiple": false,
+    "explanation": "補解：設游離濃度為 x，小游離度近似下 x≈√(Ka×0.10)＝1.0 × 10⁻³ M，pH≈3，游離度約 1%，近似合理。B 的 pH、C 的游離度及 D 的兩項數值均不符。"
+  },
+  {
+    "title": "第4題",
+    "type": "choice",
+    "prompt": "4. 25°C 時，某酸 HA 的 Ka = 2.0 × 10⁻⁶。其共軛鹼 A⁻ 的 Kb 是多少？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 2.0 × 10⁻⁸"
+      },
+      {
+        "value": "B",
+        "label": "B. 5.0 × 10⁻⁹"
+      },
+      {
+        "value": "C",
+        "label": "C. 2.0 × 10⁻²⁰"
+      },
+      {
+        "value": "D",
+        "label": "D. 5.0 × 10⁸"
+      }
+    ],
+    "answers": [
+      "B"
+    ],
+    "multiple": false,
+    "explanation": "補解：共軛酸鹼對滿足 KaKb＝Kw，故 Kb＝10⁻¹⁴/(2.0 × 10⁻⁶)＝5.0 × 10⁻⁹。其餘選項代入乘積均不等於 Kw。"
+  },
+  {
+    "title": "第5題",
+    "type": "choice",
+    "prompt": "5. 某弱酸被稀釋 100 倍，溫度不變且稀釋前後都符合小游離度近似。哪一項敘述正確？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. Ka 減少 100 倍"
+      },
+      {
+        "value": "B",
+        "label": "B. 游離度減少 10 倍"
+      },
+      {
+        "value": "C",
+        "label": "C. pH 約增加 1"
+      },
+      {
+        "value": "D",
+        "label": "D. 氫離子濃度不變"
+      }
+    ],
+    "answers": [
+      "C"
+    ],
+    "multiple": false,
+    "explanation": "補解：小游離度近似下 [H⁺]≈√(KaC)，稀釋 100 倍使氫離子濃度約降為原來的 1/10，故 pH 約增加 1。溫度不變時 Ka 不變，游離度約增加 10 倍，故 A、B、D 錯誤。"
+  },
+  {
+    "title": "第6題",
+    "type": "choice",
+    "prompt": "6. 某弱酸初始濃度為 0.010 M，Ka = 1.0 × 10⁻³。若忽略水的自游離，下列哪個平衡氫離子濃度最接近正確值？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 3.16 × 10⁻³ M"
+      },
+      {
+        "value": "B",
+        "label": "B. 2.70 × 10⁻³ M"
+      },
+      {
+        "value": "C",
+        "label": "C. 1.00 × 10⁻³ M"
+      },
+      {
+        "value": "D",
+        "label": "D. 1.00 × 10⁻² M"
+      }
+    ],
+    "answers": [
+      "B"
+    ],
+    "multiple": false,
+    "explanation": "補解：由 Ka＝x²/(0.010−x) 得 x²＋0.001x−0.000010＝0，取正根 x≈2.70 × 10⁻³ M。A 是不適用的小游離度近似值；C、D 不符合平衡式。"
+  }
+]

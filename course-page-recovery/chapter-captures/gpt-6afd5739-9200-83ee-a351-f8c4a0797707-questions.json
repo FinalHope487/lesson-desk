@@ -1,0 +1,145 @@
+[
+  {
+    "title": "第1題",
+    "type": "choice",
+    "prompt": "某化合物由 X³⁺ 與 Y²⁻ 組成，其正確化學式為何？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. XY"
+      },
+      {
+        "value": "B",
+        "label": "B. X₂Y₃"
+      },
+      {
+        "value": "C",
+        "label": "C. X₃Y₂"
+      },
+      {
+        "value": "D",
+        "label": "D. X₆Y₆"
+      }
+    ],
+    "answers": [
+      "B"
+    ],
+    "multiple": false,
+    "explanation": "補解：電中性要求 3x＝2y，最小正整數比 x：y＝2：3，故化學式為 X₂Y₃，選 B。A、C、D 的總電荷分別為＋1、＋5、＋6，皆非電中性。"
+  },
+  {
+    "title": "第2題",
+    "type": "choice",
+    "prompt": "下列哪些物質在所述狀態下通常能導電？（多選）",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 固態 NaCl"
+      },
+      {
+        "value": "B",
+        "label": "B. 熔融 MgCl₂"
+      },
+      {
+        "value": "C",
+        "label": "C. 固態 Cu"
+      },
+      {
+        "value": "D",
+        "label": "D. NaCl 水溶液"
+      }
+    ],
+    "answers": [
+      "B",
+      "C",
+      "D"
+    ],
+    "multiple": true,
+    "explanation": "補解：固態 NaCl 的離子受晶格束縛，通常無法自由移動，故 A 錯誤。熔融 MgCl₂ 與 NaCl 水溶液有可移動離子；固態 Cu 有可移動的離域電子，故 B、C、D 均能導電。"
+  },
+  {
+    "title": "第3題",
+    "type": "choice",
+    "prompt": "某晶體熔點高、固態不導電、熔融態能導電，受敲擊容易碎裂。最合理的推論為何？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 具有典型金屬鍵"
+      },
+      {
+        "value": "B",
+        "label": "B. 主要由獨立中性分子組成"
+      },
+      {
+        "value": "C",
+        "label": "C. 可能是離子晶體"
+      },
+      {
+        "value": "D",
+        "label": "D. 必定由同一種元素組成"
+      }
+    ],
+    "answers": [
+      "C"
+    ],
+    "multiple": false,
+    "explanation": "補解：高熔點、固態不導電而熔融態導電、受力易碎，符合典型離子晶體性質，故 C。A 的典型金屬通常固態可導電；B 的分子晶體一般不符合這組性質；D 無法由這些性質推出，離子晶體通常含不同元素。"
+  },
+  {
+    "title": "第4題",
+    "type": "choice",
+    "prompt": "比較 MgO 與 NaCl，下列哪項解釋最合理？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. MgO 離子電荷較大且距離較短，靜電作用較強"
+      },
+      {
+        "value": "B",
+        "label": "B. MgO 一定含有自由電子"
+      },
+      {
+        "value": "C",
+        "label": "C. NaCl 是獨立分子，所以熔點較低"
+      },
+      {
+        "value": "D",
+        "label": "D. 只要含氧，熔點必定較高"
+      }
+    ],
+    "answers": [
+      "A"
+    ],
+    "multiple": false,
+    "explanation": "補解：MgO 的 Mg²⁺、O²⁻ 電荷量大於 NaCl 的 Na⁺、Cl⁻，且典型晶體中的最近鄰離子距離較短，依庫侖作用模型，其離子間靜電吸引較強，故 A。B 錯在 MgO 不必具有自由電子；C 錯在 NaCl 為離子晶體；D 不能僅憑含氧與否判斷熔點。"
+  },
+  {
+    "title": "第5題",
+    "type": "choice",
+    "prompt": "金屬能被拉成細線，離子晶體卻通常容易碎裂。哪些說法合理？（多選）",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 金屬受力時離域電子仍能維持結合作用"
+      },
+      {
+        "value": "B",
+        "label": "B. 離子晶體受力滑移時可能使同號離子相鄰"
+      },
+      {
+        "value": "C",
+        "label": "C. 金屬的所有化學鍵在拉伸時都完全消失"
+      },
+      {
+        "value": "D",
+        "label": "D. 離子晶體中正負離子之間沒有吸引力"
+      }
+    ],
+    "answers": [
+      "A",
+      "B"
+    ],
+    "multiple": true,
+    "explanation": "補解：金屬受力而使原子層滑移時，離域電子仍可維持金屬鍵；離子晶體滑移則可能讓同號離子相鄰而排斥，促使晶體碎裂，故 A、B 正確。C 錯在拉伸不等於全部鍵結消失；D 錯在異號離子間存在靜電吸引。"
+  }
+]

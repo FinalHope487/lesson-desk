@@ -1,0 +1,174 @@
+[
+  {
+    "id": "6afd6e26-09a4-83e8-ab21-2ce0d09f4c45",
+    "heading": "十二、本章綜合習題",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "某弱酸 HA 的 Ka = 10⁻⁵，將 0.20 mol HA 與 0.10 mol NaA 混合配成緩衝液，求近似 pH。",
+        "options": [
+          "A. 4.70",
+          "B. 5.00",
+          "C. 5.30",
+          "D. 6.00"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 2,
+        "prompt": "第 2 題 基礎應用 一杯含 0.20 mol HA 與 0.30 mol A⁻ 的緩衝液，加入 0.05 mol NaOH，假設仍符合緩衝近似。反應後 A⁻ 與 HA 的莫耳數比為何？",
+        "options": [
+          "A. 1 : 1",
+          "B. 7 : 3",
+          "C. 5 : 3",
+          "D. 3 : 5"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 3,
+        "prompt": "第 3 題 公式應用 甲、乙兩杯緩衝液使用相同弱酸系統，甲的 [A⁻]/[HA] = 1，乙的 [A⁻]/[HA] = 10。乙的 pH 比甲高多少？",
+        "options": [
+          "A. 0.1",
+          "B. 0.5",
+          "C. 1",
+          "D. 10"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 4,
+        "prompt": "第 4 題 公式應用 在 25°C，NH₃/NH₄⁺ 緩衝液中 [NH₃] = [NH₄⁺]，且 Kb = 10⁻⁵。pH 約為多少？",
+        "options": [
+          "A. 5",
+          "B. 7",
+          "C. 9",
+          "D. 10"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 5,
+        "prompt": "第 5 題 觀念整合 下列何者最能解釋為何過量加入強酸後，緩衝溶液會失去良好的緩衝能力？",
+        "options": [
+          "A. Ka 變成零",
+          "B. 所有弱酸立即完全游離",
+          "C. 共軛鹼逐漸耗盡，無法有效消耗更多 H⁺",
+          "D. 水的離子積常數不再成立"
+        ],
+        "optionType": "radio"
+      }
+    ]
+  },
+  {
+    "id": "6afd6e80-aadc-83ee-b9eb-4f8cc1d9e04a",
+    "heading": "十一、本章綜合習題",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "以 0.150 M NaOH 滴定 25.0 mL 的未知 H₂SO₄，當量點時共使用 32.0 mL NaOH。硫酸濃度為何？",
+        "options": [
+          "A. 0.0480 M",
+          "B. 0.0960 M",
+          "C. 0.192 M",
+          "D. 0.384 M"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 2,
+        "prompt": "以強鹼滴定單質子弱酸，當量點需要 30.0 mL。當加入 15.0 mL 時，pH=4.8。下列何者最合理？",
+        "options": [
+          "A. 弱酸的 pKa 約為 4.8",
+          "B. 當量點 pH 必定為 4.8",
+          "C. 弱酸濃度一定為 4.8 M",
+          "D. 此時已完全中和"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 3,
+        "prompt": "以 NaOH 滴定 HCl。若滴定前滴定管尖端有氣泡，滴定結束後氣泡消失，且其他操作正常，所得 HCl 濃度如何變化？",
+        "options": [
+          "A. 偏低",
+          "B. 偏高",
+          "C. 不變",
+          "D. 無法判斷"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 4,
+        "prompt": "某滴定曲線的當量點 pH 約為 9.0。以下哪種組合最可能產生這種曲線？",
+        "options": [
+          "A. HCl 與 NaOH",
+          "B. CH₃COOH 與 NaOH",
+          "C. HCl 與 NH₃",
+          "D. HNO₃ 與 KOH"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 5,
+        "prompt": "使用 0.100 M NaOH 滴定 20.0 mL、0.100 M HCl。加入 25.0 mL NaOH 後，溶液 pH 約為何？假設 25°C。",
+        "options": [
+          "A. 2.00",
+          "B. 7.00",
+          "C. 11.05",
+          "D. 12.05"
+        ],
+        "optionType": "radio"
+      }
+    ]
+  },
+  {
+    "id": "6afd5491-aca8-83ee-8779-8ccb4624bca8",
+    "heading": "九、本章綜合習題",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "在 1 atm 下，將 20 g、0°C 的冰完全熔化，再把所得的水加熱到 20°C。已知冰的熔化潛熱為 334 J/g，水的比熱容為 4.2 J/(g·°C)。總共需要吸收多少熱量？",
+        "options": [
+          "A. 1680 J",
+          "B. 6680 J",
+          "C. 8360 J",
+          "D. 10040 J"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 2,
+        "prompt": "兩種純液體 A、B 在相同溫度下比較，A 的飽和蒸氣壓明顯大於 B。在相同外壓下，下列何者最合理？",
+        "options": [
+          "A. A 的正常沸點通常較低",
+          "B. A 的分子一定比 B 大",
+          "C. A 的表面張力一定較大",
+          "D. A 一定不具有分子間吸引力"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 3,
+        "prompt": "某純液體在密閉容器內與自身蒸氣達到動態平衡。若保持溫度不變，且容器內仍有液體存在，緩慢增大氣相空間並重新達到平衡，最合理的結果是？",
+        "options": [
+          "A. 飽和蒸氣壓永久降低",
+          "B. 更多液體蒸發，最後飽和蒸氣壓恢復原值",
+          "C. 液體完全停止蒸發",
+          "D. 分子間作用力消失"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 4,
+        "prompt": "某液晶材料在施加電場後，分子的平均排列方向改變，但沒有發生化學反應。下列何者最能解釋其光學性質的改變？",
+        "options": [
+          "A. 每個分子都變成不同元素",
+          "B. 分子排列方向會影響光與材料的相互作用",
+          "C. 液晶必定由液態完全變成氣態",
+          "D. 液晶分子的質量因電場而改變"
+        ],
+        "optionType": "radio"
+      }
+    ]
+  }
+]

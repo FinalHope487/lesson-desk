@@ -1,0 +1,701 @@
+[
+  {
+    "id": "6afd6f6b-7a08-83ee-9bc9-a8cc35e59982",
+    "heading": "十二、本章綜合習題",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "在酸性溶液中，MnO₄⁻ 與 Fe²⁺ 反應。若消耗 0.00300 mol MnO₄⁻，可氧化多少 mol Fe²⁺？",
+        "options": [
+          "A. 0.000600 mol",
+          "B. 0.00300 mol",
+          "C. 0.0150 mol",
+          "D. 0.0300 mol"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 2,
+        "prompt": "取 20.0 mL 未知濃度的 Fe²⁺ 溶液，以 0.0100 M 酸性 KMnO₄ 滴定，使用 16.0 mL 達當量點。求 Fe²⁺ 濃度。",
+        "options": [
+          "A. 0.00800 M",
+          "B. 0.0400 M",
+          "C. 0.0800 M",
+          "D. 0.160 M"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 3,
+        "prompt": "將某樣品配成 200 mL 溶液，取 20.0 mL 滴定。若分取溶液中含有 0.00150 mol 待測物，整份樣品中有多少 mol？",
+        "options": [
+          "A. 0.000150 mol",
+          "B. 0.00150 mol",
+          "C. 0.0150 mol",
+          "D. 0.150 mol"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 4,
+        "prompt": "某氧化還原滴定反應中，每莫耳氧化劑接受 6 mol 電子，每莫耳還原劑失去 2 mol 電子。當量點時，氧化劑與還原劑的莫耳數比為何？",
+        "options": [
+          "A. 3：1",
+          "B. 1：3",
+          "C. 6：1",
+          "D. 1：1"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 5,
+        "prompt": "使用酸性高錳酸鉀滴定 Fe²⁺。若滴定管尖端原有氣泡，且在滴定過程中氣泡消失，其他操作正確，則計算出的 Fe²⁺ 濃度通常如何變化？",
+        "options": [
+          "A. 偏高",
+          "B. 偏低",
+          "C. 不變",
+          "D. 必須知道溫度才能判斷"
+        ],
+        "optionType": "radio"
+      }
+    ]
+  },
+  {
+    "id": "6afd7429-7798-83ee-bbf4-3caa599ce766",
+    "heading": "十一、本章綜合習題",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "某含鐵氧化物的化學式為 Fe₃O₄。若其中含有 Fe²⁺ 與 Fe³⁺，每個化學式單位中兩者的數目比為何？",
+        "options": [
+          "A. 1：1",
+          "B. 1：2",
+          "C. 2：1",
+          "D. 3：1"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 2,
+        "prompt": "某錯離子為 [M(NH₃)₂(C₂O₄)₂]⁻，其中 NH₃ 為單牙、C₂O₄²⁻ 為雙牙配位基。中心金屬 M 的氧化數及配位數分別為何？",
+        "options": [
+          "A. +2、4",
+          "B. +3、6",
+          "C. +3、4",
+          "D. +4、6"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 3,
+        "prompt": "將某含 Fe²⁺ 的溶液放置於空氣中，一段時間後加入足量氫氧根，發現紅褐色沉澱增加。最合理的原因為何？",
+        "options": [
+          "A. Fe²⁺ 在空氣中可能被氧化為 Fe³⁺",
+          "B. Fe²⁺ 因吸收光而變成金屬鐵",
+          "C. OH⁻ 使鐵原子核的質子數增加",
+          "D. 所有 Fe²⁺ 都不可能形成沉澱"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 4,
+        "prompt": "某學生主張：「既然不鏽鋼比純鐵耐腐蝕，所以所有合金一定比純金屬耐腐蝕。」應如何評價？",
+        "options": [
+          "A. 正確，因為合金一定有保護層",
+          "B. 正確，因為合金不會發生氧化",
+          "C. 錯誤，合金的耐腐蝕性取決於組成與環境",
+          "D. 錯誤，因為合金完全沒有金屬鍵"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 5,
+        "prompt": "某錯合物中中心金屬為 Fe³⁺，含四個中性配位基 L 與兩個 Cl⁻ 配位基。錯離子的總電荷為何？",
+        "options": [
+          "A. +1",
+          "B. +3",
+          "C. −1",
+          "D. 0"
+        ],
+        "optionType": "radio"
+      }
+    ]
+  },
+  {
+    "id": "6afd6d79-c8d0-83ee-8fd6-a9627b2900ab",
+    "heading": "十、本章綜合習題",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "1. 在 25°C，某水溶液的 [H⁺] = 2.0 × 10⁻⁵ M。求 [OH⁻]、pH 與 pOH。",
+        "options": [
+          "A. [OH⁻] = 5 × 10⁻¹⁰ M，pH ≈ 4.70",
+          "B. [OH⁻] = 2 × 10⁻⁹ M，pH ≈ 5.00",
+          "C. [OH⁻] = 5 × 10⁻¹⁰ M，pH ≈ 5.30",
+          "D. [OH⁻] = 2 × 10⁻⁵ M，pH ≈ 7.00"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 2,
+        "prompt": "2. 0.020 M Ba(OH)₂ 在 25°C 完全解離，且可忽略水的自游離。求 pH。",
+        "options": [
+          "A. 11.70",
+          "B. 12.00",
+          "C. 12.60",
+          "D. 13.30"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 3,
+        "prompt": "3. 某單質子弱酸 HA 的初始濃度為 0.10 M，Ka = 1.0 × 10⁻⁵。利用合理近似求 pH 與游離度。",
+        "options": [
+          "A. pH ≈ 3，游離度 ≈ 1%",
+          "B. pH ≈ 5，游離度 ≈ 1%",
+          "C. pH ≈ 3，游離度 ≈ 10%",
+          "D. pH ≈ 1，游離度 ≈ 100%"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 4,
+        "prompt": "4. 25°C 時，某酸 HA 的 Ka = 2.0 × 10⁻⁶。其共軛鹼 A⁻ 的 Kb 是多少？",
+        "options": [
+          "A. 2.0 × 10⁻⁸",
+          "B. 5.0 × 10⁻⁹",
+          "C. 2.0 × 10⁻²⁰",
+          "D. 5.0 × 10⁸"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 5,
+        "prompt": "5. 某弱酸被稀釋 100 倍，溫度不變且稀釋前後都符合小游離度近似。哪一項敘述正確？",
+        "options": [
+          "A. Ka 減少 100 倍",
+          "B. 游離度減少 10 倍",
+          "C. pH 約增加 1",
+          "D. 氫離子濃度不變"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 6,
+        "prompt": "6. 某弱酸初始濃度為 0.010 M，Ka = 1.0 × 10⁻³。若忽略水的自游離，下列哪個平衡氫離子濃度最接近正確值？",
+        "options": [
+          "A. 3.16 × 10⁻³ M",
+          "B. 2.70 × 10⁻³ M",
+          "C. 1.00 × 10⁻³ M",
+          "D. 1.00 × 10⁻² M"
+        ],
+        "optionType": "radio"
+      }
+    ]
+  },
+  {
+    "id": "6afd6dcd-aafc-83e8-af2c-8bcd0523da3e",
+    "heading": "十一、本章習題",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "下列哪一組物質全部屬於酸式鹽？",
+        "options": [
+          "A. NaHSO₄、NaHCO₃、KH₂PO₄",
+          "B. NH₄Cl、NaHSO₄、NaCl",
+          "C. NaOH、NaHCO₃、Na₂SO₄",
+          "D. Na₂CO₃、KNO₃、NaHSO₄"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 2,
+        "prompt": "將等濃度的 NaCl、NH₄Cl、CH₃COONa 分別溶於水，依 pH 由小到大排列，何者正確？",
+        "options": [
+          "A. NaCl < NH₄Cl < CH₃COONa",
+          "B. NH₄Cl < NaCl < CH₃COONa",
+          "C. CH₃COONa < NaCl < NH₄Cl",
+          "D. 三者 pH 相同"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 3,
+        "prompt": "下列哪一個水解反應式正確？",
+        "options": [
+          "A. Cl⁻ + H₂O ⇌ HCl + OH⁻（顯著進行）",
+          "B. NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺",
+          "C. Na⁺ + H₂O ⇌ NaOH + H⁺（顯著進行）",
+          "D. CH₃COO⁻ + H₂O ⇌ CH₃COOH + H₃O⁺"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 4,
+        "prompt": "某鹽由單質子弱酸 HA 與弱鹼 B 形成。已知 Ka(HA)=1.0×10⁻⁵，Kb(B)=1.0×10⁻⁹，則其水溶液通常呈什麼性質？",
+        "options": [
+          "A. 酸性",
+          "B. 中性",
+          "C. 鹼性",
+          "D. 資料不足，完全無法判斷"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 5,
+        "prompt": "NaHCO₃ 是酸式鹽，但水溶液通常呈弱鹼性。最合理的解釋是？",
+        "options": [
+          "A. 酸式鹽在水中都會完全轉變成 OH⁻",
+          "B. Na⁺ 是強鹼，因此產生大量 OH⁻",
+          "C. HCO₃⁻ 能提供也能接受 H⁺，且其鹼性作用較強",
+          "D. HCO₃⁻ 不會與水反應"
+        ],
+        "optionType": "radio"
+      }
+    ]
+  },
+  {
+    "id": "6afd6e26-09a4-83e8-ab21-2ce0d09f4c45",
+    "heading": "十二、本章綜合習題",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "某弱酸 HA 的 Ka = 10⁻⁵，將 0.20 mol HA 與 0.10 mol NaA 混合配成緩衝液，求近似 pH。",
+        "options": [
+          "A. 4.70",
+          "B. 5.00",
+          "C. 5.30",
+          "D. 6.00"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 2,
+        "prompt": "第 2 題 基礎應用 一杯含 0.20 mol HA 與 0.30 mol A⁻ 的緩衝液，加入 0.05 mol NaOH，假設仍符合緩衝近似。反應後 A⁻ 與 HA 的莫耳數比為何？",
+        "options": [
+          "A. 1 : 1",
+          "B. 7 : 3",
+          "C. 5 : 3",
+          "D. 3 : 5"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 3,
+        "prompt": "第 3 題 公式應用 甲、乙兩杯緩衝液使用相同弱酸系統，甲的 [A⁻]/[HA] = 1，乙的 [A⁻]/[HA] = 10。乙的 pH 比甲高多少？",
+        "options": [
+          "A. 0.1",
+          "B. 0.5",
+          "C. 1",
+          "D. 10"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 4,
+        "prompt": "第 4 題 公式應用 在 25°C，NH₃/NH₄⁺ 緩衝液中 [NH₃] = [NH₄⁺]，且 Kb = 10⁻⁵。pH 約為多少？",
+        "options": [
+          "A. 5",
+          "B. 7",
+          "C. 9",
+          "D. 10"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 5,
+        "prompt": "第 5 題 觀念整合 下列何者最能解釋為何過量加入強酸後，緩衝溶液會失去良好的緩衝能力？",
+        "options": [
+          "A. Ka 變成零",
+          "B. 所有弱酸立即完全游離",
+          "C. 共軛鹼逐漸耗盡，無法有效消耗更多 H⁺",
+          "D. 水的離子積常數不再成立"
+        ],
+        "optionType": "radio"
+      }
+    ]
+  },
+  {
+    "id": "6afd6e80-aadc-83ee-b9eb-4f8cc1d9e04a",
+    "heading": "十一、本章綜合習題",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "以 0.150 M NaOH 滴定 25.0 mL 的未知 H₂SO₄，當量點時共使用 32.0 mL NaOH。硫酸濃度為何？",
+        "options": [
+          "A. 0.0480 M",
+          "B. 0.0960 M",
+          "C. 0.192 M",
+          "D. 0.384 M"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 2,
+        "prompt": "以強鹼滴定單質子弱酸，當量點需要 30.0 mL。當加入 15.0 mL 時，pH=4.8。下列何者最合理？",
+        "options": [
+          "A. 弱酸的 pKa 約為 4.8",
+          "B. 當量點 pH 必定為 4.8",
+          "C. 弱酸濃度一定為 4.8 M",
+          "D. 此時已完全中和"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 3,
+        "prompt": "以 NaOH 滴定 HCl。若滴定前滴定管尖端有氣泡，滴定結束後氣泡消失，且其他操作正常，所得 HCl 濃度如何變化？",
+        "options": [
+          "A. 偏低",
+          "B. 偏高",
+          "C. 不變",
+          "D. 無法判斷"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 4,
+        "prompt": "某滴定曲線的當量點 pH 約為 9.0。以下哪種組合最可能產生這種曲線？",
+        "options": [
+          "A. HCl 與 NaOH",
+          "B. CH₃COOH 與 NaOH",
+          "C. HCl 與 NH₃",
+          "D. HNO₃ 與 KOH"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 5,
+        "prompt": "使用 0.100 M NaOH 滴定 20.0 mL、0.100 M HCl。加入 25.0 mL NaOH 後，溶液 pH 約為何？假設 25°C。",
+        "options": [
+          "A. 2.00",
+          "B. 7.00",
+          "C. 11.05",
+          "D. 12.05"
+        ],
+        "optionType": "radio"
+      }
+    ]
+  },
+  {
+    "id": "6afd55c3-2658-83ee-9d8f-e71f367eaa57",
+    "heading": "十一、本章綜合習題",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "1. 氫原子電子由 n=4 降到 n=2，與由 n=3 降到 n=2 相比，哪一個光子的波長較短？",
+        "options": [
+          "A. 4→2",
+          "B. 3→2",
+          "C. 相同",
+          "D. 無法判斷"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 2,
+        "prompt": "2. 某氫原子電子處於 n=2，若要使它游離，至少需要多少能量？",
+        "options": [
+          "A. 3.40 eV",
+          "B. 10.2 eV",
+          "C. 13.6 eV",
+          "D. 17.0 eV"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 3,
+        "prompt": "3. 氫原子電子從 n=4 回到 n=1，若允許經過中間能階，最多可以產生多少種不同波長的放射譜線？",
+        "options": [
+          "A. 3",
+          "B. 4",
+          "C. 5",
+          "D. 6"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 4,
+        "prompt": "4. 氫原子從基態吸收一個 10.2 eV 的光子後，電子最可能處於哪個能階？",
+        "options": [
+          "A. n=2",
+          "B. n=3",
+          "C. n=4",
+          "D. 游離態"
+        ],
+        "optionType": "radio"
+      }
+    ]
+  },
+  {
+    "id": "6afd52ed-e4e0-83e8-80ed-187991462cf6",
+    "heading": "第六節：本章綜合練習",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "1. 已知 A → B，ΔH = −80 kJ；B → C，ΔH = +30 kJ。求 C → A 的焓變。",
+        "options": [
+          "A. −110 kJ",
+          "B. +110 kJ",
+          "C. −50 kJ",
+          "D. +50 kJ"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 2,
+        "prompt": "2. 下列哪個物質在 25°C、標準壓力下的標準莫耳生成焓為零？",
+        "options": [
+          "A. O(g)",
+          "B. O₃(g)",
+          "C. O₂(g)",
+          "D. H₂O(l)"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 3,
+        "prompt": "3. 某反應放熱，將反應式係數全部乘以 3，新的反應焓變如何變化？",
+        "options": [
+          "A. 維持不變",
+          "B. 變成原來 3 倍",
+          "C. 變成原來 1/3",
+          "D. 正負號顛倒"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 4,
+        "prompt": "4. 量熱實驗中，若忽略實際存在的熱量散失，測得的放熱反應焓變通常如何偏離真值？",
+        "options": [
+          "A. 更負",
+          "B. 較不負",
+          "C. 完全不變",
+          "D. 一定變成正值"
+        ],
+        "optionType": "radio"
+      }
+    ]
+  },
+  {
+    "id": "6afd5491-aca8-83ee-8779-8ccb4624bca8",
+    "heading": "九、本章綜合習題",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "在 1 atm 下，將 20 g、0°C 的冰完全熔化，再把所得的水加熱到 20°C。已知冰的熔化潛熱為 334 J/g，水的比熱容為 4.2 J/(g·°C)。總共需要吸收多少熱量？",
+        "options": [
+          "A. 1680 J",
+          "B. 6680 J",
+          "C. 8360 J",
+          "D. 10040 J"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 2,
+        "prompt": "兩種純液體 A、B 在相同溫度下比較，A 的飽和蒸氣壓明顯大於 B。在相同外壓下，下列何者最合理？",
+        "options": [
+          "A. A 的正常沸點通常較低",
+          "B. A 的分子一定比 B 大",
+          "C. A 的表面張力一定較大",
+          "D. A 一定不具有分子間吸引力"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 3,
+        "prompt": "某純液體在密閉容器內與自身蒸氣達到動態平衡。若保持溫度不變，且容器內仍有液體存在，緩慢增大氣相空間並重新達到平衡，最合理的結果是？",
+        "options": [
+          "A. 飽和蒸氣壓永久降低",
+          "B. 更多液體蒸發，最後飽和蒸氣壓恢復原值",
+          "C. 液體完全停止蒸發",
+          "D. 分子間作用力消失"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 4,
+        "prompt": "某液晶材料在施加電場後，分子的平均排列方向改變，但沒有發生化學反應。下列何者最能解釋其光學性質的改變？",
+        "options": [
+          "A. 每個分子都變成不同元素",
+          "B. 分子排列方向會影響光與材料的相互作用",
+          "C. 液晶必定由液態完全變成氣態",
+          "D. 液晶分子的質量因電場而改變"
+        ],
+        "optionType": "radio"
+      }
+    ]
+  },
+  {
+    "id": "6afd5529-0690-83e8-aee7-a4d75e05600e",
+    "heading": "十一、本章綜合習題",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "25°C 時純水的飽和蒸氣壓為 23.8 mmHg。某密閉容器中有液態水及水蒸氣，且已達平衡。若在不改變溫度的情況下擴大容器體積，並確保最後仍有液態水，最終平衡蒸氣壓為何？",
+        "options": [
+          "A. 小於 23.8 mmHg",
+          "B. 等於 23.8 mmHg",
+          "C. 大於 23.8 mmHg",
+          "D. 無法判斷"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 2,
+        "prompt": "某非揮發性、非電解質溶質與水形成遵守拉午耳定律的溶液。已知純水蒸氣壓為 30 mmHg，溶液蒸氣壓為 27 mmHg，且水有 9 mol。溶質有多少 mol？",
+        "options": [
+          "A. 0.1 mol",
+          "B. 0.5 mol",
+          "C. 1 mol",
+          "D. 3 mol"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 3,
+        "prompt": "理想溶液由 A、B 兩種揮發性液體組成。純 A、純 B 的蒸氣壓分別為 120、60 mmHg。若液相中 A 的莫耳分率為 0.25，則氣相中 A 的莫耳分率為何？",
+        "options": [
+          "A. 0.25",
+          "B. 0.40",
+          "C. 0.50",
+          "D. 0.75"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 4,
+        "prompt": "兩種液體混合後，實際總蒸氣壓高於同組成下的拉午耳定律預測值。下列何者最合理？",
+        "options": [
+          "A. A–B 作用力相對較強",
+          "B. A–B 作用力相對較弱",
+          "C. 混合後所有分子停止運動",
+          "D. 兩種液體必定具有相同蒸氣壓"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 5,
+        "prompt": "某空氣在 30°C 時，水蒸氣分壓為 21.2 mmHg。已知 30°C 的飽和蒸氣壓為 31.8 mmHg，20°C 為 17.5 mmHg。若在固定總體積下冷卻到 20°C 並達到平衡，且有足夠凝結表面，哪項敘述正確？",
+        "options": [
+          "A. 20°C 時相對濕度約為 67%",
+          "B. 20°C 時水蒸氣分壓仍為 21.2 mmHg",
+          "C. 部分水蒸氣凝結，最後相對濕度為 100%",
+          "D. 所有水蒸氣都凝結"
+        ],
+        "optionType": "radio"
+      }
+    ]
+  },
+  {
+    "id": "6afd5605-635c-83ee-80e0-5bec3e6c7759",
+    "heading": "十、本章綜合習題",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "某電子的主量子數為 n=4，且角量子數為 ℓ=2。下列何者正確？",
+        "options": [
+          "A. 此電子屬於 4p 副層",
+          "B. 此副層共有 5 個軌域，最多容納 10 個電子",
+          "C. 磁量子數只能為 −1、0、+1",
+          "D. 此副層共有 7 個軌域"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 2,
+        "prompt": "某主能層包含 s、p、d、f 四種副層，且不包含更高角量子數的副層。該主能層最多有多少個電子？",
+        "options": [
+          "A. 18",
+          "B. 24",
+          "C. 32",
+          "D. 50"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 3,
+        "prompt": "若某電子的磁量子數 mℓ=−3，下列哪一項一定正確？",
+        "options": [
+          "A. n=3",
+          "B. ℓ=3",
+          "C. ℓ≥3 且 n≥4",
+          "D. 電子必定屬於 4f 副層"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 4,
+        "prompt": "同一原子中，兩個電子具有相同的 n、ℓ、mℓ。根據包立不相容原理，下列何者正確？",
+        "options": [
+          "A. 兩電子的自旋量子數必須相反",
+          "B. 兩電子必須具有相同能量以外的所有性質",
+          "C. 兩電子必須位於不同副層",
+          "D. 這兩個電子不可能同時存在"
+        ],
+        "optionType": "radio"
+      }
+    ]
+  },
+  {
+    "id": "6afd58dc-cb18-83ee-94fb-50b9e7ebe18d",
+    "heading": "九、本章綜合習題",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "某單步反應的反應物能量為 60 kJ/mol，生成物能量為 110 kJ/mol，過渡狀態能量為 170 kJ/mol。下列何者正確？",
+        "options": [
+          "A. 正向活化能為 110 kJ/mol，為放熱反應",
+          "B. 正向活化能為 110 kJ/mol，為吸熱反應",
+          "C. 逆向活化能為 110 kJ/mol，為吸熱反應",
+          "D. 反應熱為 −50 kJ/mol"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 2,
+        "prompt": "某反應加入催化劑後，正向活化能由 100 降至 65 kJ/mol。原反應的 ΔH 為 −25 kJ/mol。催化後的逆向活化能是多少？",
+        "options": [
+          "A. 40 kJ/mol",
+          "B. 65 kJ/mol",
+          "C. 90 kJ/mol",
+          "D. 125 kJ/mol"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 3,
+        "prompt": "某兩步驟反應的能量依序為：反應物 30、第一峰 100、中間物 60、第二峰 115、生成物 20（單位皆為 kJ/mol）。哪個敘述正確？",
+        "options": [
+          "A. 第二步活化能為 115 kJ/mol",
+          "B. 第一步活化能為 70 kJ/mol",
+          "C. 第二步活化能高於第一步",
+          "D. 總反應為吸熱反應"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 4,
+        "prompt": "在其他條件相同時，某反應升高溫度後速率顯著增加。下列哪項解釋最恰當？",
+        "options": [
+          "A. 所有粒子都具有相同的動能",
+          "B. 反應熱由負值變成正值",
+          "C. 活化能因溫度升高而自動消失",
+          "D. 具有足夠能量跨越障礙的粒子比例增加"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 5,
+        "prompt": "某反應的總反應式為 A + B → C，實驗發現反應經過中間物 I。下列何者最合理？",
+        "options": [
+          "A. 中間物 I 必定出現在總反應式右側",
+          "B. I 必定是能量圖最高點的過渡狀態",
+          "C. 總反應式本身不足以確定完整反應機構",
+          "D. 反應一定只有一個基本步驟"
+        ],
+        "optionType": "radio"
+      }
+    ]
+  }
+]

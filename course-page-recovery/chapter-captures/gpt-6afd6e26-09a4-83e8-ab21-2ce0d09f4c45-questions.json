@@ -1,0 +1,142 @@
+[
+  {
+    "title": "第1題",
+    "type": "choice",
+    "prompt": "某弱酸 HA 的 Ka = 10⁻⁵，將 0.20 mol HA 與 0.10 mol NaA 混合配成緩衝液，求近似 pH。",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 4.70"
+      },
+      {
+        "value": "B",
+        "label": "B. 5.00"
+      },
+      {
+        "value": "C",
+        "label": "C. 5.30"
+      },
+      {
+        "value": "D",
+        "label": "D. 6.00"
+      }
+    ],
+    "answers": [
+      "A"
+    ],
+    "multiple": false,
+    "explanation": "補解：由 Ka＝10⁻⁵ 得 pKa＝5。在緩衝近似下，pH＝pKa＋log([A⁻]/[HA])。兩者位於同一溶液，濃度比等於莫耳數比，因此 pH≈5＋log(0.10/0.20)＝5−0.301＝4.70，選 A。B 對應等量酸與共軛鹼，C 對應比例為 2，D 對應比例為 10，均與題意不符。"
+  },
+  {
+    "title": "第2題",
+    "type": "choice",
+    "prompt": "第 2 題 基礎應用 一杯含 0.20 mol HA 與 0.30 mol A⁻ 的緩衝液，加入 0.05 mol NaOH，假設仍符合緩衝近似。反應後 A⁻ 與 HA 的莫耳數比為何？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 1 : 1"
+      },
+      {
+        "value": "B",
+        "label": "B. 7 : 3"
+      },
+      {
+        "value": "C",
+        "label": "C. 5 : 3"
+      },
+      {
+        "value": "D",
+        "label": "D. 3 : 5"
+      }
+    ],
+    "answers": [
+      "B"
+    ],
+    "multiple": false,
+    "explanation": "補解：加入的 OH⁻ 優先與 HA 反應：HA＋OH⁻→A⁻＋H₂O。反應後 HA 剩 0.20−0.05＝0.15 mol，A⁻ 增為 0.30＋0.05＝0.35 mol。因此 A⁻：HA＝0.35：0.15＝7：3，選 B。兩者總量仍為 0.50 mol；A、C、D 的比例均不符合反應後的莫耳數。"
+  },
+  {
+    "title": "第3題",
+    "type": "choice",
+    "prompt": "第 3 題 公式應用 甲、乙兩杯緩衝液使用相同弱酸系統，甲的 [A⁻]/[HA] = 1，乙的 [A⁻]/[HA] = 10。乙的 pH 比甲高多少？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 0.1"
+      },
+      {
+        "value": "B",
+        "label": "B. 0.5"
+      },
+      {
+        "value": "C",
+        "label": "C. 1"
+      },
+      {
+        "value": "D",
+        "label": "D. 10"
+      }
+    ],
+    "answers": [
+      "C"
+    ],
+    "multiple": false,
+    "explanation": "補解：相同弱酸系統的 pKa 相同。在緩衝近似下，甲的 pH＝pKa＋log 1＝pKa；乙的 pH＝pKa＋log 10＝pKa＋1。因此乙比甲高 1，選 C。A、B、D 均不符合對數差值；濃度比增加 10 倍並非 pH 增加 10。"
+  },
+  {
+    "title": "第4題",
+    "type": "choice",
+    "prompt": "第 4 題 公式應用 在 25°C，NH₃/NH₄⁺ 緩衝液中 [NH₃] = [NH₄⁺]，且 Kb = 10⁻⁵。pH 約為多少？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 5"
+      },
+      {
+        "value": "B",
+        "label": "B. 7"
+      },
+      {
+        "value": "C",
+        "label": "C. 9"
+      },
+      {
+        "value": "D",
+        "label": "D. 10"
+      }
+    ],
+    "answers": [
+      "C"
+    ],
+    "multiple": false,
+    "explanation": "補解：pKb＝−log Kb＝5。由弱鹼緩衝近似 pOH＝pKb＋log([NH₄⁺]/[NH₃])，等濃度時對數項為零，故 pOH＝5。25°C 時 pH＋pOH＝14，因此 pH＝9，選 C。A 是 pOH，B 為中性時的 pH，D 則不符合所給 Kb 與濃度比。"
+  },
+  {
+    "title": "第5題",
+    "type": "choice",
+    "prompt": "第 5 題 觀念整合 下列何者最能解釋為何過量加入強酸後，緩衝溶液會失去良好的緩衝能力？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. Ka 變成零"
+      },
+      {
+        "value": "B",
+        "label": "B. 所有弱酸立即完全游離"
+      },
+      {
+        "value": "C",
+        "label": "C. 共軛鹼逐漸耗盡，無法有效消耗更多 H⁺"
+      },
+      {
+        "value": "D",
+        "label": "D. 水的離子積常數不再成立"
+      }
+    ],
+    "answers": [
+      "C"
+    ],
+    "multiple": false,
+    "explanation": "補解：加入強酸時，共軛鹼 A⁻ 可接受 H⁺ 形成 HA。強酸加入過多會使 A⁻ 大量消耗，剩餘共軛鹼不足以有效抵抗後續酸的加入，因此緩衝能力下降，選 C。A、D 錯在固定溫度下 Ka 與 Kw 不會因加入強酸而失效；B 錯在加入強酸並不使所有弱酸立即完全游離。"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "title": "第1題",
+    "type": "choice",
+    "prompt": "在酸性溶液中，MnO₄⁻ 與 Fe²⁺ 反應。若消耗 0.00300 mol MnO₄⁻，可氧化多少 mol Fe²⁺？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 0.000600 mol"
+      },
+      {
+        "value": "B",
+        "label": "B. 0.00300 mol"
+      },
+      {
+        "value": "C",
+        "label": "C. 0.0150 mol"
+      },
+      {
+        "value": "D",
+        "label": "D. 0.0300 mol"
+      }
+    ],
+    "answers": [
+      "C"
+    ],
+    "multiple": false,
+    "explanation": "補解：酸性條件下，MnO₄⁻ 還原為 Mn²⁺ 時每莫耳接受 5 mol 電子；Fe²⁺ 氧化為 Fe³⁺ 時每莫耳失去 1 mol 電子。因此 Fe²⁺ 與 MnO₄⁻ 的反應莫耳數比為 5：1，所需 Fe²⁺ 為 0.00300×5＝0.0150 mol，選 C。A、B、D 對應的比值分別為 0.2、1、10，均不符合電子守恆。"
+  },
+  {
+    "title": "第2題",
+    "type": "choice",
+    "prompt": "取 20.0 mL 未知濃度的 Fe²⁺ 溶液，以 0.0100 M 酸性 KMnO₄ 滴定，使用 16.0 mL 達當量點。求 Fe²⁺ 濃度。",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 0.00800 M"
+      },
+      {
+        "value": "B",
+        "label": "B. 0.0400 M"
+      },
+      {
+        "value": "C",
+        "label": "C. 0.0800 M"
+      },
+      {
+        "value": "D",
+        "label": "D. 0.160 M"
+      }
+    ],
+    "answers": [
+      "B"
+    ],
+    "multiple": false,
+    "explanation": "補解：MnO₄⁻ 的莫耳數為 0.0100×0.0160＝0.000160 mol。酸性條件下每莫耳 MnO₄⁻ 可氧化 5 mol Fe²⁺，故 Fe²⁺ 為 0.000800 mol，濃度為 0.000800/0.0200＝0.0400 M，選 B。將 A、C、D 的濃度乘以 0.0200 L，分別得到 0.000160、0.00160、0.00320 mol，均不符當量點的電子守恆。"
+  },
+  {
+    "title": "第3題",
+    "type": "choice",
+    "prompt": "將某樣品配成 200 mL 溶液，取 20.0 mL 滴定。若分取溶液中含有 0.00150 mol 待測物，整份樣品中有多少 mol？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 0.000150 mol"
+      },
+      {
+        "value": "B",
+        "label": "B. 0.00150 mol"
+      },
+      {
+        "value": "C",
+        "label": "C. 0.0150 mol"
+      },
+      {
+        "value": "D",
+        "label": "D. 0.150 mol"
+      }
+    ],
+    "answers": [
+      "C"
+    ],
+    "multiple": false,
+    "explanation": "補解：均勻溶液中待測物莫耳數與分取體積成正比。整份溶液的體積是分取液的 200/20.0＝10 倍，故總莫耳數為 0.00150×10＝0.0150 mol，選 C。將各選項除以 10，只有 C 能還原分取液的莫耳數。"
+  },
+  {
+    "title": "第4題",
+    "type": "choice",
+    "prompt": "某氧化還原滴定反應中，每莫耳氧化劑接受 6 mol 電子，每莫耳還原劑失去 2 mol 電子。當量點時，氧化劑與還原劑的莫耳數比為何？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 3：1"
+      },
+      {
+        "value": "B",
+        "label": "B. 1：3"
+      },
+      {
+        "value": "C",
+        "label": "C. 6：1"
+      },
+      {
+        "value": "D",
+        "label": "D. 1：1"
+      }
+    ],
+    "answers": [
+      "B"
+    ],
+    "multiple": false,
+    "explanation": "補解：設氧化劑與還原劑莫耳數分別為 x、y，當量點須滿足接受與失去的電子數相等，即 6x＝2y，因此 x：y＝1：3，選 B。A、C、D 代入均不能使兩側相等。"
+  },
+  {
+    "title": "第5題",
+    "type": "choice",
+    "prompt": "使用酸性高錳酸鉀滴定 Fe²⁺。若滴定管尖端原有氣泡，且在滴定過程中氣泡消失，其他操作正確，則計算出的 Fe²⁺ 濃度通常如何變化？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 偏高"
+      },
+      {
+        "value": "B",
+        "label": "B. 偏低"
+      },
+      {
+        "value": "C",
+        "label": "C. 不變"
+      },
+      {
+        "value": "D",
+        "label": "D. 必須知道溫度才能判斷"
+      }
+    ],
+    "answers": [
+      "A"
+    ],
+    "multiple": false,
+    "explanation": "補解：尖端氣泡消失時，有部分滴定液只是填滿原先含氣泡的空間，未進入待測溶液。因此滴定管讀數差大於實際進入溶液的滴定液體積。由計算式 c(Fe²⁺)＝5c(MnO₄⁻)V(MnO₄⁻)/V(Fe²⁺)，使用偏大的體積會高估 Fe²⁺ 濃度，故 A；B 方向相反，C 忽略體積誤差，D 並非判斷所需條件。"
+  }
+]

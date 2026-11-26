@@ -1,0 +1,163 @@
+[
+  {
+    "id": "6afd52ed-e4e0-83e8-80ed-187991462cf6",
+    "heading": "第六節：本章綜合練習",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "1. 已知 A → B，ΔH = −80 kJ；B → C，ΔH = +30 kJ。求 C → A 的焓變。",
+        "options": [
+          "A. −110 kJ",
+          "B. +110 kJ",
+          "C. −50 kJ",
+          "D. +50 kJ"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 2,
+        "prompt": "2. 下列哪個物質在 25°C、標準壓力下的標準莫耳生成焓為零？",
+        "options": [
+          "A. O(g)",
+          "B. O₃(g)",
+          "C. O₂(g)",
+          "D. H₂O(l)"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 3,
+        "prompt": "3. 某反應放熱，將反應式係數全部乘以 3，新的反應焓變如何變化？",
+        "options": [
+          "A. 維持不變",
+          "B. 變成原來 3 倍",
+          "C. 變成原來 1/3",
+          "D. 正負號顛倒"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 4,
+        "prompt": "4. 量熱實驗中，若忽略實際存在的熱量散失，測得的放熱反應焓變通常如何偏離真值？",
+        "options": [
+          "A. 更負",
+          "B. 較不負",
+          "C. 完全不變",
+          "D. 一定變成正值"
+        ],
+        "optionType": "radio"
+      }
+    ]
+  },
+  {
+    "id": "6afd5491-aca8-83ee-8779-8ccb4624bca8",
+    "heading": "九、本章綜合習題",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "第 1 題",
+        "options": [
+          "A. 1680 J",
+          "B. 6680 J",
+          "C. 8360 J",
+          "D. 10040 J"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 2,
+        "prompt": "第 2 題",
+        "options": [
+          "A. A 的正常沸點通常較低",
+          "B. A 的分子一定比 B 大",
+          "C. A 的表面張力一定較大",
+          "D. A 一定不具有分子間吸引力"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 3,
+        "prompt": "第 3 題",
+        "options": [
+          "A. 飽和蒸氣壓永久降低",
+          "B. 更多液體蒸發，最後飽和蒸氣壓恢復原值",
+          "C. 液體完全停止蒸發",
+          "D. 分子間作用力消失"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 4,
+        "prompt": "第 4 題",
+        "options": [
+          "A. 每個分子都變成不同元素",
+          "B. 分子排列方向會影響光與材料的相互作用",
+          "C. 液晶必定由液態完全變成氣態",
+          "D. 液晶分子的質量因電場而改變"
+        ],
+        "optionType": "radio"
+      }
+    ]
+  },
+  {
+    "id": "6afd5529-0690-83e8-aee7-a4d75e05600e",
+    "heading": "十一、本章綜合習題",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "第 1 題",
+        "options": [
+          "A. 小於 23.8 mmHg",
+          "B. 等於 23.8 mmHg",
+          "C. 大於 23.8 mmHg",
+          "D. 無法判斷"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 2,
+        "prompt": "第 2 題",
+        "options": [
+          "A. 0.1 mol",
+          "B. 0.5 mol",
+          "C. 1 mol",
+          "D. 3 mol"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 3,
+        "prompt": "第 3 題",
+        "options": [
+          "A. 0.25",
+          "B. 0.40",
+          "C. 0.50",
+          "D. 0.75"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 4,
+        "prompt": "第 4 題",
+        "options": [
+          "A. A–B 作用力相對較強",
+          "B. A–B 作用力相對較弱",
+          "C. 混合後所有分子停止運動",
+          "D. 兩種液體必定具有相同蒸氣壓"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 5,
+        "prompt": "第 5 題",
+        "options": [
+          "A. 20°C 時相對濕度約為 67%",
+          "B. 20°C 時水蒸氣分壓仍為 21.2 mmHg",
+          "C. 部分水蒸氣凝結，最後相對濕度為 100%",
+          "D. 所有水蒸氣都凝結"
+        ],
+        "optionType": "radio"
+      }
+    ]
+  }
+]

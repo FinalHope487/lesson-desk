@@ -1,0 +1,118 @@
+[
+  {
+    "title": "第1題",
+    "type": "choice",
+    "prompt": "某中性原子的基態組態為 [Ne]3s²3p⁴。下列敘述何者正確？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 具有 4 個價電子"
+      },
+      {
+        "value": "B",
+        "label": "B. 具有 2 個未成對電子"
+      },
+      {
+        "value": "C",
+        "label": "C. 屬於第 4 週期"
+      },
+      {
+        "value": "D",
+        "label": "D. 最外層為全滿"
+      }
+    ],
+    "answers": [
+      "B"
+    ],
+    "multiple": true,
+    "explanation": "補解：[Ne]3s²3p⁴ 共有 16 個電子，最外層 n＝3 有 6 個價電子；依洪德定則，3p 的四個電子有兩個未成對，故 B。A 價電子數錯誤，C 應為第三週期，D 最外層未滿。原控制為 checkbox，保留該型態，唯一正解為 B。"
+  },
+  {
+    "title": "第2題",
+    "type": "choice",
+    "prompt": "下列哪些粒子具有相同的電子組態？（多選）",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. Na⁺ 與 Ne"
+      },
+      {
+        "value": "B",
+        "label": "B. Mg²⁺ 與 F⁻"
+      },
+      {
+        "value": "C",
+        "label": "C. Cl⁻ 與 K⁺"
+      },
+      {
+        "value": "D",
+        "label": "D. Fe²⁺ 與 Ar"
+      }
+    ],
+    "answers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "multiple": true,
+    "explanation": "補解：Na⁺、Ne 均有 10 電子；Mg²⁺、F⁻ 亦均有 10 電子；Cl⁻、K⁺ 均有 18 電子，以上各對基態電子組態相同，故 A、B、C。Fe²⁺ 有 24 電子，基態為 [Ar]3d⁶，與 18 電子的 Ar 不同，故 D 錯誤。"
+  },
+  {
+    "title": "第3題",
+    "type": "choice",
+    "prompt": "關於 Cr 的基態電子組態，下列何者正確？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. [Ar]4s²3d⁴"
+      },
+      {
+        "value": "B",
+        "label": "B. [Ar]4s¹3d⁵"
+      },
+      {
+        "value": "C",
+        "label": "C. [Ar]3d⁶"
+      },
+      {
+        "value": "D",
+        "label": "D. [Ar]4s²3d⁵"
+      }
+    ],
+    "answers": [
+      "B"
+    ],
+    "multiple": true,
+    "explanation": "補解：Cr 有 24 個電子，實際基態組態為 [Ar]4s¹3d⁵，反映 3d 與 4s 能量接近及電子間作用，故 B。A 是簡化填入規則的預測而非實際基態；C 雖同為 24 電子但不是基態；D 有 25 電子。原控制為 checkbox，保留該型態，唯一正解為 B。"
+  },
+  {
+    "title": "第4題",
+    "type": "choice",
+    "prompt": "下列關於電子組態與能量的敘述，哪些正確？（多選）",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 激發態一定比基態具有更高能量"
+      },
+      {
+        "value": "B",
+        "label": "B. 所有原子的 4s 軌域都比 3d 能量低"
+      },
+      {
+        "value": "C",
+        "label": "C. 電子躍遷時可能吸收或放出光子"
+      },
+      {
+        "value": "D",
+        "label": "D. 洪德定則適用於等能量軌域的填入"
+      }
+    ],
+    "answers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "multiple": true,
+    "explanation": "補解：基態是最低能量狀態，激發態能量較高；電子躍遷可伴隨光子吸收或放出；洪德定則適用於等能量軌域的電子填入，故 A、C、D 正確。B 錯在 4s、3d 相對能量受原子及電子占據狀態影響，不能一概而論。"
+  }
+]

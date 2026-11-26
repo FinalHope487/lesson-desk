@@ -1,0 +1,174 @@
+[
+  {
+    "title": "第1題",
+    "type": "choice",
+    "prompt": "將等莫耳數的 Na、Mg、Al 分別完全氧化成其常見陽離子，哪一種金屬釋出的電子總莫耳數最多？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. Na"
+      },
+      {
+        "value": "B",
+        "label": "B. Mg"
+      },
+      {
+        "value": "C",
+        "label": "C. Al"
+      },
+      {
+        "value": "D",
+        "label": "D. 三者相同"
+      }
+    ],
+    "answers": [
+      "C"
+    ],
+    "multiple": false,
+    "explanation": "補解：Na、Mg、Al 形成常見陽離子 Na⁺、Mg²⁺、Al³⁺ 時，每莫耳金屬分別失去 1、2、3 mol 電子。金屬莫耳數相同，Al 釋出電子最多，故 C；A、B 較少，D 不符合電子守恆。"
+  },
+  {
+    "title": "第2題",
+    "type": "choice",
+    "prompt": "下列關於金屬氧化物的敘述，哪些正確？（多選）",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. Na₂O 可以與水反應形成鹼"
+      },
+      {
+        "value": "B",
+        "label": "B. MgO 屬於鹼性氧化物"
+      },
+      {
+        "value": "C",
+        "label": "C. Al₂O₃ 只能與酸反應"
+      },
+      {
+        "value": "D",
+        "label": "D. Al₂O₃ 可與強鹼反應"
+      }
+    ],
+    "answers": [
+      "A",
+      "B",
+      "D"
+    ],
+    "multiple": true,
+    "explanation": "補解：Na₂O＋H₂O→2NaOH，因此 A 正確；MgO 為鹼性氧化物，可與酸反應，B 正確。Al₂O₃ 為兩性氧化物，既可與酸反應也可與強鹼反應，故 C 錯誤、D 正確。選 A、B、D。"
+  },
+  {
+    "title": "第3題",
+    "type": "choice",
+    "prompt": "0.20 mol 的 Mg 與足量稀鹽酸完全反應，在忽略其他副反應時，產生多少 mol H₂？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 0.10 mol"
+      },
+      {
+        "value": "B",
+        "label": "B. 0.20 mol"
+      },
+      {
+        "value": "C",
+        "label": "C. 0.40 mol"
+      },
+      {
+        "value": "D",
+        "label": "D. 0.60 mol"
+      }
+    ],
+    "answers": [
+      "B"
+    ],
+    "multiple": false,
+    "explanation": "補解：依反應式 Mg＋2HCl→MgCl₂＋H₂，Mg 與 H₂ 的莫耳數比為 1：1，因此 0.20 mol Mg 生成 0.20 mol H₂，選 B。A、C、D 對應的比例均不符合配平式。"
+  },
+  {
+    "title": "第4題",
+    "type": "choice",
+    "prompt": "某溶液含有 0.10 mol Al³⁺，加入 0.40 mol OH⁻，假設反應完全、體積與其他副反應影響可忽略，最後主要的含鋁物種為何？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. Al³⁺"
+      },
+      {
+        "value": "B",
+        "label": "B. Al(OH)₃ 沉澱"
+      },
+      {
+        "value": "C",
+        "label": "C. [Al(OH)₄]⁻"
+      },
+      {
+        "value": "D",
+        "label": "D. 金屬 Al"
+      }
+    ],
+    "answers": [
+      "C"
+    ],
+    "multiple": false,
+    "explanation": "補解：依題設的理想化完全反應模型，0.10 mol Al³⁺ 先與 0.30 mol OH⁻ 形成 Al(OH)₃，再與剩餘 0.10 mol OH⁻ 形成 [Al(OH)₄]⁻。總反應為 Al³⁺＋4OH⁻→[Al(OH)₄]⁻，故 C。A、B 不符合足量 OH⁻ 下的模型，D 則需還原反應而非單純加入 OH⁻。實際物種分布仍受溶液平衡影響。"
+  },
+  {
+    "title": "第5題",
+    "type": "choice",
+    "prompt": "某鐵製品表面鍍鋅，部分鍍層遭刮傷並露出鐵。在潮濕且有電解質的環境中，下列哪些敘述正確？（多選）",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 鋅可能優先被氧化"
+      },
+      {
+        "value": "B",
+        "label": "B. 鍍層破損後鋅完全失去保護作用"
+      },
+      {
+        "value": "C",
+        "label": "C. 鋅能提供犧牲陽極保護"
+      },
+      {
+        "value": "D",
+        "label": "D. 鐵的保護效果與電化學反應有關"
+      }
+    ],
+    "answers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "multiple": true,
+    "explanation": "補解：在鋅與鐵保持電接觸且有電解質時，鋅較易氧化，可作犧牲陽極，使鐵受到電化學保護，故 A、C、D 正確。B 錯在鍍層局部破損並不必然使鋅完全失去保護作用；保護程度仍取決於接觸與環境。"
+  },
+  {
+    "title": "第6題",
+    "type": "choice",
+    "prompt": "鋁電解槽中若理想情況下產生 2.0 mol Al，外部電路至少需提供多少 mol 電子？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 2.0 mol"
+      },
+      {
+        "value": "B",
+        "label": "B. 3.0 mol"
+      },
+      {
+        "value": "C",
+        "label": "C. 4.0 mol"
+      },
+      {
+        "value": "D",
+        "label": "D. 6.0 mol"
+      }
+    ],
+    "answers": [
+      "D"
+    ],
+    "multiple": false,
+    "explanation": "補解：依 Al³⁺＋3e⁻→Al，每生成 1 mol Al 需 3 mol 電子，理想情況下 2.0 mol Al 需 6.0 mol 電子，選 D。A、B、C 均小於依電荷守恆所需的電子量。"
+  }
+]

@@ -1,0 +1,153 @@
+[
+  {
+    "title": "第1題",
+    "type": "choice",
+    "prompt": "下列分子中，哪些具有永久淨偶極？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. CO₂"
+      },
+      {
+        "value": "B",
+        "label": "B. NH₃"
+      },
+      {
+        "value": "C",
+        "label": "C. BF₃"
+      },
+      {
+        "value": "D",
+        "label": "D. CH₃Cl"
+      },
+      {
+        "value": "E",
+        "label": "E. CCl₄"
+      }
+    ],
+    "answers": [
+      "B",
+      "D"
+    ],
+    "multiple": true,
+    "explanation": "補解：NH₃ 為三角錐形，CH₃Cl 的四面體取代基不等價，鍵偶極不能完全抵銷，故 B、D 有永久淨偶極。CO₂ 為對稱直線形，BF₃ 為對稱平面三角形，CCl₄ 為對稱四面體，A、C、E 的鍵偶極向量總和為零。"
+  },
+  {
+    "title": "第2題",
+    "type": "choice",
+    "prompt": "下列哪個敘述最能解釋 I₂ 的沸點高於 Cl₂？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. I₂ 的分子極性較強"
+      },
+      {
+        "value": "B",
+        "label": "B. I₂ 具有氫鍵"
+      },
+      {
+        "value": "C",
+        "label": "C. I₂ 的電子雲較易極化，分散力較強"
+      },
+      {
+        "value": "D",
+        "label": "D. Cl₂ 分子之間完全沒有吸引力"
+      }
+    ],
+    "answers": [
+      "C"
+    ],
+    "multiple": true,
+    "explanation": "補解：I₂ 與 Cl₂ 都是同核雙原子非極性分子，I₂ 電子雲較大且較易極化，通常有較強倫敦分散力，因此沸點較高，選 C。A、B 錯在兩者均無永久淨偶極或典型氫鍵；D 錯在 Cl₂ 仍具有分散力。"
+  },
+  {
+    "title": "第3題",
+    "type": "choice",
+    "prompt": "比較 H₂O、H₂S 與 H₂Se 的常壓沸點，下列何者正確？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. H₂O > H₂Se > H₂S"
+      },
+      {
+        "value": "B",
+        "label": "B. H₂Se > H₂S > H₂O"
+      },
+      {
+        "value": "C",
+        "label": "C. H₂S > H₂O > H₂Se"
+      },
+      {
+        "value": "D",
+        "label": "D. H₂O > H₂S > H₂Se"
+      }
+    ],
+    "answers": [
+      "A"
+    ],
+    "multiple": true,
+    "explanation": "補解：H₂O 分子間具有顯著氫鍵，常壓沸點約 100°C；H₂Se 約 −41°C，H₂S 約 −60°C，後兩者之中 H₂Se 較易極化，分散力較強。排序 H₂O＞H₂Se＞H₂S，選 A；B、C、D 均與此排序不符。"
+  },
+  {
+    "title": "第4題",
+    "type": "choice",
+    "prompt": "下列關於分子極性與物理性質的敘述，哪些正確？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 所有非極性分子都具有相同的沸點"
+      },
+      {
+        "value": "B",
+        "label": "B. 極性分子也可能具有顯著的倫敦分散力"
+      },
+      {
+        "value": "C",
+        "label": "C. 分子間作用力越強，液體在同溫下通常越不易揮發"
+      },
+      {
+        "value": "D",
+        "label": "D. 只要兩種物質都具有極性，就一定可以任意比例互溶"
+      },
+      {
+        "value": "E",
+        "label": "E. 沸騰通常不需要打斷分子內的共價鍵"
+      }
+    ],
+    "answers": [
+      "B",
+      "C",
+      "E"
+    ],
+    "multiple": true,
+    "explanation": "補解：所有分子均可有倫敦分散力，極性分子也不例外；同溫下分子間作用力較強通常較不易揮發；一般分子液體沸騰主要克服分子間吸引而非打斷分子內共價鍵，故 B、C、E 正確。A 忽略分子大小及形狀等差異；D 錯在互溶性還取決於不同分子間作用及混合自由能，不能僅憑極性保證任意比例互溶。"
+  },
+  {
+    "title": "第5題",
+    "type": "choice",
+    "prompt": "正戊烷與新戊烷具有相同分子式 C₅H₁₂。下列何者最合理？",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 新戊烷因為分子量較小，所以沸點較低"
+      },
+      {
+        "value": "B",
+        "label": "B. 正戊烷的分子形狀較延伸，通常具有較強的整體分散力"
+      },
+      {
+        "value": "C",
+        "label": "C. 正戊烷具有氫鍵，但新戊烷沒有"
+      },
+      {
+        "value": "D",
+        "label": "D. 兩者都是非極性分子，因此沸點必定相同"
+      }
+    ],
+    "answers": [
+      "B"
+    ],
+    "multiple": true,
+    "explanation": "補解：兩者分子式相同，莫耳質量相同。正戊烷分子形狀較延伸，通常較有利於分子間接觸，整體分散力較強，故 B。A 的分子量理由錯誤；C 錯在兩者皆無典型氫鍵；D 錯在非極性分子的沸點仍可因分散力及形狀而異。"
+  }
+]

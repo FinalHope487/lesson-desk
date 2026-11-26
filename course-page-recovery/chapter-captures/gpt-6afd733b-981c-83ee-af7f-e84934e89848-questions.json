@@ -1,0 +1,146 @@
+[
+  {
+    "title": "第1題",
+    "type": "choice",
+    "prompt": "下列關於 CO₂ 與 SiO₂ 的敘述，哪些正確？（多選）",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 兩者在常溫下都是氣體"
+      },
+      {
+        "value": "B",
+        "label": "B. CO₂ 主要由獨立分子組成"
+      },
+      {
+        "value": "C",
+        "label": "C. SiO₂ 通常具有共價網狀結構"
+      },
+      {
+        "value": "D",
+        "label": "D. 兩者具有相同的熔點與導電性"
+      }
+    ],
+    "answers": [
+      "B",
+      "C"
+    ],
+    "multiple": true,
+    "explanation": "補解：CO₂ 常溫為分子氣體，SiO₂ 通常為共價網狀固體，故 B、C 正確。A 錯在 SiO₂ 非氣體；D 錯在兩者結構與物性不同。"
+  },
+  {
+    "title": "第2題",
+    "type": "choice",
+    "prompt": "在 Fe₂O₃ + 3CO → 2Fe + 3CO₂ 中，下列哪些敘述正確？（多選）",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. CO 是還原劑"
+      },
+      {
+        "value": "B",
+        "label": "B. Fe 的氧化數由 +3 變為 0"
+      },
+      {
+        "value": "C",
+        "label": "C. 碳的氧化數由 +4 變為 +2"
+      },
+      {
+        "value": "D",
+        "label": "D. Fe₂O₃ 被氧化"
+      }
+    ],
+    "answers": [
+      "A",
+      "B"
+    ],
+    "multiple": true,
+    "explanation": "補解：CO 中碳由＋2 升至 CO₂ 的＋4，失電子而被氧化，因此 CO 為還原劑；Fe₂O₃ 中鐵由＋3 降至 0，被還原。故 A、B 正確，C 的氧化數方向相反，D 將還原誤為氧化。"
+  },
+  {
+    "title": "第3題",
+    "type": "choice",
+    "prompt": "對合成氨反應 N₂ + 3H₂ ⇌ 2NH₃（放熱），下列哪些敘述正確？（多選）",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 升高壓力有利於 NH₃ 的平衡生成"
+      },
+      {
+        "value": "B",
+        "label": "B. 催化劑會提高平衡常數"
+      },
+      {
+        "value": "C",
+        "label": "C. 降低溫度有利於放熱方向的平衡"
+      },
+      {
+        "value": "D",
+        "label": "D. 升高溫度一定能提高 NH₃ 的平衡產率"
+      }
+    ],
+    "answers": [
+      "A",
+      "C"
+    ],
+    "multiple": true,
+    "explanation": "補解：以壓縮體積提高壓力時，平衡傾向氣體莫耳數較少的生成物側；放熱反應降溫亦有利生成物，故 A、C 正確。B 錯在催化劑不改變平衡常數；D 混淆速率與平衡產率，升溫反而不利放熱方向的平衡。"
+  },
+  {
+    "title": "第4題",
+    "type": "choice",
+    "prompt": "下列關於非金屬及其化合物的敘述，哪些正確？（多選）",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. 所有非金屬單質都不導電"
+      },
+      {
+        "value": "B",
+        "label": "B. 臭氧在平流層與近地面具有不同的環境意義"
+      },
+      {
+        "value": "C",
+        "label": "C. NH₃ 溶於水可使溶液呈弱鹼性"
+      },
+      {
+        "value": "D",
+        "label": "D. 所有含氯化合物都具有相同的氧化性"
+      }
+    ],
+    "answers": [
+      "B",
+      "C"
+    ],
+    "multiple": true,
+    "explanation": "補解：平流層臭氧能吸收紫外線，近地面臭氧則為空氣污染物；NH₃ 與水建立 NH₄⁺、OH⁻ 的平衡，使溶液呈弱鹼性，故 B、C 正確。A 有石墨等反例，D 錯在含氯物質的氧化性依其化學形態而異。"
+  },
+  {
+    "title": "第5題",
+    "type": "choice",
+    "prompt": "某固體 X 是由單一元素形成的三維共價網狀結構，且通常不導電。下列哪個推論最合理？（單選）",
+    "options": [
+      {
+        "value": "A",
+        "label": "A. X 一定是金屬"
+      },
+      {
+        "value": "B",
+        "label": "B. X 可能具有很高的硬度"
+      },
+      {
+        "value": "C",
+        "label": "C. X 一定容易溶於水"
+      },
+      {
+        "value": "D",
+        "label": "D. X 的原子間沒有共價鍵"
+      }
+    ],
+    "answers": [
+      "B"
+    ],
+    "multiple": true,
+    "explanation": "補解：三維共價網狀結構的原子由共價鍵連結，可能具有高硬度，例如鑽石，故 B。A 不必然為金屬；C 不必然易溶於水；D 與共價網狀結構的定義矛盾。原題雖標單選，原控制為 checkbox，依原控制保留複選介面，但唯一正解仍為 B。"
+  }
+]

@@ -1,0 +1,185 @@
+[
+  {
+    "id": "6afd6f6b-7a08-83ee-9bc9-a8cc35e59982",
+    "heading": "十二、本章綜合習題",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "在酸性溶液中，MnO₄⁻ 與 Fe²⁺ 反應。若消耗 0.00300 mol MnO₄⁻，可氧化多少 mol Fe²⁺？",
+        "options": [
+          "A. 0.000600 mol",
+          "B. 0.00300 mol",
+          "C. 0.0150 mol",
+          "D. 0.0300 mol"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 2,
+        "prompt": "取 20.0 mL 未知濃度的 Fe²⁺ 溶液，以 0.0100 M 酸性 KMnO₄ 滴定，使用 16.0 mL 達當量點。求 Fe²⁺ 濃度。",
+        "options": [
+          "A. 0.00800 M",
+          "B. 0.0400 M",
+          "C. 0.0800 M",
+          "D. 0.160 M"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 3,
+        "prompt": "將某樣品配成 200 mL 溶液，取 20.0 mL 滴定。若分取溶液中含有 0.00150 mol 待測物，整份樣品中有多少 mol？",
+        "options": [
+          "A. 0.000150 mol",
+          "B. 0.00150 mol",
+          "C. 0.0150 mol",
+          "D. 0.150 mol"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 4,
+        "prompt": "某氧化還原滴定反應中，每莫耳氧化劑接受 6 mol 電子，每莫耳還原劑失去 2 mol 電子。當量點時，氧化劑與還原劑的莫耳數比為何？",
+        "options": [
+          "A. 3：1",
+          "B. 1：3",
+          "C. 6：1",
+          "D. 1：1"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 5,
+        "prompt": "使用酸性高錳酸鉀滴定 Fe²⁺。若滴定管尖端原有氣泡，且在滴定過程中氣泡消失，其他操作正確，則計算出的 Fe²⁺ 濃度通常如何變化？",
+        "options": [
+          "A. 偏高",
+          "B. 偏低",
+          "C. 不變",
+          "D. 必須知道溫度才能判斷"
+        ],
+        "optionType": "radio"
+      }
+    ]
+  },
+  {
+    "id": "6afd7429-7798-83ee-bbf4-3caa599ce766",
+    "heading": "十一、本章綜合習題",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "某含鐵氧化物的化學式為 Fe₃O₄。若其中含有 Fe²⁺ 與 Fe³⁺，每個化學式單位中兩者的數目比為何？",
+        "options": [
+          "A. 1：1",
+          "B. 1：2",
+          "C. 2：1",
+          "D. 3：1"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 2,
+        "prompt": "某錯離子為 [M(NH₃)₂(C₂O₄)₂]⁻，其中 NH₃ 為單牙、C₂O₄²⁻ 為雙牙配位基。中心金屬 M 的氧化數及配位數分別為何？",
+        "options": [
+          "A. +2、4",
+          "B. +3、6",
+          "C. +3、4",
+          "D. +4、6"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 3,
+        "prompt": "將某含 Fe²⁺ 的溶液放置於空氣中，一段時間後加入足量氫氧根，發現紅褐色沉澱增加。最合理的原因為何？",
+        "options": [
+          "A. Fe²⁺ 在空氣中可能被氧化為 Fe³⁺",
+          "B. Fe²⁺ 因吸收光而變成金屬鐵",
+          "C. OH⁻ 使鐵原子核的質子數增加",
+          "D. 所有 Fe²⁺ 都不可能形成沉澱"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 4,
+        "prompt": "某學生主張：「既然不鏽鋼比純鐵耐腐蝕，所以所有合金一定比純金屬耐腐蝕。」應如何評價？",
+        "options": [
+          "A. 正確，因為合金一定有保護層",
+          "B. 正確，因為合金不會發生氧化",
+          "C. 錯誤，合金的耐腐蝕性取決於組成與環境",
+          "D. 錯誤，因為合金完全沒有金屬鍵"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 5,
+        "prompt": "某錯合物中中心金屬為 Fe³⁺，含四個中性配位基 L 與兩個 Cl⁻ 配位基。錯離子的總電荷為何？",
+        "options": [
+          "A. +1",
+          "B. +3",
+          "C. −1",
+          "D. 0"
+        ],
+        "optionType": "radio"
+      }
+    ]
+  },
+  {
+    "id": "6afd6dcd-aafc-83e8-af2c-8bcd0523da3e",
+    "heading": "十一、本章習題",
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "下列哪一組物質全部屬於酸式鹽？",
+        "options": [
+          "A. NaHSO₄、NaHCO₃、KH₂PO₄",
+          "B. NH₄Cl、NaHSO₄、NaCl",
+          "C. NaOH、NaHCO₃、Na₂SO₄",
+          "D. Na₂CO₃、KNO₃、NaHSO₄"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 2,
+        "prompt": "將等濃度的 NaCl、NH₄Cl、CH₃COONa 分別溶於水，依 pH 由小到大排列，何者正確？",
+        "options": [
+          "A. NaCl < NH₄Cl < CH₃COONa",
+          "B. NH₄Cl < NaCl < CH₃COONa",
+          "C. CH₃COONa < NaCl < NH₄Cl",
+          "D. 三者 pH 相同"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 3,
+        "prompt": "下列哪一個水解反應式正確？",
+        "options": [
+          "A. Cl⁻ + H₂O ⇌ HCl + OH⁻（顯著進行）",
+          "B. NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺",
+          "C. Na⁺ + H₂O ⇌ NaOH + H⁺（顯著進行）",
+          "D. CH₃COO⁻ + H₂O ⇌ CH₃COOH + H₃O⁺"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 4,
+        "prompt": "某鹽由單質子弱酸 HA 與弱鹼 B 形成。已知 Ka(HA)=1.0×10⁻⁵，Kb(B)=1.0×10⁻⁹，則其水溶液通常呈什麼性質？",
+        "options": [
+          "A. 酸性",
+          "B. 中性",
+          "C. 鹼性",
+          "D. 資料不足，完全無法判斷"
+        ],
+        "optionType": "radio"
+      },
+      {
+        "number": 5,
+        "prompt": "NaHCO₃ 是酸式鹽，但水溶液通常呈弱鹼性。最合理的解釋是？",
+        "options": [
+          "A. 酸式鹽在水中都會完全轉變成 OH⁻",
+          "B. Na⁺ 是強鹼，因此產生大量 OH⁻",
+          "C. HCO₃⁻ 能提供也能接受 H⁺，且其鹼性作用較強",
+          "D. HCO₃⁻ 不會與水反應"
+        ],
+        "optionType": "radio"
+      }
+    ]
+  }
+]
