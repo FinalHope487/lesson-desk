@@ -1,0 +1,89 @@
+新增科目／教材條目工作流程
+
+觸發：使用者要求新增教材、專案或科目分類。
+讀者：執行任務的 Agent。
+查核基線：2026-11-26。執行時重新核對程式與目錄，不把下列現況數字當永久常數。
+
+目標
+
+從使用者指定科目開始，經範圍確認、教材生成、對話匯入、建檔、正式版整合和畫面驗收，完成一項可追溯且不覆蓋舊教材的新增工作。
+
+一、需求與授權
+
+1. 讀取 STATE.md 和 AGENTS.md。查閱本程序列出的來源檔案；只讀任務所需內容。
+2. 收到使用者指定的科目和目標後，盤點 manifest、正式 catalog 和既有專案；判斷是既有專案新增教材、既有科目新增專案，還是新增科目分類。檢查重複條目與分類映射。
+3. 與使用者逐項確認年級、冊別、課綱、教材來源與版本、章節、篇數、每篇範圍與深度、版型、公式、例題、習題、解答、圖表、圖片和互動要求。整理成逐篇範圍清單及完整性檢查表。
+4. 將範圍、目標 ChatGPT 專案、生成方式、匯入路徑及預計修改範圍交給使用者確認。取得明確確認前，不建立對話或專案、不登記 manifest、不改檔。
+5. 確認本次教材生成 Prompt、ChatGPT 執行環境、對話來源及讀取權限。未確認或未授權時停止相關路徑。若本次要求使用 ChatGPT 審查，先核對工作區，再限制讀取範圍，要求 GPT 逐步自檢輸入、產物、閘門及失敗恢復；GPT 的建議由執行 Agent 依程式與命令獨立驗證。
+
+二、生成和內容審查
+
+6. 依核准的範圍與 Prompt，在指定 ChatGPT 專案逐篇生成教材對話。保留對話的 projectId、conversationId 和標題。
+7. 內容審查者逐篇對照範圍清單，核對學科事實、章節、公式、例題、題目、解答及必要的圖片、圖表與互動。記錄預期章節數、題數和資產數。
+8. 缺章、錯誤或生成未完成時，回到第 6 步修訂並重新審查。只有通過審查的對話才可進入匯入。
+9. 建立科目／專案／對話 ID 對照表。確認 projectId 和 conversationId 真實存在、格式正確、唯一且歸屬正確。
+
+三、保存基線、登記及匯入
+
+10. 在改檔前記錄 Git 狀態、manifest ID 集合、正式 catalog、教材檔、版本和既有後加工成果。只處理本次核准範圍；保留使用者既有改動。
+11. 更新 chatgpt-course-export-manifest.json：既有專案增加 conversationId；既有科目的新專案增加 project 物件及對話清單；正式教材使用 kind: "subject"。檢查 ID 不重複。
+12. 執行 `node build-course-library.js --local`，產生新的 expected、matched 和 missing 清單。此步會建置 .course-local 輸出與報告；不會把新教材整合到根目錄正式版。匯入前確認新 ID 在 missing。
+13. 選擇一條完整來源路徑：
+    - 直接匯出：只有在 `mcp__codex_app__read_thread` 等工具與權限可用時使用。匯出器一次處理一個目標，分頁取得對話；遇到截斷、附件、非文字內容、無效分頁或錯誤時，不接受部分資料。
+    - 官方帳號 ZIP：使用 `node build-course-library.js "<ZIP 路徑>"`。先在隔離副本核對輸出；ZIP 建置可能重建正式教材並覆蓋既有後加工成果。
+    - 單篇接收器：執行 `node import-chatgpt-page.js`，接收已取得的完整 transcript。目標 ID 必須已在 manifest 且在最新 missing 清單；腳本不會從 ChatGPT 網頁擷取對話。
+    - 網站上的「匯入對話」只將內容加入 Reader 記憶體，不會寫入 manifest、course-exports、course-content 或正式 catalog；不得用它代替正式建檔。
+14. 將原始 JSON 保存至 `course-exports/<subject>/<project> [<projectId>]/<conversationId>.json`。核對 ID、標題、專案、科目、messages、角色及訊息 ID；單篇接收器要求 JSON 合法、至少一則 assistant 訊息、訊息 ID 不重複、HTTP 請求不超過 8 MiB、目標檔不存在。不得無授權覆蓋既有檔案。
+15. 匯入器回報成功後，再執行 `node build-course-library.js --local`。確認新 expected 符合範圍、matched 等於 expected、missing 為空、所有既有 ID 仍在。接收成功或 missing 為空都不代表教材正文完整。
+16. 將原始對話、course-exports JSON 與 .course-local 產物逐項對照第 7 步完整性清單。缺少章節、題目或資產時回查原始來源；必要內容未補齊不得進入正式版整合。
+
+四、正式版整合及驗收
+
+17. 在隔離副本產生正式版候選，與第 10 步基線比較 catalog、course-content、版本、媒體和所有舊教材。`node build-course-library.js --pages` 會從匯出資料重建根目錄 index.html 和 course-content；不得直接在正式工作樹盲目執行。
+18. 候選版若改動核准範圍外資料或覆蓋既有後加工成果，停止整合並呈交差異。只有影響已在使用者核准範圍內，或取得所需授權後才繼續。
+19. 將核准的新教材、目錄條目及必要資產整合至根目錄正式版。依確認需求執行題組、解答或前導題加工；避免重複加工，保留原始資料並更新正確版本。
+20. 正式版正確後執行 `node build-course-library.js --sync-local`，確認 course-library.html 與 index.html 一致。此命令只複製 HTML，不會建置新教材。
+21. 靜態核對 manifest、建置報告、正式 catalog、course-content 檔及資產路徑的 ID 集合、科目、版本和重複情況。將預期篇數依實際清單計算；不要沿用舊的 103 篇常數。
+22. 對每個新增 ID 執行 `node audit-course-browser.js --lesson=<conversationId> --chapter-audit`。檢查載入、公式、表格、題目及章節問題；閱讀報告 issues。教材含媒體時，再執行 `node audit-course-browser.js --all-media --chapter-audit`。
+23. 執行 `node audit-course-browser.js` 做全站回歸。若有報告問題，先修正，再重跑受影響的單篇及全站稽核。
+24. 在真實瀏覽器開啟正式入口，從科目分組進入新專案及教材，檢查分類、標題、內容、公式、圖片、圖表、題目、互動及導覽。將畫面與原始對話及完整性清單比對，保存截圖和人工核對結果。
+25. 向使用者交付新教材、差異、完整性結果、稽核報告和畫面證據，等待使用者最終驗收。發布或推送 main 需另行符合專案授權規則。
+
+五、分支和恢復
+
+- 範圍不明：返回第 3–4 步；未確認不生成。
+- 內容錯誤或缺章：返回第 6–8 步。
+- ID 無效、重複或分類不符：停止匯入，返回第 9–11 步核對真實來源與 manifest。
+- read_error、invalid_response：先處理其他目標，再有限重試。一般暫時性錯誤最多再試兩次；rate_limited 至少等待 60 秒，依服務要求延長，仍失敗就暫停。
+- invalid_cursor：丟棄部分結果，重新取得完整對話。
+- truncated、unsupported_content 或附件：改用 ZIP 或可驗證的完整來源；不可用部分資料建檔。
+- file_write_failed：核對實際檔案、父目錄、權限和日誌。
+- catalog_build_failed：保留已取得 JSON，排除建置問題後重建，不必重抓來源。
+- catalog_verification_failed 或 ID 仍在 missing：核對 manifest、JSON ID、路徑和最新報告。
+- 圖片或題卡缺失：回原始來源復原；現有 recovery 腳本有固定目標數與科目映射限制，不可假設適用新教材。
+- 正式候選改動舊教材：不採用候選版；保留基線並等待整合授權。
+- 正式版找不到新 ID：返回第 17–20 步檢查正式版整合，不要重複執行 `--local`。
+- Offline HTML is out of sync：正式版確認正確後執行 `--sync-local`。
+- 任何稽核後教材再變更：重跑受影響單篇及全站驗收。
+- 任務中斷：重新核對 manifest、最新報告、原始 JSON、基線與執行紀錄；JSON 已存在則從本機建置續跑，勿重複生成或匯出。
+
+六、全新科目分類的停止條件
+
+- 現有 exporter、builder 和單篇接收器依專案名稱推導 subject；物理／化學使用特定前綴，其他正式專案預設為數學。只在原始 JSON 寫新 subject 不會解除此限制。
+- Reader 對未知 subject 可建立動態分組，但正式名稱、排序和空專案預分組仍依賴 courseSubjects。
+- 新分類匯入前，確認 exporter、builder、單篇接收器、Reader 分組及需要使用的資產恢復路徑都能保留正確 subject。
+- 匯出 runbook 目前以 14 個專案、103 篇為基準；視覺化專項稽核有固定 103 篇檢查。新增篇數或分類時確認相應基準，不支援就停用該專項驗收並回報阻擋。
+- 現行 `audit-course-rendering.js --all` 曾因模擬 DOM 缺 `document.currentScript` 執行失敗，不作為必要驗收入口；以 `audit-course-browser.js` 和真實瀏覽器為主。
+- 自動報告不能證明所有學科事實和原始內容完整；必須保留來源完整性清單並人工核對。
+
+來源索引（執行前重查行號）
+
+chatgpt-course-export-manifest.json
+export-chatgpt-courses.js:3-17,19-78,81-170
+build-course-library.js:25-41,85-163,215-220
+import-chatgpt-page.js:7-87
+luna-course-export-runbook.md:5-46
+reader.js:4,9-10,1353-1398,1694-1735
+audit-course-browser.js:226-231,829-977
+audit-course-rendering.js:49-60,107-120,175-199
+docs/project-rules.md:11-22,28-34
