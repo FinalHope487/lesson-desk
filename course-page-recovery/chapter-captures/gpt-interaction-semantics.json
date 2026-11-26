@@ -1,0 +1,494 @@
+{
+  "description": "Mechanically captured interaction semantics from authoring queue plus exact visible button-label counts from original HTML. Counts are source controls, not authoring decisions.",
+  "chapters": [
+    {
+      "id": "6af8b2ab-59ec-83ee-ad40-ab08b031bac4",
+      "heading": "第二章｜直線運動・章末測驗",
+      "questionCount": 5,
+      "captureControls": [
+        {
+          "checkbox": 0,
+          "input": 0,
+          "radio": 23,
+          "reveal": 0,
+          "submit": 0
+        }
+      ],
+      "buttonLabelCounts": {
+        "選擇題": 1,
+        "填空題": 1,
+        "申論題": 1
+      },
+      "rawSectionCount": 1,
+      "emptySections": 0
+    },
+    {
+      "id": "6afd7a9d-38f0-83e8-bcd4-e23476d2a829",
+      "heading": "十、本章綜合習題",
+      "questionCount": 4,
+      "captureControls": [
+        {
+          "checkbox": 0,
+          "fields": 0,
+          "radio": 0,
+          "reveal": 0,
+          "submit": 0,
+          "textarea": 1
+        }
+      ],
+      "buttonLabelCounts": {
+        "第 1 題｜原子經濟性與產率": 1,
+        "檢查作答": 1,
+        "第 2 題｜循環經濟的定量比較": 1,
+        "第 3 題｜氮循環與氧化還原": 1,
+        "第 4 題｜科學證據與綠色化學決策": 1
+      },
+      "rawSectionCount": 1,
+      "emptySections": 0
+    },
+    {
+      "id": "6afd7b73-0bfc-83e8-939b-bf200f7c6002",
+      "heading": "十四、本章綜合習題",
+      "questionCount": 5,
+      "captureControls": [
+        {
+          "checkbox": 0,
+          "fields": 0,
+          "radio": 0,
+          "reveal": 0,
+          "submit": 0,
+          "textarea": 5
+        }
+      ],
+      "buttonLabelCounts": {
+        "檢查此題": 5
+      },
+      "rawSectionCount": 1,
+      "emptySections": 0
+    },
+    {
+      "id": "6afd6f15-0a20-83ec-9655-7113a69d5dab",
+      "heading": "十一、章末綜合習題",
+      "questionCount": 6,
+      "captureControls": [
+        {}
+      ],
+      "buttonLabelCounts": {
+        "收起解析": 6
+      },
+      "rawSectionCount": 1,
+      "emptySections": 0
+    },
+    {
+      "id": "6afd70eb-8bf8-83e8-9273-5a10a71af1b6",
+      "heading": "十、本章綜合習題",
+      "questionCount": 5,
+      "captureControls": [
+        {
+          "checkbox": 0,
+          "input": 0,
+          "radio": 20,
+          "reveal": 0,
+          "submit": 0
+        }
+      ],
+      "buttonLabelCounts": {
+        "檢查與查看解析": 5
+      },
+      "rawSectionCount": 1,
+      "emptySections": 0
+    },
+    {
+      "id": "6afd733b-981c-83ee-af7f-e84934e89848",
+      "heading": "十一、本章綜合習題",
+      "questionCount": 5,
+      "captureControls": [
+        {
+          "checkbox": 20,
+          "fields": 0,
+          "radio": 0,
+          "reveal": 0,
+          "submit": 5,
+          "textarea": 0
+        }
+      ],
+      "buttonLabelCounts": {
+        "檢查答案與解析": 5
+      },
+      "rawSectionCount": 1,
+      "emptySections": 0
+    },
+    {
+      "id": "6afd73b8-b520-83e8-b386-6971b84f907b",
+      "heading": "十四、本章綜合習題",
+      "questionCount": 6,
+      "captureControls": [
+        {
+          "checkbox": 8,
+          "fields": 0,
+          "radio": 16,
+          "reveal": 0,
+          "submit": 1,
+          "textarea": 0
+        }
+      ],
+      "buttonLabelCounts": {
+        "批改全部題目並顯示解析": 1
+      },
+      "rawSectionCount": 1,
+      "emptySections": 0
+    },
+    {
+      "id": "6afd7491-5308-83e8-bdf3-4619eb561c21",
+      "heading": "九、本章綜合習題",
+      "questionCount": 5,
+      "captureControls": [
+        {
+          "checkbox": 20,
+          "fields": 0,
+          "radio": 0,
+          "reveal": 1,
+          "submit": 5,
+          "textarea": 0
+        }
+      ],
+      "buttonLabelCounts": {
+        "檢查答案": 5,
+        "顯示全部答案與解析": 1
+      },
+      "rawSectionCount": 1,
+      "emptySections": 0
+    },
+    {
+      "id": "6afd6c8e-ad10-83ee-bee4-b9bdb921c71e",
+      "heading": "十、本章綜合習題",
+      "questionCount": 4,
+      "captureControls": [
+        {}
+      ],
+      "buttonLabelCounts": {
+        "提示": 4,
+        "參考解答": 4
+      },
+      "rawSectionCount": 1,
+      "emptySections": 0
+    },
+    {
+      "id": "6afd565d-9a08-83ee-8d10-7feb69917418",
+      "heading": "十四、本章進階習題",
+      "questionCount": 4,
+      "captureControls": [
+        {
+          "checkbox": 16,
+          "fields": 0,
+          "radio": 0,
+          "reveal": 0,
+          "submit": 4,
+          "textarea": 0
+        }
+      ],
+      "buttonLabelCounts": {
+        "檢查答案": 4
+      },
+      "rawSectionCount": 1,
+      "emptySections": 0
+    },
+    {
+      "id": "6afd56e7-9954-83ec-a904-16424b62a913",
+      "heading": "十、本章綜合習題",
+      "questionCount": 5,
+      "captureControls": [
+        {
+          "checkbox": 8,
+          "fields": 0,
+          "radio": 12,
+          "reveal": 0,
+          "submit": 0,
+          "textarea": 0
+        }
+      ],
+      "buttonLabelCounts": {
+        "檢查並查看解析": 5
+      },
+      "rawSectionCount": 1,
+      "emptySections": 0
+    },
+    {
+      "id": "6afd5739-9200-83ee-a351-f8c4a0797707",
+      "heading": "十、本章綜合習題",
+      "questionCount": 5,
+      "captureControls": [
+        {
+          "checkbox": 8,
+          "fields": 0,
+          "radio": 12,
+          "reveal": 0,
+          "submit": 5,
+          "textarea": 0
+        }
+      ],
+      "buttonLabelCounts": {
+        "檢查答案與解析": 5
+      },
+      "rawSectionCount": 1,
+      "emptySections": 0
+    },
+    {
+      "id": "6afd578f-69fc-83e8-a5a0-c099e0b343fb",
+      "heading": "十一、本章綜合習題",
+      "questionCount": 4,
+      "captureControls": [
+        {
+          "checkbox": 16,
+          "fields": 0,
+          "radio": 0,
+          "reveal": 0,
+          "submit": 4,
+          "textarea": 0
+        }
+      ],
+      "buttonLabelCounts": {
+        "檢查答案": 4
+      },
+      "rawSectionCount": 1,
+      "emptySections": 0
+    },
+    {
+      "id": "6afd57ef-bf7c-83ee-9662-ce9fd0e6a08d",
+      "heading": "十、本章綜合習題",
+      "questionCount": 4,
+      "captureControls": [
+        {}
+      ],
+      "buttonLabelCounts": {
+        "顯示提示": 4
+      },
+      "rawSectionCount": 1,
+      "emptySections": 0
+    },
+    {
+      "id": "6afd583c-8a64-83e8-82e1-9b7ee437d461",
+      "heading": "八、本章綜合習題",
+      "questionCount": 5,
+      "captureControls": [
+        {
+          "checkbox": 22,
+          "fields": 0,
+          "radio": 0,
+          "reveal": 0,
+          "submit": 5,
+          "textarea": 0
+        }
+      ],
+      "buttonLabelCounts": {
+        "檢查答案": 5
+      },
+      "rawSectionCount": 1,
+      "emptySections": 0
+    },
+    {
+      "id": "6afd5932-2f34-83ee-ba40-57222bb343c3",
+      "heading": "十三、本章綜合習題",
+      "questionCount": 5,
+      "captureControls": [
+        {
+          "checkbox": 8,
+          "fields": 0,
+          "radio": 12,
+          "reveal": 0,
+          "submit": 5,
+          "textarea": 0
+        }
+      ],
+      "buttonLabelCounts": {
+        "檢查答案與解析": 5,
+        "重新作答": 1
+      },
+      "rawSectionCount": 1,
+      "emptySections": 0
+    },
+    {
+      "id": "6afd534c-8960-83ec-b48d-440c64d34d1e",
+      "heading": "十、本章綜合習題",
+      "questionCount": 4,
+      "captureControls": [
+        {
+          "checkbox": 4,
+          "input": 0,
+          "radio": 12,
+          "reveal": 0,
+          "submit": 0
+        }
+      ],
+      "buttonLabelCounts": {
+        "檢查並查看解析": 4
+      },
+      "rawSectionCount": 1,
+      "emptySections": 0
+    },
+    {
+      "id": "6afd5396-48ec-83ee-b084-fe3725a1cfc7",
+      "heading": "八、本章綜合習題",
+      "questionCount": 5,
+      "captureControls": [
+        {
+          "checkbox": 0,
+          "input": 0,
+          "radio": 0,
+          "reveal": 0,
+          "submit": 0
+        }
+      ],
+      "buttonLabelCounts": {
+        "提示": 5,
+        "參考答案": 5
+      },
+      "rawSectionCount": 1,
+      "emptySections": 0
+    },
+    {
+      "id": "6afd54da-7e70-83ec-8771-36f269ff7846",
+      "heading": "十二、本章綜合習題",
+      "questionCount": 5,
+      "captureControls": [
+        {
+          "checkbox": 0,
+          "fields": 0,
+          "radio": 0,
+          "reveal": 0,
+          "submit": 0,
+          "textarea": 0
+        }
+      ],
+      "buttonLabelCounts": {
+        "展開": 5
+      },
+      "rawSectionCount": 1,
+      "emptySections": 0
+    },
+    {
+      "id": "6af95540-cc94-83ee-a684-394882b52822",
+      "heading": "十一、章末綜合習題",
+      "questionCount": 6,
+      "captureControls": [
+        {
+          "checkbox": 0,
+          "input": 0,
+          "radio": 0,
+          "reveal": 0,
+          "submit": 0
+        }
+      ],
+      "buttonLabelCounts": {
+        "收起參考解答": 1
+      },
+      "rawSectionCount": 1,
+      "emptySections": 0
+    },
+    {
+      "id": "6af8cb59-be70-83ec-8c96-80bb124eda94",
+      "heading": "八、章末綜合習題",
+      "questionCount": 5,
+      "captureControls": [
+        {
+          "checkbox": 5,
+          "fields": 2,
+          "radio": 8,
+          "reveal": 0,
+          "submit": 1,
+          "textarea": 0
+        },
+        {
+          "checkbox": 0,
+          "fields": 0,
+          "radio": 0,
+          "reveal": 0,
+          "submit": 0,
+          "textarea": 0
+        }
+      ],
+      "buttonLabelCounts": {
+        "提交答案並計分": 1
+      },
+      "rawSectionCount": 2,
+      "emptySections": 1
+    },
+    {
+      "id": "6af8cbd0-8524-83e8-a28b-b32c180c11e3",
+      "heading": "八、章末綜合習題",
+      "questionCount": 6,
+      "captureControls": [
+        {
+          "checkbox": 0,
+          "fields": 3,
+          "radio": 8,
+          "reveal": 0,
+          "submit": 1,
+          "textarea": 0
+        },
+        {
+          "checkbox": 0,
+          "fields": 0,
+          "radio": 0,
+          "reveal": 0,
+          "submit": 0,
+          "textarea": 0
+        }
+      ],
+      "buttonLabelCounts": {
+        "提交並批改": 1
+      },
+      "rawSectionCount": 2,
+      "emptySections": 0
+    },
+    {
+      "id": "6af8cc07-8c48-83ec-9446-fbd8e47da050",
+      "heading": "九、章末習題",
+      "questionCount": 4,
+      "captureControls": [
+        {
+          "checkbox": 0,
+          "fields": 3,
+          "radio": 0,
+          "reveal": 0,
+          "submit": 1,
+          "textarea": 0
+        }
+      ],
+      "buttonLabelCounts": {
+        "提交並批改 3 題": 1
+      },
+      "rawSectionCount": 1,
+      "emptySections": 0
+    },
+    {
+      "id": "6af8c88a-fe88-83ec-b39e-633d06351e96",
+      "heading": "七、章末習題",
+      "questionCount": 7,
+      "captureControls": [
+        {
+          "checkbox": 0,
+          "fields": 2,
+          "radio": 12,
+          "reveal": 0,
+          "submit": 2,
+          "textarea": 1
+        },
+        {
+          "checkbox": 0,
+          "fields": 0,
+          "radio": 0,
+          "reveal": 0,
+          "submit": 0,
+          "textarea": 0
+        }
+      ],
+      "buttonLabelCounts": {
+        "提交並批改": 1,
+        "送出申論答案並批改": 1
+      },
+      "rawSectionCount": 2,
+      "emptySections": 0
+    }
+  ]
+}
