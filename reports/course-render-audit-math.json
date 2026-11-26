@@ -1,0 +1,7256 @@
+{
+  "scope": "math",
+  "lessons": 14,
+  "blocks": 6895,
+  "formulas": 4123,
+  "failures": 600,
+  "residueBlocks": 28,
+  "byFailure": {
+    "Unsupported TeX environment": 71,
+    "Unsupported TeX token: \\ne": 68,
+    "Unsupported TeX token: \\mid": 40,
+    "Unsupported TeX token: \\cap": 37,
+    "Unsupported TeX token: \\cdots": 35,
+    "Unsupported TeX token: \\cup": 29,
+    "Unsupported TeX token: \\Pi": 26,
+    "Unsupported TeX token: \\Rightarrow": 24,
+    "Unsupported TeX token: \\ldots": 21,
+    "Unsupported TeX token: \\displaystyle": 20,
+    "Unsupported TeX token: \\phi": 19,
+    "Unsupported TeX token: \\iff": 15,
+    "Unsupported TeX token: \\sum": 15,
+    "Unsupported TeX token: \\mu": 15,
+    "Unsupported TeX token: \\(": 14,
+    "Unsupported TeX token: \\det": 14,
+    "Unsupported TeX token: \\in": 12,
+    "Unsupported TeX token: \\sigma": 11,
+    "Unsupported TeX token: \\leq": 10,
+    "Unsupported TeX token: \\mathbb": 10,
+    "Unsupported TeX token: \\operatorname": 7,
+    "Unsupported TeX token: \\omega": 7,
+    "Unsupported TeX token: \\big": 7,
+    "Unsupported TeX token: \\triangle": 7,
+    "Unsupported TeX token: \\neg": 6,
+    "Unsupported TeX token: \\ell": 5,
+    "Unsupported TeX token: \\subseteq": 5,
+    "Unsupported TeX token: \\to": 4,
+    "Unsupported TeX token: \\underbrace": 4,
+    "Unsupported TeX token: \\varnothing": 4,
+    "Unsupported TeX token: \\div": 4,
+    "Unsupported TeX token: \\notin": 3,
+    "Unsupported TeX token: \\%": 3,
+    "Unsupported TeX token: \\angle": 3,
+    "Unsupported TeX token: \\Leftrightarrow": 3,
+    "Unsupported TeX token: \\longrightarrow": 3,
+    "Unsupported TeX token: \\Longleftrightarrow": 2,
+    "Unsupported TeX token: \\Sigma": 2,
+    "Unsupported TeX token: \\geq": 2,
+    "Unsupported TeX token: \\not": 2,
+    "Unsupported TeX token: \\leftrightarrow": 1,
+    "Unsupported TeX token: \\longmapsto": 1,
+    "Unsupported TeX token: \\mapsto": 1,
+    "Unsupported TeX token: \\xrightarrow": 1,
+    "Unsupported TeX token: \\bigl": 1,
+    "Unsupported TeX token: \\lceil": 1,
+    "Unsupported TeX token: \\binom": 1,
+    "Unsupported TeX token: \\phantom": 1,
+    "Unsupported TeX token: \\deg": 1,
+    "Unsupported TeX token: \\implies": 1,
+    "Unsupported TeX token: \\longleftrightarrow": 1
+  },
+  "byResidue": {
+    "未解碼的 Unicode 跳脫序列": 98,
+    "\\(": 23
+  },
+  "affectedLessons": 14,
+  "issues": [
+    {
+      "id": "6af95847-1f60-83ee-af43-b8569f99ec54",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 50,
+      "anchor": "211059dc-5cf1-4e02-aea0-ae745fc448c3:z44izi:1",
+      "kind": "paragraph",
+      "formulas": 4,
+      "failures": [
+        "Unsupported TeX token: \\ell"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95847-1f60-83ee-af43-b8569f99ec54",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 51,
+      "anchor": "211059dc-5cf1-4e02-aea0-ae745fc448c3:1op3qj2:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ell"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95847-1f60-83ee-af43-b8569f99ec54",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 53,
+      "anchor": "211059dc-5cf1-4e02-aea0-ae745fc448c3:1p3kom:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ell"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95847-1f60-83ee-af43-b8569f99ec54",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 154,
+      "anchor": "211059dc-5cf1-4e02-aea0-ae745fc448c3:149ccro:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\iff"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95847-1f60-83ee-af43-b8569f99ec54",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 157,
+      "anchor": "211059dc-5cf1-4e02-aea0-ae745fc448c3:1whl02v:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\iff"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95847-1f60-83ee-af43-b8569f99ec54",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 170,
+      "anchor": "211059dc-5cf1-4e02-aea0-ae745fc448c3:uupkvp:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\operatorname"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95847-1f60-83ee-af43-b8569f99ec54",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 174,
+      "anchor": "211059dc-5cf1-4e02-aea0-ae745fc448c3:r5m76i:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\operatorname"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95847-1f60-83ee-af43-b8569f99ec54",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 176,
+      "anchor": "211059dc-5cf1-4e02-aea0-ae745fc448c3:dbqr05:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\operatorname"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95847-1f60-83ee-af43-b8569f99ec54",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 181,
+      "anchor": "211059dc-5cf1-4e02-aea0-ae745fc448c3:1uliupl:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\leq"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95847-1f60-83ee-af43-b8569f99ec54",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 183,
+      "anchor": "211059dc-5cf1-4e02-aea0-ae745fc448c3:wkvibb:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\leq"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95847-1f60-83ee-af43-b8569f99ec54",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 185,
+      "anchor": "211059dc-5cf1-4e02-aea0-ae745fc448c3:bk91gc:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\leq"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95847-1f60-83ee-af43-b8569f99ec54",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 188,
+      "anchor": "211059dc-5cf1-4e02-aea0-ae745fc448c3:1egpoig:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\leq"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95847-1f60-83ee-af43-b8569f99ec54",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 202,
+      "anchor": "211059dc-5cf1-4e02-aea0-ae745fc448c3:epz308:1",
+      "kind": "paragraph",
+      "formulas": 4,
+      "failures": [
+        "Unsupported TeX token: \\ell",
+        "Unsupported TeX token: \\ell"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95847-1f60-83ee-af43-b8569f99ec54",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 286,
+      "anchor": "211059dc-5cf1-4e02-aea0-ae745fc448c3:18lk7bw:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95847-1f60-83ee-af43-b8569f99ec54",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 305,
+      "anchor": "211059dc-5cf1-4e02-aea0-ae745fc448c3:4kzemh:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\iff"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95847-1f60-83ee-af43-b8569f99ec54",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 312,
+      "anchor": "211059dc-5cf1-4e02-aea0-ae745fc448c3:s3j6ui:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95847-1f60-83ee-af43-b8569f99ec54",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 321,
+      "anchor": "211059dc-5cf1-4e02-aea0-ae745fc448c3:1kddd8k:1",
+      "kind": "table",
+      "formulas": 13,
+      "failures": [
+        "Unsupported TeX token: \\leq"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95847-1f60-83ee-af43-b8569f99ec54",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 339,
+      "anchor": "211059dc-5cf1-4e02-aea0-ae745fc448c3:fja11s:1",
+      "kind": "paragraph",
+      "formulas": 0,
+      "failures": [],
+      "residue": [
+        "\\("
+      ]
+    },
+    {
+      "id": "6af95847-1f60-83ee-af43-b8569f99ec54",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 340,
+      "anchor": "211059dc-5cf1-4e02-aea0-ae745fc448c3:15n5625:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\("
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95847-1f60-83ee-af43-b8569f99ec54",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 341,
+      "anchor": "211059dc-5cf1-4e02-aea0-ae745fc448c3:swbhyq:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\("
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95847-1f60-83ee-af43-b8569f99ec54",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 345,
+      "anchor": "211059dc-5cf1-4e02-aea0-ae745fc448c3:1lbpfb7:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\("
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95847-1f60-83ee-af43-b8569f99ec54",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 346,
+      "anchor": "211059dc-5cf1-4e02-aea0-ae745fc448c3:13kknef:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\("
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95847-1f60-83ee-af43-b8569f99ec54",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 347,
+      "anchor": "211059dc-5cf1-4e02-aea0-ae745fc448c3:bzhstj:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\("
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95847-1f60-83ee-af43-b8569f99ec54",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 356,
+      "anchor": "211059dc-5cf1-4e02-aea0-ae745fc448c3:puejvb:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\("
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95847-1f60-83ee-af43-b8569f99ec54",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 357,
+      "anchor": "211059dc-5cf1-4e02-aea0-ae745fc448c3:19ushum:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\("
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95847-1f60-83ee-af43-b8569f99ec54",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 358,
+      "anchor": "211059dc-5cf1-4e02-aea0-ae745fc448c3:mkkyhf:1",
+      "kind": "paragraph",
+      "formulas": 0,
+      "failures": [],
+      "residue": [
+        "\\("
+      ]
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 42,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:18pcmyd:1",
+      "kind": "paragraph",
+      "formulas": 3,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 128,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:8xd910:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\Pi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 133,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:68gfnp:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Pi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 139,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:19sl5fu:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Pi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 140,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:13gpamo:1",
+      "kind": "paragraph",
+      "formulas": 4,
+      "failures": [
+        "Unsupported TeX token: \\Pi",
+        "Unsupported TeX token: \\Pi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 154,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:1hh78p1:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Pi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 155,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:1u6lex7:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Pi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 157,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:162rga2:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Pi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 168,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:1knh1i9:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Pi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 169,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:ky5ung:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Pi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 175,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:lmeje2:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Pi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 180,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:fdgk4y:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\phi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 181,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:12tv301:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\phi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 188,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:15hjmjd:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Pi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 189,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:cd4dvz:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Pi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 199,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:4vrbk6:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Pi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 200,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:11kgh3s:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Pi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 213,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:k2kpgv:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 218,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:17z5af:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\in"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 249,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:68gfnp:2",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Pi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 252,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:67d7ms:1",
+      "kind": "list",
+      "formulas": 3,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 254,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:62f9zo:1",
+      "kind": "table",
+      "formulas": 6,
+      "failures": [
+        "Unsupported TeX token: \\notin",
+        "Unsupported TeX token: \\in",
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 261,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:1oiw201:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Pi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 276,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:yenn7d:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Pi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 293,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:nq2r57:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Pi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 294,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:rcm2ug:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Pi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 296,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:r1q4c7:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Rightarrow"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 395,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:x8jh33:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 429,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:tiymt2:1",
+      "kind": "table",
+      "formulas": 4,
+      "failures": [
+        "Unsupported TeX token: \\displaystyle",
+        "Unsupported TeX token: \\displaystyle",
+        "Unsupported TeX token: \\displaystyle",
+        "Unsupported TeX token: \\displaystyle"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 447,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:1ecra1g:1",
+      "kind": "list",
+      "formulas": 4,
+      "failures": [
+        "Unsupported TeX token: \\Pi",
+        "Unsupported TeX token: \\Pi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 450,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:nq2r57:2",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Pi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 451,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:rcm2ug:2",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Pi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 457,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:1oiw201:2",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Pi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af958ad-fad4-83ec-8ec3-466384b2d73e",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 463,
+      "anchor": "ee58bd10-ae2c-433e-81ac-456eb157285e:ilfs2m:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Pi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 36,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1ddjgcj:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Rightarrow"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 58,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1vayitp:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 63,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:i0ieb:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 67,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:tr563s:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 73,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:x35jdp:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 78,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1pj0rzh:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 80,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:13xev14:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\det"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 82,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:ij9r8:1",
+      "kind": "list",
+      "formulas": 4,
+      "failures": [
+        "Unsupported TeX environment",
+        "Unsupported TeX environment",
+        "Unsupported TeX token: \\det"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 84,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:7kahze:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 88,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:edje9w:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 95,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:r5zswa:1",
+      "kind": "list",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 101,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:z9h2h1:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 102,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:15o9ikf:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 111,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1py6sh4:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 118,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1e4f113:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 120,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1l7o7ka:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 121,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1ikzdec:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 161,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:k7tky6:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Rightarrow"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 163,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:12swua6:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Rightarrow"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 169,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:7wpyho:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 173,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:e15613:1",
+      "kind": "table",
+      "formulas": 3,
+      "failures": [
+        "Unsupported TeX token: \\leftrightarrow",
+        "Unsupported TeX token: \\to",
+        "Unsupported TeX token: \\to"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 176,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:bncpto:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\to"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 178,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1cmehgi:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 180,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1paual2:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\to"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 182,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:ex1jqs:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 188,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:oaipfk:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 190,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:ksstus:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Rightarrow"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 193,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:lpdlyi:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 202,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:23xz8c:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 217,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:jifuyz:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 219,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1g1zxdb:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 224,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:sl4ti2:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 226,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:f9aqee:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 232,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:x35jdp:2",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 235,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:cpwu9d:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\underbrace"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 241,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:14oc3qt:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 245,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1tf4tzi:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 252,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:ok76ni:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 272,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:oum4r:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 274,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:c6mmk8:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 276,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:q43st7:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 291,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1lm8med:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 295,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1shrqi4:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 317,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1pj0rzh:2",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 318,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:al9zjf:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 319,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:14qpfmr:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 322,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1dsztr0:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 325,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1iifopd:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 328,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:7x64mk:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 332,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:pbm3c:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 336,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1lu519f:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 338,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1r3egsp:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 341,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:19l0nt5:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\det"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 346,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1gcq6wa:1",
+      "kind": "table",
+      "formulas": 4,
+      "failures": [
+        "Unsupported TeX token: \\det"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 352,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1hmrwzq:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 366,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1s9ql6v:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 368,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:bxxik1:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 374,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:oya45k:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 376,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:nxytyr:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 383,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1aki3q:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 388,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1g4e4a4:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\longmapsto"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 389,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:szl6l8:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 391,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1blkt1a:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 393,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:mqhgoz:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 397,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:c465xm:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 400,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:164cbt2:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 401,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:m5nf2d:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mapsto"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 406,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1gh04fk:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 414,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1kzzx03:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 415,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:pvo0mm:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 420,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:hf5p34:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\xrightarrow"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 424,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:11iqy0k:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Rightarrow"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 429,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:164oogh:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\det"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 432,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:brd104:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 434,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1iirs7i:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\det"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 436,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:4wdrk1:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\det"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 446,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1qoyr1w:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 453,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:fdapc8:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\underbrace"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 468,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:jhidji:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 470,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:cr7yw:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 472,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1so9ljn:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 484,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:g8zp65:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\underbrace"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 491,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1t58anw:1",
+      "kind": "table",
+      "formulas": 10,
+      "failures": [
+        "Unsupported TeX token: \\ne",
+        "Unsupported TeX environment",
+        "Unsupported TeX token: \\det"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 518,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:1jx204:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 521,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:nkqpnk:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 534,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:14rytyc:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 536,
+      "anchor": "69f62a0f-1f57-4f7b-addc-53d9883c392e:11a9355:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "question": 3,
+      "field": "prompt",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "question": 4,
+      "field": "option-1",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "question": 4,
+      "field": "option-2",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "question": 4,
+      "field": "option-3",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9590b-e9f8-83ee-86ad-a6f985f07b9d",
+      "project": "高二下數 A",
+      "question": 4,
+      "field": "option-4",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 43,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1m9itxt:1",
+      "kind": "table",
+      "formulas": 7,
+      "failures": [
+        "Unsupported TeX token: \\cap",
+        "Unsupported TeX token: \\cup",
+        "Unsupported TeX token: \\varnothing"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 45,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1ol0ksh:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cap"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 47,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:k5015b:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cup"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 61,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:13ej7mi:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\leq"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 79,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:17db05q:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 80,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1jyydf2:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 91,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1n6d3zp:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 96,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1lrzk01:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 99,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1yxhxkl:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 101,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1fei6ih:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 108,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:16sxq5c:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cap"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 110,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:roy6q7:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 112,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1ywnow:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 117,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:w8buae:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 118,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:fr5tjd:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 119,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:118a3wq:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cap"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 123,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1h4m4f5:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 125,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1yvvi4f:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cap"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 127,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1wm79ve:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cap"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 129,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:5rk6y8:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cap"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 142,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:27eoct:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 174,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1aklck5:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cap"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 176,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:i80i8i:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 178,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:p3vb95:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ldots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 181,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1g26jki:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 182,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:4ctub2:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ldots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 189,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:50xnqi:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 191,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:7ragfp:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 203,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:86yz2h:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 208,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1vdcit1:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 211,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1o2r4zm:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 214,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1d46jt6:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cap"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 216,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:7krio7:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 218,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:tj4h4l:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cap"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 222,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:kfsf5z:1",
+      "kind": "list",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cap"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 232,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1r4gnmx:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cap"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 234,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1kfor8b:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cap"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 242,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1q21yb4:1",
+      "kind": "table",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\cap",
+        "Unsupported TeX token: \\cap"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 246,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:11z066m:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cap"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 262,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:dy47ep:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cap"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 264,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:a1vf93:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cap"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 272,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1gcn9pl:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cup"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 274,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1dwsnhf:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cap"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 276,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1addudy:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cup"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 277,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:z0spjh:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cup"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 280,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:zcmqmy:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cup"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 296,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1sil6b4:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 300,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:12y7fwc:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 306,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1h4m4f5:2",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 308,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1d46jt6:2",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cap"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 310,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:e25u2p:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 314,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1vtywct:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 317,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:nq6yaj:1",
+      "kind": "table",
+      "formulas": 4,
+      "failures": [
+        "Unsupported TeX token: \\mid",
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 328,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:12y7fwc:2",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 330,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1h2uk32:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 332,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:phds68:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 354,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:19xnvh7:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\%"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 356,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:3pybwb:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 358,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1ofbkjy:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 361,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1lkvi4w:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 382,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:1n6d3zp:2",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 385,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:wohvwu:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cap"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 388,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:tj4h4l:2",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cap"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 391,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:kmoky5:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 394,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:12ls7f3:1",
+      "kind": "table",
+      "formulas": 4,
+      "failures": [
+        "Unsupported TeX token: \\mid",
+        "Unsupported TeX token: \\mid",
+        "Unsupported TeX token: \\cap"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 417,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:zgj08g:1",
+      "kind": "list",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\cap",
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9595a-36f4-83ec-beed-6963a02db4e3",
+      "project": "高二下數 A",
+      "message": 2,
+      "block": 424,
+      "anchor": "c5dfdd16-d0ae-45f1-a667-8089c0131b74:8tn7nz:1",
+      "kind": "list",
+      "formulas": 4,
+      "failures": [
+        "Unsupported TeX token: \\cap",
+        "Unsupported TeX token: \\cap",
+        "Unsupported TeX token: \\cup",
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 106,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:1rtxjao:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 117,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:qcrk25:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 168,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:651ao3:1",
+      "kind": "table",
+      "formulas": 12,
+      "failures": [
+        "Unsupported TeX token: \\mathbb",
+        "Unsupported TeX token: \\mathbb",
+        "Unsupported TeX token: \\ne",
+        "Unsupported TeX token: \\mathbb"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 169,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:mzdkoe:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\in"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 186,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:17i8i3c:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\in"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 192,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:16e425d:1",
+      "kind": "table",
+      "formulas": 11,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 200,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:9crhtu:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\bigl"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 203,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:rweeeh:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\ne",
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 253,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:7ye2bh:1",
+      "kind": "paragraph",
+      "formulas": 3,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 271,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:x3ze41:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\omega"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 272,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:1xbhp3t:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\omega"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 274,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:17ojv3r:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\omega"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 285,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:6i5qbd:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 404,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:x13ra8:1",
+      "kind": "list",
+      "formulas": 1,
+      "failures": [],
+      "residue": [
+        "\\("
+      ]
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 405,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:7nh7oi:1",
+      "kind": "list",
+      "formulas": 1,
+      "failures": [],
+      "residue": [
+        "\\("
+      ]
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 406,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:4fz0hv:1",
+      "kind": "list",
+      "formulas": 1,
+      "failures": [],
+      "residue": [
+        "\\("
+      ]
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 407,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:vqbxlk:1",
+      "kind": "list",
+      "formulas": 1,
+      "failures": [],
+      "residue": [
+        "\\("
+      ]
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 424,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:w5ne1g:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\phi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 425,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:1xmcp9u:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\phi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 427,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:13mdlas:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\phi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 429,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:1pkd6uf:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\phi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 430,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:2n2f6n:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\phi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 432,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:l3hyrf:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\phi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 433,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:4va1c5:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\phi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 437,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:pt94f:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\phi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 446,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:12f1tb9:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\phi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 448,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:1kh75ft:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\phi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 449,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:mi3l1o:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\phi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 450,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:1pozdlp:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\phi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 454,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:f6lvjc:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\phi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 456,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:b8f7dz:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\phi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 476,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:ucfhb6:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\omega"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 478,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:1yk6qgf:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\omega"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 481,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:hmpble:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\omega"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 482,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:1hrasi8:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\omega"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 527,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:w5ne1g:2",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\phi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956fc-4454-83ec-b84a-08c70b2af2a8",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 528,
+      "anchor": "87cb3f62-9d96-4054-ae6e-7f5d8c82d270:1xwno0b:1",
+      "kind": "paragraph",
+      "formulas": 4,
+      "failures": [
+        "Unsupported TeX token: \\phi",
+        "Unsupported TeX token: \\phi"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95743-1c44-83ee-b4a7-8b250a12f87f",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 6,
+      "anchor": "b9ba293b-0412-4d84-9a1c-cfd20e23960f:jz2oi2:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Longleftrightarrow"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95743-1c44-83ee-b4a7-8b250a12f87f",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 22,
+      "anchor": "b9ba293b-0412-4d84-9a1c-cfd20e23960f:1ghw2x4:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\underbrace"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95743-1c44-83ee-b4a7-8b250a12f87f",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 29,
+      "anchor": "b9ba293b-0412-4d84-9a1c-cfd20e23960f:11feet7:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\div"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95743-1c44-83ee-b4a7-8b250a12f87f",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 32,
+      "anchor": "b9ba293b-0412-4d84-9a1c-cfd20e23960f:2tepg2:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95743-1c44-83ee-b4a7-8b250a12f87f",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 49,
+      "anchor": "b9ba293b-0412-4d84-9a1c-cfd20e23960f:1bbpdgd:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95743-1c44-83ee-b4a7-8b250a12f87f",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 59,
+      "anchor": "b9ba293b-0412-4d84-9a1c-cfd20e23960f:oak61s:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95743-1c44-83ee-b4a7-8b250a12f87f",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 62,
+      "anchor": "b9ba293b-0412-4d84-9a1c-cfd20e23960f:1jyhfbg:1",
+      "kind": "list",
+      "formulas": 3,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95743-1c44-83ee-b4a7-8b250a12f87f",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 64,
+      "anchor": "b9ba293b-0412-4d84-9a1c-cfd20e23960f:86yxtl:1",
+      "kind": "paragraph",
+      "formulas": 0,
+      "failures": [],
+      "residue": [
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列"
+      ]
+    },
+    {
+      "id": "6af95743-1c44-83ee-b4a7-8b250a12f87f",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 95,
+      "anchor": "b9ba293b-0412-4d84-9a1c-cfd20e23960f:1g8p18y:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ldots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95743-1c44-83ee-b4a7-8b250a12f87f",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 105,
+      "anchor": "b9ba293b-0412-4d84-9a1c-cfd20e23960f:128mgqy:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\%"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95743-1c44-83ee-b4a7-8b250a12f87f",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 136,
+      "anchor": "b9ba293b-0412-4d84-9a1c-cfd20e23960f:1vxw8do:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Longleftrightarrow"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95743-1c44-83ee-b4a7-8b250a12f87f",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 138,
+      "anchor": "b9ba293b-0412-4d84-9a1c-cfd20e23960f:w09a1z:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95743-1c44-83ee-b4a7-8b250a12f87f",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 189,
+      "anchor": "b9ba293b-0412-4d84-9a1c-cfd20e23960f:32zu9:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95743-1c44-83ee-b4a7-8b250a12f87f",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 202,
+      "anchor": "b9ba293b-0412-4d84-9a1c-cfd20e23960f:4jqe3v:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95743-1c44-83ee-b4a7-8b250a12f87f",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 230,
+      "anchor": "b9ba293b-0412-4d84-9a1c-cfd20e23960f:82w6tf:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95743-1c44-83ee-b4a7-8b250a12f87f",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 238,
+      "anchor": "b9ba293b-0412-4d84-9a1c-cfd20e23960f:yf9dv6:1",
+      "kind": "list",
+      "formulas": 1,
+      "failures": [],
+      "residue": [
+        "\\("
+      ]
+    },
+    {
+      "id": "6af95743-1c44-83ee-b4a7-8b250a12f87f",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 239,
+      "anchor": "b9ba293b-0412-4d84-9a1c-cfd20e23960f:1jsqnuz:1",
+      "kind": "list",
+      "formulas": 1,
+      "failures": [],
+      "residue": [
+        "\\("
+      ]
+    },
+    {
+      "id": "6af95743-1c44-83ee-b4a7-8b250a12f87f",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 240,
+      "anchor": "b9ba293b-0412-4d84-9a1c-cfd20e23960f:6jh6mx:1",
+      "kind": "list",
+      "formulas": 1,
+      "failures": [],
+      "residue": [
+        "\\("
+      ]
+    },
+    {
+      "id": "6af95743-1c44-83ee-b4a7-8b250a12f87f",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 241,
+      "anchor": "b9ba293b-0412-4d84-9a1c-cfd20e23960f:1ev588h:1",
+      "kind": "list",
+      "formulas": 1,
+      "failures": [],
+      "residue": [
+        "\\("
+      ]
+    },
+    {
+      "id": "6af95743-1c44-83ee-b4a7-8b250a12f87f",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 246,
+      "anchor": "b9ba293b-0412-4d84-9a1c-cfd20e23960f:1r5x71h:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95743-1c44-83ee-b4a7-8b250a12f87f",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 255,
+      "anchor": "b9ba293b-0412-4d84-9a1c-cfd20e23960f:8r9jx3:1",
+      "kind": "paragraph",
+      "formulas": 0,
+      "failures": [],
+      "residue": [
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列"
+      ]
+    },
+    {
+      "id": "6af95743-1c44-83ee-b4a7-8b250a12f87f",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 302,
+      "anchor": "b9ba293b-0412-4d84-9a1c-cfd20e23960f:jw8bbb:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Rightarrow"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95743-1c44-83ee-b4a7-8b250a12f87f",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 366,
+      "anchor": "b9ba293b-0412-4d84-9a1c-cfd20e23960f:1bvhsu2:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\iff"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95743-1c44-83ee-b4a7-8b250a12f87f",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 368,
+      "anchor": "b9ba293b-0412-4d84-9a1c-cfd20e23960f:5d08ac:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\iff"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95743-1c44-83ee-b4a7-8b250a12f87f",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 378,
+      "anchor": "b9ba293b-0412-4d84-9a1c-cfd20e23960f:17r2mgz:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Rightarrow"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95743-1c44-83ee-b4a7-8b250a12f87f",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 451,
+      "anchor": "b9ba293b-0412-4d84-9a1c-cfd20e23960f:1caa0oq:1",
+      "kind": "table",
+      "formulas": 11,
+      "failures": [
+        "Unsupported TeX token: \\iff"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 96,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:19fnn4w:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 98,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:1h40byn:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\iff"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 155,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:iybtl5:1",
+      "kind": "paragraph",
+      "formulas": 3,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 210,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:18etwc8:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\big"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 222,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:gge8lj:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\big"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 224,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:1vdm041:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\big"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 227,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:1b0u63r:1",
+      "kind": "table",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\big"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 233,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:1iwwq35:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\big"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 239,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:9jkqm0:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\big"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 298,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:12ormak:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\iff"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 357,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:1ckzrre:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\operatorname"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 359,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:1i4j607:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\operatorname"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 361,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:103a87s:1",
+      "kind": "list",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 370,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:1oa4h0m:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\operatorname"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 403,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:13dnhmv:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\iff"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 456,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:1tquz65:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 462,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:14cwc1z:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 474,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:1vnb9t2:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 485,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:pgxtdc:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\triangle"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 496,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:146c1z4:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 498,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:11g8ixp:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\triangle"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 503,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:1xauv54:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\iff"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 505,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:19t9jtc:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 506,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:alonmk:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX environment"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 512,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:1qocezn:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\det"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 514,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:pubeza:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\det"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 516,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:m7egsh:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\det"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 517,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:4ranzb:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\det"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 525,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:14yj0g1:1",
+      "kind": "table",
+      "formulas": 13,
+      "failures": [
+        "Unsupported TeX token: \\operatorname",
+        "Unsupported TeX token: \\big",
+        "Unsupported TeX token: \\det",
+        "Unsupported TeX token: \\det"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "message": 2,
+      "block": 559,
+      "anchor": "f7f88fb0-2132-483e-ae90-777618e2ab45:1ptw6w9:1",
+      "kind": "list",
+      "formulas": 4,
+      "failures": [
+        "Unsupported TeX token: \\triangle",
+        "Unsupported TeX token: \\triangle",
+        "Unsupported TeX token: \\triangle"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "question": 1,
+      "field": "option-1",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9578f-3cd4-83e8-adcf-08000d30a960",
+      "project": "高二上數 A",
+      "question": 2,
+      "field": "prompt",
+      "formulas": 3,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af955d0-1168-83ec-b520-a752fce3ba9b",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 43,
+      "anchor": "0d5ca2cd-ed0c-485b-a35a-9b02de6086da:11feupk:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\displaystyle"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af955d0-1168-83ec-b520-a752fce3ba9b",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 46,
+      "anchor": "0d5ca2cd-ed0c-485b-a35a-9b02de6086da:6qxm5m:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\displaystyle"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af955d0-1168-83ec-b520-a752fce3ba9b",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 49,
+      "anchor": "0d5ca2cd-ed0c-485b-a35a-9b02de6086da:1a6blk3:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\displaystyle"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af955d0-1168-83ec-b520-a752fce3ba9b",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 104,
+      "anchor": "0d5ca2cd-ed0c-485b-a35a-9b02de6086da:1dmnikf:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af955d0-1168-83ec-b520-a752fce3ba9b",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 147,
+      "anchor": "0d5ca2cd-ed0c-485b-a35a-9b02de6086da:1u13ojj:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af955d0-1168-83ec-b520-a752fce3ba9b",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 349,
+      "anchor": "0d5ca2cd-ed0c-485b-a35a-9b02de6086da:p9sko:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\angle"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af955d0-1168-83ec-b520-a752fce3ba9b",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 498,
+      "anchor": "0d5ca2cd-ed0c-485b-a35a-9b02de6086da:wv2ojl:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\angle"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af955d0-1168-83ec-b520-a752fce3ba9b",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 499,
+      "anchor": "0d5ca2cd-ed0c-485b-a35a-9b02de6086da:1p96hg0:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\angle"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 8,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:1h752zp:1",
+      "kind": "list",
+      "formulas": 3,
+      "failures": [
+        "Unsupported TeX token: \\Sigma"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 29,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:12dqz42:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ldots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 37,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:11wbbpd:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ldots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 51,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:1ij814:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ldots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 78,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:wc7kt2:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ldots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 118,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:1nzq7hs:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ldots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 123,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:edyoyg:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 136,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:1vdlev1:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ldots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 148,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:bghue0:1",
+      "kind": "list",
+      "formulas": 1,
+      "failures": [],
+      "residue": [
+        "\\("
+      ]
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 149,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:1t0vtw2:1",
+      "kind": "list",
+      "formulas": 2,
+      "failures": [],
+      "residue": [
+        "\\("
+      ]
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 150,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:98v2mr:1",
+      "kind": "list",
+      "formulas": 1,
+      "failures": [],
+      "residue": [
+        "\\("
+      ]
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 151,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:1ag6ko6:1",
+      "kind": "list",
+      "formulas": 0,
+      "failures": [],
+      "residue": [
+        "\\("
+      ]
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 167,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:p3d53l:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 175,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:1gnt1xv:1",
+      "kind": "heading",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Sigma"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 177,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:1qa5xev:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\sum"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 181,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:1kjnhpe:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\sum"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 186,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:1qzqs3a:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\sum"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 188,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:zeao6q:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\sum"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 190,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:fz6kq7:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\sum"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 194,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:ykrxd1:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 196,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:13vdgip:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 211,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:vhepm5:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 217,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:ykrxd1:2",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 219,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:dvdihn:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 232,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:14n06kp:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 250,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:18p2wbj:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 252,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:1qs93rz:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 255,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:mjqj3o:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 284,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:1bo9eri:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 288,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:1j6092f:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ldots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 289,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:1vuzl3:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\sum"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 292,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:1bo9eri:2",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 294,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:bzh5s0:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\sum"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 300,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:lovl0d:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 304,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:19t1cj6:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\sum"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 306,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:tkj4wp:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\sum"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 310,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:1j4ifu8:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 312,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:1mmq0h7:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\sum"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 314,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:17fqpn0:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 324,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:15ue65j:1",
+      "kind": "table",
+      "formulas": 3,
+      "failures": [
+        "Unsupported TeX token: \\displaystyle",
+        "Unsupported TeX token: \\displaystyle",
+        "Unsupported TeX token: \\displaystyle"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 327,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:1o5ig7a:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\sum"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 329,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:zila3y:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\sum"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 344,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:98pj3x:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 351,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:16vheps:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 363,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:1bfgf0q:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 372,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:1vs3e2l:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 376,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:1iduqbk:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 378,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:13k3gvc:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 386,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:fcqx5x:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\sum"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 404,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:1vv64jb:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Rightarrow"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 412,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:a25xgl:1",
+      "kind": "table",
+      "formulas": 6,
+      "failures": [
+        "Unsupported TeX token: \\Rightarrow"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 415,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:6pwvs8:1",
+      "kind": "table",
+      "formulas": 10,
+      "failures": [
+        "Unsupported TeX token: \\displaystyle",
+        "Unsupported TeX token: \\displaystyle",
+        "Unsupported TeX token: \\displaystyle",
+        "Unsupported TeX token: \\displaystyle",
+        "Unsupported TeX token: \\displaystyle",
+        "Unsupported TeX token: \\displaystyle",
+        "Unsupported TeX token: \\displaystyle",
+        "Unsupported TeX token: \\displaystyle",
+        "Unsupported TeX token: \\displaystyle"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 426,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:75b2de:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\("
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 427,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:1ohap7f:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\("
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 433,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:1skhtza:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\("
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 434,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:1ly7c0t:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\("
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 438,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:16i04wb:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\sum"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 443,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:1d4r28d:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\("
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 444,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:1ceunob:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\("
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 449,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:13530m5:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\("
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95615-ac38-83e8-a03f-3597c21e64ee",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 450,
+      "anchor": "10b60ddf-8257-4c1d-9c9b-43d87dd10bb7:1aa9o1u:1",
+      "kind": "paragraph",
+      "formulas": 0,
+      "failures": [],
+      "residue": [
+        "\\("
+      ]
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 8,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:v9nlng:1",
+      "kind": "list",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\sum"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 24,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:11hl9ak:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\in"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 26,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:xzd27r:1",
+      "kind": "list",
+      "formulas": 5,
+      "failures": [
+        "Unsupported TeX token: \\mathbb",
+        "Unsupported TeX token: \\in",
+        "Unsupported TeX token: \\mid"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 29,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:snder8:1",
+      "kind": "table",
+      "formulas": 17,
+      "failures": [
+        "Unsupported TeX token: \\in",
+        "Unsupported TeX token: \\in",
+        "Unsupported TeX token: \\notin",
+        "Unsupported TeX token: \\notin",
+        "Unsupported TeX token: \\subseteq",
+        "Unsupported TeX token: \\subseteq",
+        "Unsupported TeX token: \\varnothing",
+        "Unsupported TeX token: \\in"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 30,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:1ozuab8:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mathbb"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 32,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:1694w3k:1",
+      "kind": "list",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\in",
+        "Unsupported TeX token: \\subseteq"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 33,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:nlpoeo:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\subseteq",
+        "Unsupported TeX token: \\varnothing"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 39,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:9igggo:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cap"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 40,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:19jazw8:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cap"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 41,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:1d8f01v:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cup"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 42,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:1xa0hwe:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cup"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 50,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:1doix7b:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cup"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 57,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:fc82wy:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cap"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 59,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:y1k9yq:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cup"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 77,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:5ja21o:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\neg"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 79,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:k29hwz:1",
+      "kind": "table",
+      "formulas": 9,
+      "failures": [
+        "Unsupported TeX token: \\leq",
+        "Unsupported TeX token: \\geq",
+        "Unsupported TeX token: \\leq",
+        "Unsupported TeX token: \\geq"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 81,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:1ry8dx:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\neg"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 84,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:1u02r6l:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\neg"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 90,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:ggtus5:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Rightarrow"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 97,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:1kx46ta:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\not"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 98,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:1i9bpu0:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\Rightarrow",
+        "Unsupported TeX token: \\Rightarrow"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 102,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:1bwosvx:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Rightarrow"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 106,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:zjp2l6:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Rightarrow"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 112,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:gnfykr:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Rightarrow"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 114,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:1ruqdws:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Leftrightarrow"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 117,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:8zlksn:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Leftrightarrow"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 121,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:1bwosvx:2",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Rightarrow"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 123,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:eyz6fz:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Rightarrow"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 126,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:lyyp09:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\neg"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 134,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:1nptrfn:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\Rightarrow",
+        "Unsupported TeX token: \\neg"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 151,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:133wzwf:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ldots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 154,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:18pxom5:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 155,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:1vyi4p1:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\mu"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 185,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:1tvor7s:1",
+      "kind": "list",
+      "formulas": 6,
+      "failures": [
+        "Unsupported TeX token: \\lceil"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 207,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:1tt9ofd:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\sigma"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 209,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:7s3zpu:1",
+      "kind": "list",
+      "formulas": 4,
+      "failures": [
+        "Unsupported TeX token: \\mu",
+        "Unsupported TeX token: \\mu",
+        "Unsupported TeX token: \\sigma"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 214,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:1k5lykx:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\sigma"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 215,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:18vje5y:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\sigma"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 220,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:hrkrbs:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\sigma"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 221,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:13m9jsu:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\sigma"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 223,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:2udah2:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\sigma"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 233,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:kybpqh:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mu"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 234,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:12s6bxe:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\sigma"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 238,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:1n0zqty:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mu"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 257,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:83k3xo:1",
+      "kind": "list",
+      "formulas": 4,
+      "failures": [
+        "Unsupported TeX token: \\mu",
+        "Unsupported TeX token: \\sigma"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 264,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:1jtp0ir:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mu"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 280,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:13xwyan:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ldots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 286,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:nr7dic:1",
+      "kind": "paragraph",
+      "formulas": 0,
+      "failures": [],
+      "residue": [
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列"
+      ]
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 299,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:11l1haa:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\leq"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 314,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:1bqcdbx:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 316,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:1k5cskm:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mu"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 318,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:1jkrzxk:1",
+      "kind": "list",
+      "formulas": 3,
+      "failures": [
+        "Unsupported TeX token: \\mu",
+        "Unsupported TeX token: \\sigma"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 342,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:1x45guz:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mu"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 344,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:fkn5uc:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\sigma"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 346,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:1fkq8ut:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mu"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 348,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:1bp7ck6:1",
+      "kind": "list",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\mu"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 354,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:1qadjw4:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mu"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 356,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:yibic2:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mu"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 375,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:tbp0tt:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\not"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95661-c488-83ec-9b13-986d06cf2b7f",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 386,
+      "anchor": "01c0a771-1eff-4697-a584-bdcecc93bc2a:1i7hx9g:1",
+      "kind": "table",
+      "formulas": 10,
+      "failures": [
+        "Unsupported TeX token: \\subseteq",
+        "Unsupported TeX token: \\cap",
+        "Unsupported TeX token: \\cup",
+        "Unsupported TeX token: \\cup",
+        "Unsupported TeX token: \\Rightarrow",
+        "Unsupported TeX token: \\Leftrightarrow",
+        "Unsupported TeX token: \\Rightarrow",
+        "Unsupported TeX token: \\neg",
+        "Unsupported TeX token: \\leq",
+        "Unsupported TeX token: \\mu"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956a4-7018-83ee-bd63-4a2fa9593d7a",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 36,
+      "anchor": "bee8b564-8893-4347-9b35-0e3a216f0149:1nyh665:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956a4-7018-83ee-bd63-4a2fa9593d7a",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 45,
+      "anchor": "bee8b564-8893-4347-9b35-0e3a216f0149:jt3dht:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956a4-7018-83ee-bd63-4a2fa9593d7a",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 74,
+      "anchor": "bee8b564-8893-4347-9b35-0e3a216f0149:2tew9m:1",
+      "kind": "table",
+      "formulas": 4,
+      "failures": [
+        "Unsupported TeX token: \\cup",
+        "Unsupported TeX token: \\cap",
+        "Unsupported TeX token: \\varnothing"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956a4-7018-83ee-bd63-4a2fa9593d7a",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 76,
+      "anchor": "bee8b564-8893-4347-9b35-0e3a216f0149:1doix7b:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cup"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956a4-7018-83ee-bd63-4a2fa9593d7a",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 78,
+      "anchor": "bee8b564-8893-4347-9b35-0e3a216f0149:6wpp25:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cap"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956a4-7018-83ee-bd63-4a2fa9593d7a",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 90,
+      "anchor": "bee8b564-8893-4347-9b35-0e3a216f0149:95li92:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956a4-7018-83ee-bd63-4a2fa9593d7a",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 92,
+      "anchor": "bee8b564-8893-4347-9b35-0e3a216f0149:yaqedm:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956a4-7018-83ee-bd63-4a2fa9593d7a",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 129,
+      "anchor": "bee8b564-8893-4347-9b35-0e3a216f0149:1jw47qr:1",
+      "kind": "paragraph",
+      "formulas": 4,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956a4-7018-83ee-bd63-4a2fa9593d7a",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 130,
+      "anchor": "bee8b564-8893-4347-9b35-0e3a216f0149:1xwah8:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956a4-7018-83ee-bd63-4a2fa9593d7a",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 131,
+      "anchor": "bee8b564-8893-4347-9b35-0e3a216f0149:14qdf8a:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956a4-7018-83ee-bd63-4a2fa9593d7a",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 167,
+      "anchor": "bee8b564-8893-4347-9b35-0e3a216f0149:ycvdgf:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\binom"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956a4-7018-83ee-bd63-4a2fa9593d7a",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 212,
+      "anchor": "bee8b564-8893-4347-9b35-0e3a216f0149:1xfyr6v:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956a4-7018-83ee-bd63-4a2fa9593d7a",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 282,
+      "anchor": "bee8b564-8893-4347-9b35-0e3a216f0149:c9rug4:1",
+      "kind": "list",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\cap",
+        "Unsupported TeX token: \\cup"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956a4-7018-83ee-bd63-4a2fa9593d7a",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 284,
+      "anchor": "bee8b564-8893-4347-9b35-0e3a216f0149:1ol0ksh:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cap"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956a4-7018-83ee-bd63-4a2fa9593d7a",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 285,
+      "anchor": "bee8b564-8893-4347-9b35-0e3a216f0149:19jy24q:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cup"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956a4-7018-83ee-bd63-4a2fa9593d7a",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 287,
+      "anchor": "bee8b564-8893-4347-9b35-0e3a216f0149:121uqj5:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cup"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956a4-7018-83ee-bd63-4a2fa9593d7a",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 289,
+      "anchor": "bee8b564-8893-4347-9b35-0e3a216f0149:k5015b:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cup"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956a4-7018-83ee-bd63-4a2fa9593d7a",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 298,
+      "anchor": "bee8b564-8893-4347-9b35-0e3a216f0149:1kzytjd:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cap"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956a4-7018-83ee-bd63-4a2fa9593d7a",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 300,
+      "anchor": "bee8b564-8893-4347-9b35-0e3a216f0149:11z066m:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cap"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956a4-7018-83ee-bd63-4a2fa9593d7a",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 302,
+      "anchor": "bee8b564-8893-4347-9b35-0e3a216f0149:1cbgcfq:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cup"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956a4-7018-83ee-bd63-4a2fa9593d7a",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 337,
+      "anchor": "bee8b564-8893-4347-9b35-0e3a216f0149:zlfxv:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\ldots",
+        "Unsupported TeX token: \\ldots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956a4-7018-83ee-bd63-4a2fa9593d7a",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 338,
+      "anchor": "bee8b564-8893-4347-9b35-0e3a216f0149:1yhbt36:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af956a4-7018-83ee-bd63-4a2fa9593d7a",
+      "project": "高一下數學",
+      "message": 2,
+      "block": 363,
+      "anchor": "bee8b564-8893-4347-9b35-0e3a216f0149:10tkr4b:1",
+      "kind": "table",
+      "formulas": 17,
+      "failures": [
+        "Unsupported TeX token: \\cup",
+        "Unsupported TeX token: \\cdots",
+        "Unsupported TeX token: \\cdots",
+        "Unsupported TeX token: \\cap",
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 29,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:2sxal8:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mathbb"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 30,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:fsrq50:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mathbb"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 33,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:euyhba:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mathbb"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 43,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:x6ldbm:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\in"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 45,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:m96iyp:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\in",
+        "Unsupported TeX token: \\mathbb"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 50,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:w7bh6l:1",
+      "kind": "table",
+      "formulas": 3,
+      "failures": [
+        "Unsupported TeX token: \\ldots",
+        "Unsupported TeX token: \\ldots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 52,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:1y9sc76:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ldots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 53,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:17qh1dj:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ldots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 55,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:1uqbj7t:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ldots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 71,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:z7vkse:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Rightarrow"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 74,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:1ktbjxf:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Rightarrow"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 136,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:mai9j4:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\iff"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 165,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:1bbvlp1:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cup"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 166,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:woo6tr:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cup"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 211,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:1tnpe4x:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 244,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:i6pwvq:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 250,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:1s8s4p0:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 252,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:7ji9x:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 257,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:1jqdcvi:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 263,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:18a66fl:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\phantom"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 272,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:wswqcw:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 306,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:7lstq7:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 332,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:getqak:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ldots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 334,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:1qpzo9i:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ldots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 396,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:152xb3m:1",
+      "kind": "list",
+      "formulas": 2,
+      "failures": [],
+      "residue": [
+        "\\("
+      ]
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 397,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:6o8c2n:1",
+      "kind": "list",
+      "formulas": 2,
+      "failures": [],
+      "residue": [
+        "\\("
+      ]
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 398,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:1q9ihex:1",
+      "kind": "list",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": [
+        "\\("
+      ]
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 399,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:qu56z3:1",
+      "kind": "list",
+      "formulas": 2,
+      "failures": [],
+      "residue": [
+        "\\("
+      ]
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 407,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:syla82:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 453,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:1up2ec0:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\%"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 478,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:cjvymp:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\iff"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 553,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:c6dtgl:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 554,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:1hxl6mo:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 555,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:4wllv3:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 556,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:fl23uf:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af954d9-f778-83ee-a844-d106aa582725",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 557,
+      "anchor": "d457c560-4bc8-4960-ab26-d56ccca71b75:ehsxv9:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95540-cc94-83ee-a684-394882b52822",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 64,
+      "anchor": "2deda167-9c1a-4f5f-8a39-338bba22dc29:vnaxkg:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95540-cc94-83ee-a684-394882b52822",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 95,
+      "anchor": "2deda167-9c1a-4f5f-8a39-338bba22dc29:1ta9zn:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95540-cc94-83ee-a684-394882b52822",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 122,
+      "anchor": "2deda167-9c1a-4f5f-8a39-338bba22dc29:cadxjj:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\Rightarrow"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95540-cc94-83ee-a684-394882b52822",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 186,
+      "anchor": "2deda167-9c1a-4f5f-8a39-338bba22dc29:no98us:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\triangle"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95540-cc94-83ee-a684-394882b52822",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 189,
+      "anchor": "2deda167-9c1a-4f5f-8a39-338bba22dc29:12itnr4:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\triangle"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95540-cc94-83ee-a684-394882b52822",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 416,
+      "anchor": "2deda167-9c1a-4f5f-8a39-338bba22dc29:13bb3m0:1",
+      "kind": "table",
+      "formulas": 12,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95540-cc94-83ee-a684-394882b52822",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 464,
+      "anchor": "2deda167-9c1a-4f5f-8a39-338bba22dc29:xzpoim:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\longrightarrow"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95540-cc94-83ee-a684-394882b52822",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 465,
+      "anchor": "2deda167-9c1a-4f5f-8a39-338bba22dc29:1d81ipj:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\longrightarrow"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af95540-cc94-83ee-a684-394882b52822",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 466,
+      "anchor": "2deda167-9c1a-4f5f-8a39-338bba22dc29:5why77:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\longrightarrow"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 35,
+      "anchor": "94bc5c72-ac76-4a4b-b9d5-2dadb5bf2895:13jqwdn:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cdots"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 36,
+      "anchor": "94bc5c72-ac76-4a4b-b9d5-2dadb5bf2895:1u7b8z2:1",
+      "kind": "paragraph",
+      "formulas": 2,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 62,
+      "anchor": "94bc5c72-ac76-4a4b-b9d5-2dadb5bf2895:84vted:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\deg"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 67,
+      "anchor": "94bc5c72-ac76-4a4b-b9d5-2dadb5bf2895:18scl4w:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\div"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 71,
+      "anchor": "94bc5c72-ac76-4a4b-b9d5-2dadb5bf2895:13ape0a:1",
+      "kind": "list",
+      "formulas": 7,
+      "failures": [
+        "Unsupported TeX token: \\div",
+        "Unsupported TeX token: \\div"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 108,
+      "anchor": "94bc5c72-ac76-4a4b-b9d5-2dadb5bf2895:1poss24:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\iff"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 109,
+      "anchor": "94bc5c72-ac76-4a4b-b9d5-2dadb5bf2895:z5jjf5:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\iff"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 145,
+      "anchor": "94bc5c72-ac76-4a4b-b9d5-2dadb5bf2895:vi28qp:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\mathbb"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 174,
+      "anchor": "94bc5c72-ac76-4a4b-b9d5-2dadb5bf2895:t4did2:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 188,
+      "anchor": "94bc5c72-ac76-4a4b-b9d5-2dadb5bf2895:18pmb97:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\implies"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 195,
+      "anchor": "94bc5c72-ac76-4a4b-b9d5-2dadb5bf2895:1vq6l5a:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 237,
+      "anchor": "94bc5c72-ac76-4a4b-b9d5-2dadb5bf2895:x3j5qy:1",
+      "kind": "paragraph",
+      "formulas": 0,
+      "failures": [],
+      "residue": [
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列"
+      ]
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 279,
+      "anchor": "94bc5c72-ac76-4a4b-b9d5-2dadb5bf2895:1dqdwqa:1",
+      "kind": "list",
+      "formulas": 0,
+      "failures": [],
+      "residue": [
+        "\\("
+      ]
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 280,
+      "anchor": "94bc5c72-ac76-4a4b-b9d5-2dadb5bf2895:j02mfc:1",
+      "kind": "list",
+      "formulas": 1,
+      "failures": [],
+      "residue": [
+        "\\("
+      ]
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 281,
+      "anchor": "94bc5c72-ac76-4a4b-b9d5-2dadb5bf2895:102qoa4:1",
+      "kind": "list",
+      "formulas": 0,
+      "failures": [],
+      "residue": [
+        "\\("
+      ]
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 282,
+      "anchor": "94bc5c72-ac76-4a4b-b9d5-2dadb5bf2895:1v2yop6:1",
+      "kind": "list",
+      "formulas": 1,
+      "failures": [],
+      "residue": [
+        "\\("
+      ]
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 297,
+      "anchor": "94bc5c72-ac76-4a4b-b9d5-2dadb5bf2895:14fywc0:1",
+      "kind": "paragraph",
+      "formulas": 3,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 304,
+      "anchor": "94bc5c72-ac76-4a4b-b9d5-2dadb5bf2895:b3bojs:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 308,
+      "anchor": "94bc5c72-ac76-4a4b-b9d5-2dadb5bf2895:108n86t:1",
+      "kind": "paragraph",
+      "formulas": 0,
+      "failures": [],
+      "residue": [
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列",
+        "未解碼的 Unicode 跳脫序列"
+      ]
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 335,
+      "anchor": "94bc5c72-ac76-4a4b-b9d5-2dadb5bf2895:1bn8mmb:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 447,
+      "anchor": "94bc5c72-ac76-4a4b-b9d5-2dadb5bf2895:2jjjs8:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cup"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 449,
+      "anchor": "94bc5c72-ac76-4a4b-b9d5-2dadb5bf2895:1p9e26q:1",
+      "kind": "list",
+      "formulas": 5,
+      "failures": [
+        "Unsupported TeX token: \\cup"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 451,
+      "anchor": "94bc5c72-ac76-4a4b-b9d5-2dadb5bf2895:fgub9p:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cup"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 473,
+      "anchor": "94bc5c72-ac76-4a4b-b9d5-2dadb5bf2895:1y5tby4:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cup"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 487,
+      "anchor": "94bc5c72-ac76-4a4b-b9d5-2dadb5bf2895:144ykmi:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 489,
+      "anchor": "94bc5c72-ac76-4a4b-b9d5-2dadb5bf2895:3mf6zi:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cup"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 496,
+      "anchor": "94bc5c72-ac76-4a4b-b9d5-2dadb5bf2895:1324atk:1",
+      "kind": "paragraph",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\cup"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 502,
+      "anchor": "94bc5c72-ac76-4a4b-b9d5-2dadb5bf2895:180oxq7:1",
+      "kind": "table",
+      "formulas": 17,
+      "failures": [
+        "Unsupported TeX token: \\iff",
+        "Unsupported TeX token: \\ne",
+        "Unsupported TeX token: \\displaystyle",
+        "Unsupported TeX token: \\ne"
+      ],
+      "residue": []
+    },
+    {
+      "id": "6af9558a-5144-83e8-b71a-6caa5c591a9c",
+      "project": "高一上數學",
+      "message": 2,
+      "block": 545,
+      "anchor": "94bc5c72-ac76-4a4b-b9d5-2dadb5bf2895:1ig6qse:1",
+      "kind": "math",
+      "formulas": 1,
+      "failures": [
+        "Unsupported TeX token: \\longleftrightarrow"
+      ],
+      "residue": []
+    }
+  ]
+}
