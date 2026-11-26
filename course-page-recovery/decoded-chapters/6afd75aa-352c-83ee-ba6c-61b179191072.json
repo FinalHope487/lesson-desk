@@ -1,0 +1,90 @@
+{
+  "id": "6afd75aa-352c-83ee-ba6c-61b179191072",
+  "sections": [
+    {
+      "sectionIndex": 0,
+      "heading": "十三、本章綜合習題",
+      "messageId": "cb6d10c7-38b2-4970-9a45-de27e5907ce0",
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "下列哪一個分子同時含有羥基與羧基？",
+          "options": [],
+          "optionType": "none",
+          "solution": null,
+          "issues": [
+            "no_grouped_options",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "下列關於沸點的敘述，哪些正確？（多選）",
+          "options": [],
+          "optionType": "none",
+          "solution": null,
+          "issues": [
+            "no_grouped_options",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "某物質能產生銀鏡反應，但不與碳酸氫鈉產生明顯 CO₂。在以下選項中最可能是哪一個？",
+          "options": [],
+          "optionType": "none",
+          "solution": null,
+          "issues": [
+            "no_grouped_options",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "CH₃CH₂CH₂COOCH₃ 的正確名稱為何？",
+          "options": [],
+          "optionType": "none",
+          "solution": null,
+          "issues": [
+            "no_grouped_options",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "關於酚、醇、胺與醯胺，哪些敘述正確？（多選）",
+          "options": [],
+          "optionType": "none",
+          "solution": null,
+          "issues": [
+            "no_grouped_options",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 6,
+          "prompt": "某化合物分子式為 C₃H₆O，已知它含有羰基，且在一般銀鏡試驗中呈陰性。下列哪一個最符合？",
+          "options": [],
+          "optionType": "none",
+          "solution": null,
+          "issues": [
+            "no_grouped_options",
+            "no_visible_solution_marker"
+          ]
+        }
+      ],
+      "metadata": {
+        "capturedQuestionCount": 6,
+        "extractedNumberedCount": 6,
+        "extractedOptionGroupCount": 0,
+        "visibleSolutionCount": 0,
+        "issues": [
+          "no_visible_solution_markers"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "issueCount": 1
+  }
+}

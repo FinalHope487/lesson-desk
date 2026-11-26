@@ -1,0 +1,141 @@
+{
+  "id": "6afd5491-aca8-83ee-8779-8ccb4624bca8",
+  "sections": [
+    {
+      "sectionIndex": 0,
+      "heading": "九、本章綜合習題",
+      "messageId": "0e56bdd3-b011-4d83-b2a4-d61c2a12986d",
+      "questions": [
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 1680 J"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 6680 J"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 8360 J"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 10040 J"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. A 的正常沸點通常較低"
+            },
+            {
+              "kind": "radio",
+              "text": "B. A 的分子一定比 B 大"
+            },
+            {
+              "kind": "radio",
+              "text": "C. A 的表面張力一定較大"
+            },
+            {
+              "kind": "radio",
+              "text": "D. A 一定不具有分子間吸引力"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 飽和蒸氣壓永久降低"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 更多液體蒸發，最後飽和蒸氣壓恢復原值"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 液體完全停止蒸發"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 分子間作用力消失"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 每個分子都變成不同元素"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 分子排列方向會影響光與材料的相互作用"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 液晶必定由液態完全變成氣態"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 液晶分子的質量因電場而改變"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        }
+      ],
+      "metadata": {
+        "capturedQuestionCount": 4,
+        "extractedNumberedCount": 0,
+        "extractedOptionGroupCount": 4,
+        "visibleSolutionCount": 0,
+        "issues": [
+          "numbered_prompt_option_group_count_mismatch",
+          "no_visible_solution_markers"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "issueCount": 2
+  }
+}

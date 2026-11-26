@@ -1,0 +1,132 @@
+{
+  "id": "6afd52ed-e4e0-83e8-80ed-187991462cf6",
+  "sections": [
+    {
+      "sectionIndex": 0,
+      "heading": "第六節：本章綜合練習",
+      "messageId": "3dcaee9f-be82-4277-ac9d-9602af2db2de",
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "已知 A → B，ΔH = −80 kJ；B → C，ΔH = +30 kJ。求 C → A 的焓變。",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. −110 kJ"
+            },
+            {
+              "kind": "radio",
+              "text": "B. +110 kJ"
+            },
+            {
+              "kind": "radio",
+              "text": "C. −50 kJ"
+            },
+            {
+              "kind": "radio",
+              "text": "D. +50 kJ"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "下列哪個物質在 25°C、標準壓力下的標準莫耳生成焓為零？",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. O(g)"
+            },
+            {
+              "kind": "radio",
+              "text": "B. O₃(g)"
+            },
+            {
+              "kind": "radio",
+              "text": "C. O₂(g)"
+            },
+            {
+              "kind": "radio",
+              "text": "D. H₂O(l)"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "某反應放熱，將反應式係數全部乘以 3，新的反應焓變如何變化？",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 維持不變"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 變成原來 3 倍"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 變成原來 1/3"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 正負號顛倒"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "量熱實驗中，若忽略實際存在的熱量散失，測得的放熱反應焓變通常如何偏離真值？",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 更負"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 較不負"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 完全不變"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 一定變成正值"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "no_visible_solution_marker"
+          ]
+        }
+      ],
+      "metadata": {
+        "capturedQuestionCount": 4,
+        "extractedNumberedCount": 4,
+        "extractedOptionGroupCount": 4,
+        "visibleSolutionCount": 0,
+        "issues": [
+          "no_visible_solution_markers"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "issueCount": 1
+  }
+}

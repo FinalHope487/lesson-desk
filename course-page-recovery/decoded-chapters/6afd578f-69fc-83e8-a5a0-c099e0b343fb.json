@@ -1,0 +1,68 @@
+{
+  "id": "6afd578f-69fc-83e8-a5a0-c099e0b343fb",
+  "sections": [
+    {
+      "sectionIndex": 0,
+      "heading": "十一、本章綜合習題",
+      "messageId": "a4da6e5d-3c46-4081-a6ed-992729b09713",
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "關於 CO₂ 與 H₂O，下列哪些敘述正確？（多選）",
+          "options": [],
+          "optionType": "none",
+          "solution": null,
+          "issues": [
+            "no_grouped_options",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "對乙炔 C₂H₂，下列哪些敘述正確？（多選）",
+          "options": [],
+          "optionType": "none",
+          "solution": null,
+          "issues": [
+            "no_grouped_options",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "碳酸根 CO₃²⁻ 的三個主要共振結構等價，下列哪些敘述正確？（多選）",
+          "options": [],
+          "optionType": "none",
+          "solution": null,
+          "issues": [
+            "no_grouped_options",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "關於鑽石、石墨及固態 CO₂，下列哪些敘述正確？（多選）",
+          "options": [],
+          "optionType": "none",
+          "solution": null,
+          "issues": [
+            "no_grouped_options",
+            "no_visible_solution_marker"
+          ]
+        }
+      ],
+      "metadata": {
+        "capturedQuestionCount": 4,
+        "extractedNumberedCount": 4,
+        "extractedOptionGroupCount": 0,
+        "visibleSolutionCount": 0,
+        "issues": [
+          "no_visible_solution_markers"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "issueCount": 1
+  }
+}

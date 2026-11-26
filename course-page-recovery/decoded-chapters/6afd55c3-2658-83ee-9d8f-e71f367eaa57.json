@@ -1,0 +1,132 @@
+{
+  "id": "6afd55c3-2658-83ee-9d8f-e71f367eaa57",
+  "sections": [
+    {
+      "sectionIndex": 0,
+      "heading": "十一、本章綜合習題",
+      "messageId": "817cdb74-b482-4631-8627-a5f1ef291d9a",
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "氫原子電子由 n=4 降到 n=2，與由 n=3 降到 n=2 相比，哪一個光子的波長較短？",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 4→2"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 3→2"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 相同"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 無法判斷"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "某氫原子電子處於 n=2，若要使它游離，至少需要多少能量？",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 3.40 eV"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 10.2 eV"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 13.6 eV"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 17.0 eV"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "氫原子電子從 n=4 回到 n=1，若允許經過中間能階，最多可以產生多少種不同波長的放射譜線？",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 3"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 4"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 5"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 6"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "氫原子從基態吸收一個 10.2 eV 的光子後，電子最可能處於哪個能階？",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. n=2"
+            },
+            {
+              "kind": "radio",
+              "text": "B. n=3"
+            },
+            {
+              "kind": "radio",
+              "text": "C. n=4"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 游離態"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "no_visible_solution_marker"
+          ]
+        }
+      ],
+      "metadata": {
+        "capturedQuestionCount": 4,
+        "extractedNumberedCount": 4,
+        "extractedOptionGroupCount": 4,
+        "visibleSolutionCount": 0,
+        "issues": [
+          "no_visible_solution_markers"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "issueCount": 1
+  }
+}

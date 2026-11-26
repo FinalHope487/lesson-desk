@@ -1,0 +1,170 @@
+{
+  "id": "6afd6dcd-aafc-83e8-af2c-8bcd0523da3e",
+  "sections": [
+    {
+      "sectionIndex": 0,
+      "heading": "十一、本章習題",
+      "messageId": "02231897-09c6-4f6f-a200-309ef32d3f75",
+      "questions": [
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. NaHSO₄、NaHCO₃、KH₂PO₄"
+            },
+            {
+              "kind": "radio",
+              "text": "B. NH₄Cl、NaHSO₄、NaCl"
+            },
+            {
+              "kind": "radio",
+              "text": "C. NaOH、NaHCO₃、Na₂SO₄"
+            },
+            {
+              "kind": "radio",
+              "text": "D. Na₂CO₃、KNO₃、NaHSO₄"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. NaCl < NH₄Cl < CH₃COONa"
+            },
+            {
+              "kind": "radio",
+              "text": "B. NH₄Cl < NaCl < CH₃COONa"
+            },
+            {
+              "kind": "radio",
+              "text": "C. CH₃COONa < NaCl < NH₄Cl"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 三者 pH 相同"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. Cl⁻ + H₂O ⇌ HCl + OH⁻（顯著進行）"
+            },
+            {
+              "kind": "radio",
+              "text": "B. NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺"
+            },
+            {
+              "kind": "radio",
+              "text": "C. Na⁺ + H₂O ⇌ NaOH + H⁺（顯著進行）"
+            },
+            {
+              "kind": "radio",
+              "text": "D. CH₃COO⁻ + H₂O ⇌ CH₃COOH + H₃O⁺"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 酸性"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 中性"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 鹼性"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 資料不足，完全無法判斷"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 酸式鹽在水中都會完全轉變成 OH⁻"
+            },
+            {
+              "kind": "radio",
+              "text": "B. Na⁺ 是強鹼，因此產生大量 OH⁻"
+            },
+            {
+              "kind": "radio",
+              "text": "C. HCO₃⁻ 能提供也能接受 H⁺，且其鹼性作用較強"
+            },
+            {
+              "kind": "radio",
+              "text": "D. HCO₃⁻ 不會與水反應"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        }
+      ],
+      "metadata": {
+        "capturedQuestionCount": 5,
+        "extractedNumberedCount": 0,
+        "extractedOptionGroupCount": 5,
+        "visibleSolutionCount": 0,
+        "issues": [
+          "numbered_prompt_option_group_count_mismatch",
+          "no_visible_solution_markers"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "issueCount": 2
+  }
+}

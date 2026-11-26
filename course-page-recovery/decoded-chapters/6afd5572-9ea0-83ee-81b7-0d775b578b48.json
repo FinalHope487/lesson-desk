@@ -1,0 +1,159 @@
+{
+  "id": "6afd5572-9ea0-83ee-81b7-0d775b578b48",
+  "sections": [
+    {
+      "sectionIndex": 0,
+      "heading": "十一、本章綜合習題",
+      "messageId": "b51f149b-2237-4c5b-bf06-6bec717902e8",
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "將相同莫耳數的葡萄糖與 NaCl 分別溶於相同質量的水中。假設完全解離且近似理想，何者的蒸氣壓較低？",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 葡萄糖水溶液"
+            },
+            {
+              "kind": "radio",
+              "text": "B. NaCl 水溶液"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 兩者相同"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 無法判斷"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "將 0.20 mol CaCl₂ 溶於 1.00 kg 水中，假設完全解離。已知水的 Kf = 1.86 °C·kg/mol，凝固點約為多少？",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. −0.372°C"
+            },
+            {
+              "kind": "radio",
+              "text": "B. −0.744°C"
+            },
+            {
+              "kind": "radio",
+              "text": "C. −1.116°C"
+            },
+            {
+              "kind": "radio",
+              "text": "D. −1.860°C"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "在 300 K 時，0.10 M NaCl 溶液的理想滲透壓約為多少？取 R=0.0821 L·atm/(mol·K)，假設完全解離。",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 1.23 atm"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 2.46 atm"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 4.93 atm"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 24.6 atm"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "兩個等溫溶液由只允許水通過的半透膜隔開。A 側為 0.10 M 葡萄糖，B 側為 0.10 M NaCl，假設完全解離。起初兩側壓力相同，水的淨移動方向為何？",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. A → B"
+            },
+            {
+              "kind": "radio",
+              "text": "B. B → A"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 沒有淨移動"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 水完全不能通過"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "兩種非電解質溶液使用相同溶劑，重量莫耳濃度分別為 0.20 與 0.50 mol/kg。其凝固點下降量的比值為何？",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 1：1"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 2：5"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 5：2"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 1：5"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "no_visible_solution_marker"
+          ]
+        }
+      ],
+      "metadata": {
+        "capturedQuestionCount": 5,
+        "extractedNumberedCount": 5,
+        "extractedOptionGroupCount": 5,
+        "visibleSolutionCount": 0,
+        "issues": [
+          "no_visible_solution_markers"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "issueCount": 1
+  }
+}

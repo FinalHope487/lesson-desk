@@ -1,0 +1,36 @@
+{
+  "id": "6afd7b73-0bfc-83e8-939b-bf200f7c6002",
+  "sections": [
+    {
+      "sectionIndex": 0,
+      "heading": "十四、本章綜合習題",
+      "messageId": "decc8cd9-e47e-4935-82e8-254ddff38a12",
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "計算最後輸出的電能（kJ）。\n(2) 若某種直接儲電方案整體效率為 85%，比較兩者的輸出電能。\n(3) 能否僅依效率判斷哪種技術在所有情境下都較值得使用？說明理由。",
+          "options": [],
+          "optionType": "none",
+          "solution": null,
+          "issues": [
+            "no_grouped_options",
+            "no_visible_solution_marker"
+          ]
+        }
+      ],
+      "metadata": {
+        "capturedQuestionCount": 5,
+        "extractedNumberedCount": 1,
+        "extractedOptionGroupCount": 0,
+        "visibleSolutionCount": 0,
+        "issues": [
+          "extra_number_like_text_blocks_ignored",
+          "no_visible_solution_markers"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "issueCount": 2
+  }
+}

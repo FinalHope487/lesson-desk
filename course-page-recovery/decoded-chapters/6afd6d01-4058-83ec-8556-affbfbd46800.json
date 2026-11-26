@@ -1,0 +1,159 @@
+{
+  "id": "6afd6d01-4058-83ec-8556-affbfbd46800",
+  "sections": [
+    {
+      "sectionIndex": 0,
+      "heading": "十二、本章綜合習題",
+      "messageId": "b4a439e8-779f-483c-9159-edc54794179f",
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "下列關於 HSO₄⁻ 的敘述，何者正確？",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 只能當酸"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 只能當鹼"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 可以當酸，也可以當鹼"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 因為帶負電，所以不能提供 H⁺"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "已知酸強弱為 HCl > HF > CH₃COOH，下列共軛鹼由強到弱的順序何者正確？",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. Cl⁻ > F⁻ > CH₃COO⁻"
+            },
+            {
+              "kind": "radio",
+              "text": "B. CH₃COO⁻ > F⁻ > Cl⁻"
+            },
+            {
+              "kind": "radio",
+              "text": "C. F⁻ > Cl⁻ > CH₃COO⁻"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 三者強弱相同"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "考慮 NH₄⁺ + CO₃²⁻ ⇌ NH₃ + HCO₃⁻。已知 NH₄⁺ 比 HCO₃⁻（作為酸時）強，下列何者正確？",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. NH₄⁺ 是鹼，反應偏左"
+            },
+            {
+              "kind": "radio",
+              "text": "B. CO₃²⁻ 是酸，反應偏右"
+            },
+            {
+              "kind": "radio",
+              "text": "C. NH₄⁺ 是酸，平衡偏右"
+            },
+            {
+              "kind": "radio",
+              "text": "D. NH₃ 是酸，平衡偏左"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "將等莫耳的 CH₃COOH 與 NaOH 混合並使其充分反應，下列何者最合理？",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 生成的溶液一定呈中性"
+            },
+            {
+              "kind": "radio",
+              "text": "B. CH₃COO⁻ 可與水反應產生 OH⁻，溶液可能呈鹼性"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 因醋酸是弱酸，所以不會與 NaOH 反應"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 反應後只存在水分子"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "下列何者最能說明布－洛理論與阿瑞尼斯理論的差異？",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 布－洛理論認為所有酸都必須含氧"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 布－洛理論只能解釋水溶液"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 布－洛理論可以描述非水環境中的質子轉移"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 布－洛理論認為酸鹼反應一定完全進行"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "no_visible_solution_marker"
+          ]
+        }
+      ],
+      "metadata": {
+        "capturedQuestionCount": 5,
+        "extractedNumberedCount": 5,
+        "extractedOptionGroupCount": 5,
+        "visibleSolutionCount": 0,
+        "issues": [
+          "no_visible_solution_markers"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "issueCount": 1
+  }
+}

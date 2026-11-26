@@ -1,0 +1,158 @@
+{
+  "id": "6afd78c5-82e8-83e8-bd73-39edf44e94ed",
+  "sections": [
+    {
+      "sectionIndex": 0,
+      "heading": "八、本章綜合習題",
+      "messageId": "0478caf0-b81f-49e3-85a6-9fee884be449",
+      "questions": [
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A"
+            },
+            {
+              "kind": "radio",
+              "text": "B"
+            },
+            {
+              "kind": "radio",
+              "text": "C"
+            },
+            {
+              "kind": "radio",
+              "text": "D"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A"
+            },
+            {
+              "kind": "radio",
+              "text": "B"
+            },
+            {
+              "kind": "radio",
+              "text": "C"
+            },
+            {
+              "kind": "radio",
+              "text": "D"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        }
+      ],
+      "metadata": {
+        "capturedQuestionCount": 5,
+        "extractedNumberedCount": 0,
+        "extractedOptionGroupCount": 2,
+        "visibleSolutionCount": 0,
+        "issues": [
+          "numbered_prompt_option_group_count_mismatch",
+          "no_visible_solution_markers"
+        ]
+      }
+    },
+    {
+      "sectionIndex": 1,
+      "heading": "本章習題作答區",
+      "messageId": "0478caf0-b81f-49e3-85a6-9fee884be449",
+      "questions": [
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A"
+            },
+            {
+              "kind": "radio",
+              "text": "B"
+            },
+            {
+              "kind": "radio",
+              "text": "C"
+            },
+            {
+              "kind": "radio",
+              "text": "D"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A"
+            },
+            {
+              "kind": "radio",
+              "text": "B"
+            },
+            {
+              "kind": "radio",
+              "text": "C"
+            },
+            {
+              "kind": "radio",
+              "text": "D"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        }
+      ],
+      "metadata": {
+        "capturedQuestionCount": 0,
+        "extractedNumberedCount": 0,
+        "extractedOptionGroupCount": 2,
+        "visibleSolutionCount": 0,
+        "issues": [
+          "numbered_prompt_option_group_count_mismatch",
+          "no_visible_solution_markers"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "issueCount": 4
+  }
+}

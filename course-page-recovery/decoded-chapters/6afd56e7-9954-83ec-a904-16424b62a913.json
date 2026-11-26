@@ -1,0 +1,112 @@
+{
+  "id": "6afd56e7-9954-83ec-a904-16424b62a913",
+  "sections": [
+    {
+      "sectionIndex": 0,
+      "heading": "十、本章綜合習題",
+      "messageId": "9560bfe8-3f73-4473-96cd-0fdd04aa4382",
+      "questions": [
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. X 位於第三週期、第 13 族"
+            },
+            {
+              "kind": "radio",
+              "text": "B. X 的第一游離能一定大於 Mg"
+            },
+            {
+              "kind": "radio",
+              "text": "C. X 最容易形成 X³⁻"
+            },
+            {
+              "kind": "radio",
+              "text": "D. X 屬於 d 區元素"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. Na > Mg > Na⁺ > Mg²⁺"
+            },
+            {
+              "kind": "radio",
+              "text": "B. Mg > Na > Mg²⁺ > Na⁺"
+            },
+            {
+              "kind": "radio",
+              "text": "C. Na⁺ > Mg²⁺ > Na > Mg"
+            },
+            {
+              "kind": "radio",
+              "text": "D. Mg²⁺ > Na⁺ > Mg > Na"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. Na 最大，因為它是金屬"
+            },
+            {
+              "kind": "radio",
+              "text": "B. F 最大，且 H—F 的鍵結電子偏向 F"
+            },
+            {
+              "kind": "radio",
+              "text": "C. Cl 比 F 大，因為 Cl 的原子較大"
+            },
+            {
+              "kind": "radio",
+              "text": "D. H—F 中 F 帶完整 −1 電荷"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        }
+      ],
+      "metadata": {
+        "capturedQuestionCount": 5,
+        "extractedNumberedCount": 0,
+        "extractedOptionGroupCount": 3,
+        "visibleSolutionCount": 0,
+        "issues": [
+          "numbered_prompt_option_group_count_mismatch",
+          "no_visible_solution_markers"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "issueCount": 2
+  }
+}

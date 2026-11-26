@@ -1,0 +1,170 @@
+{
+  "id": "6afd6e80-aadc-83ee-b9eb-4f8cc1d9e04a",
+  "sections": [
+    {
+      "sectionIndex": 0,
+      "heading": "十一、本章綜合習題",
+      "messageId": "5b9d87d7-cc33-44aa-b99b-58b610332544",
+      "questions": [
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 0.0480 M"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 0.0960 M"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 0.192 M"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 0.384 M"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 弱酸的 pKa 約為 4.8"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 當量點 pH 必定為 4.8"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 弱酸濃度一定為 4.8 M"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 此時已完全中和"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 偏低"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 偏高"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 不變"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 無法判斷"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. HCl 與 NaOH"
+            },
+            {
+              "kind": "radio",
+              "text": "B. CH₃COOH 與 NaOH"
+            },
+            {
+              "kind": "radio",
+              "text": "C. HCl 與 NH₃"
+            },
+            {
+              "kind": "radio",
+              "text": "D. HNO₃ 與 KOH"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 2.00"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 7.00"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 11.05"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 12.05"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        }
+      ],
+      "metadata": {
+        "capturedQuestionCount": 5,
+        "extractedNumberedCount": 0,
+        "extractedOptionGroupCount": 5,
+        "visibleSolutionCount": 0,
+        "issues": [
+          "numbered_prompt_option_group_count_mismatch",
+          "no_visible_solution_markers"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "issueCount": 2
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "id": "6afd6d79-c8d0-83ee-8fd6-a9627b2900ab",
+  "sections": [
+    {
+      "sectionIndex": 0,
+      "heading": "十、本章綜合習題",
+      "messageId": "796b7991-effe-49aa-9bec-05a18eac1698",
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "在 25°C，某水溶液的 [H⁺] = 2.0 × 10⁻⁵ M。求 [OH⁻]、pH 與 pOH。",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. [OH⁻] = 5 × 10⁻¹⁰ M，pH ≈ 4.70"
+            },
+            {
+              "kind": "radio",
+              "text": "B. [OH⁻] = 2 × 10⁻⁹ M，pH ≈ 5.00"
+            },
+            {
+              "kind": "radio",
+              "text": "C. [OH⁻] = 5 × 10⁻¹⁰ M，pH ≈ 5.30"
+            },
+            {
+              "kind": "radio",
+              "text": "D. [OH⁻] = 2 × 10⁻⁵ M，pH ≈ 7.00"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "0.020 M Ba(OH)₂ 在 25°C 完全解離，且可忽略水的自游離。求 pH。",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 11.70"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 12.00"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 12.60"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 13.30"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "某單質子弱酸 HA 的初始濃度為 0.10 M，Ka = 1.0 × 10⁻⁵。利用合理近似求 pH 與游離度。",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. pH ≈ 3，游離度 ≈ 1%"
+            },
+            {
+              "kind": "radio",
+              "text": "B. pH ≈ 5，游離度 ≈ 1%"
+            },
+            {
+              "kind": "radio",
+              "text": "C. pH ≈ 3，游離度 ≈ 10%"
+            },
+            {
+              "kind": "radio",
+              "text": "D. pH ≈ 1，游離度 ≈ 100%"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "25°C 時，某酸 HA 的 Ka = 2.0 × 10⁻⁶。其共軛鹼 A⁻ 的 Kb 是多少？",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 2.0 × 10⁻⁸"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 5.0 × 10⁻⁹"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 2.0 × 10⁻²⁰"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 5.0 × 10⁸"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "某弱酸被稀釋 100 倍，溫度不變且稀釋前後都符合小游離度近似。哪一項敘述正確？",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. Ka 減少 100 倍"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 游離度減少 10 倍"
+            },
+            {
+              "kind": "radio",
+              "text": "C. pH 約增加 1"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 氫離子濃度不變"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 6,
+          "prompt": "某弱酸初始濃度為 0.010 M，Ka = 1.0 × 10⁻³。若忽略水的自游離，下列哪個平衡氫離子濃度最接近正確值？",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 3.16 × 10⁻³ M"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 2.70 × 10⁻³ M"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 1.00 × 10⁻³ M"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 1.00 × 10⁻² M"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "no_visible_solution_marker"
+          ]
+        }
+      ],
+      "metadata": {
+        "capturedQuestionCount": 6,
+        "extractedNumberedCount": 6,
+        "extractedOptionGroupCount": 6,
+        "visibleSolutionCount": 0,
+        "issues": [
+          "no_visible_solution_markers"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "issueCount": 1
+  }
+}

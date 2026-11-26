@@ -1,0 +1,83 @@
+{
+  "id": "6af8cbd0-8524-83e8-a28b-b32c180c11e3",
+  "sections": [
+    {
+      "sectionIndex": 0,
+      "heading": "八、章末綜合習題",
+      "messageId": "faa9bdeb-d8a9-4ba9-8f69-6e42773703af",
+      "questions": [
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 兩者質量相同"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 兩者的動量大小相同，但能量不一定相同"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 兩者的速率相同"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 兩者的總能量一定相同"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 符合，因為 n=2.5n=2.5n=2.5"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 符合，因為 nnn 可以四捨五入為整數"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 不符合，因為圓周長不是整數個完整波長"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 無法判斷，必須知道電子質量"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        }
+      ],
+      "metadata": {
+        "capturedQuestionCount": 5,
+        "extractedNumberedCount": 0,
+        "extractedOptionGroupCount": 2,
+        "visibleSolutionCount": 0,
+        "issues": [
+          "numbered_prompt_option_group_count_mismatch",
+          "no_visible_solution_markers"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "issueCount": 3
+  }
+}

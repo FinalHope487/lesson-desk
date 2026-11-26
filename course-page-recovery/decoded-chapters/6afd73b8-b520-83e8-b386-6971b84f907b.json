@@ -1,0 +1,141 @@
+{
+  "id": "6afd73b8-b520-83e8-b386-6971b84f907b",
+  "sections": [
+    {
+      "sectionIndex": 0,
+      "heading": "十四、本章綜合習題",
+      "messageId": "38c74dd9-5464-41f8-ae18-7482ad68f7f7",
+      "questions": [
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. Na"
+            },
+            {
+              "kind": "radio",
+              "text": "B. Mg"
+            },
+            {
+              "kind": "radio",
+              "text": "C. Al"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 三者相同"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 0.10 mol"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 0.20 mol"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 0.40 mol"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 0.60 mol"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. Al³⁺"
+            },
+            {
+              "kind": "radio",
+              "text": "B. Al(OH)₃ 沉澱"
+            },
+            {
+              "kind": "radio",
+              "text": "C. [Al(OH)₄]⁻"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 金屬 Al"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 2.0 mol"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 3.0 mol"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 4.0 mol"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 6.0 mol"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        }
+      ],
+      "metadata": {
+        "capturedQuestionCount": 6,
+        "extractedNumberedCount": 0,
+        "extractedOptionGroupCount": 4,
+        "visibleSolutionCount": 0,
+        "issues": [
+          "numbered_prompt_option_group_count_mismatch",
+          "no_visible_solution_markers"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "issueCount": 2
+  }
+}

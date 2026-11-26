@@ -1,0 +1,170 @@
+{
+  "id": "6afd6f6b-7a08-83ee-9bc9-a8cc35e59982",
+  "sections": [
+    {
+      "sectionIndex": 0,
+      "heading": "十二、本章綜合習題",
+      "messageId": "4a2b4f83-dc43-468a-ad21-b9a2e231bc40",
+      "questions": [
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 0.000600 mol"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 0.00300 mol"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 0.0150 mol"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 0.0300 mol"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 0.00800 M"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 0.0400 M"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 0.0800 M"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 0.160 M"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 0.000150 mol"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 0.00150 mol"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 0.0150 mol"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 0.150 mol"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 3：1"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 1：3"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 6：1"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 1：1"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 偏高"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 偏低"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 不變"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 必須知道溫度才能判斷"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        }
+      ],
+      "metadata": {
+        "capturedQuestionCount": 5,
+        "extractedNumberedCount": 0,
+        "extractedOptionGroupCount": 5,
+        "visibleSolutionCount": 0,
+        "issues": [
+          "numbered_prompt_option_group_count_mismatch",
+          "no_visible_solution_markers"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "issueCount": 2
+  }
+}

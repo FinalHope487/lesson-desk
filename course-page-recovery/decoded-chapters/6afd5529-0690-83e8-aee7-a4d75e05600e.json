@@ -1,0 +1,170 @@
+{
+  "id": "6afd5529-0690-83e8-aee7-a4d75e05600e",
+  "sections": [
+    {
+      "sectionIndex": 0,
+      "heading": "十一、本章綜合習題",
+      "messageId": "c006c8dd-263e-4185-9aeb-b52a7361729f",
+      "questions": [
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 小於 23.8 mmHg"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 等於 23.8 mmHg"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 大於 23.8 mmHg"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 無法判斷"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 0.1 mol"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 0.5 mol"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 1 mol"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 3 mol"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 0.25"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 0.40"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 0.50"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 0.75"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. A–B 作用力相對較強"
+            },
+            {
+              "kind": "radio",
+              "text": "B. A–B 作用力相對較弱"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 混合後所有分子停止運動"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 兩種液體必定具有相同蒸氣壓"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 20°C 時相對濕度約為 67%"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 20°C 時水蒸氣分壓仍為 21.2 mmHg"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 部分水蒸氣凝結，最後相對濕度為 100%"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 所有水蒸氣都凝結"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        }
+      ],
+      "metadata": {
+        "capturedQuestionCount": 5,
+        "extractedNumberedCount": 0,
+        "extractedOptionGroupCount": 5,
+        "visibleSolutionCount": 0,
+        "issues": [
+          "numbered_prompt_option_group_count_mismatch",
+          "no_visible_solution_markers"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "issueCount": 2
+  }
+}

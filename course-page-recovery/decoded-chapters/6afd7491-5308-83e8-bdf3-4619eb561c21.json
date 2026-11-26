@@ -1,0 +1,79 @@
+{
+  "id": "6afd7491-5308-83e8-bdf3-4619eb561c21",
+  "sections": [
+    {
+      "sectionIndex": 0,
+      "heading": "九、本章綜合習題",
+      "messageId": "794e2c4a-5af9-49e1-84ed-785a9ce36a19",
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "某高分子材料具有良好的彈性，但經過大量交聯處理後，材料變硬且較不容易伸長。最合理的原因為何？",
+          "options": [],
+          "optionType": "none",
+          "solution": null,
+          "issues": [
+            "no_grouped_options",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "關於 n 型與 p 型矽半導體，下列哪些敘述正確？（多選）",
+          "options": [],
+          "optionType": "none",
+          "solution": null,
+          "issues": [
+            "no_grouped_options",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "液晶顯示器與 OLED 顯示器最主要的差異，下列何者正確？",
+          "options": [],
+          "optionType": "none",
+          "solution": null,
+          "issues": [
+            "no_grouped_options",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "將一個邊長為 12 nm 的立方體切割成 8 個相同的小立方體，假設切割不損失材料，總表面積變成原來的幾倍？",
+          "options": [],
+          "optionType": "none",
+          "solution": null,
+          "issues": [
+            "no_grouped_options",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 5,
+          "prompt": "關於導電聚乙炔與奈米材料，下列哪些敘述合理？（多選）",
+          "options": [],
+          "optionType": "none",
+          "solution": null,
+          "issues": [
+            "no_grouped_options",
+            "no_visible_solution_marker"
+          ]
+        }
+      ],
+      "metadata": {
+        "capturedQuestionCount": 5,
+        "extractedNumberedCount": 5,
+        "extractedOptionGroupCount": 0,
+        "visibleSolutionCount": 0,
+        "issues": [
+          "no_visible_solution_markers"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "issueCount": 1
+  }
+}

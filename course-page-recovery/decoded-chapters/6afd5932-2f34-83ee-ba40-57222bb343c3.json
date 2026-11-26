@@ -1,0 +1,112 @@
+{
+  "id": "6afd5932-2f34-83ee-ba40-57222bb343c3",
+  "sections": [
+    {
+      "sectionIndex": 0,
+      "heading": "十三、本章綜合習題",
+      "messageId": "a632f935-40fc-409c-a78a-89ba47c57196",
+      "questions": [
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 1 倍"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 2 倍"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 4 倍"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 8 倍"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 2/3 倍"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 1 倍"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 1.5 倍"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 2.25 倍"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 升溫一定使活化能上升"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 80°C 時反應物不再碰撞"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 高溫可能改變酵素結構，使催化活性降低"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 酵素會改變反應平衡常數"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        }
+      ],
+      "metadata": {
+        "capturedQuestionCount": 5,
+        "extractedNumberedCount": 0,
+        "extractedOptionGroupCount": 3,
+        "visibleSolutionCount": 0,
+        "issues": [
+          "numbered_prompt_option_group_count_mismatch",
+          "no_visible_solution_markers"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "issueCount": 2
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "id": "6afd79be-45d4-83ee-bcda-066079974065",
+  "sections": [
+    {
+      "sectionIndex": 0,
+      "heading": "九、本章綜合習題",
+      "messageId": "0f16d869-dbcb-46d1-a19d-66bcb8787b57",
+      "questions": [
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. pH 不變表示水質完全沒有變化"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 濁度增加必然造成導電度上升"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 懸浮顆粒與溶解離子的情況可能同時發生變化"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 可確定重金屬污染是唯一原因"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. B 河段可能有較高的可生物分解污染負荷"
+            },
+            {
+              "kind": "radio",
+              "text": "B. B 河段的溶氧量比 A 高"
+            },
+            {
+              "kind": "radio",
+              "text": "C. BOD₅ 就是目前水中含有的氧氣"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 可直接證明 B 河段沒有任何生物活動"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 3 µg/m³"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 30 µg/m³"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 360 µg/m³"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 4320 µg/m³"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. PM2.5 一定具有強烈的放射性"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 光學儀器不需要校正"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 所有微粒都會完全吸收光線"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 濕度改變微粒的光學散射特性，可能影響推估結果"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 只需比較兩次測量，無須考慮其他因素"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 只要污染物下降就能確定因果關係"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 需要考慮排放量、氣象條件與較長期的數據"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 只需測量同時期 PM2.5 的顏色"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        }
+      ],
+      "metadata": {
+        "capturedQuestionCount": 5,
+        "extractedNumberedCount": 0,
+        "extractedOptionGroupCount": 5,
+        "visibleSolutionCount": 0,
+        "issues": [
+          "numbered_prompt_option_group_count_mismatch",
+          "no_visible_solution_markers"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "issueCount": 2
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "id": "6afd58dc-cb18-83ee-94fb-50b9e7ebe18d",
+  "sections": [
+    {
+      "sectionIndex": 0,
+      "heading": "九、本章綜合習題",
+      "messageId": "6b62faaa-5be6-485d-b597-698da9f3a37b",
+      "questions": [
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 正向活化能為 110 kJ/mol，為放熱反應"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 正向活化能為 110 kJ/mol，為吸熱反應"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 逆向活化能為 110 kJ/mol，為吸熱反應"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 反應熱為 −50 kJ/mol"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 40 kJ/mol"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 65 kJ/mol"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 90 kJ/mol"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 125 kJ/mol"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 第二步活化能為 115 kJ/mol"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 第一步活化能為 70 kJ/mol"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 第二步活化能高於第一步"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 總反應為吸熱反應"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 所有粒子都具有相同的動能"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 反應熱由負值變成正值"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 活化能因溫度升高而自動消失"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 具有足夠能量跨越障礙的粒子比例增加"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 中間物 I 必定出現在總反應式右側"
+            },
+            {
+              "kind": "radio",
+              "text": "B. I 必定是能量圖最高點的過渡狀態"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 總反應式本身不足以確定完整反應機構"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 反應一定只有一個基本步驟"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        }
+      ],
+      "metadata": {
+        "capturedQuestionCount": 5,
+        "extractedNumberedCount": 0,
+        "extractedOptionGroupCount": 5,
+        "visibleSolutionCount": 0,
+        "issues": [
+          "numbered_prompt_option_group_count_mismatch",
+          "no_visible_solution_markers"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "issueCount": 2
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": "6afd5739-9200-83ee-a351-f8c4a0797707",
+  "sections": [
+    {
+      "sectionIndex": 0,
+      "heading": "十、本章綜合習題",
+      "messageId": "0b9729a3-83e5-433c-ba20-50c295cff12e",
+      "questions": [
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. XY"
+            },
+            {
+              "kind": "radio",
+              "text": "B. X₂Y₃"
+            },
+            {
+              "kind": "radio",
+              "text": "C. X₃Y₂"
+            },
+            {
+              "kind": "radio",
+              "text": "D. X₆Y₆"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 具有典型金屬鍵"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 主要由獨立中性分子組成"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 可能是離子晶體"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 必定由同一種元素組成"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. MgO 離子電荷較大且距離較短，靜電作用較強"
+            },
+            {
+              "kind": "radio",
+              "text": "B. MgO 一定含有自由電子"
+            },
+            {
+              "kind": "radio",
+              "text": "C. NaCl 是獨立分子，所以熔點較低"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 只要含氧，熔點必定較高"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        }
+      ],
+      "metadata": {
+        "capturedQuestionCount": 5,
+        "extractedNumberedCount": 0,
+        "extractedOptionGroupCount": 3,
+        "visibleSolutionCount": 0,
+        "issues": [
+          "numbered_prompt_option_group_count_mismatch",
+          "no_visible_solution_markers"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "issueCount": 2
+  }
+}

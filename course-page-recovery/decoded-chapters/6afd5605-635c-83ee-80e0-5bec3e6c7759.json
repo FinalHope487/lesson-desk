@@ -1,0 +1,141 @@
+{
+  "id": "6afd5605-635c-83ee-80e0-5bec3e6c7759",
+  "sections": [
+    {
+      "sectionIndex": 0,
+      "heading": "十、本章綜合習題",
+      "messageId": "4e7cfd5d-fd24-40a0-bff9-f85bfccaa5c7",
+      "questions": [
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 此電子屬於 4p 副層"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 此副層共有 5 個軌域，最多容納 10 個電子"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 磁量子數只能為 −1、0、+1"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 此副層共有 7 個軌域"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 18"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 24"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 32"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 50"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. n=3"
+            },
+            {
+              "kind": "radio",
+              "text": "B. ℓ=3"
+            },
+            {
+              "kind": "radio",
+              "text": "C. ℓ≥3 且 n≥4"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 電子必定屬於 4f 副層"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 兩電子的自旋量子數必須相反"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 兩電子必須具有相同能量以外的所有性質"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 兩電子必須位於不同副層"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 這兩個電子不可能同時存在"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        }
+      ],
+      "metadata": {
+        "capturedQuestionCount": 4,
+        "extractedNumberedCount": 0,
+        "extractedOptionGroupCount": 4,
+        "visibleSolutionCount": 0,
+        "issues": [
+          "numbered_prompt_option_group_count_mismatch",
+          "no_visible_solution_markers"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "issueCount": 2
+  }
+}

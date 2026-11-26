@@ -1,0 +1,80 @@
+{
+  "id": "6afd53e1-2b34-83ec-b9e0-003c061d14e4",
+  "sections": [
+    {
+      "sectionIndex": 0,
+      "heading": "十二、本章綜合習題",
+      "messageId": "0a672dcf-255d-45a8-b9e1-ef7c1d663ee1",
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "使用綜合氣體定律 P₁V₁/T₁ = P₂V₂/T₂。",
+          "options": [],
+          "optionType": "none",
+          "solution": null,
+          "issues": [
+            "no_grouped_options",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "T₁ = 300 K，T₂ = 400 K。",
+          "options": [],
+          "optionType": "none",
+          "solution": null,
+          "issues": [
+            "no_grouped_options",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "V₂ = (2 × 3 × 400)/(1 × 300) = 8.0 L。",
+          "options": [],
+          "optionType": "none",
+          "solution": null,
+          "issues": [
+            "no_grouped_options",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 1,
+          "prompt": "由 M = ρRT/P，得到 M ≈ 1.14 × 0.08206 × 300 = 28.1 g/mol。",
+          "options": [],
+          "optionType": "none",
+          "solution": null,
+          "issues": [
+            "no_grouped_options",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "CH₂ 的式量為 14。",
+          "options": [],
+          "optionType": "none",
+          "solution": null,
+          "issues": [
+            "no_grouped_options",
+            "no_visible_solution_marker"
+          ]
+        }
+      ],
+      "metadata": {
+        "capturedQuestionCount": 5,
+        "extractedNumberedCount": 5,
+        "extractedOptionGroupCount": 0,
+        "visibleSolutionCount": 0,
+        "issues": [
+          "extra_number_like_text_blocks_ignored",
+          "no_visible_solution_markers"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "issueCount": 2
+  }
+}

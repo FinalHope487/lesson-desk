@@ -1,0 +1,170 @@
+{
+  "id": "6afd7429-7798-83ee-bbf4-3caa599ce766",
+  "sections": [
+    {
+      "sectionIndex": 0,
+      "heading": "十一、本章綜合習題",
+      "messageId": "d0bcaee0-ce84-4676-aec1-2c7654801885",
+      "questions": [
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 1：1"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 1：2"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 2：1"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 3：1"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. +2、4"
+            },
+            {
+              "kind": "radio",
+              "text": "B. +3、6"
+            },
+            {
+              "kind": "radio",
+              "text": "C. +3、4"
+            },
+            {
+              "kind": "radio",
+              "text": "D. +4、6"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. Fe²⁺ 在空氣中可能被氧化為 Fe³⁺"
+            },
+            {
+              "kind": "radio",
+              "text": "B. Fe²⁺ 因吸收光而變成金屬鐵"
+            },
+            {
+              "kind": "radio",
+              "text": "C. OH⁻ 使鐵原子核的質子數增加"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 所有 Fe²⁺ 都不可能形成沉澱"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. 正確，因為合金一定有保護層"
+            },
+            {
+              "kind": "radio",
+              "text": "B. 正確，因為合金不會發生氧化"
+            },
+            {
+              "kind": "radio",
+              "text": "C. 錯誤，合金的耐腐蝕性取決於組成與環境"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 錯誤，因為合金完全沒有金屬鍵"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "A. +1"
+            },
+            {
+              "kind": "radio",
+              "text": "B. +3"
+            },
+            {
+              "kind": "radio",
+              "text": "C. −1"
+            },
+            {
+              "kind": "radio",
+              "text": "D. 0"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        }
+      ],
+      "metadata": {
+        "capturedQuestionCount": 5,
+        "extractedNumberedCount": 0,
+        "extractedOptionGroupCount": 5,
+        "visibleSolutionCount": 0,
+        "issues": [
+          "numbered_prompt_option_group_count_mismatch",
+          "no_visible_solution_markers"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "issueCount": 2
+  }
+}

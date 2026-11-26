@@ -1,0 +1,68 @@
+{
+  "id": "6afd57ef-bf7c-83ee-9662-ce9fd0e6a08d",
+  "sections": [
+    {
+      "sectionIndex": 0,
+      "heading": "十、本章綜合習題",
+      "messageId": "a1210257-deec-483b-9682-cecf2406c984",
+      "questions": [
+        {
+          "number": 1,
+          "prompt": "比較 CO₂、SO₂ 與 H₂O 的分子形狀。哪些相同？哪些電子域排列不同？",
+          "options": [],
+          "optionType": "none",
+          "solution": null,
+          "issues": [
+            "no_grouped_options",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 2,
+          "prompt": "已知某分子中心原子有三個單鍵及一對孤電子對。判斷電子域排列、分子形狀，並解釋鍵角為何可能小於 109.5°。",
+          "options": [],
+          "optionType": "none",
+          "solution": null,
+          "issues": [
+            "no_grouped_options",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 3,
+          "prompt": "比較 CH₄、NH₃、H₂O 的鍵角大小，並說明為什麼三者雖然具有相同電子域數，鍵角卻不完全相同。",
+          "options": [],
+          "optionType": "none",
+          "solution": null,
+          "issues": [
+            "no_grouped_options",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": 4,
+          "prompt": "某分子的中心原子有兩個雙鍵與一對孤電子對。預測它的電子域排列及分子形狀，並解釋為何不能把雙鍵各算成兩個電子域。",
+          "options": [],
+          "optionType": "none",
+          "solution": null,
+          "issues": [
+            "no_grouped_options",
+            "no_visible_solution_marker"
+          ]
+        }
+      ],
+      "metadata": {
+        "capturedQuestionCount": 4,
+        "extractedNumberedCount": 4,
+        "extractedOptionGroupCount": 0,
+        "visibleSolutionCount": 0,
+        "issues": [
+          "no_visible_solution_markers"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "issueCount": 1
+  }
+}

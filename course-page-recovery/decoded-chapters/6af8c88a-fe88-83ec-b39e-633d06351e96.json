@@ -1,0 +1,112 @@
+{
+  "id": "6af8c88a-fe88-83ec-b39e-633d06351e96",
+  "sections": [
+    {
+      "sectionIndex": 0,
+      "heading": "七、章末習題",
+      "messageId": "d490d203-22e2-40cb-a257-e7973bf8e4b2",
+      "questions": [
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "0.83 倍"
+            },
+            {
+              "kind": "radio",
+              "text": "1.20 倍"
+            },
+            {
+              "kind": "radio",
+              "text": "1.44 倍"
+            },
+            {
+              "kind": "radio",
+              "text": "保持不變"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "最亮的位置"
+            },
+            {
+              "kind": "radio",
+              "text": "亮暗之間的中間強度"
+            },
+            {
+              "kind": "radio",
+              "text": "完全相消的暗點"
+            },
+            {
+              "kind": "radio",
+              "text": "無法判斷"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        },
+        {
+          "number": null,
+          "prompt": "",
+          "options": [
+            {
+              "kind": "radio",
+              "text": "干涉條紋間距減半，單狹縫繞射包絡寬度不變"
+            },
+            {
+              "kind": "radio",
+              "text": "干涉條紋與繞射包絡的寬度都減半"
+            },
+            {
+              "kind": "radio",
+              "text": "干涉條紋間距不變，繞射包絡變兩倍"
+            },
+            {
+              "kind": "radio",
+              "text": "干涉條紋與繞射包絡都變兩倍"
+            }
+          ],
+          "optionType": "radio",
+          "solution": null,
+          "issues": [
+            "missing_explicit_question_number",
+            "missing_prompt_text",
+            "no_visible_solution_marker"
+          ]
+        }
+      ],
+      "metadata": {
+        "capturedQuestionCount": 6,
+        "extractedNumberedCount": 0,
+        "extractedOptionGroupCount": 3,
+        "visibleSolutionCount": 0,
+        "issues": [
+          "numbered_prompt_option_group_count_mismatch",
+          "no_visible_solution_markers"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "issueCount": 3
+  }
+}
