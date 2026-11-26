@@ -1,0 +1,1311 @@
+{
+ "lectures": 103,
+ "converted": 79,
+ "skippedExisting": 7,
+ "skippedStructured": 0,
+ "questions": {
+  "choice": 168,
+  "multi": 21,
+  "fill": 24,
+  "essay": 163
+ },
+ "rows": [
+  {
+   "id": "6af8b191",
+   "title": "1. 測量與不確定度",
+   "status": "已有題組"
+  },
+  {
+   "id": "6af8b255",
+   "title": "2. 測量與不確定度（第 2 份）",
+   "status": "已有題組"
+  },
+  {
+   "id": "6af8b2ab",
+   "title": "3. 直線運動",
+   "status": "已有題組"
+  },
+  {
+   "id": "6af8b310",
+   "title": "4. 平面運動與向量",
+   "status": "無題目",
+   "groups": 0,
+   "choice": 0,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 3,
+   "flags": []
+  },
+  {
+   "id": "6af8b359",
+   "title": "5. 等速圓周運動",
+   "status": "已有題組"
+  },
+  {
+   "id": "6af8b39c",
+   "title": "6. 簡諧運動",
+   "status": "已有題組"
+  },
+  {
+   "id": "6af8b3dc",
+   "title": "7. 牛頓運動定律",
+   "status": "已有題組"
+  },
+  {
+   "id": "6af8b46e",
+   "title": "8. 萬有引力與天體運動",
+   "status": "已有題組"
+  },
+  {
+   "id": "6af8b629",
+   "title": "1. 動量與衝量",
+   "status": "可轉換",
+   "groups": 3,
+   "choice": 1,
+   "multi": 1,
+   "fill": 0,
+   "essay": 4,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af8b6c1",
+   "title": "2. 碰撞問題",
+   "status": "可轉換",
+   "groups": 3,
+   "choice": 2,
+   "multi": 0,
+   "fill": 0,
+   "essay": 5,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af8b6e9",
+   "title": "3. 質心運動",
+   "status": "可轉換",
+   "groups": 4,
+   "choice": 3,
+   "multi": 0,
+   "fill": 0,
+   "essay": 4,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af8b721",
+   "title": "4. 角動量與力矩",
+   "status": "無題目",
+   "groups": 0,
+   "choice": 0,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af8b788",
+   "title": "5. 靜力平衡與摩擦力",
+   "status": "可轉換",
+   "groups": 1,
+   "choice": 0,
+   "multi": 0,
+   "fill": 0,
+   "essay": 6,
+   "structured": 3,
+   "flags": []
+  },
+  {
+   "id": "6af8b7b4",
+   "title": "6. 功、功率與動能",
+   "status": "可轉換",
+   "groups": 4,
+   "choice": 3,
+   "multi": 0,
+   "fill": 0,
+   "essay": 4,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af8b7e4",
+   "title": "7. 位能與力學能守恆",
+   "status": "無題目",
+   "groups": 0,
+   "choice": 0,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af8b853",
+   "title": "8. 熱學與理想氣體",
+   "status": "可轉換",
+   "groups": 1,
+   "choice": 0,
+   "multi": 0,
+   "fill": 0,
+   "essay": 4,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af8c6b9",
+   "title": "1. 波的基本性質",
+   "status": "可轉換",
+   "groups": 4,
+   "choice": 2,
+   "multi": 2,
+   "fill": 3,
+   "essay": 1,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af8c796",
+   "title": "2. 反射、透射與波的疊加",
+   "status": "可轉換",
+   "groups": 4,
+   "choice": 3,
+   "multi": 1,
+   "fill": 3,
+   "essay": 0,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af8c7a3",
+   "title": "3. 駐波",
+   "status": "可轉換",
+   "groups": 1,
+   "choice": 0,
+   "multi": 0,
+   "fill": 3,
+   "essay": 2,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af8c7e8",
+   "title": "4. 聲波與共振",
+   "status": "可轉換",
+   "groups": 4,
+   "choice": 2,
+   "multi": 1,
+   "fill": 0,
+   "essay": 5,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af8c81d",
+   "title": "5. 惠更斯原理",
+   "status": "可轉換",
+   "groups": 3,
+   "choice": 1,
+   "multi": 1,
+   "fill": 0,
+   "essay": 4,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af8c856",
+   "title": "6. 幾何光學",
+   "status": "可轉換",
+   "groups": 2,
+   "choice": 2,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af8c88a",
+   "title": "7. 物理光學：干涉與繞射",
+   "status": "可轉換",
+   "groups": 3,
+   "choice": 2,
+   "multi": 0,
+   "fill": 2,
+   "essay": 4,
+   "structured": 0,
+   "flags": [
+    "(無標題)：沒有題目標題"
+   ]
+  },
+  {
+   "id": "6af8c8c2",
+   "title": "1. 靜電學",
+   "status": "可轉換",
+   "groups": 4,
+   "choice": 2,
+   "multi": 1,
+   "fill": 0,
+   "essay": 6,
+   "structured": 0,
+   "flags": [
+    "(無標題)：沒有題目標題"
+   ]
+  },
+  {
+   "id": "6af8c90a",
+   "title": "2. 電位與電位能",
+   "status": "可轉換",
+   "groups": 3,
+   "choice": 2,
+   "multi": 1,
+   "fill": 0,
+   "essay": 5,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af8c96e",
+   "title": "3. 電流的磁效應",
+   "status": "可轉換",
+   "groups": 4,
+   "choice": 3,
+   "multi": 0,
+   "fill": 2,
+   "essay": 3,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af8c9a7",
+   "title": "4. 磁力與帶電粒子的運動",
+   "status": "可轉換",
+   "groups": 5,
+   "choice": 3,
+   "multi": 1,
+   "fill": 0,
+   "essay": 5,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af8c9b5",
+   "title": "5. 電磁感應",
+   "status": "可轉換",
+   "groups": 1,
+   "choice": 0,
+   "multi": 0,
+   "fill": 0,
+   "essay": 5,
+   "structured": 3,
+   "flags": []
+  },
+  {
+   "id": "6af8c9ed",
+   "title": "6. 電磁波",
+   "status": "可轉換",
+   "groups": 4,
+   "choice": 3,
+   "multi": 0,
+   "fill": 0,
+   "essay": 5,
+   "structured": 0,
+   "flags": [
+    "(無標題)：沒有題目標題",
+    "(無標題)：沒有題目標題",
+    "(無標題)：沒有題目標題"
+   ]
+  },
+  {
+   "id": "6af8cab5",
+   "title": "1. 電流與電路",
+   "status": "可轉換",
+   "groups": 4,
+   "choice": 2,
+   "multi": 1,
+   "fill": 0,
+   "essay": 4,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af8cad2",
+   "title": "2. 電子的發現",
+   "status": "可轉換",
+   "groups": 4,
+   "choice": 3,
+   "multi": 0,
+   "fill": 0,
+   "essay": 4,
+   "structured": 0,
+   "flags": [
+    "(無標題)：沒有題目標題",
+    "(無標題)：沒有題目標題",
+    "(無標題)：沒有題目標題"
+   ]
+  },
+  {
+   "id": "6af8cb59",
+   "title": "3. X 射線",
+   "status": "可轉換",
+   "groups": 3,
+   "choice": 2,
+   "multi": 0,
+   "fill": 2,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "(無標題)：沒有題目標題",
+    "(無標題)：沒有題目標題"
+   ]
+  },
+  {
+   "id": "6af8cb67",
+   "title": "4. 黑體輻射與量子論",
+   "status": "可轉換",
+   "groups": 3,
+   "choice": 1,
+   "multi": 1,
+   "fill": 0,
+   "essay": 4,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af8cb9e",
+   "title": "5. 光電效應",
+   "status": "可轉換",
+   "groups": 3,
+   "choice": 1,
+   "multi": 1,
+   "fill": 0,
+   "essay": 3,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af8cbd0",
+   "title": "6. 物質波與波粒二象性",
+   "status": "可轉換",
+   "groups": 4,
+   "choice": 4,
+   "multi": 1,
+   "fill": 3,
+   "essay": 0,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af8cc07",
+   "title": "7. 原子模型與光譜",
+   "status": "可轉換",
+   "groups": 4,
+   "choice": 3,
+   "multi": 0,
+   "fill": 3,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "(無標題)：沒有題目標題",
+    "(無標題)：沒有題目標題",
+    "(無標題)：沒有題目標題"
+   ]
+  },
+  {
+   "id": "6af8cd34",
+   "title": "8. 原子核與放射性",
+   "status": "可轉換",
+   "groups": 4,
+   "choice": 4,
+   "multi": 1,
+   "fill": 3,
+   "essay": 0,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af8cd72",
+   "title": "9. 基本交互作用與守恆律",
+   "status": "可轉換",
+   "groups": 3,
+   "choice": 3,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af954d9",
+   "title": "1. 數與式",
+   "status": "可轉換",
+   "groups": 5,
+   "choice": 4,
+   "multi": 0,
+   "fill": 0,
+   "essay": 8,
+   "structured": 0,
+   "flags": [
+    "(無標題)：沒有題目標題",
+    "(無標題)：沒有題目標題",
+    "(無標題)：沒有題目標題",
+    "(無標題)：沒有題目標題"
+   ]
+  },
+  {
+   "id": "6af95540",
+   "title": "2. 直線與圓",
+   "status": "可轉換",
+   "groups": 2,
+   "choice": 2,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "選項遺失或無法解析（找不到選項）：下列哪些點滿足 \\(x+y\\le3\\)？請選出所有正確選項。"
+   ]
+  },
+  {
+   "id": "6af9558a",
+   "title": "3. 多項式與函數",
+   "status": "可轉換",
+   "groups": 4,
+   "choice": 3,
+   "multi": 1,
+   "fill": 0,
+   "essay": 7,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af955d0",
+   "title": "1. 三角比與三角形",
+   "status": "可轉換",
+   "groups": 1,
+   "choice": 0,
+   "multi": 0,
+   "fill": 0,
+   "essay": 6,
+   "structured": 3,
+   "flags": []
+  },
+  {
+   "id": "6af95615",
+   "title": "2. 數列、級數與數學歸納法",
+   "status": "可轉換",
+   "groups": 4,
+   "choice": 2,
+   "multi": 1,
+   "fill": 0,
+   "essay": 6,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af95661",
+   "title": "3. 集合、邏輯與數據分析",
+   "status": "可轉換",
+   "groups": 4,
+   "choice": 4,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af956a4",
+   "title": "4. 排列組合與古典機率",
+   "status": "可轉換",
+   "groups": 5,
+   "choice": 4,
+   "multi": 0,
+   "fill": 0,
+   "essay": 6,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af956fc",
+   "title": "1. 三角函數",
+   "status": "可轉換",
+   "groups": 4,
+   "choice": 3,
+   "multi": 0,
+   "fill": 0,
+   "essay": 7,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af95743",
+   "title": "2. 指數函數與對數函數",
+   "status": "無題目",
+   "groups": 0,
+   "choice": 0,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af9578f",
+   "title": "3. 平面向量",
+   "status": "可轉換",
+   "groups": 1,
+   "choice": 0,
+   "multi": 0,
+   "fill": 0,
+   "essay": 6,
+   "structured": 4,
+   "flags": []
+  },
+  {
+   "id": "6af95847",
+   "title": "1. 空間概念與空間向量",
+   "status": "無題目",
+   "groups": 0,
+   "choice": 0,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af958ad",
+   "title": "2. 空間中的平面與直線",
+   "status": "可轉換",
+   "groups": 1,
+   "choice": 0,
+   "multi": 0,
+   "fill": 0,
+   "essay": 6,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6af9590b",
+   "title": "3. 聯立方程式與矩陣",
+   "status": "可轉換",
+   "groups": 1,
+   "choice": 0,
+   "multi": 0,
+   "fill": 0,
+   "essay": 5,
+   "structured": 4,
+   "flags": []
+  },
+  {
+   "id": "6af9595a",
+   "title": "4. 條件機率、獨立事件與貝氏定理",
+   "status": "可轉換",
+   "groups": 4,
+   "choice": 3,
+   "multi": 0,
+   "fill": 0,
+   "essay": 6,
+   "structured": 0,
+   "flags": [
+    "(無標題)：沒有題目標題"
+   ]
+  },
+  {
+   "id": "6afd5281",
+   "title": "1. 化學反應式的平衡及應用",
+   "status": "可轉換",
+   "groups": 2,
+   "choice": 2,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "選項遺失或無法解析（找不到選項）：下列哪些敘述正確？（多選）",
+    "起點文字重複，已略過：3\\. 理解檢查"
+   ]
+  },
+  {
+   "id": "6afd52ed",
+   "title": "2. 化學反應中的能量變化",
+   "status": "無題目",
+   "groups": 0,
+   "choice": 0,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "選項遺失或無法解析（找不到選項）：某反應進行時，系統向周圍的水釋放熱量。下列哪些敘述正確？（多選）"
+   ]
+  },
+  {
+   "id": "6afd534c",
+   "title": "3. 氣體的性質",
+   "status": "可轉換",
+   "groups": 3,
+   "choice": 3,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6afd5396",
+   "title": "4. 氣體的基本定律",
+   "status": "可轉換",
+   "groups": 1,
+   "choice": 1,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6afd53e1",
+   "title": "5. 理想氣體",
+   "status": "可轉換",
+   "groups": 4,
+   "choice": 4,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "(無標題)：無字母選項：以最後 4 段推測",
+    "(無標題)：沒有題目標題",
+    "(無標題)：沒有題目標題",
+    "(無標題)：沒有題目標題"
+   ]
+  },
+  {
+   "id": "6afd5445",
+   "title": "6. 氣體的分壓",
+   "status": "可轉換",
+   "groups": 2,
+   "choice": 2,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "起點文字重複，已略過：因此：",
+    "(無標題)：沒有題目標題"
+   ]
+  },
+  {
+   "id": "6afd5491",
+   "title": "7. 物質的狀態",
+   "status": "可轉換",
+   "groups": 2,
+   "choice": 2,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "選項遺失或無法解析（找不到選項）：關於蒸發與沸騰，下列哪些敘述正確？（多選）"
+   ]
+  },
+  {
+   "id": "6afd54da",
+   "title": "8. 溶液中的溶解特性",
+   "status": "無題目",
+   "groups": 0,
+   "choice": 0,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6afd5529",
+   "title": "9. 物質的蒸氣壓",
+   "status": "可轉換",
+   "groups": 2,
+   "choice": 2,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "選項遺失或無法解析（找不到選項）：某理想溶液由揮發性液體 A、B 組成，且同溫下 \\(P_A^*>P_B^*\\)。"
+   ]
+  },
+  {
+   "id": "6afd5572",
+   "title": "10. 溶液的依數性質",
+   "status": "無題目",
+   "groups": 0,
+   "choice": 0,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6afd55c3",
+   "title": "1. 原子結構與氫原子光譜",
+   "status": "無題目",
+   "groups": 0,
+   "choice": 0,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6afd5605",
+   "title": "2. 原子軌域",
+   "status": "可轉換",
+   "groups": 2,
+   "choice": 2,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "選項遺失或無法解析（找不到選項）：下列哪些量子數組合是允許的？（多選）"
+   ]
+  },
+  {
+   "id": "6afd565d",
+   "title": "3. 電子組態",
+   "status": "可轉換",
+   "groups": 2,
+   "choice": 2,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "(無標題)：沒有題目標題",
+    "(無標題)：沒有題目標題"
+   ]
+  },
+  {
+   "id": "6afd56e7",
+   "title": "4. 原子性質與週期性",
+   "status": "可轉換",
+   "groups": 3,
+   "choice": 3,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "選項遺失或無法解析（找不到選項）：以下哪些敘述正確？（多選）",
+    "(無標題)：沒有題目標題"
+   ]
+  },
+  {
+   "id": "6afd5739",
+   "title": "5. 離子鍵與金屬鍵",
+   "status": "可轉換",
+   "groups": 2,
+   "choice": 2,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "選項遺失或無法解析（找不到選項）：根據電子海模型，下列哪些敘述合理？（多選）"
+   ]
+  },
+  {
+   "id": "6afd578f",
+   "title": "6. 共價鍵",
+   "status": "無題目",
+   "groups": 0,
+   "choice": 0,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6afd57ef",
+   "title": "7. 價殼層電子對互斥理論與分子形狀",
+   "status": "無題目",
+   "groups": 0,
+   "choice": 0,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6afd583c",
+   "title": "8. 分子極性與分子間作用力",
+   "status": "可轉換",
+   "groups": 2,
+   "choice": 2,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "選項遺失或無法解析（找不到選項）：下列哪些敘述正確？（多選）"
+   ]
+  },
+  {
+   "id": "6afd5884",
+   "title": "9. 化學反應速率與表示法",
+   "status": "可轉換",
+   "groups": 3,
+   "choice": 3,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "(無標題)：沒有題目標題",
+    "(無標題)：沒有題目標題",
+    "(無標題)：沒有題目標題"
+   ]
+  },
+  {
+   "id": "6afd58dc",
+   "title": "10. 化學反應的模型",
+   "status": "可轉換",
+   "groups": 2,
+   "choice": 2,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "選項遺失或無法解析（找不到選項）：下列關於反應速率的敘述，哪些正確？（多選）",
+    "(無標題)：沒有題目標題"
+   ]
+  },
+  {
+   "id": "6afd5932",
+   "title": "11. 影響化學反應速率的因素",
+   "status": "可轉換",
+   "groups": 3,
+   "choice": 3,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "選項遺失或無法解析（找不到選項）：多選題：下列哪些敘述正確？"
+   ]
+  },
+  {
+   "id": "6afd5980",
+   "title": "1. 化學平衡與平衡常數",
+   "status": "可轉換",
+   "groups": 2,
+   "choice": 2,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "選項遺失或無法解析（找不到選項）：已知："
+   ]
+  },
+  {
+   "id": "6afd5a6d",
+   "title": "2. 平衡的移動",
+   "status": "可轉換",
+   "groups": 1,
+   "choice": 1,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6afd6c8e",
+   "title": "3. 溶解度平衡",
+   "status": "可轉換",
+   "groups": 2,
+   "choice": 2,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "選項遺失或無法解析（找不到選項）：在高中常見的理想稀溶液模型中，將少量 AgCl 固體加入不同溶液，哪些條件會使 "
+   ]
+  },
+  {
+   "id": "6afd6d01",
+   "title": "4. 布－洛酸鹼理論",
+   "status": "可轉換",
+   "groups": 3,
+   "choice": 3,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "選項遺失或無法解析（找不到選項）：5.3 多質子酸的逐步轉移",
+    "(無標題)：沒有題目標題",
+    "(無標題)：沒有題目標題"
+   ]
+  },
+  {
+   "id": "6afd6d79",
+   "title": "5. 溶液的酸鹼度",
+   "status": "可轉換",
+   "groups": 1,
+   "choice": 1,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "(無標題)：無字母選項：以最後 4 段推測",
+    "(無標題)：沒有題目標題"
+   ]
+  },
+  {
+   "id": "6afd6dcd",
+   "title": "6. 鹽的命名與水解",
+   "status": "無題目",
+   "groups": 0,
+   "choice": 0,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "選項遺失或無法解析（找不到選項）：7-5 四種情況總整理"
+   ]
+  },
+  {
+   "id": "6afd6e26",
+   "title": "7. 緩衝溶液",
+   "status": "可轉換",
+   "groups": 2,
+   "choice": 2,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "選項遺失或無法解析（找不到選項）：一杯含有 \\(\\mathrm{NH_3}\\) 與 \\(\\mathrm{NH_4^"
+   ]
+  },
+  {
+   "id": "6afd6e80",
+   "title": "8. 酸鹼滴定",
+   "status": "可轉換",
+   "groups": 4,
+   "choice": 4,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6afd6f15",
+   "title": "1. 氧化數及其應用",
+   "status": "可轉換",
+   "groups": 3,
+   "choice": 3,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "選項遺失或無法解析（找不到選項）：下列哪些反應屬於氧化還原反應？（多選）"
+   ]
+  },
+  {
+   "id": "6afd6f6b",
+   "title": "2. 氧化還原滴定",
+   "status": "無題目",
+   "groups": 0,
+   "choice": 0,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6afd70eb",
+   "title": "3. 電化電池",
+   "status": "可轉換",
+   "groups": 2,
+   "choice": 2,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "選項遺失或無法解析（找不到選項）：鋅銅電池持續放電時，下列哪些敘述正確？（多選）"
+   ]
+  },
+  {
+   "id": "6afd727e",
+   "title": "4. 電解與電鍍",
+   "status": "可轉換",
+   "groups": 2,
+   "choice": 2,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "選項遺失或無法解析（找不到選項）：在電流效率皆為 100%、其他條件相同的情況下，下列哪些敘述正確？（多選）"
+   ]
+  },
+  {
+   "id": "6afd733b",
+   "title": "5. 非金屬元素",
+   "status": "可轉換",
+   "groups": 3,
+   "choice": 3,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6afd73b8",
+   "title": "6. 主族金屬元素",
+   "status": "可轉換",
+   "groups": 2,
+   "choice": 2,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "選項遺失或無法解析（找不到選項）：關於鋁的熔融電解，下列哪些敘述正確？（多選）"
+   ]
+  },
+  {
+   "id": "6afd7429",
+   "title": "7. 過渡金屬元素",
+   "status": "可轉換",
+   "groups": 3,
+   "choice": 3,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "選項遺失或無法解析（找不到選項）：關於鐵的化合物，哪些敘述正確？（多選）"
+   ]
+  },
+  {
+   "id": "6afd7491",
+   "title": "8. 先進材料",
+   "status": "無題目",
+   "groups": 0,
+   "choice": 0,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6afd74ed",
+   "title": "1. 有機化合物的組成與命名",
+   "status": "可轉換",
+   "groups": 3,
+   "choice": 3,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "選項遺失或無法解析（找不到選項）：下列哪些敘述正確？（多選）",
+    "選項遺失或無法解析（找不到選項）：下列哪些敘述正確？（多選）"
+   ]
+  },
+  {
+   "id": "6afd7553",
+   "title": "2. 不飽和烴",
+   "status": "可轉換",
+   "groups": 1,
+   "choice": 1,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6afd75aa",
+   "title": "3. 常見有機化合物的種類",
+   "status": "可轉換",
+   "groups": 2,
+   "choice": 2,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "選項遺失或無法解析（找不到選項）：下列哪些敘述正確？（多選）"
+   ]
+  },
+  {
+   "id": "6afd7735",
+   "title": "4. 碳氫化合物",
+   "status": "可轉換",
+   "groups": 1,
+   "choice": 1,
+   "multi": 1,
+   "fill": 0,
+   "essay": 3,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6afd779b",
+   "title": "5. 有機鹵化物",
+   "status": "無題目",
+   "groups": 0,
+   "choice": 0,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6afd783a",
+   "title": "6. 醇、酚、醚",
+   "status": "可轉換",
+   "groups": 1,
+   "choice": 0,
+   "multi": 0,
+   "fill": 0,
+   "essay": 4,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6afd7881",
+   "title": "7. 醛與酮",
+   "status": "可轉換",
+   "groups": 3,
+   "choice": 3,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "(無標題)：沒有題目標題",
+    "(無標題)：沒有題目標題",
+    "(無標題)：沒有題目標題"
+   ]
+  },
+  {
+   "id": "6afd78c5",
+   "title": "8. 酸、酯與油脂",
+   "status": "可轉換",
+   "groups": 3,
+   "choice": 3,
+   "multi": 2,
+   "fill": 0,
+   "essay": 2,
+   "structured": 0,
+   "flags": [
+    "(無標題)：沒有題目標題"
+   ]
+  },
+  {
+   "id": "6afd791b",
+   "title": "9. 胺與醯胺",
+   "status": "可轉換",
+   "groups": 3,
+   "choice": 2,
+   "multi": 1,
+   "fill": 0,
+   "essay": 4,
+   "structured": 0,
+   "flags": [
+    "選項遺失或無法解析（找不到選項）：哪些化合物含有醯胺官能基？（多選）"
+   ]
+  },
+  {
+   "id": "6afd7945",
+   "title": "10. 常見聚合物的分類與性質",
+   "status": "可轉換",
+   "groups": 1,
+   "choice": 1,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "(無標題)：沒有題目標題"
+   ]
+  },
+  {
+   "id": "6afd7996",
+   "title": "11. 常見聚合物的結構與製備",
+   "status": "無題目",
+   "groups": 0,
+   "choice": 0,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6afd79be",
+   "title": "12. 環境化學與污染物檢測",
+   "status": "可轉換",
+   "groups": 3,
+   "choice": 3,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": [
+    "(無標題)：沒有題目標題",
+    "(無標題)：沒有題目標題",
+    "(無標題)：沒有題目標題"
+   ]
+  },
+  {
+   "id": "6afd7a9d",
+   "title": "13. 綠色化學、資源保育與永續發展",
+   "status": "可轉換",
+   "groups": 3,
+   "choice": 2,
+   "multi": 1,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": []
+  },
+  {
+   "id": "6afd7b73",
+   "title": "14. 能源、化學科技與社會",
+   "status": "無題目",
+   "groups": 0,
+   "choice": 0,
+   "multi": 0,
+   "fill": 0,
+   "essay": 0,
+   "structured": 0,
+   "flags": []
+  }
+ ]
+}
